@@ -35,8 +35,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# app data (persisted locally)
-/data/sites.json
-/data/jobs.json
-/data/check-log.json

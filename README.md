@@ -102,4 +102,4 @@ For best results, add the direct job board URL (e.g. `jobs.ashbyhq.com/company`)
 
 - Scraping works best on static career pages. Sites that load jobs via JavaScript may need custom integration later.
 - Respect robots.txt and rate limits when monitoring third-party sites.
-- Data files in `data/` are gitignored after first run; seed files are included for initial structure.
+- Site and job data in `data/*.json` is tracked in git so your monitored companies and discovered postings sync when you pull on another machine.
