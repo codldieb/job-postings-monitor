@@ -1,5 +1,1397 @@
 [
   {
+    "id": "83df84f3-5194-4f2f-ae10-bc592deb5e2e",
+    "startedAt": "2026-07-29T16:16:25.398Z",
+    "completedAt": "2026-07-29T16:20:12.461Z",
+    "sitesChecked": 17,
+    "totalSites": 17,
+    "newJobsFound": 1,
+    "jobsArchived": 0,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-07-29T16:16:25.398Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 64,
+        "checkedAt": "2026-07-29T16:16:38.676Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-07-29T16:16:44.052Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:17:13.197Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:17:44.507Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:18:19.439Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 29,
+        "checkedAt": "2026-07-29T16:18:33.825Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-07-29T16:18:36.378Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-07-29T16:18:36.626Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-07-29T16:18:51.029Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:18:51.268Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-07-29T16:19:24.998Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-07-29T16:19:25.185Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [
+          {
+            "id": "c086e0034f0f36c1",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Pharmacy Fulfillment Associate",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/1674690b-1de0-47b9-8d0f-d5f3159ca066",
+            "department": "PHARMACY",
+            "team": "Dispense & Fill Pharmacy",
+            "firstSeenAt": "2026-07-29T16:19:25.490Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 91,
+        "checkedAt": "2026-07-29T16:19:25.490Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 63,
+        "checkedAt": "2026-07-29T16:19:25.620Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-07-29T16:19:25.705Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:19:38.995Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      }
+    ]
+  },
+  {
+    "id": "e6a62a10-5b27-46db-86c0-4ccbd62576a6",
+    "startedAt": "2026-07-29T16:04:25.483Z",
+    "completedAt": "2026-07-29T16:08:19.943Z",
+    "sitesChecked": 17,
+    "totalSites": 17,
+    "newJobsFound": 22,
+    "jobsArchived": 26,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "aeadca0fc8233ec7",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Managing Director - Retail and Consumer Goods",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=2996",
+            "firstSeenAt": "2026-07-29T16:04:25.483Z",
+            "isNew": true
+          },
+          {
+            "id": "bf189e75ad1295fe",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Software Asset Management, Sr. Specialist",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3034",
+            "firstSeenAt": "2026-07-29T16:04:25.483Z",
+            "isNew": true
+          },
+          {
+            "id": "eb46ba51870aefb3",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "GA/AL Enterprise GTM Lead",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3163",
+            "firstSeenAt": "2026-07-29T16:04:25.483Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 3,
+        "totalFound": 12,
+        "checkedAt": "2026-07-29T16:04:25.483Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [
+          {
+            "id": "ffc21466469c1398",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "Product Manager, SMB Internet Portfolio",
+            "url": "https://careers.telus.com/job/Vancouver-Product-Manager%2C-SMB-Internet-Portfolio-BC-V6B-0M3/604781517",
+            "firstSeenAt": "2026-07-29T16:04:41.988Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 64,
+        "checkedAt": "2026-07-29T16:04:41.988Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-07-29T16:04:47.552Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:05:14.133Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:05:45.829Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:06:21.077Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "0cff85dec983f4cf",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98403007440 07/28/2026 Lead Software Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/lead-software-engineer/1732/98403007440",
+            "firstSeenAt": "2026-07-28T14:12:57.433Z",
+            "isNew": true
+          },
+          {
+            "id": "a7a85f8621f3d47a",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98222385600 07/24/2026 Senior Associate, Accounting Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/senior-associate-accounting/1732/98222385600",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "d677e5ffee250348",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92186213952 06/17/2026 Distinguished Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/distinguished-engineer/1732/92186213952",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "7ea0ba96d98c5cf9",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98222385248 07/24/2026 Accounting, Audit and Tax Manager Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/accounting-audit-and-tax-manager/1732/98222385248",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "b0eb92a4edd1bf5d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92195849616 02/27/2026 Sr. Lead Software Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/sr-lead-software-engineer/1732/92195849616",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "096c3733cdb52f9a",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98043071296 07/20/2026 Senior Associate, Business Analysis Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/senior-associate-business-analysis/1732/98043071296",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "c2bed5c40f9e9eb8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95893691728 07/16/2026 Distinguished Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/distinguished-engineer/1732/95893691728",
+            "firstSeenAt": "2026-07-16T17:10:58.590Z",
+            "isNew": true
+          },
+          {
+            "id": "52d420b32bfed9bd",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97771349568 07/14/2026 Principal Coordinator - Admin Support Assistant Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/principal-coordinator-admin-support-assistant/1732/97771349568",
+            "firstSeenAt": "2026-07-14T13:03:32.635Z",
+            "isNew": true
+          },
+          {
+            "id": "851bc62ad2e48187",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95247961152 07/10/2026 Distinguished AI Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/distinguished-ai-engineer/1732/95247961152",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "3abcc346e8c8cb92",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97467710528 07/07/2026 Senior Associate, Business Analysis Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/senior-associate-business-analysis/1732/97467710528",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "87cda97b84e2c029",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97467710096 07/07/2026 Principal Associate, Business Analysis Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/principal-associate-business-analysis/1732/97467710096",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "bcd8d2349a02fcbc",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97225510944 07/02/2026 Lead Software Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/lead-software-engineer/1732/97225510944",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "5a2aae1a166fa519",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97225510592 07/02/2026 Lead Software Engineer - International Cardtech Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/lead-software-engineer-international-cardtech/1732/97225510592",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          },
+          {
+            "id": "45b8440d7379eed0",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "93797045856 06/30/2026 Manager, Product Management Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/manager-product-management/1732/93797045856",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 29,
+        "checkedAt": "2026-07-29T16:06:35.683Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-07-29T16:06:44.197Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [
+          {
+            "id": "a40600b6faa64125",
+            "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+            "siteName": "NBME",
+            "title": "Senior Support Coordinator",
+            "url": "https://nbme.applicantpro.com/jobs/4161213",
+            "firstSeenAt": "2026-07-29T16:06:44.433Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-07-29T16:06:44.433Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [
+          {
+            "id": "852f26354a25da0f",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Care Advocate (Shift: 8:00 - 5:00pm CST)",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4700686006",
+            "department": "United States",
+            "firstSeenAt": "2026-07-29T16:06:58.712Z",
+            "isNew": true
+          },
+          {
+            "id": "d58ec00a4c494e51",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Care Advocate (Shift: 8:00 - 5:00pm CST)",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4700688006",
+            "department": "United States",
+            "firstSeenAt": "2026-07-29T16:06:58.712Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 5,
+        "totalFound": 10,
+        "checkedAt": "2026-07-29T16:06:58.712Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:06:58.921Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-07-29T16:07:32.736Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-07-29T16:07:32.905Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 2,
+        "totalFound": 90,
+        "checkedAt": "2026-07-29T16:07:33.235Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [
+          {
+            "id": "f5dd44a2f7762496",
+            "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+            "siteName": "1Password",
+            "title": "Developer, Open Source",
+            "url": "https://jobs.ashbyhq.com/1password/c22ea4e6-f39b-448c-a9e9-a04445ba18e6",
+            "department": "Technology",
+            "team": "Product Engineering",
+            "firstSeenAt": "2026-07-29T16:07:33.364Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 63,
+        "checkedAt": "2026-07-29T16:07:33.364Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-07-29T16:07:33.464Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-29T16:07:46.493Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      }
+    ]
+  },
+  {
+    "id": "77920fb7-65f0-4e2b-b5a4-53ea48afa62c",
+    "startedAt": "2026-07-28T22:41:31.488Z",
+    "completedAt": "2026-07-28T22:41:44.834Z",
+    "sitesChecked": 1,
+    "totalSites": 17,
+    "newJobsFound": 0,
+    "jobsArchived": 0,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-07-28T22:41:31.488Z"
+      }
+    ],
+    "cancelled": true
+  },
+  {
+    "id": "15215bdf-3476-4c38-8c57-2abaac48c7cb",
+    "startedAt": "2026-07-28T22:40:54.998Z",
+    "completedAt": "2026-07-28T22:41:07.919Z",
+    "sitesChecked": 1,
+    "totalSites": 17,
+    "newJobsFound": 0,
+    "jobsArchived": 0,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-07-28T22:40:54.998Z"
+      }
+    ],
+    "cancelled": true
+  },
+  {
+    "id": "4a9975a1-0c34-4840-a25f-8d61f10c7a2f",
+    "startedAt": "2026-07-28T22:34:18.232Z",
+    "completedAt": "2026-07-28T22:38:16.945Z",
+    "sitesChecked": 17,
+    "newJobsFound": 15,
+    "jobsArchived": 17,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-07-28T22:34:18.233Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 63,
+        "checkedAt": "2026-07-28T22:34:33.944Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-07-28T22:34:39.969Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T22:35:09.250Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T22:35:40.839Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T22:36:16.773Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "cdec4760bc1b50dd",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92877482416 04/27/2026 Lead Software Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/lead-software-engineer/1732/92877482416",
+            "firstSeenAt": "2026-07-07T23:49:38.812Z",
+            "isNew": true
+          },
+          {
+            "id": "e2506256d8ca276f",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436293248 07/28/2026 Relationship Manager Phoenix, AZ",
+            "url": "https://www.capitalonecareers.com/job/phoenix/relationship-manager/1732/98436293248",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "514a66e33c32f1c9",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436293184 07/28/2026 Sr. Business Analyst - People Strategy & Analytics McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/sr-business-analyst-people-strategy-and-analytics/1732/98436293184",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "0f326360eb2f2cd1",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "90411042368 01/28/2026 Senior Associate, Financial Planning & Analysis - Strategic Tech Finance McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-financial-planning-and-analysis-strategic-tech-finance/1732/90411042368",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "4ff1c5683195bebd",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436293072 07/28/2026 Café Coach - Hyde Park Chicago, IL",
+            "url": "https://www.capitalonecareers.com/job/chicago/cafe-coach-hyde-park/1732/98436293072",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "0b7ade869102208a",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292992 07/28/2026 Principal Associate, Data Scientist - Emerging ML McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-associate-data-scientist-emerging-ml/1732/98436292992",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "107aa29b5455d0e8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292960 07/28/2026 Senior Associate, Campaign Management - Business Cards & Payments McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-campaign-management-business-cards-and-payments/1732/98436292960",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "8093f0e3027fed14",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292928 07/28/2026 Principal Associate - Marketing & Brand Strategy (Account Management Team) Hybrid McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-associate-marketing-and-brand-strategy-account-management-team-hybrid/1732/98436292928",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "71937a75f009d919",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292912 07/28/2026 Manager, Risk Advisor Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/manager-risk-advisor/1732/98436292912",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "07a763defdfadb89",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292800 07/28/2026 Senior Associate Product Management - Encore Processing New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/senior-associate-product-management-encore-processing/1732/98436292800",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "fa5bf0de91601b2d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292656 07/28/2026 Director, Cyber Risk & Analysis | Retail Bank McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/director-cyber-risk-and-analysis-retail-bank/1732/98436292656",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "2562888e543b0729",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292512 07/28/2026 Financial Crimes Specialist McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/financial-crimes-specialist/1732/98436292512",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "d833f17b8ce0f8fa",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292416 07/28/2026 Senior Manager, Software Engineering, Back End McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-software-engineering-back-end/1732/98436292416",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "f39481f945682912",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292288 07/28/2026 Sr. Business Manager, Regional Engagement Lead, Community Impact & Investment New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/sr-business-manager-regional-engagement-lead-community-impact-and-investment/1732/98436292288",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          },
+          {
+            "id": "95c3b2f5594a617b",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98436292208 07/28/2026 Lead AI Engineer (AI Foundations) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-ai-engineer-ai-foundations/1732/98436292208",
+            "firstSeenAt": "2026-07-28T22:36:31.521Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-07-28T22:36:31.521Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-07-28T22:36:40.204Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 5,
+        "checkedAt": "2026-07-28T22:36:40.375Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-07-28T22:36:55.591Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T22:36:55.784Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-07-28T22:37:29.597Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 18,
+        "checkedAt": "2026-07-28T22:37:29.764Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 92,
+        "checkedAt": "2026-07-28T22:37:30.065Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 63,
+        "checkedAt": "2026-07-28T22:37:30.181Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-07-28T22:37:30.228Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T22:37:43.346Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      }
+    ]
+  },
+  {
+    "id": "c5f91607-c83b-46f6-a951-666280d225fe",
+    "startedAt": "2026-07-28T21:17:28.129Z",
+    "completedAt": "2026-07-28T21:21:15.078Z",
+    "sitesChecked": 17,
+    "newJobsFound": 1,
+    "jobsArchived": 448,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 40,
+        "totalFound": 12,
+        "checkedAt": "2026-07-28T21:17:28.129Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 63,
+        "totalFound": 63,
+        "checkedAt": "2026-07-28T21:17:43.873Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 3,
+        "totalFound": 17,
+        "checkedAt": "2026-07-28T21:17:49.268Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T21:18:15.000Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T21:18:46.386Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T21:19:21.368Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [],
+        "archivedJobsCount": 173,
+        "totalFound": 30,
+        "checkedAt": "2026-07-28T21:19:36.018Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 140,
+        "totalFound": 1,
+        "checkedAt": "2026-07-28T21:19:39.820Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 5,
+        "checkedAt": "2026-07-28T21:19:40.001Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [
+          {
+            "id": "84099275b0c91fb1",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Manager, Patient Engagement",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4700575006",
+            "firstSeenAt": "2026-07-28T21:19:54.249Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 13,
+        "checkedAt": "2026-07-28T21:19:54.249Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T21:19:54.513Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-07-28T21:20:28.367Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 19,
+        "checkedAt": "2026-07-28T21:20:28.550Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 17,
+        "totalFound": 93,
+        "checkedAt": "2026-07-28T21:20:28.840Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 8,
+        "totalFound": 63,
+        "checkedAt": "2026-07-28T21:20:28.984Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 7,
+        "checkedAt": "2026-07-28T21:20:29.042Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T21:20:41.673Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      }
+    ]
+  },
+  {
+    "id": "15ab4410-0b14-4f63-acb9-4f4910fd257b",
+    "startedAt": "2026-07-28T19:02:48.339Z",
+    "completedAt": "2026-07-28T19:06:43.481Z",
+    "sitesChecked": 17,
+    "newJobsFound": 28,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "c84e2fab21e16d08",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Change Management + AI Enablement, Principal",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3039",
+            "firstSeenAt": "2026-07-28T19:02:48.339Z",
+            "isNew": true
+          },
+          {
+            "id": "3826f1a4f0245cb7",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "AWS Alliance Lead",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3164",
+            "firstSeenAt": "2026-07-28T19:02:48.339Z",
+            "isNew": true
+          },
+          {
+            "id": "26f4c617630da33d",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based) – Senior Business Analyst",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3173",
+            "firstSeenAt": "2026-07-28T19:02:48.339Z",
+            "isNew": true
+          }
+        ],
+        "totalFound": 12,
+        "checkedAt": "2026-07-28T19:02:48.339Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [
+          {
+            "id": "fcb4b248b7eb24f3",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "Design Specialist II - Microwave Engineering",
+            "url": "https://careers.telus.com/job/Burnaby-Design-Specialist-II-Microwave-Engineering-BC-V5G-4S4/604748617",
+            "firstSeenAt": "2026-07-28T19:03:04.606Z",
+            "isNew": true
+          }
+        ],
+        "totalFound": 63,
+        "checkedAt": "2026-07-28T19:03:04.606Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "totalFound": 17,
+        "checkedAt": "2026-07-28T19:03:10.389Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T19:03:36.470Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T19:04:07.819Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T19:04:43.221Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "950189a40caabab0",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97792461520 07/14/2026 Lead Software Engineer, Front End McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-front-end/1732/97792461520",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "d3e67daeff357388",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "89088958448 07/28/2026 Senior Manager, Software Engineering - Full Stack (People Manager) Mexico City, Mexico City",
+            "url": "https://www.capitalonecareers.com/job/mexico-city/senior-manager-software-engineering-full-stack-people-manager/1732/89088958448",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "76e2030409840b21",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96006546832 07/28/2026 Area Sales Manager - Lexington, KY Lexington-Fayette, KY",
+            "url": "https://www.capitalonecareers.com/job/lexington-fayette/area-sales-manager-lexington-ky/1732/96006546832",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "d54f7de0a648204e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98425606064 07/28/2026 Senior Lead Software Engineer, Back End (GraphDB & API Platform) (Enterprise Platforms Technology) Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/senior-lead-software-engineer-back-end-graphdb-and-api-platform-enterprise-platforms-technology/1732/98425606064",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "fefd26e4c98de3cf",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96294295344 07/28/2026 Product Design Director, Consumer & Developer Experience McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/product-design-director-consumer-and-developer-experience/1732/96294295344",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "1a459be58b7c79ab",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95144884160 07/28/2026 Senior Lead Software Engineer, Full Stack - Shopping (Remote Eligible) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-lead-software-engineer-full-stack-shopping-remote-eligible/1732/95144884160",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "46158e9136bb3b27",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95903709936 06/02/2026 Lead Data Engineer (Java, Python, AWS) Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/lead-data-engineer-java-python-aws/1732/95903709936",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "9fb7a6209ee38ad4",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98424204400 07/28/2026 Associate Activation and Awareness Sr. Manager - Community Impact & Investment McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/associate-activation-and-awareness-sr-manager-community-impact-and-investment/1732/98424204400",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "398588a591fcc0f7",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97792462160 07/14/2026 Community Finance (CF) Loan and Equity Administration Servicing - Associate McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/community-finance-cf-loan-and-equity-administration-servicing-associate/1732/97792462160",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "a8c18d7c8afb2df7",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98424204352 07/28/2026 Lead Software Engineer, Full Stack (Go/Python) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-go-python/1732/98424204352",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "242109c9e909e61d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98424204336 07/28/2026 Principal Recruiting Events Lead- S&G- National Partnerships McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-recruiting-events-lead-s-and-g-national-partnerships/1732/98424204336",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "e4467d114941f35e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95994957696 07/28/2026 Sr. Business Analyst - Retail and Small Business Bank Orgs McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/sr-business-analyst-retail-and-small-business-bank-orgs/1732/95994957696",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "853842632dd156e1",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98424204288 07/28/2026 Director, FP&A- Capital One Shopping McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/director-fp-and-a-capital-one-shopping/1732/98424204288",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "81c237e84c846952",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98096050656 07/21/2026 Card Vertical Risk Manager: Network Operations Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/card-vertical-risk-manager-network-operations/1732/98096050656",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "c8076ffeaffbfbab",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96821031184 06/23/2026 Sr Lead Machine Learning Engineer McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/sr-lead-machine-learning-engineer/1732/96821031184",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          },
+          {
+            "id": "dc3d7c9feb81f704",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98424204224 07/28/2026 Director, Technical Program Management - Risk Tech McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/director-technical-program-management-risk-tech/1732/98424204224",
+            "firstSeenAt": "2026-07-28T19:04:57.879Z",
+            "isNew": true
+          }
+        ],
+        "totalFound": 30,
+        "checkedAt": "2026-07-28T19:04:57.879Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "totalFound": 1,
+        "checkedAt": "2026-07-28T19:05:06.293Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "totalFound": 5,
+        "checkedAt": "2026-07-28T19:05:06.523Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "totalFound": 12,
+        "checkedAt": "2026-07-28T19:05:21.522Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T19:05:21.686Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "totalFound": 3,
+        "checkedAt": "2026-07-28T19:05:55.510Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [
+          {
+            "id": "df16d59c22efdf89",
+            "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+            "siteName": "Rad AI",
+            "title": "Staff Software Engineer, Reporting Integrations",
+            "url": "https://jobs.ashbyhq.com/radai/0143d5f5-b1a4-4684-a9bd-763990f4ccf8",
+            "firstSeenAt": "2026-07-28T19:05:55.679Z",
+            "isNew": true
+          },
+          {
+            "id": "3e6707b6e77b3370",
+            "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+            "siteName": "Rad AI",
+            "title": "Staff Software Engineer, Continuity ",
+            "url": "https://jobs.ashbyhq.com/radai/eac0980c-6e8d-40ad-9329-0b338bada6be",
+            "firstSeenAt": "2026-07-28T19:05:55.679Z",
+            "isNew": true
+          }
+        ],
+        "totalFound": 19,
+        "checkedAt": "2026-07-28T19:05:55.679Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [
+          {
+            "id": "f35974ef7f61c03d",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Manager, International Accounting",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/96ca82d4-3b88-4d63-8871-8fbcc8c79615",
+            "firstSeenAt": "2026-07-28T19:05:56.029Z",
+            "isNew": true
+          },
+          {
+            "id": "d072a491036da3b2",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Staff Accountant, International",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/15d7d468-a72d-4564-9b51-e3a7127f173e",
+            "firstSeenAt": "2026-07-28T19:05:56.029Z",
+            "isNew": true
+          },
+          {
+            "id": "2716e0e846c759ae",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Principal Data Engineer",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/a321e167-59ab-46cc-9b50-75154f122bdb",
+            "firstSeenAt": "2026-07-28T19:05:56.029Z",
+            "isNew": true
+          },
+          {
+            "id": "5de8d50a263d8fb0",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Compounding Lab Manager (Swing)",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/7d808744-39c8-4ce0-a68d-f99cb29ace24",
+            "firstSeenAt": "2026-07-28T19:05:56.029Z",
+            "isNew": true
+          },
+          {
+            "id": "0efe8ab989675e14",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Compounding Lab Manager (Days)",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/20d7a96a-c633-4a51-b19c-16ae6bb06385",
+            "firstSeenAt": "2026-07-28T19:05:56.029Z",
+            "isNew": true
+          },
+          {
+            "id": "9bbccc166001f70a",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Compounding Lab Manager (Days)",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/b2b46d55-dadd-4832-8414-6120f191901e",
+            "firstSeenAt": "2026-07-28T19:05:56.029Z",
+            "isNew": true
+          }
+        ],
+        "totalFound": 93,
+        "checkedAt": "2026-07-28T19:05:56.029Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "totalFound": 63,
+        "checkedAt": "2026-07-28T19:05:56.146Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "totalFound": 7,
+        "checkedAt": "2026-07-28T19:05:56.285Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "totalFound": 0,
+        "checkedAt": "2026-07-28T19:06:10.019Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      }
+    ]
+  },
+  {
     "id": "821f82e9-6167-4fd1-9148-3abe1d10f8ee",
     "startedAt": "2026-07-28T14:23:35.324Z",
     "completedAt": "2026-07-28T14:27:29.063Z",

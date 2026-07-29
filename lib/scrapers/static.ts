@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import type { CheerioAPI } from "cheerio";
+import { inferJobLocation } from "@/lib/jobs/location";
 import type { ScrapedJob } from "./types";
 import {
   canonicalizeJobUrl,
@@ -419,7 +420,16 @@ function addJobCandidate(
 
   const existing = jobs.get(canonical);
   if (!existing || cleanedTitle.length > existing.title.length) {
-    jobs.set(canonical, { title: cleanedTitle, url: canonical });
+    const location = inferJobLocation({
+      id: canonical,
+      siteId: "",
+      siteName: "",
+      title: cleanedTitle,
+      url: canonical,
+      firstSeenAt: "",
+      isNew: true,
+    });
+    jobs.set(canonical, { title: cleanedTitle, url: canonical, location });
   }
 }
 

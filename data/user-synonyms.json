@@ -1,0 +1,139 @@
+{
+  "accessibility testing": [
+    "accessibilitytesting",
+    "at"
+  ],
+  "agile": [
+    "kanban",
+    "scrum"
+  ],
+  "ai": [
+    "artificial intelligence"
+  ],
+  "ai-assisted development": [
+    "ad",
+    "ai assisted development",
+    "ai-assisteddevelopment",
+    "aiassisted development"
+  ],
+  "api": [
+    "apis",
+    "rest api",
+    "restful api"
+  ],
+  "app insights": [
+    "ai",
+    "appinsights"
+  ],
+  "application insights": [
+    "ai",
+    "applicationinsights"
+  ],
+  "artificial intelligence": [
+    "ai",
+    "artificialintelligence"
+  ],
+  "aws": [
+    "amazon web services"
+  ],
+  "azure": [
+    "microsoft azure"
+  ],
+  "ci/cd": [
+    "cd",
+    "ci",
+    "ci cd",
+    "cicd",
+    "continuous integration"
+  ],
+  "cicd": [
+    "ci cd",
+    "ci/cd",
+    "continuous integration"
+  ],
+  "claude code": [
+    "cc",
+    "claudecode"
+  ],
+  "confluence": [
+    "atlassian confluence"
+  ],
+  "css": [
+    "css3"
+  ],
+  "devops": [
+    "dev ops"
+  ],
+  "docker": [
+    "containerization",
+    "containers"
+  ],
+  "git": [
+    "github",
+    "gitlab",
+    "version control"
+  ],
+  "github": [
+    "git",
+    "gitlab",
+    "version control"
+  ],
+  "gitlab": [
+    "git",
+    "github",
+    "version control"
+  ],
+  "google analytics": [
+    "ga",
+    "googleanalytics"
+  ],
+  "html": [
+    "html5"
+  ],
+  "javascript": [
+    "ecmascript",
+    "js"
+  ],
+  "jira": [
+    "atlassian jira"
+  ],
+  "node": [
+    "node.js",
+    "nodejs"
+  ],
+  "node.js": [
+    "node",
+    "node js",
+    "nodejs"
+  ],
+  "react": [
+    "react.js",
+    "reactjs"
+  ],
+  "scrum": [
+    "agile",
+    "kanban"
+  ],
+  "software development life cycle": [
+    "sdlc",
+    "softwaredevelopmentlifecycle"
+  ],
+  "sql": [
+    "structured query language"
+  ],
+  "typescript": [
+    "ts"
+  ],
+  "visual studio": [
+    "visualstudio",
+    "vs"
+  ],
+  "web content accessibility guidelines": [
+    "wcag",
+    "webcontentaccessibilityguidelines"
+  ],
+  "zephyr for jira": [
+    "zephyrforjira",
+    "zfj"
+  ]
+}

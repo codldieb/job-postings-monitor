@@ -22,7 +22,7 @@ function CheckStatus({ status }: { status?: SiteCheckStatus }) {
 
   if (status.error) {
     return (
-      <p className="mt-1 text-xs text-red-600">
+      <p className="mt-1 break-all text-xs text-red-600">
         Check failed: {status.error}
       </p>
     );
@@ -30,7 +30,7 @@ function CheckStatus({ status }: { status?: SiteCheckStatus }) {
 
   if (status.totalFound === 0) {
     return (
-      <p className="mt-1 text-xs text-amber-700">
+      <p className="mt-1 break-words text-xs text-amber-700">
         Last check found no job postings
       </p>
     );
@@ -41,10 +41,16 @@ function CheckStatus({ status }: { status?: SiteCheckStatus }) {
       ? ` (${status.newJobsCount} new)`
       : "";
 
+  const archivedLabel =
+    status.archivedJobsCount > 0
+      ? `, ${status.archivedJobsCount} archived`
+      : "";
+
   return (
-    <p className="mt-1 text-xs text-emerald-700">
+    <p className="mt-1 break-words text-xs text-emerald-700">
       {status.totalFound} posting{status.totalFound === 1 ? "" : "s"} found
       {newLabel}
+      {archivedLabel}
     </p>
   );
 }
@@ -59,19 +65,19 @@ export default function SiteList({ sites, checkStatus, onRemove }: SiteListProps
   }
 
   return (
-    <ul className="divide-y divide-slate-200 rounded-xl border border-slate-200 bg-white">
+    <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
       {sites.map((site) => (
         <li
           key={site.id}
-          className="flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+          className="flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-start sm:justify-between"
         >
-          <div>
+          <div className="min-w-0 flex-1">
             <p className="font-medium text-slate-900">{site.name}</p>
             <a
               href={site.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-blue-600 hover:underline"
+              className="mt-0.5 block break-all text-sm text-emerald-700 hover:text-emerald-900 hover:underline"
             >
               {site.url}
             </a>
@@ -82,7 +88,7 @@ export default function SiteList({ sites, checkStatus, onRemove }: SiteListProps
           </div>
           <button
             onClick={() => onRemove(site.id)}
-            className="self-start rounded-lg border border-slate-300 px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50 sm:self-center"
+            className="shrink-0 self-start rounded-full border border-stone-300 px-3 py-1.5 text-sm text-stone-700 hover:border-red-200 hover:bg-red-50 hover:text-red-700 sm:self-center"
           >
             Remove
           </button>

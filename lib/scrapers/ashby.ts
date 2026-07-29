@@ -5,6 +5,10 @@ interface AshbyJob {
   title: string;
   jobUrl: string;
   isListed?: boolean;
+  department?: string;
+  team?: string;
+  location?: string;
+  locationName?: string;
 }
 
 interface AshbyResponse {
@@ -22,5 +26,8 @@ export async function scrapeAshby(boardName: string): Promise<ScrapedJob[]> {
     .map((job) => ({
       title: job.title,
       url: job.jobUrl,
+      department: job.department?.trim() || undefined,
+      team: job.team?.trim() || undefined,
+      location: job.location?.trim() || job.locationName?.trim() || undefined,
     }));
 }

@@ -1,9 +1,12 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { normalizeResumeProfile } from "./resume/profile";
 import type {
+  ArchivedJobPosting,
   CheckLogEntry,
   JobPosting,
   MonitoredSite,
+  ResumeProfile,
   SiteCheckStatus,
 } from "./types";
 
@@ -47,6 +50,41 @@ export async function saveJobs(jobs: JobPosting[]): Promise<void> {
   await writeJsonFile("jobs.json", jobs);
 }
 
+export async function getArchivedJobs(): Promise<ArchivedJobPosting[]> {
+  return readJsonFile<ArchivedJobPosting[]>("archived-jobs.json", []);
+}
+
+export async function saveArchivedJobs(
+  jobs: ArchivedJobPosting[]
+): Promise<void> {
+  await writeJsonFile("archived-jobs.json", jobs);
+}
+
+export async function getResumeProfile(): Promise<ResumeProfile | null> {
+  const profile = await readJsonFile<ResumeProfile | null>(
+    "resume-profile.json",
+    null
+  );
+  return normalizeResumeProfile(profile);
+}
+
+export async function saveResumeProfile(profile: ResumeProfile): Promise<void> {
+  await writeJsonFile("resume-profile.json", profile);
+}
+
+export async function updateJob(
+  jobId: string,
+  updates: Partial<JobPosting>
+): Promise<JobPosting | null> {
+  const jobs = await getJobs();
+  const index = jobs.findIndex((job) => job.id === jobId);
+  if (index === -1) return null;
+
+  jobs[index] = { ...jobs[index], ...updates };
+  await saveJobs(jobs);
+  return jobs[index];
+}
+
 export async function getCheckLog(): Promise<CheckLogEntry[]> {
   return readJsonFile<CheckLogEntry[]>("check-log.json", []);
 }
@@ -68,7 +106,12 @@ export async function removeSite(id: string): Promise<boolean> {
   await saveSites(filtered);
 
   const jobs = await getJobs();
-  await saveJobs(jobs.filter((job) => job.siteId !== id));
+  const siteJobs = jobs.filter((job) => job.siteId === id);
+  if (siteJobs.length > 0) {
+    await archiveJobs(siteJobs, new Date().toISOString());
+    await saveJobs(jobs.filter((job) => job.siteId !== id));
+  }
+
   return true;
 }
 
@@ -81,6 +124,72 @@ export async function updateSiteLastChecked(
   if (index === -1) return;
   sites[index] = { ...sites[index], lastCheckedAt: checkedAt };
   await saveSites(sites);
+}
+
+async function archiveJobs(
+  jobs: JobPosting[],
+  archivedAt: string
+): Promise<void> {
+  if (jobs.length === 0) return;
+
+  const archived = await getArchivedJobs();
+  const archivedIds = new Set(archived.map((job) => job.id));
+
+  for (const job of jobs) {
+    if (archivedIds.has(job.id)) continue;
+    archived.push({ ...job, archivedAt, isNew: false });
+    archivedIds.add(job.id);
+  }
+
+  await saveArchivedJobs(archived);
+}
+
+export async function archiveStaleJobsForSite(
+  siteId: string,
+  activeIds: Set<string>,
+  archivedAt: string
+): Promise<number> {
+  const jobs = await getJobs();
+  const staleJobs = jobs.filter(
+    (job) => job.siteId === siteId && !activeIds.has(job.id)
+  );
+
+  if (staleJobs.length === 0) return 0;
+
+  await archiveJobs(staleJobs, archivedAt);
+  await saveJobs(
+    jobs.filter((job) => job.siteId !== siteId || activeIds.has(job.id))
+  );
+
+  return staleJobs.length;
+}
+
+export async function restoreArchivedJob(
+  id: string,
+  updates: Pick<
+    JobPosting,
+    "title" | "url" | "siteName" | "department" | "team" | "location"
+  >
+): Promise<JobPosting | null> {
+  const archived = await getArchivedJobs();
+  const index = archived.findIndex((job) => job.id === id);
+  if (index === -1) return null;
+
+  const { archivedAt: _, ...job } = archived[index];
+  const restored: JobPosting = {
+    ...job,
+    ...updates,
+    isNew: true,
+  };
+
+  archived.splice(index, 1);
+  await saveArchivedJobs(archived);
+
+  const active = await getJobs();
+  active.push(restored);
+  await saveJobs(active);
+
+  return restored;
 }
 
 export async function upsertJobs(newJobs: JobPosting[]): Promise<number> {
@@ -126,6 +235,8 @@ export async function getLatestCheckStatusBySite(): Promise<
         checkedAt: result.checkedAt,
         totalFound: result.totalFound,
         newJobsCount: result.newJobs.length,
+        archivedJobsCount:
+          result.archivedJobsCount ?? result.removedJobsCount ?? 0,
         error: result.error,
       };
     }

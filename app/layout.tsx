@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Job Postings Monitor",
@@ -13,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen antialiased">
-        <div className="mx-auto max-w-5xl px-4 py-8">{children}</div>
+      <body className={`${plusJakarta.className} min-h-screen antialiased`}>
+        <div className="mx-auto max-w-6xl px-4 py-5">{children}</div>
       </body>
     </html>
   );

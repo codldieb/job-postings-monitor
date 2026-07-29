@@ -1,6 +1,9 @@
 export interface ScrapedJob {
   title: string;
   url: string;
+  department?: string;
+  team?: string;
+  location?: string;
 }
 
 export type ScrapeMethod =

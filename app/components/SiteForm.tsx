@@ -52,7 +52,7 @@ export default function SiteForm({ onAdded }: SiteFormProps) {
             onChange={(e) => setName(e.target.value)}
             placeholder="Acme Corp Careers"
             required
-            className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
+            className="w-full rounded-xl border border-stone-300 px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           />
         </label>
         <label className="block">
@@ -65,7 +65,7 @@ export default function SiteForm({ onAdded }: SiteFormProps) {
             onChange={(e) => setUrl(e.target.value)}
             placeholder="https://example.com/careers"
             required
-            className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
+            className="w-full rounded-xl border border-stone-300 px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           />
         </label>
       </div>
@@ -79,7 +79,7 @@ export default function SiteForm({ onAdded }: SiteFormProps) {
       <button
         type="submit"
         disabled={loading}
-        className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-60"
+        className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-500 disabled:opacity-60"
       >
         {loading ? "Adding..." : "Add site"}
       </button>
