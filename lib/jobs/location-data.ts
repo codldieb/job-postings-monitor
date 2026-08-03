@@ -42,6 +42,10 @@ export const COUNTRY_ALIASES: Record<string, string> = {
   poland: "Poland",
   cr: "Costa Rica",
   "costa rica": "Costa Rica",
+  ar: "Argentina",
+  argentina: "Argentina",
+  "u.k.": "United Kingdom",
+  "u.k": "United Kingdom",
 };
 
 export const US_STATE_NAMES = new Set([
@@ -278,6 +282,7 @@ export const CITY_TO_COUNTRY: Record<string, string> = {
   mississauga: "Canada",
   waterloo: "Canada",
   "mexico city": "Mexico",
+  "buenos aires": "Argentina",
   london: "United Kingdom",
   singapore: "Singapore",
 };
@@ -296,7 +301,7 @@ export const CONTINENT_COUNTRIES: Record<string, string[]> = {
   ],
   Asia: ["India", "China", "Japan", "Singapore", "Philippines"],
   Oceania: ["Australia"],
-  "South America": ["Brazil"],
+  "South America": ["Brazil", "Argentina"],
 };
 
 export function countryToContinent(country: string): string | undefined {

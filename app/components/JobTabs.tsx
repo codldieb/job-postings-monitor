@@ -14,6 +14,7 @@ interface JobTabsProps {
   hasResumeProfile: boolean;
   hasLocationPreferences?: boolean;
   onMarkSeen: () => void;
+  onMarkJobSeen?: (jobId: string) => void | Promise<void>;
   defaultTab?: JobTab;
 }
 
@@ -30,6 +31,7 @@ export default function JobTabs({
   hasResumeProfile,
   hasLocationPreferences = false,
   onMarkSeen,
+  onMarkJobSeen,
   defaultTab = "active",
 }: JobTabsProps) {
   const [tab, setTab] = useState<JobTab>(defaultTab);
@@ -70,6 +72,7 @@ export default function JobTabs({
             hasResumeProfile={hasResumeProfile}
             showLocationFilter={hasLocationPreferences}
             onMarkSeen={onMarkSeen}
+            onMarkJobSeen={onMarkJobSeen}
           />
         )}
 
@@ -82,6 +85,7 @@ export default function JobTabs({
                 hasResumeProfile={hasResumeProfile}
                 showLocationFilter={hasLocationPreferences}
                 onMarkSeen={onMarkSeen}
+                onMarkJobSeen={onMarkJobSeen}
                 showMinScoreFilter={false}
               />
             ) : (

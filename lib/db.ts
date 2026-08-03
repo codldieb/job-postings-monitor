@@ -215,6 +215,10 @@ export async function markAllJobsSeen(): Promise<void> {
   await saveJobs(updated);
 }
 
+export async function markJobSeen(jobId: string): Promise<JobPosting | null> {
+  return updateJob(jobId, { isNew: false });
+}
+
 export async function appendCheckLog(entry: CheckLogEntry): Promise<void> {
   const log = await getCheckLog();
   log.unshift(entry);

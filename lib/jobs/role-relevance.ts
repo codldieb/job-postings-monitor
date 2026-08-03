@@ -24,9 +24,10 @@ const EXCLUDE_TITLE_PATTERNS = [
   /\b(?:sales(?:\s+(?:director|manager|representative|associate))?)\b/i,
   /\b(?:marketing|brand manager|content strategist|copywriter)\b/i,
   /\b(?:product manager|product owner|program manager|project manager)\b/i,
-  /\b(?:recruiter|talent acquisition)\b/i,
+  /\b(?:recruiter|talent acquisition|sourcer|sourcing)\b/i,
   /\b(?:human resources|\bhr\b(?:\s+(?:business partner|manager|generalist))?)\b/i,
   /\b(?:finance|financial analyst|accountant|controller|payroll)\b/i,
+  /\b(?:auditor|audit manager|internal audit)\b/i,
   /\b(?:legal|counsel|paralegal|compliance officer)\b/i,
   /\b(?:customer success|client success)\b/i,
   /\b(?:nurse|physician|pharmacist|pharmacy|compounding|pharmacy technician|clinical)\b/i,
@@ -37,6 +38,7 @@ const EXCLUDE_TITLE_PATTERNS = [
   /\b(?:retail|cashier|barista|store associate|customer care representative)\b/i,
   /\b(?:relationship manager|branch ambassador|cafe coach)\b/i,
   /\b(?:business analyst|strategy manager|compensation analyst|operations manager)\b/i,
+  /\b(?:underwriter|investigator|procurement|buyer|vendor manager)\b/i,
 ];
 
 const INCLUDE_TITLE_PATTERNS = [
@@ -59,9 +61,15 @@ const NON_TARGET_CATEGORY_PATTERNS = [
   /customer service/i,
   /communications/i,
   /people & culture/i,
+  /people operations/i,
   /corporate affairs/i,
   /planning and analysis/i,
   /finance$/i,
+  /talent acquisition/i,
+  /^audit$/i,
+  /\baudit\b/i,
+  /human resources/i,
+  /^legal$/i,
 ];
 
 const DESCRIPTION_FIELD_PATTERN =
@@ -78,6 +86,10 @@ export function getTargetDepartments(profile: ResumeProfile | null): string[] {
   return configured.length > 0 ? configured : DEFAULT_TARGET_DEPARTMENTS;
 }
 
+function escapeRegex(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 function matchesTargetLabel(text: string, targets: string[]): boolean {
   const normalized = normalizeText(text);
   if (!normalized) return false;
@@ -86,10 +98,10 @@ function matchesTargetLabel(text: string, targets: string[]): boolean {
     const normalizedTarget = normalizeText(target);
     if (!normalizedTarget) return false;
 
-    return (
-      normalized.includes(normalizedTarget) ||
-      normalizedTarget.includes(normalized)
-    );
+    if (normalized === normalizedTarget) return true;
+
+    const pattern = new RegExp(`\\b${escapeRegex(normalizedTarget)}\\b`, "i");
+    return pattern.test(normalized);
   });
 }
 
@@ -138,6 +150,13 @@ function extractInlineMetadata(description: string): string[] {
   );
   if (functionMatch?.[1]) {
     hints.push(trimFieldValue(functionMatch[1]));
+  }
+
+  const capitalOneCategory = description.match(
+    /\bCategory\s+([A-Za-z][A-Za-z &/+.-]+?)(?=\s+Experience|\s+Primary Address|\s+Pin job|\s+Overview|$)/i
+  );
+  if (capitalOneCategory?.[1]) {
+    hints.push(trimFieldValue(capitalOneCategory[1]));
   }
 
   return hints;
@@ -197,6 +216,19 @@ export function evaluateRoleRelevance(
   }
 
   const departmentCandidates = collectDepartmentCandidates(job);
+
+  for (const field of [job.department, job.team]) {
+    const label = field?.trim();
+    if (!label) continue;
+
+    if (matchesNonTargetCategory(label)) {
+      return {
+        relevant: false,
+        note: `Department/team (${label}) is outside your target areas`,
+      };
+    }
+  }
+
   const nonTargetCategory = departmentCandidates.find((candidate) =>
     matchesNonTargetCategory(candidate)
   );

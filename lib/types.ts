@@ -1,3 +1,5 @@
+export type LocationType = "Remote" | "Hybrid" | "Onsite";
+
 export interface MonitoredSite {
   id: string;
   name: string;
@@ -17,6 +19,7 @@ export interface JobPosting {
   department?: string;
   team?: string;
   location?: string;
+  locationTypes?: LocationType[];
   descriptionText?: string;
   descriptionFetchedAt?: string;
   matchScore?: number;

@@ -50,6 +50,36 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     };
   }
 
+  const parenCountry = raw.match(
+    /\((United States(?: of America)?|U\.S\.|Canada|Mexico|United Kingdom|U\.K\.|India|Germany|France|Argentina|Australia|Ireland|Brazil|Singapore|Japan|China|Philippines|Poland|Costa Rica|Netherlands|Spain|Italy)\)/i
+  );
+  if (parenCountry) {
+    const country =
+      normalizeCountryName(parenCountry[1].replace(/\./g, "")) ??
+      normalizeCountryName(parenCountry[1]);
+    if (country) {
+      return {
+        raw,
+        country,
+        continent: countryToContinent(country),
+        isRemote: /\bremote/i.test(raw),
+      };
+    }
+  }
+
+  const countryRemote = raw.match(/^([A-Za-z .'-]+?)\s+Remote\b/i);
+  if (countryRemote) {
+    const country = normalizeCountryName(countryRemote[1].trim());
+    if (country) {
+      return {
+        raw,
+        country,
+        continent: countryToContinent(country),
+        isRemote: true,
+      };
+    }
+  }
+
   const parts = raw.split(",").map((part) => part.trim()).filter(Boolean);
   if (parts.length === 0) return { raw };
 
@@ -58,7 +88,24 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     .trim();
   const secondLast = parts.length >= 2 ? parts[parts.length - 2].trim() : "";
 
-  const countryFromLast = normalizeCountryName(lastPart);
+  if (lastPart.length === 2 && US_STATE_CODES.has(lastPart.toUpperCase())) {
+    return {
+      raw,
+      country: "United States",
+      continent: countryToContinent("United States"),
+    };
+  }
+
+  if (lastPart.length === 2 && CA_PROVINCE_CODES.has(lastPart.toUpperCase())) {
+    return {
+      raw,
+      country: "Canada",
+      continent: countryToContinent("Canada"),
+    };
+  }
+
+  const cleanedLast = lastPart.replace(/\s*\([^)]*\)\s*$/g, "").trim();
+  const countryFromLast = normalizeCountryName(cleanedLast);
   if (countryFromLast) {
     return {
       raw,
@@ -202,11 +249,52 @@ function extractLocationFromTitle(title: string): string[] {
   return [...new Set(results)];
 }
 
+const MAX_LOCATION_SEGMENT_LENGTH = 100;
+
+const NON_LOCATION_SEGMENT_PATTERN =
+  /\b(?:reporting to|application information|full-time|permanent|exempt|requirements|about you|our core behaviors|benefits|zone [abc]|you(?:'|')?ll thrive|as an?\s+[a-z]+\s+(?:executive|counsel|manager|engineer))\b/i;
+
+function stripHtmlTags(value: string): string {
+  return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+const JOB_TITLE_PREFIX =
+  /^(?:account|associate|senior|staff|principal|lead|manager|director|engineer|counsel|executive|analyst|general)\b/i;
+
+const GEOGRAPHIC_HINT =
+  /\b(?:remote|hybrid|anywhere|united states|united kingdom|canada|india|mexico|germany|france|australia|u\.s\.|u\.k\.)\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:United Kingdom|United States|Canada|India|Mexico|Germany|France|[A-Z]{2})\b/i;
+
+function isPlausibleLocationSegment(segment: string): boolean {
+  const trimmed = stripHtmlTags(segment).trim();
+  if (!trimmed || trimmed.length > MAX_LOCATION_SEGMENT_LENGTH) return false;
+  if (/[<>{}]/.test(segment)) return false;
+  if (NON_LOCATION_SEGMENT_PATTERN.test(trimmed)) return false;
+  if (/\$\d|equity|401\s*\(\s*k\s*\)|stipend/i.test(trimmed)) return false;
+  if (JOB_TITLE_PREFIX.test(trimmed) && !GEOGRAPHIC_HINT.test(trimmed)) return false;
+  return true;
+}
+
+export function sanitizeLocationString(
+  value: string | undefined
+): string | undefined {
+  if (!value?.trim()) return undefined;
+
+  const stripped = stripHtmlTags(value);
+  const segments = stripped
+    .split(";")
+    .map((segment) => segment.trim())
+    .filter(isPlausibleLocationSegment);
+
+  return segments.length > 0 ? [...new Set(segments)].join("; ") : undefined;
+}
+
 function addParsedLocation(
   parsed: ParsedLocation[],
   seen: Set<string>,
   segment: string
 ) {
+  if (!isPlausibleLocationSegment(segment)) return;
+
   const result = parseLocationSegment(segment);
   if (result && !seen.has(result.raw)) {
     seen.add(result.raw);
@@ -215,7 +303,7 @@ function addParsedLocation(
 }
 
 function splitMultiLocations(block: string): string[] {
-  const trimmed = block.trim();
+  const trimmed = stripHtmlTags(block).trim();
   if (!trimmed) return [];
 
   const segments = trimmed
@@ -223,16 +311,26 @@ function splitMultiLocations(block: string): string[] {
       /\s(?=[A-Z][A-Za-z.'-]+(?:,\s*(?:[A-Z]{2}|AB|BC|ON|QC|MB|SK|NS|NB|NL|PE|YT|NT|NU|Virginia|California|Texas|India|Mexico|Germany|Georgia|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Massachusetts|Delaware|Maryland|Missouri|Kansas|Tennessee|Minnesota|Oregon|Utah)))/ 
     )
     .map((segment) => segment.trim())
-    .filter((segment) => segment.length > 2);
+    .filter((segment) => segment.length > 2 && isPlausibleLocationSegment(segment));
 
-  return segments.length > 0 ? segments : [trimmed];
+  if (segments.length > 0) return segments;
+  return isPlausibleLocationSegment(trimmed) ? [trimmed] : [];
 }
 
 function extractLocationStrings(text: string): string[] {
   const results: string[] = [];
 
+  for (const match of text.matchAll(
+    /(?:<li>\s*)?Location:\s*([^<]+?)(?:\s*<\/li>|\s*<\/)/gi
+  )) {
+    const value = stripHtmlTags(match[1]);
+    if (isPlausibleLocationSegment(value)) {
+      results.push(value);
+    }
+  }
+
   const locationBlock = text.match(
-    /\bLocation:\s*(.+?)(?=\sReq ID:|\sJobs by Category:|\sDescription|\sBusiness Function|\sDate posted|\sRef #|$)/i
+    /\bLocation:\s*([^<\n|]+?)(?=\s*(?:<\/li>|<li>|Full-time|Permanent|Exempt|Reporting|Application Information|Req ID:|Jobs by Category:|Description|Business Function|Date posted|Ref #|$))/i
   );
   if (locationBlock) {
     results.push(...splitMultiLocations(locationBlock[1]));
@@ -271,9 +369,10 @@ export function extractLocationsFromJob(job: JobPosting): ParsedLocation[] {
   const parsed: ParsedLocation[] = [];
   const seen = new Set<string>();
 
-  if (job.location?.trim()) {
-    for (const segment of splitMultiLocations(job.location)) {
-      addParsedLocation(parsed, seen, segment);
+  const sanitizedLocation = sanitizeLocationString(job.location);
+  if (sanitizedLocation) {
+    for (const segment of sanitizedLocation.split(";")) {
+      addParsedLocation(parsed, seen, segment.trim());
     }
   }
 
@@ -375,11 +474,23 @@ export function evaluateLocationMatch(
     };
   }
 
-  const inTarget = located.some((entry) =>
-    matchesTarget(entry, countrySet, continentSet)
+  const outsideTarget = located.filter(
+    (entry) => !matchesTarget(entry, countrySet, continentSet)
   );
   const countries = [...new Set(located.map((entry) => entry.country!))].join(
     ", "
+  );
+
+  if (outsideTarget.length > 0) {
+    return {
+      inTarget: false,
+      note: `Outside target area (${countries})`,
+      location: location || countries,
+    };
+  }
+
+  const inTarget = located.some((entry) =>
+    matchesTarget(entry, countrySet, continentSet)
   );
 
   if (inTarget) {

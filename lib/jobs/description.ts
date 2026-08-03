@@ -32,13 +32,318 @@ interface AshbyResponse {
   jobs: AshbyJob[];
 }
 
-function htmlToText(html: string): string {
+interface WorkdayJobPostingInfo {
+  title?: string;
+  jobDescription?: string;
+  location?: string;
+  jobRequisitionLocation?: { descriptor?: string };
+}
+
+interface WorkdayJobResponse {
+  jobPostingInfo?: WorkdayJobPostingInfo;
+}
+
+function parseWorkdayJobUrl(
+  jobUrl: string
+): { apiBase: string; tenant: string; site: string; jobSlug: string } | null {
+  try {
+    const url = new URL(jobUrl);
+    const host = url.hostname.replace(/^www\./, "");
+    if (host !== "myworkdayjobs.com" && !host.endsWith(".myworkdayjobs.com")) {
+      return null;
+    }
+
+    const tenantMatch = host.match(/^([^.]+)\.wd\d+\.myworkdayjobs\.com$/i);
+    if (!tenantMatch) return null;
+
+    const parts = url.pathname.split("/").filter(Boolean);
+    const jobIndex = parts.findIndex((segment) => segment.toLowerCase() === "job");
+    if (jobIndex < 1) return null;
+
+    const jobSlug = parts[parts.length - 1]?.replace(/\.html$/i, "");
+    if (!jobSlug) return null;
+
+    let siteIndex = jobIndex - 1;
+    while (siteIndex >= 0 && /^[a-z]{2}-[A-Z]{2}$/i.test(parts[siteIndex] ?? "")) {
+      siteIndex -= 1;
+    }
+
+    const site = parts[siteIndex];
+    if (!site) return null;
+
+    return {
+      apiBase: url.origin,
+      tenant: tenantMatch[1],
+      site,
+      jobSlug,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function formatWorkdayLocation(info: WorkdayJobPostingInfo): string | undefined {
+  const location =
+    info.jobRequisitionLocation?.descriptor?.trim() ||
+    info.location?.trim();
+  return location || undefined;
+}
+
+async function fetchWorkdayDetails(jobUrl: string): Promise<JobDetails | null> {
+  const parsed = parseWorkdayJobUrl(jobUrl);
+  if (!parsed) return null;
+
+  const data = await fetchJson<WorkdayJobResponse>(
+    `${parsed.apiBase}/wday/cxs/${encodeURIComponent(parsed.tenant)}/${encodeURIComponent(parsed.site)}/job/${encodeURIComponent(parsed.jobSlug)}`
+  );
+
+  const descriptionHtml = data.jobPostingInfo?.jobDescription?.trim();
+  if (!descriptionHtml) return null;
+
+  return {
+    descriptionText: htmlToText(descriptionHtml),
+    location: formatWorkdayLocation(data.jobPostingInfo ?? {}),
+  };
+}
+
+interface MckessonPostalAddress {
+  addressLocality?: string;
+  addressRegion?: string;
+  addressCountry?: string;
+}
+
+interface MckessonJobPosting {
+  description?: string;
+  jobLocation?: { address?: MckessonPostalAddress }[];
+}
+
+function isMckessonJobUrl(jobUrl: string): boolean {
+  try {
+    const url = new URL(jobUrl);
+    const host = url.hostname.replace(/^www\./, "");
+    return host === "careers.mckesson.com" && /\/job\//i.test(url.pathname);
+  } catch {
+    return false;
+  }
+}
+
+function formatMckessonLocation(
+  jobLocation: MckessonJobPosting["jobLocation"]
+): string | undefined {
+  const parts: string[] = [];
+
+  for (const place of jobLocation ?? []) {
+    const address = place.address;
+    if (!address) continue;
+
+    if (address.addressCountry?.trim().toLowerCase() === "remote") {
+      parts.push("Remote");
+      continue;
+    }
+
+    const city = address.addressLocality?.trim();
+    const region = address.addressRegion?.trim();
+    if (city && region) {
+      parts.push(`${city}, ${region}`);
+    } else if (city) {
+      parts.push(city);
+    } else if (address.addressCountry?.trim()) {
+      parts.push(address.addressCountry.trim());
+    }
+  }
+
+  return parts.length > 0 ? [...new Set(parts)].join("; ") : undefined;
+}
+
+function extractJsonLdJobPosting(html: string): MckessonJobPosting | null {
   const $ = cheerio.load(html);
+
+  for (const element of $("script[type='application/ld+json']").toArray()) {
+    try {
+      const raw = $(element).html()?.trim();
+      if (!raw) continue;
+
+      const data = JSON.parse(raw) as { "@type"?: string };
+      if (data["@type"] === "JobPosting") {
+        return data as MckessonJobPosting;
+      }
+    } catch {
+      // ignore malformed JSON-LD blocks
+    }
+  }
+
+  return null;
+}
+
+function extractMckessonDepartment(html: string): string | undefined {
+  const match = html.match(
+    /<meta\s+name="gtm_tbcn_jobcategory"\s+content="([^"]+)"/i
+  );
+  if (!match?.[1]?.trim()) return undefined;
+
+  return match[1]
+    .split("|")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .join(", ");
+}
+
+async function fetchMckessonDetails(jobUrl: string): Promise<JobDetails | null> {
+  if (!isMckessonJobUrl(jobUrl)) return null;
+
+  const html = await fetchHtml(jobUrl);
+  const posting = extractJsonLdJobPosting(html);
+  if (!posting?.description?.trim()) return null;
+
+  return {
+    descriptionText: htmlToText(posting.description),
+    department: extractMckessonDepartment(html),
+    location: formatMckessonLocation(posting.jobLocation),
+  };
+}
+
+function isAvatureJobUrl(jobUrl: string): boolean {
+  try {
+    const url = new URL(jobUrl);
+    if (url.hostname.replace(/^www\./, "") === "jobs.slalom.com") {
+      return true;
+    }
+
+    return /\/JobDetail/i.test(url.pathname) && Boolean(url.searchParams.get("jobId"));
+  } catch {
+    return false;
+  }
+}
+
+function formatAvatureLocations(raw: string): string {
+  const trimmed = raw.trim();
+  if (!trimmed) return trimmed;
+
+  const segments = trimmed
+    .split(/(?<=[A-Z]{2})(?=[A-Z][A-Za-z])/)
+    .map((segment) => segment.trim())
+    .filter(Boolean);
+
+  return segments.length > 0 ? segments.join("; ") : trimmed;
+}
+
+function extractAvatureField($: cheerio.CheerioAPI, label: string): string | undefined {
+  const normalizedLabel = label.trim().toLowerCase();
+  let value: string | undefined;
+
+  $(".article__content__view__field__label").each((_, element) => {
+    const fieldLabel = $(element).text().replace(/\s+/g, " ").trim().toLowerCase();
+    if (fieldLabel !== normalizedLabel) return;
+
+    const fieldValue = $(element)
+      .next(".article__content__view__field__value")
+      .text()
+      .replace(/\s+/g, " ")
+      .trim();
+    if (fieldValue) {
+      value = fieldValue;
+    }
+  });
+
+  return value;
+}
+
+function extractAvatureFieldHtml(
+  $: cheerio.CheerioAPI,
+  label: string
+): string | undefined {
+  const normalizedLabel = label.trim().toLowerCase();
+  let value: string | undefined;
+
+  $(".article__content__view__field__label").each((_, element) => {
+    const fieldLabel = $(element).text().replace(/\s+/g, " ").trim().toLowerCase();
+    if (fieldLabel !== normalizedLabel) return;
+
+    const fieldValue = $(element)
+      .next(".article__content__view__field__value")
+      .html()
+      ?.trim();
+    if (fieldValue) {
+      value = fieldValue;
+    }
+  });
+
+  return value;
+}
+
+async function fetchAvatureDetails(jobUrl: string): Promise<JobDetails | null> {
+  if (!isAvatureJobUrl(jobUrl)) return null;
+
+  const html = await fetchHtml(jobUrl);
+  const $ = cheerio.load(html);
+
+  const descriptionHtml =
+    extractAvatureFieldHtml($, "Job Description") ??
+    extractAvatureFieldHtml($, "Description and Requirements");
+  if (!descriptionHtml?.trim()) return null;
+
+  const rawLocations = extractAvatureField($, "Locations");
+  const businessFunction = extractAvatureField($, "Business Function");
+
+  return {
+    descriptionText: htmlToText(descriptionHtml),
+    department: businessFunction,
+    location: rawLocations ? formatAvatureLocations(rawLocations) : undefined,
+  };
+}
+
+function removePageBoilerplate($: cheerio.CheerioAPI): void {
+  $("script, style, noscript, nav, header, footer").remove();
+  $(
+    "footer, [role='contentinfo'], [class*='site-footer'], [class*='page-footer'], [class*='footer__'], [class*='footer-'], [class*='__footer']"
+  ).remove();
+  $(
+    "[class*='legal'], [class*='disclaimer'], [class*='eeo'], [class*='cookie-banner'], [class*='cookie-consent']"
+  ).remove();
+}
+
+function decodeHtmlEntities(html: string): string {
+  if (!/&(?:lt|gt|amp|quot|#39|#x[0-9a-f]+|#\d+);/i.test(html)) {
+    return html;
+  }
+
+  return html
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16))
+    )
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(Number(num)));
+}
+
+function htmlToText(html: string): string {
+  const normalized = decodeHtmlEntities(html);
+  const $ = cheerio.load(normalized);
   $("script, style, noscript, footer, nav, header").remove();
   $(
     "[class*='footer'], [class*='legal'], [class*='disclaimer'], [class*='eeo'], [class*='cookie']"
   ).remove();
+  $("li, p, br, h1, h2, h3, h4").each((_, element) => {
+    $(element).append(" ");
+  });
   return cleanJobDescription($.text().replace(/\s+/g, " ").trim());
+}
+
+export function looksLikeHtml(text: string): boolean {
+  return /<(?:p|ul|li|div|span|strong|h[1-6]|br|em)\b/i.test(text);
+}
+
+export function ensurePlainTextDescription(text: string): string {
+  if (!text.trim()) return text;
+
+  if (looksLikeHtml(text) || /&lt;(?:p|ul|li|div|span|strong|h[1-6])\b/i.test(text)) {
+    return htmlToText(text);
+  }
+
+  return cleanJobDescription(text);
 }
 
 async function fetchHtml(url: string): Promise<string> {
@@ -167,10 +472,7 @@ async function fetchGenericDescription(jobUrl: string): Promise<string> {
   const html = await fetchHtml(jobUrl);
   const $ = cheerio.load(html);
 
-  $("script, style, noscript, nav, header, footer").remove();
-  $(
-    "[class*='footer'], [class*='legal'], [class*='disclaimer'], [class*='eeo'], [class*='cookie']"
-  ).remove();
+  removePageBoilerplate($);
 
   const selectors = [
     "[class*='job-description']",
@@ -178,6 +480,7 @@ async function fetchGenericDescription(jobUrl: string): Promise<string> {
     "[class*='posting-page']",
     "[class*='posting-details']",
     "[data-automation-id='jobPostingDescription']",
+    ".article__content__view__field__value",
     "main",
     "article",
     "body",
@@ -205,6 +508,15 @@ async function fetchGenericDescription(jobUrl: string): Promise<string> {
 export async function fetchJobDetails(jobUrl: string): Promise<JobDetails> {
   const greenhouse = await fetchGreenhouseDetails(jobUrl).catch(() => null);
   if (greenhouse) return greenhouse;
+
+  const workday = await fetchWorkdayDetails(jobUrl).catch(() => null);
+  if (workday) return workday;
+
+  const mckesson = await fetchMckessonDetails(jobUrl).catch(() => null);
+  if (mckesson) return mckesson;
+
+  const avature = await fetchAvatureDetails(jobUrl).catch(() => null);
+  if (avature) return avature;
 
   const ashby = await fetchAshbyDetails(jobUrl).catch(() => null);
   if (ashby) return ashby;

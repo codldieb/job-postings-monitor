@@ -1,9 +1,14 @@
-import { cleanJobDescription } from "@/lib/jobs/clean-description";
-import { fetchJobDetails } from "@/lib/jobs/description";
+import {
+  ensurePlainTextDescription,
+  fetchJobDetails,
+  looksLikeHtml,
+} from "@/lib/jobs/description";
 import {
   evaluateLocationMatch,
   inferJobLocation,
+  sanitizeLocationString,
 } from "@/lib/jobs/location";
+import { inferLocationTypes } from "@/lib/jobs/location-type";
 import { evaluateRoleRelevance } from "@/lib/jobs/role-relevance";
 import { getResumeProfile, updateJob } from "@/lib/db";
 import { scoreJobMatch } from "@/lib/skills/matcher";
@@ -25,6 +30,7 @@ export async function scoreJob(job: JobPosting): Promise<JobPosting> {
       roleRelevanceNote: undefined,
       locationInTarget: undefined,
       locationNote: undefined,
+      locationTypes: undefined,
       matchedSkills: undefined,
       missingSkills: undefined,
       scoredAt,
@@ -40,14 +46,19 @@ export async function scoreJob(job: JobPosting): Promise<JobPosting> {
     let team = job.team;
     let location = job.location;
 
-    if (!descriptionText?.trim()) {
+    const needsDescriptionRefresh =
+      !descriptionText?.trim() || looksLikeHtml(descriptionText);
+
+    if (needsDescriptionRefresh) {
       const details = await fetchJobDetails(job.url);
       descriptionText = details.descriptionText;
       department = department ?? details.department;
       team = team ?? details.team;
-      location = location ?? details.location;
+      if (details.location) {
+        location = details.location;
+      }
     } else {
-      descriptionText = cleanJobDescription(descriptionText);
+      descriptionText = ensurePlainTextDescription(descriptionText ?? "");
     }
 
     const jobForMatching: JobPosting = {
@@ -68,12 +79,19 @@ export async function scoreJob(job: JobPosting): Promise<JobPosting> {
     const roleRelevance = evaluateRoleRelevance(jobForMatching, profile);
     const locationMatch = evaluateLocationMatch(jobForMatching, profile);
     const resolvedLocation =
-      locationMatch.location ?? inferJobLocation(jobForMatching) ?? location;
+      sanitizeLocationString(location) ??
+      sanitizeLocationString(locationMatch.location) ??
+      sanitizeLocationString(inferJobLocation(jobForMatching));
+    const locationTypes = inferLocationTypes({
+      ...jobForMatching,
+      location: resolvedLocation,
+    });
     const scoredAt = new Date().toISOString();
 
     const updated: JobPosting = {
       ...jobForMatching,
       location: resolvedLocation,
+      locationTypes: locationTypes.length > 0 ? locationTypes : undefined,
       descriptionFetchedAt: scoredAt,
       matchScore: result.score,
       matchSkillScore: result.skillScore,

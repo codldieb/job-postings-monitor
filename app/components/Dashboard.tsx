@@ -70,6 +70,20 @@ export default function Dashboard() {
     refresh();
   }
 
+  async function handleMarkJobSeen(jobId: string) {
+    const response = await fetch("/api/jobs/mark-seen", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ jobId }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to mark job as seen");
+    }
+
+    refresh();
+  }
+
   if (loading) {
     return (
       <div className="flex min-h-[40vh] items-center justify-center">
@@ -171,6 +185,7 @@ export default function Dashboard() {
               hasResumeProfile={hasResumeProfile}
               hasLocationPreferences={hasLocationPreferences}
               onMarkSeen={handleMarkSeen}
+              onMarkJobSeen={handleMarkJobSeen}
               defaultTab={newCount > 0 ? "new" : "active"}
             />
           </section>

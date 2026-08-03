@@ -1,16 +1,22 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { JobPosting } from "@/lib/types";
+import {
+  ALL_LOCATION_TYPES,
+  matchesLocationTypeFilter,
+} from "@/lib/jobs/location-type";
+import type { JobPosting, LocationType } from "@/lib/types";
 
 interface JobListProps {
   jobs: JobPosting[];
   onMarkSeen: () => void;
+  onMarkJobSeen?: (jobId: string) => void | Promise<void>;
   newCount: number;
   hasResumeProfile: boolean;
   showMinScoreFilter?: boolean;
   showRoleFilter?: boolean;
   showLocationFilter?: boolean;
+  showLocationTypeFilter?: boolean;
 }
 
 function formatDate(value: string) {
@@ -21,6 +27,17 @@ function scoreBadgeClass(score: number) {
   if (score >= 80) return "bg-emerald-100 text-emerald-800";
   if (score >= 60) return "bg-amber-100 text-amber-800";
   return "bg-slate-100 text-slate-700";
+}
+
+function locationTypeBadgeClass(type: LocationType) {
+  switch (type) {
+    case "Remote":
+      return "bg-sky-100 text-sky-800";
+    case "Hybrid":
+      return "bg-violet-100 text-violet-800";
+    case "Onsite":
+      return "bg-stone-200 text-stone-800";
+  }
 }
 
 function JobMatchDetails({ job }: { job: JobPosting }) {
@@ -80,6 +97,11 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
           Location: {job.locationNote}
         </p>
       )}
+      {(job.locationTypes?.length ?? 0) > 0 && (
+        <p className="text-slate-600">
+          Work style: {job.locationTypes?.join(", ")}
+        </p>
+      )}
       {(job.department || job.team || job.location) && (
         <p className="text-slate-500">
           {[job.department, job.team, job.location].filter(Boolean).join(" · ")}
@@ -111,16 +133,45 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
 export default function JobList({
   jobs,
   onMarkSeen,
+  onMarkJobSeen,
   newCount,
   hasResumeProfile,
   showMinScoreFilter = true,
   showRoleFilter = true,
   showLocationFilter = false,
+  showLocationTypeFilter = true,
 }: JobListProps) {
   const [minScore, setMinScore] = useState(0);
   const [hideOffTargetRoles, setHideOffTargetRoles] = useState(true);
   const [hideOutsideLocations, setHideOutsideLocations] = useState(true);
+  const [locationTypeFilter, setLocationTypeFilter] = useState<Set<LocationType>>(
+    () => new Set(ALL_LOCATION_TYPES)
+  );
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [markingJobId, setMarkingJobId] = useState<string | null>(null);
+
+  function toggleLocationType(type: LocationType) {
+    setLocationTypeFilter((current) => {
+      const next = new Set(current);
+      if (next.has(type)) {
+        next.delete(type);
+      } else {
+        next.add(type);
+      }
+      return next;
+    });
+  }
+
+  async function handleMarkJobSeen(jobId: string) {
+    if (!onMarkJobSeen || markingJobId) return;
+
+    setMarkingJobId(jobId);
+    try {
+      await onMarkJobSeen(jobId);
+    } finally {
+      setMarkingJobId(null);
+    }
+  }
 
   const filteredJobs = useMemo(() => {
     return jobs.filter((job) => {
@@ -129,9 +180,20 @@ export default function JobList({
       if (showLocationFilter && hideOutsideLocations && job.locationInTarget === false) {
         return false;
       }
+      if (showLocationTypeFilter && !matchesLocationTypeFilter(job, locationTypeFilter)) {
+        return false;
+      }
       return true;
     });
-  }, [jobs, minScore, hideOffTargetRoles, hideOutsideLocations, showLocationFilter]);
+  }, [
+    jobs,
+    minScore,
+    hideOffTargetRoles,
+    hideOutsideLocations,
+    showLocationFilter,
+    showLocationTypeFilter,
+    locationTypeFilter,
+  ]);
 
   if (jobs.length === 0) {
     return (
@@ -190,6 +252,23 @@ export default function JobList({
               />
               Hide outside target locations
             </label>
+          )}
+          {showLocationTypeFilter && (
+            <fieldset className="flex flex-wrap items-center gap-3 text-sm text-slate-600">
+              <legend className="sr-only">Work location type</legend>
+              <span className="text-slate-500">Work style</span>
+              {ALL_LOCATION_TYPES.map((type) => (
+                <label key={type} className="flex items-center gap-1.5">
+                  <input
+                    type="checkbox"
+                    checked={locationTypeFilter.has(type)}
+                    onChange={() => toggleLocationType(type)}
+                    className="rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
+                  />
+                  {type}
+                </label>
+              ))}
+            </fieldset>
           )}
           {!showMinScoreFilter && (
             <p className="text-sm text-slate-500">
@@ -253,9 +332,21 @@ export default function JobList({
                   </div>
                   <div className="flex shrink-0 flex-col items-end gap-2">
                     {job.isNew && (
-                      <span className="rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-800">
-                        New
-                      </span>
+                      <div className="flex flex-col items-end gap-1">
+                        <span className="rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-800">
+                          New
+                        </span>
+                        {onMarkJobSeen && (
+                          <button
+                            type="button"
+                            onClick={() => handleMarkJobSeen(job.id)}
+                            disabled={markingJobId === job.id}
+                            className="text-xs text-emerald-700 hover:underline disabled:opacity-60"
+                          >
+                            {markingJobId === job.id ? "Saving..." : "Mark seen"}
+                          </button>
+                        )}
+                      </div>
                     )}
                     {job.roleRelevant === false && !hideOffTargetRoles && (
                       <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-semibold text-amber-800">
@@ -267,6 +358,14 @@ export default function JobList({
                         Outside location
                       </span>
                     )}
+                    {job.locationTypes?.map((type) => (
+                      <span
+                        key={type}
+                        className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${locationTypeBadgeClass(type)}`}
+                      >
+                        {type}
+                      </span>
+                    ))}
                     {job.matchScore !== undefined && (
                       <span
                         className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${scoreBadgeClass(job.matchScore)}`}
