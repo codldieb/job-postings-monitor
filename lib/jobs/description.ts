@@ -219,8 +219,11 @@ function formatAvatureLocations(raw: string): string {
   const trimmed = raw.trim();
   if (!trimmed) return trimmed;
 
+  // Avature concatenates locations without separators ("Atlanta, GAAustin, TX").
+  // Prefer 2–3 letter region/country codes so ISO alpha-3 values like DEU/NZL/AUS
+  // are not sliced into DE+U / NZ+L / AU+S.
   const segments = trimmed
-    .split(/(?<=[A-Z]{2})(?=[A-Z][A-Za-z])/)
+    .split(/(?<=\b[A-Z]{2,3})(?=[A-Z][a-z\u00C0-\u024F])/)
     .map((segment) => segment.trim())
     .filter(Boolean);
 

@@ -1,5 +1,6 @@
 import type { JobPosting, ResumeProfile } from "@/lib/types";
 import {
+  AMBIGUOUS_US_STATE_COUNTRY_CODES,
   CA_PROVINCE_CODES,
   CA_PROVINCE_NAMES,
   CITY_TO_COUNTRY,
@@ -10,6 +11,9 @@ import {
   normalizeContinentName,
   normalizeCountryName,
 } from "./location-data";
+
+/** When city is unknown, prefer these country readings over colliding USPS codes. */
+const PREFER_COUNTRY_OVER_US_STATE = new Set(["DE"]);
 
 export interface ParsedLocation {
   raw: string;
@@ -51,7 +55,7 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
   }
 
   const parenCountry = raw.match(
-    /\((United States(?: of America)?|U\.S\.|Canada|Mexico|United Kingdom|U\.K\.|India|Germany|France|Argentina|Australia|Ireland|Brazil|Singapore|Japan|China|Philippines|Poland|Costa Rica|Netherlands|Spain|Italy)\)/i
+    /\((United States(?: of America)?|U\.S\.|Canada|Mexico|United Kingdom|U\.K\.|India|Germany|France|Argentina|Australia|New Zealand|Ireland|Brazil|Singapore|Japan|China|Philippines|Poland|Costa Rica|Netherlands|Spain|Italy)\)/i
   );
   if (parenCountry) {
     const country =
@@ -87,34 +91,58 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     .replace(/\s+\d[\dA-Z -]{2,}$/i, "")
     .trim();
   const secondLast = parts.length >= 2 ? parts[parts.length - 2].trim() : "";
-
-  if (lastPart.length === 2 && US_STATE_CODES.has(lastPart.toUpperCase())) {
-    return {
-      raw,
-      country: "United States",
-      continent: countryToContinent("United States"),
-    };
-  }
-
-  if (lastPart.length === 2 && CA_PROVINCE_CODES.has(lastPart.toUpperCase())) {
-    return {
-      raw,
-      country: "Canada",
-      continent: countryToContinent("Canada"),
-    };
-  }
-
   const cleanedLast = lastPart.replace(/\s*\([^)]*\)\s*$/g, "").trim();
-  const countryFromLast = normalizeCountryName(cleanedLast);
-  if (countryFromLast) {
+  const lastUpper = cleanedLast.toUpperCase();
+
+  const cityKey = parts[0].toLowerCase();
+  const countryFromCity = CITY_TO_COUNTRY[cityKey];
+  if (countryFromCity) {
     return {
       raw,
-      country: countryFromLast,
-      continent: countryToContinent(countryFromLast),
+      country: countryFromCity,
+      continent: countryToContinent(countryFromCity),
     };
   }
 
-  if (US_STATE_CODES.has(lastPart.toUpperCase())) {
+  for (const part of parts.slice(0, -1)) {
+    const countryFromPart = CITY_TO_COUNTRY[part.toLowerCase()];
+    if (countryFromPart) {
+      return {
+        raw,
+        country: countryFromPart,
+        continent: countryToContinent(countryFromPart),
+      };
+    }
+  }
+
+  const countryFromLast = normalizeCountryName(cleanedLast);
+  const isUsStateCode =
+    lastUpper.length === 2 && US_STATE_CODES.has(lastUpper);
+  const isAmbiguousStateCountry =
+    isUsStateCode && AMBIGUOUS_US_STATE_COUNTRY_CODES.has(lastUpper);
+
+  if (countryFromLast) {
+    if (!isUsStateCode || lastUpper.length >= 3) {
+      return {
+        raw,
+        country: countryFromLast,
+        continent: countryToContinent(countryFromLast),
+      };
+    }
+
+    if (
+      isAmbiguousStateCountry &&
+      PREFER_COUNTRY_OVER_US_STATE.has(lastUpper)
+    ) {
+      return {
+        raw,
+        country: countryFromLast,
+        continent: countryToContinent(countryFromLast),
+      };
+    }
+  }
+
+  if (isUsStateCode) {
     return {
       raw,
       country: "United States",
@@ -122,7 +150,7 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     };
   }
 
-  if (CA_PROVINCE_CODES.has(lastPart.toUpperCase())) {
+  if (lastUpper.length === 2 && CA_PROVINCE_CODES.has(lastUpper)) {
     return {
       raw,
       country: "Canada",
@@ -130,7 +158,23 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     };
   }
 
-  const stateLower = lastPart.toLowerCase();
+  if (US_STATE_CODES.has(lastUpper)) {
+    return {
+      raw,
+      country: "United States",
+      continent: countryToContinent("United States"),
+    };
+  }
+
+  if (CA_PROVINCE_CODES.has(lastUpper)) {
+    return {
+      raw,
+      country: "Canada",
+      continent: countryToContinent("Canada"),
+    };
+  }
+
+  const stateLower = cleanedLast.toLowerCase();
   if (US_STATE_NAMES.has(stateLower)) {
     return {
       raw,
@@ -157,34 +201,13 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
 
   if (
     normalizeCountryName(secondLast) &&
-    CA_PROVINCE_CODES.has(lastPart.toUpperCase())
+    CA_PROVINCE_CODES.has(lastUpper)
   ) {
     return {
       raw,
       country: "Canada",
       continent: countryToContinent("Canada"),
     };
-  }
-
-  const cityKey = parts[0].toLowerCase();
-  const countryFromCity = CITY_TO_COUNTRY[cityKey];
-  if (countryFromCity) {
-    return {
-      raw,
-      country: countryFromCity,
-      continent: countryToContinent(countryFromCity),
-    };
-  }
-
-  for (const part of parts) {
-    const countryFromPart = CITY_TO_COUNTRY[part.toLowerCase()];
-    if (countryFromPart) {
-      return {
-        raw,
-        country: countryFromPart,
-        continent: countryToContinent(countryFromPart),
-      };
-    }
   }
 
   return { raw };
@@ -262,11 +285,13 @@ const JOB_TITLE_PREFIX =
   /^(?:account|associate|senior|staff|principal|lead|manager|director|engineer|counsel|executive|analyst|general)\b/i;
 
 const GEOGRAPHIC_HINT =
-  /\b(?:remote|hybrid|anywhere|united states|united kingdom|canada|india|mexico|germany|france|australia|u\.s\.|u\.k\.)\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:United Kingdom|United States|Canada|India|Mexico|Germany|France|[A-Z]{2})\b/i;
+  /\b(?:remote|hybrid|anywhere|united states|united kingdom|canada|india|mexico|germany|france|australia|new zealand|u\.s\.|u\.k\.)\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:United Kingdom|United States|Canada|India|Mexico|Germany|France|Australia|New Zealand|[A-Z]{2,3})\b/i;
 
 function isPlausibleLocationSegment(segment: string): boolean {
   const trimmed = stripHtmlTags(segment).trim();
-  if (!trimmed || trimmed.length > MAX_LOCATION_SEGMENT_LENGTH) return false;
+  if (!trimmed || trimmed.length < 2 || trimmed.length > MAX_LOCATION_SEGMENT_LENGTH) {
+    return false;
+  }
   if (/[<>{}]/.test(segment)) return false;
   if (NON_LOCATION_SEGMENT_PATTERN.test(trimmed)) return false;
   if (/\$\d|equity|401\s*\(\s*k\s*\)|stipend/i.test(trimmed)) return false;
@@ -308,7 +333,7 @@ function splitMultiLocations(block: string): string[] {
 
   const segments = trimmed
     .split(
-      /\s(?=[A-Z][A-Za-z.'-]+(?:,\s*(?:[A-Z]{2}|AB|BC|ON|QC|MB|SK|NS|NB|NL|PE|YT|NT|NU|Virginia|California|Texas|India|Mexico|Germany|Georgia|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Massachusetts|Delaware|Maryland|Missouri|Kansas|Tennessee|Minnesota|Oregon|Utah)))/ 
+      /\s(?=[A-Z\u00C0-\u024F][A-Za-z\u00C0-\u024F.'-]+(?:,\s*(?:[A-Z]{2,3}|AB|BC|ON|QC|MB|SK|NS|NB|NL|PE|YT|NT|NU|Virginia|California|Texas|India|Mexico|Germany|Georgia|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Massachusetts|Delaware|Maryland|Missouri|Kansas|Tennessee|Minnesota|Oregon|Utah|Australia|New Zealand)))/
     )
     .map((segment) => segment.trim())
     .filter((segment) => segment.length > 2 && isPlausibleLocationSegment(segment));
@@ -344,7 +369,7 @@ function extractLocationStrings(text: string): string[] {
   }
 
   const slalomLocations = text.match(
-    /\bLocations?\s+([A-Za-z0-9 ,./-]+?)(?=\sBusiness Function|\sDate posted|\sRef #|$)/i
+    /\bLocations?\s+([A-Za-z\u00C0-\u024F0-9 ,./-]+?)(?=\sBusiness Function|\sDate posted|\sRef #|$)/i
   );
   if (slalomLocations) {
     results.push(...splitMultiLocations(slalomLocations[1]));

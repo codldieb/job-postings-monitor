@@ -157,11 +157,32 @@ const NON_JOB_LINK_SELECTORS = [
   "footer",
   "nav",
   "[role='navigation']",
-  "[class*='header']",
-  "[class*='footer']",
+  "[role='banner']",
+  "[role='contentinfo']",
+  "#header",
+  "#footer",
+  ".site-header",
+  ".site-footer",
+  "[class*='site-header']",
+  "[class*='site-footer']",
+  "[class*='page-header']",
+  "[class*='page-footer']",
   "[class*='nav-menu']",
   "[class*='navbar']",
   "aside",
+].join(", ");
+
+const TRUSTED_ATS_HREF_SELECTOR = [
+  "a[href*='myworkdayjobs.com']",
+  "a[href*='greenhouse.io']",
+  "a[href*='ashbyhq.com']",
+  "a[href*='applicantpro.com']",
+  "a[href*='applytojob.com']",
+  "a[href*='lever.co']",
+  "a[href*='workable.com']",
+  "a[href*='ultipro.com']",
+  "a[href*='workforcenow.adp.com']",
+  "a[href*='gh_jid=']",
 ].join(", ");
 
 const CAPITAL_ONE_SEARCH_JOBS_PATH =
@@ -215,16 +236,30 @@ function isTrustedAtsHost(hostname: string): boolean {
     host === "jobs.ashbyhq.com" ||
     host.endsWith(".applicantpro.com") ||
     host.endsWith(".applytojob.com") ||
-    host.endsWith(".lever.co")
+    host === "jobs.lever.co" ||
+    host.endsWith(".lever.co") ||
+    host === "apply.workable.com" ||
+    host === "jobs.workable.com" ||
+    host === "recruiting.ultipro.com" ||
+    host.endsWith(".ultipro.com") ||
+    host === "workforcenow.adp.com"
   );
 }
 
 function isJobDetailQueryUrl(jobUrl: URL): boolean {
-  if (!/jobdetail/i.test(jobUrl.pathname)) return false;
+  if (/jobdetail/i.test(jobUrl.pathname)) {
+    const jobId =
+      jobUrl.searchParams.get("jobId") ?? jobUrl.searchParams.get("jobid");
+    if (jobId && /^\d+$/.test(jobId)) return true;
+  }
 
-  const jobId =
-    jobUrl.searchParams.get("jobId") ?? jobUrl.searchParams.get("jobid");
-  return !!jobId && /^\d+$/.test(jobId);
+  // Avature boards (e.g. Maximus) use Job-Description?folderId=
+  if (/job-description/i.test(jobUrl.pathname)) {
+    const folderId = jobUrl.searchParams.get("folderId");
+    if (folderId && /^\d+$/.test(folderId)) return true;
+  }
+
+  return false;
 }
 
 function isApplyToJobUrl(pathname: string): boolean {
@@ -269,13 +304,55 @@ function isApplicantProJobUrl(pathname: string): boolean {
   return /^\d+$/.test(segments[jobsIndex + 1].replace(/\.html$/i, ""));
 }
 
-function isLeverJobUrl(pathname: string): boolean {
-  const segments = pathname.replace(/\/+$/, "").split("/").filter(Boolean);
-  const jobsIndex = segments.findIndex((segment) => segment.toLowerCase() === "jobs");
-  if (jobsIndex < 0 || jobsIndex >= segments.length - 1) return false;
+function isLeverJobUrl(jobUrl: URL): boolean {
+  const host = normalizeHostname(jobUrl.hostname);
+  if (host !== "jobs.lever.co") return false;
 
-  const slug = segments[jobsIndex + 1];
-  return slug.length > 0 && !EXCLUDED_PATH_SEGMENTS.has(slug.toLowerCase());
+  const segments = jobUrl.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+  // Lever posting URLs are /{company}/{uuid}
+  if (segments.length < 2) return false;
+  return /^[a-f0-9-]{36}$/i.test(segments[1]);
+}
+
+function isWorkableJobUrl(jobUrl: URL): boolean {
+  const host = normalizeHostname(jobUrl.hostname);
+  if (host !== "apply.workable.com" && host !== "jobs.workable.com") {
+    return false;
+  }
+
+  const segments = jobUrl.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+  if (segments[0]?.toLowerCase() === "j" && segments[1]) {
+    return /^[a-z0-9]+$/i.test(segments[1]);
+  }
+  const jobsIndex = segments.findIndex((segment) => segment.toLowerCase() === "jobs");
+  return jobsIndex >= 0 && jobsIndex < segments.length - 1;
+}
+
+function isUltiproJobUrl(jobUrl: URL): boolean {
+  const host = normalizeHostname(jobUrl.hostname);
+  if (host !== "recruiting.ultipro.com" && !host.endsWith(".ultipro.com")) {
+    return false;
+  }
+  return /opportunitydetail/i.test(jobUrl.pathname) && Boolean(jobUrl.searchParams.get("opportunityId"));
+}
+
+function isAdpJobUrl(jobUrl: URL): boolean {
+  const host = normalizeHostname(jobUrl.hostname);
+  if (host !== "workforcenow.adp.com") return false;
+
+  const jobId =
+    jobUrl.searchParams.get("jobId") ?? jobUrl.searchParams.get("jobid");
+  return !!jobId && /^\d+$/.test(jobId);
+}
+
+function isGreenhouseHostedJobUrl(jobUrl: URL): boolean {
+  const ghJid = jobUrl.searchParams.get("gh_jid");
+  return !!ghJid && /^\d+$/.test(ghJid);
+}
+
+function isAshbyHostedJobUrl(jobUrl: URL): boolean {
+  const ashbyJid = jobUrl.searchParams.get("ashby_jid");
+  return !!ashbyJid && /^[a-f0-9-]{36}$/i.test(ashbyJid);
 }
 
 function isTrustedAtsJobUrl(jobUrl: URL): boolean {
@@ -297,8 +374,17 @@ function isTrustedAtsJobUrl(jobUrl: URL): boolean {
   if (host.endsWith(".applytojob.com")) {
     return isApplyToJobUrl(pathname);
   }
-  if (host.endsWith(".lever.co")) {
-    return isLeverJobUrl(pathname);
+  if (host === "jobs.lever.co" || host.endsWith(".lever.co")) {
+    return isLeverJobUrl(jobUrl);
+  }
+  if (host === "apply.workable.com" || host === "jobs.workable.com") {
+    return isWorkableJobUrl(jobUrl);
+  }
+  if (host === "recruiting.ultipro.com" || host.endsWith(".ultipro.com")) {
+    return isUltiproJobUrl(jobUrl);
+  }
+  if (host === "workforcenow.adp.com") {
+    return isAdpJobUrl(jobUrl);
   }
 
   return false;
@@ -329,6 +415,16 @@ function hasJobIdentifierSegment(segment: string): boolean {
   if (/^[a-f0-9]{8,}$/i.test(value)) return true;
   if (/^[a-f0-9-]{32,}$/i.test(value)) return true;
   if (/^[^\s/]+_(?:jr|r)\d+$/i.test(value)) return true;
+  // Title-like slugs used by Shopify and similar careers sites.
+  // Require a role-ish token so marketing paths are not treated as jobs.
+  if (
+    /^(?=.*(?:engineer|engineering|developer|software|manager|director|analyst|designer|architect|scientist|specialist|consultant|coordinator|accountant|recruiter|intern|staff|principal|senior|junior|lead))[a-z0-9]+(?:-[a-z0-9]+){2,}$/i.test(
+      value
+    ) &&
+    value.length >= 16
+  ) {
+    return true;
+  }
   return false;
 }
 
@@ -351,6 +447,9 @@ function isIndividualJobUrl(jobUrl: URL, listingUrl: URL): boolean {
   if (isBlockedHostname(jobUrl)) return false;
 
   if (isJobDetailQueryUrl(jobUrl)) return true;
+  if (isGreenhouseHostedJobUrl(jobUrl)) return true;
+  if (isAshbyHostedJobUrl(jobUrl)) return true;
+  if (isAdpJobUrl(jobUrl)) return true;
 
   if (isTrustedAtsHost(jobUrl.hostname) && isTrustedAtsJobUrl(jobUrl)) {
     return true;
@@ -458,6 +557,12 @@ function extractJobsFromLinks(
   listingUrl: string,
   jobs: Map<string, ScrapedJob>
 ) {
+  // Pull trusted ATS links from the full document first. Broad chrome selectors
+  // (especially on Squarespace) can otherwise discard real postings.
+  $(TRUSTED_ATS_HREF_SELECTOR).each((_, element) => {
+    addJobCandidate(jobs, listingUrl, $(element).attr("href"), extractTitle($, element));
+  });
+
   const $scope = cheerio.load($.html());
   $scope(NON_JOB_LINK_SELECTORS).remove();
 

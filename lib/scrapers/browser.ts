@@ -16,6 +16,8 @@ const BROWSER_USER_AGENT =
 const JOB_LINK_SELECTORS = [
   "[data-automation-id='jobTitle']",
   "a[href*='JobDetail']",
+  "a[href*='Job-Description']",
+  "a[href*='OpportunityDetail']",
   ".opening a[href]",
   ".posting-title a[href]",
   "a[href*='/job/']",
@@ -24,6 +26,16 @@ const JOB_LINK_SELECTORS = [
   "a[href*='greenhouse.io']",
   "a[href*='ashbyhq.com']",
   "a[href*='applytojob.com']",
+  "a[href*='lever.co']",
+  "a[href*='workable.com']",
+  "a[href*='ultipro.com']",
+  "a[href*='workforcenow.adp.com']",
+  "a[href*='gh_jid=']",
+  "a[href*='folderId=']",
+  "a[data-ph-at-id='job-link']",
+  ".jobs-list a[href]",
+  "[class*='job-card'] a[href]",
+  "[class*='JobCard'] a[href]",
 ].join(", ");
 
 async function extractDomJobLinks(
@@ -33,7 +45,24 @@ async function extractDomJobLinks(
   const rawLinks = await page.evaluate(() =>
     Array.from(
       document.querySelectorAll(
-        "a[href*='JobDetail'], a[href*='jobId='], a[href*='/jobs/'], a[href*='applytojob.com/apply/']"
+        [
+          "a[href*='JobDetail']",
+          "a[href*='Job-Description']",
+          "a[href*='jobId=']",
+          "a[href*='folderId=']",
+          "a[href*='OpportunityDetail']",
+          "a[href*='/jobs/']",
+          "a[href*='/job/']",
+          "a[href*='applytojob.com/apply/']",
+          "a[href*='jobs.lever.co/']",
+          "a[href*='workable.com']",
+          "a[href*='myworkdayjobs.com']",
+          "a[href*='ultipro.com']",
+          "a[href*='workforcenow.adp.com']",
+          "a[href*='gh_jid=']",
+          "a[data-ph-at-id='job-link']",
+          "a[href*='/careers/']",
+        ].join(", ")
       )
     )
       .map((anchor) => ({

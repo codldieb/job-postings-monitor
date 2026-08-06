@@ -6,47 +6,88 @@ export const COUNTRY_ALIASES: Record<string, string> = {
   "united states": "United States",
   "united states of america": "United States",
   ca: "Canada",
+  can: "Canada",
   canada: "Canada",
   in: "India",
+  ind: "India",
   india: "India",
   uk: "United Kingdom",
+  gbr: "United Kingdom",
   "united kingdom": "United Kingdom",
   england: "United Kingdom",
   mx: "Mexico",
+  mex: "Mexico",
   mexico: "Mexico",
   de: "Germany",
+  deu: "Germany",
   germany: "Germany",
   fr: "France",
+  fra: "France",
   france: "France",
   au: "Australia",
+  aus: "Australia",
   australia: "Australia",
+  nz: "New Zealand",
+  nzl: "New Zealand",
+  "new zealand": "New Zealand",
   ie: "Ireland",
+  irl: "Ireland",
   ireland: "Ireland",
   nl: "Netherlands",
+  nld: "Netherlands",
   netherlands: "Netherlands",
   es: "Spain",
+  esp: "Spain",
   spain: "Spain",
   it: "Italy",
+  ita: "Italy",
   italy: "Italy",
   br: "Brazil",
+  bra: "Brazil",
   brazil: "Brazil",
   sg: "Singapore",
+  sgp: "Singapore",
   singapore: "Singapore",
   jp: "Japan",
+  jpn: "Japan",
   japan: "Japan",
   cn: "China",
+  chn: "China",
   china: "China",
   ph: "Philippines",
+  phl: "Philippines",
   philippines: "Philippines",
   pl: "Poland",
+  pol: "Poland",
   poland: "Poland",
   cr: "Costa Rica",
+  cri: "Costa Rica",
   "costa rica": "Costa Rica",
   ar: "Argentina",
+  arg: "Argentina",
   argentina: "Argentina",
   "u.k.": "United Kingdom",
   "u.k": "United Kingdom",
 };
+
+/** ISO country codes that also collide with USPS state codes. */
+export const AMBIGUOUS_US_STATE_COUNTRY_CODES = new Set([
+  "CA", // California / Canada
+  "DE", // Delaware / Germany
+  "GA", // Georgia / Gabon (unused) — also country name Georgia
+  "IN", // Indiana / India
+  "AL", // Alabama / Albania
+  "AR", // Arkansas / Argentina
+  "CO", // Colorado / Colombia
+  "ID", // Idaho / Indonesia
+  "LA", // Louisiana / Laos
+  "MA", // Massachusetts / Morocco
+  "MD", // Maryland / Moldova
+  "ME", // Maine / Montenegro
+  "MT", // Montana / Malta
+  "PA", // Pennsylvania / Panama
+  "SC", // South Carolina / Seychelles
+]);
 
 export const US_STATE_NAMES = new Set([
   "alabama",
@@ -285,6 +326,30 @@ export const CITY_TO_COUNTRY: Record<string, string> = {
   "buenos aires": "Argentina",
   london: "United Kingdom",
   singapore: "Singapore",
+  berlin: "Germany",
+  düsseldorf: "Germany",
+  dusseldorf: "Germany",
+  frankfurt: "Germany",
+  hamburg: "Germany",
+  munich: "Germany",
+  münchen: "Germany",
+  auckland: "New Zealand",
+  wellington: "New Zealand",
+  christchurch: "New Zealand",
+  melbourne: "Australia",
+  sydney: "Australia",
+  canberra: "Australia",
+  brisbane: "Australia",
+  perth: "Australia",
+  "hong kong": "China",
+  tokyo: "Japan",
+  paris: "France",
+  amsterdam: "Netherlands",
+  dublin: "Ireland",
+  madrid: "Spain",
+  rome: "Italy",
+  "são paulo": "Brazil",
+  "sao paulo": "Brazil",
 };
 
 export const CONTINENT_COUNTRIES: Record<string, string[]> = {
@@ -300,7 +365,7 @@ export const CONTINENT_COUNTRIES: Record<string, string[]> = {
     "Poland",
   ],
   Asia: ["India", "China", "Japan", "Singapore", "Philippines"],
-  Oceania: ["Australia"],
+  Oceania: ["Australia", "New Zealand"],
   "South America": ["Brazil", "Argentina"],
 };
 

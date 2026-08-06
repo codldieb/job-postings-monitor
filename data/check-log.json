@@ -1,5 +1,3246 @@
 [
   {
+    "id": "3b6618d1-4c57-4caa-8fce-49822202ee83",
+    "startedAt": "2026-08-06T14:57:41.512Z",
+    "completedAt": "2026-08-06T15:07:46.484Z",
+    "sitesChecked": 44,
+    "totalSites": 44,
+    "newJobsFound": 47,
+    "jobsArchived": 87,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "b4fa7de8f97e5007",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Salesforce Technical Architect",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=1916",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "0c85eb24e1d90fe1",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Solutions Leader, Cloud & Engineering - South Florida GTM Lead",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3232",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "fa4b4218cfd49dce",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Working Student, Software Engineering",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3238",
+            "location": "Working Student, Software Engineering",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "024c3874bd6fe125",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Transformation Go-to-Market Leader",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=2936",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "e654d3600ea99c1f",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Solutions Leader, Cloud & Engineering - New England",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3215",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "afce1076e7e2d379",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Sales Executive",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3223",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "bae921e68b12aa7f",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Sales Executive, Healthcare/Life Sciences",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3225",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          },
+          {
+            "id": "6e48ca8b05908f02",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based) - M&A Integration Manager",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3231",
+            "firstSeenAt": "2026-08-06T14:57:41.520Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 8,
+        "totalFound": 12,
+        "checkedAt": "2026-08-06T14:57:41.520Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [
+          {
+            "id": "e3deed85b1612839",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "Security Consultant I - Compliance & Audit",
+            "url": "https://careers.telus.com/job/Calgary-Security-Consultant-I-Compliance-&-Audit-AB-T2P-0W4/604113617",
+            "firstSeenAt": "2026-07-07T20:45:13.050Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 34,
+        "totalFound": 31,
+        "checkedAt": "2026-08-06T14:58:02.359Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [
+          {
+            "id": "80ae7a670fc7897b",
+            "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+            "siteName": "Telus Health",
+            "title": "Deployment Specialist - Application Delivery",
+            "url": "https://lifeworks.wd3.myworkdayjobs.com/en-US/External/job/Toronto-Ontario-Canada/Deployment-Specialist---Application-Delivery_R-22665?q=software+engineer",
+            "firstSeenAt": "2026-08-06T14:58:08.813Z",
+            "isNew": true
+          },
+          {
+            "id": "a85a2b7e047ba69d",
+            "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+            "siteName": "Telus Health",
+            "title": "(Paralegal) Case Manager, Worker's Compensation",
+            "url": "https://lifeworks.wd3.myworkdayjobs.com/en-US/External/job/Kitchener-Ontario-Canada/Case-Manager--Worker-s-Compensation--On-Site-_R-20758?q=software+engineer",
+            "location": "Case Manager, Worker's Compensation",
+            "firstSeenAt": "2026-08-06T14:58:08.813Z",
+            "isNew": true
+          },
+          {
+            "id": "586cafe1338a9085",
+            "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+            "siteName": "Telus Health",
+            "title": "Account Manager TELUS Health – Employer Solutions (segment SMB)",
+            "url": "https://lifeworks.wd3.myworkdayjobs.com/en-US/External/job/Montreal-Quebec-Canada/Account-Manager-TELUS-Health---Employer-Solutions--segment-SMB-_R-22759?q=software+engineer",
+            "firstSeenAt": "2026-08-06T14:58:08.813Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 8,
+        "totalFound": 13,
+        "checkedAt": "2026-08-06T14:58:08.813Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T14:58:36.159Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T14:59:08.994Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T14:59:44.723Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "a5f24576731dc8a8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "93234356960 08/06/2026 KippsDeSanto - Investment Banking Associate McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/kippsdesanto-investment-banking-associate/1732/93234356960",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "0852805d7255e229",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97488222672 08/06/2026 Senior Associate, Product Marketing Strategy, New-To-Credit (Hybrid) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-product-marketing-strategy-new-to-credit-hybrid/1732/97488222672",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "ceba39e7c58b5a72",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98837480864 08/06/2026 Senior Associate, Data Science McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-data-science/1732/98837480864",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "0942e039caae5100",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98837480848 08/06/2026 Senior Associate, Data Science McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-data-science/1732/98837480848",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "08d70fe84cd046e9",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98837480784 08/06/2026 Principal Associate, HR Business Partner- Commercial Bank McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-associate-hr-business-partner-commercial-bank/1732/98837480784",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "95c8410f495427c3",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98837480736 08/06/2026 Senior Associate, Data Scientist - Operational Risk Management New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/senior-associate-data-scientist-operational-risk-management/1732/98837480736",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "b0eb92a4edd1bf5d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92195849616 08/06/2026 Sr. Lead Software Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/sr-lead-software-engineer/1732/92195849616",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true,
+            "descriptionText": "At Capital One, you'll be part of a big group of makers, breakers, doers and disruptors, who solve real problems and meet real customer needs. We are seeking Sr Lead Software Engineer who are passionate about marrying data with emerging technologies. As a Capital One Software Engineering Manager, you’ll have the opportunity to be on the forefront of driving a major transformation within Capital One. About The Team:The Card Tech+ organization at Capital One is the massive, diverse, and globally distributed technology engine that powers spending for customers across Upmarket, Mainstreet, Business, International, and Partnerships segments. With associates spread out globally, we build world-class technology focused on removing friction, unleashing speed, and driving efficiency to create outstanding customer experiences.Our work is structured around five critical towers:Digital Commerce & Innovation Tech modernizes customer spending on devices and online, focusing on payment innovation, fraud reduction, and platforms like Loyalty and Capital One Travel Tech.Card Intelligent Decisions and Experiences (CIDX) creates real-time, intelligent customer experiences through platforms for Authorizations, Decisioning, and Machine Learning.Core, Payments & Partnerships Tech transforms our foundational Core lending, Inbound Payments, and Partnerships platforms, including the Discover Integration Planning.Servicing, Business, and International paves the way for business growth and global expansion while providing world-class customer servicing, fraud protection, and leveraging data and ML.Encore drives modernization efforts for enhanced customer experiences through cutting edge tools and platforms.We foster a culture designed to maximize Associate Potential, Growth & Impact, offering extensive development opportunities. If you are ready to shape the future of financial services at scale, Card Tech+ is where you belongWhat You’ll Do:Collaborate with and across Agile teams to design, develop, test, implement, and support technical solutions in full-stack development tools and technologies.Lead a portfolio of diverse technology projects and a team of developers with deep experience in distributed microservices, and full stack systems.Share your passion for staying on top of tech trends, experimenting with and learning new technologies, participating in internal & external technology communities, mentoring other members of the engineering community.Utilize various programming languages, Open Source technologies, Relational/NoSQL databases, Containers and a variety of AWS tools and services with a special focus on Serverless initiatives. Implement software in unambiguous and uncomplicated domains with little to no support, while effectively combining standards and practices to implement more complex software.Implement a new, fully featured local build and deployment pipeline, while identifying improvements and making enhancements to established deployment pipelines.Troubleshooting the most complicated issues with local builds and deployment pipelines. Familiarity with many modern application architecture and design patterns, with the ability to leverage them in moderately complex domains.Teach others architecture and design patterns and how and when to apply them.Debug moderately complex issues across backend, frontend, middleware, infrastructure, databases and pipelines across all environments from local to production and across distributed systems.Quickly identify root cause, implement fix, and correct any affected data.Develop features to enhance the overall user experience with little to no direction, knowing what non functionals to address and how.Lead a team of engineers through development of features by providing technical direction or detailed instruction.Basic Qualifications:Bachelor’s degree in Engineering or Computer Science.At least 12 years of experience building back-end services (Including but not limited to: Java, Python, Go, Node, Scala, TypeScript, Spring Boot) (Internship experience does not apply).At least 2 years of experience with a front-end language (Including but not limited to: JavaScript, TypeScript) (Internship experience does not apply).At least 3 years of experience with a database technology (Including but not limited to: MySQL, PostgreSQL, MongoDB, Redis, Cassandra, DynamoDB) (Internship experience does not apply).At least 2 years of experience with a UI framework (Including but not limited to: Angular, Vue, React) (Internship experience does not apply).At least 4 years of experience designing, building, and testing distributed systems (Internship experience does not apply).At least 3 years of experience in a technical leadership role overseeing strategic projects.Preferred Qualifications: 4+ years experience in Agile or Kanban software development methodologies. 4+ years of experience with a cloud computing provider (AWS, Microsoft Azure, Google Cloud).6+ years of experience implementing functional tests, unit tests, integrated tests or automated tests to support Continuous Integration Continuous Deployment.4+ years of experience with a server side application framework (Django, Express, Spring).6+ years of experience designing (HLD/LLD), building and delivering large scale systems.At this time, Capital One will not sponsor a new applicant for employment authorization for this position.No agencies please. Capital One is an",
+            "descriptionFetchedAt": "2026-07-29T17:08:07.970Z",
+            "matchScore": 38,
+            "matchSkillScore": 45,
+            "matchExperienceScore": 20,
+            "experienceNote": "Well below experience target (2 years vs 12+ years) (using 2 years as Software Engineer)",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "matchedSkills": [
+              "Accessibility testing",
+              "Agile",
+              "AWS",
+              "Azure",
+              "CI/CD",
+              "cicd",
+              "Docker",
+              "JavaScript",
+              "MySQL",
+              "node",
+              "Node.js",
+              "React",
+              "Scrum",
+              "TypeScript"
+            ],
+            "missingSkills": [
+              "Angular",
+              "Django",
+              "Express",
+              "Express.js",
+              "GCP",
+              "Go",
+              "Java",
+              "Machine Learning",
+              "MongoDB",
+              "NoSQL",
+              "PostgreSQL",
+              "Python",
+              "Redis",
+              "Scala",
+              "Spring",
+              "Spring Boot",
+              "Vue"
+            ],
+            "scoredAt": "2026-07-29T17:08:07.970Z",
+            "location": "India",
+            "locationNote": "Outside target area (India)",
+            "locationInTarget": false
+          },
+          {
+            "id": "f81671dd6271e8ea",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98837480560 08/06/2026 Business Analysis Manager - EP Strategy & Analytics McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/business-analysis-manager-ep-strategy-and-analytics/1732/98837480560",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "bc7245adf71f0d0c",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98837480256 08/06/2026 Senior Associate, Data Science McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-data-science/1732/98837480256",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "12a27278fe59d93d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95711812656 05/29/2026 Business Manager - Sales Analytics, Capital One Travel New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/business-manager-sales-analytics-capital-one-travel/1732/95711812656",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "6ed37fb22ed07bea",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97570473552 08/05/2026 Senior Manager, Product Management - Developer Experience McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-product-management-developer-experience/1732/97570473552",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "283515cd2957901d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98820767504 08/05/2026 Administrative Assistant- Network Business Strategy Riverwoods, IL",
+            "url": "https://www.capitalonecareers.com/job/riverwoods/administrative-assistant-network-business-strategy/1732/98820767504",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "b90b6e0a5c344a65",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95397137280 08/05/2026 Flex Relationship Manager Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/flex-relationship-manager/1732/95397137280",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "36bb02f93aa8f929",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98813408224 08/05/2026 Distinguished Engineer -Developer Insights & AI Telemetry New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/distinguished-engineer-developer-insights-and-ai-telemetry/1732/98813408224",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          },
+          {
+            "id": "ce419ed0429d8c18",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98813408128 08/05/2026 Enterprise Payments Governance & Oversight Manager - Hybrid McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/enterprise-payments-governance-and-oversight-manager-hybrid/1732/98813408128",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T14:59:59.895Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-08-06T14:59:59.895Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-06T15:00:10.013Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [
+          {
+            "id": "8f547a304409bdeb",
+            "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+            "siteName": "NBME",
+            "title": "Digital Marketing Specialist",
+            "url": "https://nbme.applicantpro.com/jobs/4167991",
+            "firstSeenAt": "2026-08-06T15:00:10.357Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 7,
+        "checkedAt": "2026-08-06T15:00:10.357Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [
+          {
+            "id": "f80fe18a60b67a36",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Care Coordinator (Shift: 8:00 - 5:00pm CST)",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4702650006",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T15:00:26.115Z",
+            "isNew": true
+          },
+          {
+            "id": "5d8d286af855cf4a",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Care Coordinator (Shift: 8:00 - 5:00pm MST)",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4702651006",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T15:00:26.115Z",
+            "isNew": true
+          },
+          {
+            "id": "3cd30bb39ba9938d",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Manager, Care Coordination",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4702652006",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T15:00:26.115Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-06T15:00:26.115Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:00:27.824Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-06T15:01:02.049Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 16,
+        "checkedAt": "2026-08-06T15:01:02.403Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [
+          {
+            "id": "1ed79cafcbfc1652",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": " PIT Operator ",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/16da714c-af71-4c7a-8b46-baf82a489e14",
+            "department": "FULFILLMENT",
+            "team": "FULFILLMENT",
+            "location": "New Albany, Ohio",
+            "firstSeenAt": "2026-08-06T15:01:02.987Z",
+            "isNew": true
+          },
+          {
+            "id": "2f4e87887f37c420",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Sterile Compounding Pharmacy Technician - Night Shift",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/48a7936f-0b5a-414c-bfd6-0dd05fcca5ad",
+            "department": "PHARMACY",
+            "team": "Sterile Compounding",
+            "location": "New Albany, Ohio",
+            "firstSeenAt": "2026-08-06T15:01:02.987Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 102,
+        "checkedAt": "2026-08-06T15:01:02.987Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 2,
+        "totalFound": 63,
+        "checkedAt": "2026-08-06T15:01:03.336Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-06T15:01:03.542Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:01:17.961Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:01:51.705Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:02:25.479Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [
+          {
+            "id": "f570eaa501e8a17d",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Manager, Corporate Sales",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/8110010",
+            "location": "CA Remote (BC & ON only); U.S. Remote",
+            "firstSeenAt": "2026-08-06T15:03:00.541Z",
+            "isNew": true
+          },
+          {
+            "id": "194efb107b07925b",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Senior Talent Partner",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/8105927",
+            "location": "Argentina Remote",
+            "firstSeenAt": "2026-08-06T15:03:00.541Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 29,
+        "checkedAt": "2026-08-06T15:03:00.541Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [
+          {
+            "id": "a83e077b611dae14",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Sourcing Specialist",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5204911007",
+            "location": "Denver, CO",
+            "firstSeenAt": "2026-08-06T15:03:15.170Z",
+            "isNew": true
+          },
+          {
+            "id": "b04ed71656f9b6d6",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Sourcing Specialist",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5204896007",
+            "location": "North Bethesda, MD",
+            "firstSeenAt": "2026-08-06T15:03:15.170Z",
+            "isNew": true
+          },
+          {
+            "id": "86ce2b703ca58a89",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Sourcing Specialist",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5204912007",
+            "location": "Lexington, KY",
+            "firstSeenAt": "2026-08-06T15:03:15.170Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 207,
+        "checkedAt": "2026-08-06T15:03:15.170Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:03:15.586Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:03:16.088Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:03:16.388Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:03:17.209Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:03:17.846Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:03:59.493Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:04:06.047Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:04:06.564Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:04:42.994Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-06T15:04:56.560Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-06T15:04:56.699Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:04:56.813Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:05:01.902Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:05:15.537Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:05:55.785Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:05:56.117Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [
+          {
+            "id": "1247357807a4bd58",
+            "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+            "siteName": "Grow Therapy",
+            "title": "Manager, Strategic Planning",
+            "url": "https://jobs.ashbyhq.com/grow-therapy/2cf6b8af-4bc3-4faf-a41b-390a3ebeaa8d",
+            "department": "Business",
+            "team": "Business Operations",
+            "location": "New York City",
+            "firstSeenAt": "2026-08-06T15:06:29.950Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 3,
+        "totalFound": 28,
+        "checkedAt": "2026-08-06T15:06:29.950Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:06:30.403Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "7dfd7919f1138186",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Data Security Architect (Data Platform Security)",
+            "url": "https://careers.mckesson.com/en/job/columbus/data-security-architect-data-platform-security/733/96278204304",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          },
+          {
+            "id": "d38028a4815665f6",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Data Architect, Databricks",
+            "url": "https://careers.mckesson.com/en/job/columbus/data-architect-databricks/733/96278204144",
+            "location": "United States; Data Architect, Databricks",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          },
+          {
+            "id": "6205bf01be517cd7",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Data Coordinator",
+            "url": "https://careers.mckesson.com/en/job/nashville/data-coordinator/733/98700043040",
+            "location": "United States",
+            "firstSeenAt": "2026-08-03T15:46:57.945Z",
+            "isNew": true,
+            "descriptionText": "It’s More Than a Career, It’s a Mission. Our people are the foundation of our success. By joining our growing team at Sarah Cannon Research Institute (SCRI), a subsidiary of McKesson, you will have the opportunity to become part of one of the largest community-based cancer programs to advance oncology treatments and improve outcomes for cancer patients across the globe. We look for mission-driven candidates who have a desire to advance the fight against cancer and make a difference in the lives of patients diagnosed with cancer every day. Our Mission People who live with cancer – those who work to prevent it, fight it, and survive it – are at the heart of every decision we make. Bringing the most innovative medical minds together with the most passionate caregivers in their communities, we are transforming care and personalizing treatment. Through clinical excellence and cutting-edge research, SCRI is redefining cancer care around the world. The Data Coordinator provides support to Study Coordinator on a daily basis, ensures all activities are conducted according to company standard operating procedures (SOPs) and all applicable Good Clinical Practice (GCP) and ICH regulations and guidelines. You will support the Study Coordinator to meet industry trial data deadlines You will obtain source documentation for patients enrolled into clinical trial You will assist the Study Coordinator with case report form completion and query resolution You will assist in Serious Adverse Event (SAE) reporting and tracking You will create and maintain patient visit tracking spreadsheets for the Study Coordinator You will maintain and archive study administrative files You will be assigned special procedural projects to enhance the functioning of Drug Development Data Operations Throughout the conduct of the clinical trial you will assess adherence to SCRI SOPS, Good Clinical Practice (GCP) and ICH regulations and guidelines What you should have for this role: Knowledge of scientific, medical, and regulatory terms Knowledge of GCP and Good Manufacturing Practice (GMP) Detail-oriented Excellent English written and oral skills. Bachelor Degree preferred. Healthcare experience, Clinical trials support, or pharmaceutical industry experience preferred About Sarah Cannon Research Institute Sarah Cannon Research Institute (SCRI) is one of the world’s leading oncology research organizations conducting community-based clinical trials. Focused on advancing therapies for patients over the last three decades, SCRI is a leader in drug development. In 2022, SCRI formed a joint venture with former US Oncology Research to expand clinical trial access across the country. It has conducted more than 850 first-in-human clinical trials since its inception and contributed to pivotal research that has led to the majority of new cancer therapies approved by the FDA in the past decade. SCRI’s research network brings together more than 1,300 physicians who are enrolling patients into clinical trials at more than 200 locations in 20+ states across the U.S. Please click here to learn more about our research offerings. We care about the well-being of the patients and communities we serve, and that starts with caring for our people. That’s why we have a Total Rewards package that includes comprehensive benefits to support physical, mental, and financial well-being. Our Total Rewards offerings serve the different needs of our diverse colleague population and ensure they are the healthiest versions of themselves. For more information regarding benefits through our parent company, McKesson, please click here. As part of Total Rewards, we are proud to offer a competitive compensation package. This is determined by several factors, including performance, experience and skills, equity, regular job market evaluations, and geographical markets. In addition to base pay, other compensation, such as an annual bonus or long-term incentive opportunities may be offered. McKesson has become aware of online recruiting-related scams in which individuals who are not affiliated with or authorized by McKesson are using McKesson’s (or affiliated entities, like CoverMyMeds or RxCrossroads) name in fraudulent emails, job postings or social media messages. In light of these scams, please bear the following in mind: McKesson Talent Advisors will never solicit money or credit card information in connection with a McKesson job application. McKesson Talent Advisors do not communicate with candidates via online chatrooms or using email accounts such as Gmail or Hotmail. Note that McKesson does rely on a virtual assistant (Gia) for certain recruiting-related communications with candidates. McKesson job postings are posted on our career site: careers.mckesson.com. We are an",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-03T15:48:00.959Z",
+            "matchScore": 50,
+            "matchSkillScore": 50,
+            "matchExperienceScore": 100,
+            "experienceNote": "No clear experience requirement found in posting",
+            "roleRelevant": false,
+            "roleRelevanceNote": "Department/team (Clinical Trials Administration) is outside your target areas",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing"
+            ],
+            "missingSkills": [
+              "GCP"
+            ],
+            "scoredAt": "2026-08-03T15:48:00.959Z"
+          },
+          {
+            "id": "037f14c8a40ad91e",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Gestionnaire principal(e), IA, Innovation et Opérations / Sr. Manager, AI, Innovation & Operation",
+            "url": "https://careers.mckesson.com/en/job/saint-laurent/gestionnaire-principal-e-ia-innovation-et-operations-sr-manager-ai-innovation-and-operation/733/98840288816",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          },
+          {
+            "id": "d742836527256282",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Manager, AI, Innovation & Operation",
+            "url": "https://careers.mckesson.com/en/job/mississauga/sr-manager-ai-innovation-and-operation/733/98840286624",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          },
+          {
+            "id": "315bddd952d8da3b",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Transportation Analyst",
+            "url": "https://careers.mckesson.com/en/job/edmonton/transportation-analyst/733/98840285264",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          },
+          {
+            "id": "fc1de2f0691a2a33",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Spécialiste Senior, Automatisation des Données et Ingénierie /Sr. Specialist, Data Automation Engineering",
+            "url": "https://careers.mckesson.com/en/job/saint-laurent/specialiste-senior-automatisation-des-donnees-et-ingenierie-sr-specialist-data-automation-engineeri/733/96856848400",
+            "location": "Sr. Specialist, Data Automation Engineering",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          },
+          {
+            "id": "44da74ab44b22aac",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Manager - Software Engineering",
+            "url": "https://careers.mckesson.com/en/job/bengaluru/manager-software-engineering/733/95589233488",
+            "location": "India",
+            "firstSeenAt": "2026-08-06T15:06:30.753Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 8,
+        "totalFound": 20,
+        "checkedAt": "2026-08-06T15:06:30.753Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T15:06:31.934Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-06T15:07:05.934Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 17,
+        "checkedAt": "2026-08-06T15:07:06.163Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-06T15:07:21.057Z"
+      }
+    ]
+  },
+  {
+    "id": "7535be7d-9f72-43e7-823a-21d58c51c510",
+    "startedAt": "2026-08-05T15:50:30.877Z",
+    "completedAt": "2026-08-05T16:00:11.131Z",
+    "sitesChecked": 44,
+    "totalSites": 44,
+    "newJobsFound": 33,
+    "jobsArchived": 46,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "9893a6c8a5f3b2c0",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Data Engineer- Databricks",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3229",
+            "firstSeenAt": "2026-08-05T15:50:30.877Z",
+            "isNew": true
+          },
+          {
+            "id": "005819ee694a0916",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Solutions Leader, Cloud & Engineering - Atlanta",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3046",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:50:30.877Z",
+            "isNew": true
+          },
+          {
+            "id": "82789e7c5c7204c9",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Strategy Consultant",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3171",
+            "firstSeenAt": "2026-08-05T15:50:30.877Z",
+            "isNew": true
+          },
+          {
+            "id": "c2647deea678750e",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Director, GTM Specialist — GitHub Subject Matter Expert",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3175",
+            "firstSeenAt": "2026-08-05T15:50:30.877Z",
+            "isNew": true
+          },
+          {
+            "id": "f0a3f8585248e9a1",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Enterprise - Composable Platforms Architect",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3188",
+            "firstSeenAt": "2026-08-05T15:50:30.877Z",
+            "isNew": true
+          },
+          {
+            "id": "9e0541417b679545",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Enterprise Architect",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3189",
+            "firstSeenAt": "2026-08-05T15:50:30.877Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 6,
+        "totalFound": 12,
+        "checkedAt": "2026-08-05T15:50:30.877Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 64,
+        "checkedAt": "2026-08-05T15:50:48.707Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [
+          {
+            "id": "36158ac3f05598a2",
+            "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+            "siteName": "Telus Health",
+            "title": "Senior Proposal Writer",
+            "url": "https://lifeworks.wd3.myworkdayjobs.com/en-US/External/job/Sydney-New-South-Wales-Australia/Senior-Proposal-Writer_R-22026?q=software+engineer",
+            "firstSeenAt": "2026-07-16T17:55:04.598Z",
+            "isNew": true,
+            "descriptionText": "TELUS Health is empowering every person to live their healthiest life. Guided by our vision, we are leveraging the power of our leading edge technology and focusing on the uniqueness of each individual to create the future of health. As a global-leading health and well-being provider – encompassing physical, mental and financial health – TELUS Health is improving health outcomes for consumers, patients, healthcare professionals, employers and employees. Our Team and What We'll Accomplish Together At TELUS Health, we're on a mission to deliver the most comprehensive and compassionate health experiences in the world — and our Proposal & Bid Management team plays a critical role in bringing that vision to life. We are a collaborative, high-performing group of strategic thinkers dedicated to crafting compelling, client-centred proposals that open doors to meaningful partnerships and drive growth across our health solutions portfolio. As a Senior Proposal Manager, you will be a strategic leader and trusted advisor within our proposal development engine — guiding complex, high-value bids from RFP receipt through to final submission. Together, we'll build persuasive, compliant, and strategically aligned proposals that reflect TELUS Health's commitment to innovation and excellence. You'll mentor junior team members, work alongside sales, subject matter experts, legal, finance, marketing, and HR to tell our story in a way that resonates with clients and wins transformational business. What You'll Do Lead and mentor the proposal team, fostering a collaborative, motivated environment while developing junior proposal professionals. Manage complex, high-value proposal processes from start to finish — ensuring compliance with RFP requirements, strategic alignment, and flawless execution on large bids ($10M+). Develop compelling, persuasive content tailored to specific client audiences, simplifying complex technical information while maintaining key messages and strategic win themes. Interview subject matter experts to gather technical content, then translate and synthesize that information into clear, digestible proposals for non-expert audiences. Create and oversee proposal strategy, compliance matrices, templates, and governance processes that ensure consistency and quality across all submissions. Lead formal proposal review meetings (pink, red, gold), providing critical feedback and ensuring all submissions are error-free, on-brand, and strategically sound. Collaborate with cross-functional stakeholders (SAM leads, SMEs, Legal, Finance, HR, Marketing) to align proposal narratives with business objectives and client needs. Conduct post-submission debriefs, gather client feedback, and drive continuous improvement initiatives and lessons learned workshops. What You Bring A minimum of 5 years of direct proposal management experience, with proven success managing complex, high-value bids ($10M+) in larger organizations. A Bachelor's degree in English, Communications, or a related field — or 8+ years of equivalent professional experience. Expertise in content writing — you create clear, compelling, and persuasive content tailored to specific audiences and client needs. Meticulous attention to detail with a track record of delivering error-free, high-quality submissions under tight deadlines. Advanced proficiency in APA and Chicago style guidelines, with a thorough understanding of writing standards and best practices. Proven project management skills managing multiple complex proposals simultaneously while maintaining quality and meeting aggressive deadlines. Solutions-oriented mindset — you foster a collaborative team environment. Advanced communication skills — you clearly convey complex information both verbally and in writing, and excel at stakeholder management. Great-to-Haves Certified Proposal Manager (CPM) through APMP or equivalent certification Experience with proposal management software and advanced design tools Background in healthcare, benefits, or enterprise technology sectors Track record of winning high-value bids and managing post-award transitions Mentoring or leadership experience in proposal teams Experience with visual design and data visualization to enhance proposal impact A bit about us We’re a people-focused, customer-first, purpose-driven team who works together every day to innovate and do good. We improve lives through our technology solutions and foster a culture of innovation that empowers team members to solve complex problems and create remarkable human outcomes in a digital world. TELUS is proud to foster an inclusive culture that embraces diversity. We are committed to fair employment practices and all qualified applicants will receive consideration for employment. We offer accommodation for applicants with disabilities, as required, during the recruitment process. By applying to this role, you understand and agree that your information will be shared with the TELUS Group of Companies’ Talent Acquisition team(s) and/or any leader(s) who will be part of the selection process.",
+            "descriptionFetchedAt": "2026-08-04T16:54:18.379Z",
+            "matchScore": 50,
+            "matchSkillScore": 50,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 8+ years. No matching role in your profile — add experience for a position like \"Senior Proposal Writer\".",
+            "roleRelevanceNote": "Could not determine role type — review manually",
+            "locationNote": "Location unclear (AUS-NSW-22 Market Street)",
+            "matchedSkills": [
+              "Accessibility testing"
+            ],
+            "missingSkills": [
+              "Tableau"
+            ],
+            "scoredAt": "2026-08-04T16:54:18.379Z"
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 18,
+        "checkedAt": "2026-08-05T15:50:54.575Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:51:22.529Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:51:55.299Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:52:31.232Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "daff5e4e1d4f4ce6",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98791183824 08/05/2026 Manager, Public Affairs McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/manager-public-affairs/1732/98791183824",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "098452882d26992b",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95102364432 05/14/2026 Principal Data Analyst, Card Tech Workforce Strategy Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/principal-data-analyst-card-tech-workforce-strategy/1732/95102364432",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "fc5ac8388ec9291e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98791183792 08/05/2026 Senior Staff Auditor, Bank and Support Functions Audit (Hybrid) Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/senior-staff-auditor-bank-and-support-functions-audit-hybrid/1732/98791183792",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "51ce36f1d562dc1e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92613833504 03/10/2026 Principal Data Analyst - Enterprise Services McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-data-analyst-enterprise-services/1732/92613833504",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "8150c3e14f843867",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98791183728 08/05/2026 Senior Manager, Project Management - Business Cards and Payments Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/senior-manager-project-management-business-cards-and-payments/1732/98791183728",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "44e0af18f3e35a59",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98791183712 08/05/2026 Lead Data Engineer McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-data-engineer/1732/98791183712",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "e1d0dd1b4ae1fbd1",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98791183680 08/05/2026 Director, Executive Marketing Insights & Sourcing McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/director-executive-marketing-insights-and-sourcing/1732/98791183680",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "dec13cf1120b9030",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98791183648 08/05/2026 Lead Software Engineer, Full Stack (Java, GO, AWS, AI) (Enterprise Platforms Technology) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-java-go-aws-ai-enterprise-platforms-technology/1732/98791183648",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "70b004afd1fc0759",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97835775728 07/15/2026 Senior Associate, Product Management - Partnerships Data Modernization Chicago, IL",
+            "url": "https://www.capitalonecareers.com/job/chicago/senior-associate-product-management-partnerships-data-modernization/1732/97835775728",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "b7cdbaabbb04ae24",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97615798160 07/10/2026 Lead Software Engineer, Full Stack (Golang, Python, GenAI) (Cloud Operations Resilience Engineering) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-golang-python-genai-cloud-operations-resilience-engineering/1732/97615798160",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "453b8e649256139c",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "87768605840 08/05/2026 Sr. HR Coordinator (Benefits) City of Muntinglupa, Calabarzon",
+            "url": "https://www.capitalonecareers.com/job/city-of-muntinglupa/sr-hr-coordinator-benefits/1732/87768605840",
+            "location": "Muntinglupa, Calabarzon",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "b473590e3a328ff8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98778281248 08/05/2026 Sr. Unit Manager City of Muntinglupa, Calabarzon",
+            "url": "https://www.capitalonecareers.com/job/city-of-muntinglupa/sr-unit-manager/1732/98778281248",
+            "location": "Muntinglupa, Calabarzon",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "38a12d116dc67c0e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98772643568 08/04/2026 Sr. Manager, Software Engineering, iOS (Enterprise Platform Technology) New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/sr-manager-software-engineering-ios-enterprise-platform-technology/1732/98772643568",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "cdccef444a83407d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "94183093744 08/04/2026 Distinguished Engineer (Remote - Eligible) Cambridge, MA",
+            "url": "https://www.capitalonecareers.com/job/cambridge/distinguished-engineer-remote-eligible/1732/94183093744",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          },
+          {
+            "id": "1d182040c2fdb517",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98765607680 08/04/2026 Principal Financial Analyst McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-financial-analyst/1732/98765607680",
+            "location": "United States",
+            "firstSeenAt": "2026-08-05T15:52:46.609Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-08-05T15:52:46.609Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-05T15:52:54.370Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-05T15:52:54.672Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [
+          {
+            "id": "1fb17642530275f5",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Product Manager - Clinical Operations",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4696909006",
+            "firstSeenAt": "2026-07-17T14:55:03.856Z",
+            "isNew": true,
+            "descriptionText": "<p><strong>About TailorCare</strong></p> <p>TailorCare is transforming the experience of specialty care. Our comprehensive care program takes a deeply personal, evidence-based approach to improving patient outcomes for joint, back, and muscle conditions. By combining a careful assessment of patients’ symptoms, health histories, preferences, and goals with predictive data and latest evidence-based guidelines, we help patients choose—and navigate—the most effective treatment pathway for them, every step of the way.</p> <p>TailorCare values the experiences and perspectives of individuals from all backgrounds. We are a highly collaborative, curious, and determined team passionate about scaling a high-growth start-up to improve the lives of those in pain. TailorCare is a remote-first company with a hybrid office in Nashville.</p> <p><strong>About the Role</strong></p> <p>We are seeking a Product Manager to help lead our Clinical Operations Platform product. In this role, you will partner closely with our Care Team, building and improving the tools they use to deliver exceptional care to TailorCare patients. This is an opportunity to own meaningful product surfaces that directly impact patient outcomes and scale with our business as we expand into new markets and serve new customers.</p> <p>You will help execute the product vision and strategy for the Ops Platform, translating the needs of our clinical teams into clear requirements and a well-prioritized roadmap. You're expected to operate at a high level of efficiency by leveraging AI tools throughout your workflow — from synthesizing research and drafting specs to prototyping, analyzing data, and preparing stakeholder communications — so you can move quickly without sacrificing rigor. You'll work closely with clinicians, engineers, designers, and other stakeholders to ship products that make our operations more effective and scalable.</p> <p><strong>Key Responsibilities</strong></p> <ul> <li>Own roadmap execution for defined product areas, translating strategy into clear requirements and shippable increments</li> <li>Partner with design and engineering to identify customer problems and ship solutions from discovery through launch</li> <li>Use AI tools to accelerate research synthesis, spec writing, data analysis, and stakeholder communication, operating at a high level of efficiency</li> <li>Build trust across departments by delivering on commitments and communicating progress clearly</li> <li>Prototype quickly alongside stakeholders to validate ideas before committing engineering resources</li> <li>Define and own user acceptance testing for product features</li> <li>Define, track, and report on key results in the form of OKR and impact metrics for your product area</li> <li>Identify opportunities to improve team velocity and decision-making through better tooling and process</li> </ul> <p><strong>Key Qualifications</strong></p> <ul> <li>3+ years of product management experience</li> <li>Experience in healthcare technology or clinical process environments preferred</li> <li>Comfort working with, or a strong interest in, clinical care workflows</li> <li>Daily fluency with AI tools (e.g., Claude, Gemini and others) for research synthesis, writing, data analysis, and prototyping — able to operate at the highest level of efficiency</li> <li>Strong knowledge of product management best practices</li> <li>Excellent communication and presentation skills&nbsp;</li> <li>Bachelor’s degree from an accredited school</li> </ul><div class=\"content-conclusion\"><p><strong>What's In It For You</strong></p> <ul> <li><strong>Meaningful Work:</strong> We are dedicated to our mission and deeply value our patients and each other. Each day offers the opportunity to make a positive impact.</li> <li><strong>Work Environment: </strong>We operate as a remote-first company with options for a hybrid work model in Nashville.</li> <li><strong>Time Off:</strong> Our generous paid time off (PTO) and holiday plans ensure you have ample time to rest and recharge.</li> <li><strong>Family First: </strong>We offer paid parental leave and support a healthy work-life balance, encouraging flexibility and autonomy. We love talking about our family and pets!&nbsp;</li> <li><strong>Comprehensive Benefits:</strong> From Day 1, employees enjoy medical, dental, vision, life, and disability insurance, wellness resources and an employer HSA contribution.</li> <li><strong>Fair Compensation:</strong> We are committed to equitable pay for all team members and support your future goals with a 401k plan that includes employer matching.</li> <li><strong>Community:</strong> We foster an inclusive environment where you can rely on your teammates, share honest feedback, and feel comfortable being your authentic self at work each day.&nbsp;</li> </ul> <p>TailorCare seeks to recruit and retain staff from diverse backgrounds and encourages qualified candidates to apply. TailorCare is an equal opportunity employer and does not discriminate on the basis of age, sex, gender identity/expression, sexual orientation, color, race, creed, national origin, ancestry, religion, marital status, political belief, physical or mental disability, pregnancy, military, or veteran status.</p></div>",
+            "descriptionFetchedAt": "2026-07-29T01:29:15.107Z",
+            "matchScore": 62,
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "Claude"
+            ],
+            "missingSkills": [
+              "C",
+              "R",
+              "REST"
+            ],
+            "scoredAt": "2026-07-29T01:29:15.107Z",
+            "matchSkillScore": 67,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 3+ years. No matching role in your profile — add experience for a position like \"Product Manager - Clinical Operations\".",
+            "roleRelevant": false,
+            "roleRelevanceNote": "Title looks like a non-technical role",
+            "location": "United States"
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-05T15:53:09.295Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:53:09.748Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-05T15:53:43.851Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-08-05T15:53:44.073Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 102,
+        "checkedAt": "2026-08-05T15:53:44.542Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [
+          {
+            "id": "f5e42c0966a0a03d",
+            "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+            "siteName": "1Password",
+            "title": "Account Executive Enterprise UKI",
+            "url": "https://jobs.ashbyhq.com/1password/22f5844d-61e5-4096-b564-d266f18d7577",
+            "department": "GTM",
+            "team": "Account Executive",
+            "location": "United Kingdom",
+            "firstSeenAt": "2026-08-05T15:53:44.764Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 65,
+        "checkedAt": "2026-08-05T15:53:44.764Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [
+          {
+            "id": "08f849687416c8d5",
+            "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+            "siteName": "Commerce (BigCommerce)",
+            "title": "Lead Software Engineer",
+            "url": "https://bigcommerce.wd12.myworkdayjobs.com/en-US/Commerce/job/United-States---Remote/Lead-Software-Engineer_JR102829?ajs_aid=3f641400-1a3e-4726-9ea6-1bc303751d4c&locations=06b2c5b2c2e5100516ca087450a60000&locations=9b60be2a809d10012f753c1452a20000&timeType=0ec30950a12610073dc928d478370000&workerSubType=9b60be2a809d10012e619a101e410000",
+            "firstSeenAt": "2026-08-05T15:53:44.942Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-05T15:53:44.942Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:53:58.484Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:54:32.258Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:55:05.351Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [
+          {
+            "id": "17a12b5e9a2cbabe",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Account Executive, EMEA (Germany)",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/7951430",
+            "location": "London, U.K. (Hybrid)",
+            "firstSeenAt": "2026-08-05T15:55:40.573Z",
+            "isNew": true
+          },
+          {
+            "id": "de76c712eea8d473",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Partner Manager, EMEA (French Speaking)",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/8106093",
+            "location": "London, U.K. (Hybrid)",
+            "firstSeenAt": "2026-08-05T15:55:40.573Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 29,
+        "checkedAt": "2026-08-05T15:55:40.573Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [],
+        "archivedJobsCount": 14,
+        "totalFound": 206,
+        "checkedAt": "2026-08-05T15:55:55.481Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:55:55.642Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:55:56.055Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:55:56.348Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:56:03.137Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:56:03.627Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:56:34.196Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:56:34.789Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:56:35.320Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:57:10.333Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [
+          {
+            "id": "d9b790acf2867d2f",
+            "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+            "siteName": "Concert Health",
+            "title": "Senior Technical Product Manager",
+            "url": "https://job-boards.greenhouse.io/concerthealth/jobs/4355307009",
+            "location": "USA - Remote",
+            "firstSeenAt": "2026-08-05T15:57:23.507Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-05T15:57:23.507Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-05T15:57:23.893Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:57:23.979Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:57:27.091Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:57:41.078Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:58:18.946Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:58:19.184Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 30,
+        "checkedAt": "2026-08-05T15:58:52.965Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:58:53.425Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "e37f6464c7d9d7c3",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Payroll Specialist",
+            "url": "https://careers.mckesson.com/en/job/alpharetta/payroll-specialist/733/98049893056",
+            "firstSeenAt": "2026-08-05T15:58:53.783Z",
+            "isNew": true
+          },
+          {
+            "id": "29ff56faa1a35cf1",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Manager, Strategic Innovation & Business Development",
+            "url": "https://careers.mckesson.com/en/job/massachusetts/sr-manager-strategic-innovation-and-business-development/733/96487903984",
+            "firstSeenAt": "2026-08-05T15:58:53.783Z",
+            "isNew": true
+          },
+          {
+            "id": "a69444ed96da9704",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Architect, Maestro Kinaxis Solutions, Supply Chain Planning",
+            "url": "https://careers.mckesson.com/en/job/mississauga/sr-architect-maestro-kinaxis-solutions-supply-chain-planning/733/98782378592",
+            "location": "Canada; Maestro Kinaxis Solutions, Supply Chain Planning",
+            "firstSeenAt": "2026-08-05T15:58:53.783Z",
+            "isNew": true
+          },
+          {
+            "id": "9522bf9b2a2c74d8",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Warehouse Worker - Full Time Shifts",
+            "url": "https://careers.mckesson.com/en/job/olive-branch/warehouse-worker-full-time-shifts/733/98778007920",
+            "firstSeenAt": "2026-08-05T15:58:53.783Z",
+            "isNew": true
+          },
+          {
+            "id": "84ea51c54a0332ad",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Chauffeur de livraison classe 3 / Class 3 Delivery Driver",
+            "url": "https://careers.mckesson.com/en/job/montreal/chauffeur-de-livraison-classe-3-class-3-delivery-driver/733/98778002928",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-05T15:58:53.783Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 5,
+        "totalFound": 20,
+        "checkedAt": "2026-08-05T15:58:53.783Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-05T15:58:54.277Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 8,
+        "checkedAt": "2026-08-05T15:59:28.198Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-05T15:59:28.413Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-05T15:59:43.340Z"
+      }
+    ]
+  },
+  {
+    "id": "f85e79e6-b01f-437e-b319-eb04c5d47557",
+    "startedAt": "2026-08-04T21:04:37.094Z",
+    "completedAt": "2026-08-04T21:14:28.729Z",
+    "sitesChecked": 44,
+    "totalSites": 44,
+    "newJobsFound": 29,
+    "jobsArchived": 35,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "4f29e3890f98b639",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Senior Consultant: Project & Program Management",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=2941",
+            "firstSeenAt": "2026-08-04T21:04:37.096Z",
+            "isNew": true
+          },
+          {
+            "id": "189b3949b921a5ef",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Client Partner - Financial Services",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=2998",
+            "firstSeenAt": "2026-08-04T21:04:37.096Z",
+            "isNew": true
+          },
+          {
+            "id": "df4497ca72e4d665",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Senior Consultant- Delivery",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3209",
+            "firstSeenAt": "2026-08-04T21:04:37.096Z",
+            "isNew": true
+          },
+          {
+            "id": "d59fd3a226535073",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Senior Sales Executive - Retail & CPG | Hospitality",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3212",
+            "firstSeenAt": "2026-08-04T21:04:37.096Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 4,
+        "totalFound": 12,
+        "checkedAt": "2026-08-04T21:04:37.096Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [
+          {
+            "id": "75568880744c0b7d",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "Principal Technology Architect - Wireless Core",
+            "url": "https://careers.telus.com/job/Burnaby-Principal-Technology-Architect-Wireless-Core-BC-V5G-4S4/604053917",
+            "firstSeenAt": "2026-07-07T20:45:13.050Z",
+            "isNew": true,
+            "descriptionText": "Apply now » Principal Technology Architect - Wireless Core Location: Burnaby, BC, CA, V5G 4S4 Req ID: 54920 Jobs by Category: Technology Solutions Job Function: Network & Engineering Status: Full Time Schedule: Regular Description Join our team and what we'll accomplish together As TELUS continues to advance its Wireless Core into a more automated, cloud-native, and resilient environment, this role will be the strategic compass for our network architecture. You’ll partner with senior technical leaders and cross-functional teams to guide massive modernization initiatives, most notably our complex multi-vendor migrations, including the transition to a cloud-native modern 5G Core. Beyond immediate migrations, you will help lay the technological groundwork for the future of our network, introducing AI-driven automation, advanced telemetry, and intent-based architecture to move TELUS toward highly autonomous core operations. What you'll do Lead the end-to-end architecture strategy for the modernization of our Wireless Core, guiding the transition from legacy bare-metal appliances and proprietary VMs to agile, cloud-native platforms Drive the technical execution of complex multi-vendor migration initiatives, specifically the transition from monolithic, siloed infrastructure to the new 5G Core and modernizing our IoT platforms Define target-state architecture principles that support resilience, high capacity, interoperability, and operational efficiency across our six engineering pillars (including reliability, security, scalability, and automation) Act as a trusted strategic advisor to the Director and engineering managers, resolving complex architectural dependencies and ensuring alignment with long-term technological roadmaps Provide technical direction on integrating Machine Learning, AI, and test automation into engineering workflows to drastically reduce manual effort and optimize network performance Establish advanced telemetry and semantic data requirements that enable improved network visibility, automated anomaly detection, and closed-loop optimization Help define the future 'autonomous core' capabilities by exploring intent-based abstractions and machine-to-machine orchestration models to streamline operations Collaborate across telecom cloud (NFVI), IT, and RAN domains to ensure end-to-end alignment and seamless solution integration Qualifications What you bring 10+ years experience in telecom architecture, wireless core engineering, and large-scale multi-vendor network transformations Deep, hands-on understanding of 4G EPC and 5G SA core call flows, protocol stacks (HTTP/2, PFCP, Diameter, GTP) and low level configuration of any network generation component, including IMS/Voice, and network slicing technologies Proven track record of designing and supporting cloud-native, distributed, and containerized telecom environments Experience executing complex core swaps, node migrations, and system acceptance in a Tier-1 operator environment Strong background in applying data science, AI/ML, predictive analytics, or automation frameworks to telecommunications environments Ability to influence senior executive stakeholders and collaborate effectively across technical execution teams without formal reporting lines Excellent communication skills, with the ability to translate complex technical concepts and financial trade-offs (TCO) into clear business recommendations Knowledge of 3GPP standards, open-source maturity, and global telecom evolution roadmaps Bachelor/Master's Degree in Computer Science, Electrical Engineering, Telecommunications, Data Science or related field Great-to-haves Experience with telecom telemetry, deep performance analytics, and building automated data pipelines Familiarity with generative AI or LLM-based tools for engineering optimization and operational use cases Hands-on experience architecting across on-premise, public cloud (AWS), and hybrid infrastructure, with a deep understanding of the trade-offs between cloud specific managed services and cloud agnostice, containerized architectures (Kubernetes, Red Hat OpenShift) Location: Any major Canadian city Salary Range: $128,000-$238,000 Performance Bonus or Sales Incentive Plan: 30% Actual total compensation will be determined based on factors such as knowledge, skills, performance and experience. We encourage all qualified candidates to apply, even if the posted salary range doesn't match your expectations. We're open to discussing competitive compensation packages tailored to your experience level and expertise. TELUS offers rewarding benefits, which may vary per job function, such as: Comprehensive total rewards package highlighting competitive salary and bonus structures, minimum 3 weeks of vacation, and flexible benefits plan to meet the needs of you and your family Flexibility to work in-office, virtually or a combination of both, based on the role's requirements Generous company matched pension and share purchase programs Opportunity to give back to communities in which we work, live and serve Career growth and learning & development opportunities to develop your skills And much more … Job Type: This is for a current vacancy A bit about usWe’re a people-focused, customer-first, purpose-driven team who works together every day to innovate and do good. We improve lives through our technology solutions and foster a culture of innovation that empowers team members to solve complex problems and create remarkable human outcomes in a digital world. You’ll find our engaging, high-performance culture personally fulfilling, professionally challenging, and financially rewarding. We’re committed to diversity and equitable access to employment opportunities based on ability. Your unique contributions and talents will be valued and respected here. When you join our team, you’re helping us make the future friendly.",
+            "descriptionFetchedAt": "2026-07-31T18:18:28.285Z",
+            "matchScore": 72,
+            "matchedSkills": [
+              "Agile",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "AWS",
+              "node",
+              "Node.js",
+              "Scrum"
+            ],
+            "missingSkills": [
+              "Kubernetes",
+              "Machine Learning"
+            ],
+            "scoredAt": "2026-07-31T18:18:28.285Z",
+            "matchSkillScore": 82,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 10+ years. No matching role in your profile — add experience for a position like \"Principal Technology Architect - Wireless Core\".",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationInTarget": true,
+            "locationNote": "In target area (Canada)",
+            "locationTypes": [
+              "Onsite"
+            ]
+          },
+          {
+            "id": "8de523d19ffe7913",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "Senior Product Manager - Small and Medium Businesses (SMB)",
+            "url": "https://careers.telus.com/job/Toronto-Senior-Product-Manager-Small-and-Medium-Businesses-%28SMB%29-ON-M5J-2V5/601158817",
+            "firstSeenAt": "2026-07-16T17:10:37.312Z",
+            "isNew": true,
+            "descriptionText": "Apply now » Senior Product Manager - Small and Medium Businesses (SMB) Location: Toronto, ON, CA, M5J 2V5 Req ID: 53891 Jobs by Category: Sales and Marketing Job Function: Marketing Status: Full Time Schedule: Regular Description Join our team and what we'll accomplish together Join our dynamic team focused on powering the growth engine for Small and Medium Businesses (SMB). This portfolio is responsible for the growth, pricing and market strategy of our Wireline Connectivity portfolios. You'll be instrumental in shaping the market presence, pricing and growth strategies of these crucial services, directly influencing how SMBs connect and succeed. We pride ourselves on creating differentiated strategies and working closely across the organization to ensure we are responsive, supportive, and driving activation growth. If you are passionate about strategy and eager to see the direct results of your guidance and understanding, you belong here. What You'll Do This role requires a blend of strategic planning, offer creation, market review, and collaborative execution. Driving critical initiatives and providing guidance across functional teams Develop and articulate a differentiated product strategy and tactics related to activations, pricing, market insight, bundling, positioning, and growth recommendations for the SMB Wireline Connectivity portfolios Guide and collaborate on cross-functional teams (e.g., Go to Market, Sales, Marketing, Planning) to manage margin, enable service delivery, and support the creation of integrated customer solutions Manage the market and performance of existing and new products, with direct accountability for SMB activation and growth metrics Use primary and secondary market research and in-depth competitive landscape analysis to recommend solutions to better support and/or reposition existing or new product offerings to cross-functional teams and/or senior leaders. Focus analysis on SMB segment pricing, promotions, and feature parity Cooperate on efforts to improve time-to-market for SMB market response tactics and drive timely resolution of production and service delivery issues across the value chain Review and anticipate market, client, regulatory, and technology trends to create business plans and present recommendations to senior stakeholders Develop, own and maintain a product roadmap and business requirements through the understanding of market, customer, regulatory, and technology trends for the SMB Wireline Connectivity portfolio items Qualifications What you bring We're looking for a highly capable individual with a passion for the SMB segment and product strategy. Knowledge of the SMB segment, including purchasing behaviors and connectivity needs Knowledge of Wireline Connectivity solutions - An asset Proven ability to develop and execute complex pricing models and market response strategies 7+ years of product management experience in IT or telecommunication services University Degree or equivalent post-secondary education in business or marketing Excellent communication and presentation skills, with the ability to develop strong internal and external relationships KPI and product performance management. Familiarity with Domo/Looker/Tableau Excellent reviewing skills and financial review capabilities Full understanding of product specialization; able to resolve a wide range of issues in creative ways Great-to-Haves Knowledge of the regulatory process within telecommunications Strong awareness of current technology trends and their potential influence on future SMB services #LI-REMOTE Salary Range: $86,000-$160,000 Performance Bonus or Sales Incentive Plan: 15% Actual total compensation will be determined based on factors such as knowledge, skills, performance and experience. We encourage all qualified candidates to apply, even if the posted salary range doesn't match your expectations. We're open to discussing competitive compensation packages tailored to your experience level and expertise. TELUS offers rewarding benefits, which may vary per job function, such as: Comprehensive total rewards package highlighting competitive salary and bonus structures, minimum 3 weeks of vacation, and flexible benefits plan to meet the needs of you and your family Flexibility to work in-office, virtually or a combination of both, based on the role's requirements Generous company matched pension and share purchase programs Opportunity to give back to communities in which we work, live and serve Career growth and learning & development opportunities to develop your skills And much more … Job Type: This is for a current vacancy A bit about usWe’re a people-focused, customer-first, purpose-driven team who works together every day to innovate and do good. We improve lives through our technology solutions and foster a culture of innovation that empowers team members to solve complex problems and create remarkable human outcomes in a digital world. You’ll find our engaging, high-performance culture personally fulfilling, professionally challenging, and financially rewarding. We’re committed to diversity and equitable access to employment opportunities based on ability. Your unique contributions and talents will be valued and respected here. When you join our team, you’re helping us make the future friendly.",
+            "descriptionFetchedAt": "2026-07-31T18:18:31.747Z",
+            "matchScore": 15,
+            "matchedSkills": [],
+            "missingSkills": [
+              "Go",
+              "Tableau"
+            ],
+            "scoredAt": "2026-07-31T18:18:31.747Z",
+            "matchSkillScore": 0,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 7+ years. No matching role in your profile — add experience for a position like \"Senior Product Manager - Small and Medium Businesses (SMB)\".",
+            "roleRelevanceNote": "Title looks like a non-technical role",
+            "locationInTarget": true,
+            "locationNote": "In target area (Canada)",
+            "roleRelevant": false,
+            "locationTypes": [
+              "Onsite"
+            ]
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 65,
+        "checkedAt": "2026-08-04T21:04:57.317Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [
+          {
+            "id": "c770d7eb7076f3d0",
+            "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+            "siteName": "Telus Health",
+            "title": "Jr. Quality Assurance Analyst",
+            "url": "https://lifeworks.wd3.myworkdayjobs.com/en-US/External/job/Toronto-Ontario-Canada/Jr-Quality-Assurance-Analyst_R-22669?q=software+engineer",
+            "firstSeenAt": "2026-08-04T21:05:03.602Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 18,
+        "checkedAt": "2026-08-04T21:05:03.602Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:05:32.598Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:06:04.823Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:06:41.064Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "d37c367ad02661e7",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "94080037776 07/27/2026 Senior Business Manager, Product Analytics McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-business-manager-product-analytics/1732/94080037776",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "41b4470c70f48ac8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98754941760 08/04/2026 Senior Associate - Global Payment Network Controls Testing Specialist Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/senior-associate-global-payment-network-controls-testing-specialist/1732/98754941760",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "ed752cfc0c0f1502",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92423459040 08/04/2026 Senior Platform Engineer, Workday Financials McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-platform-engineer-workday-financials/1732/92423459040",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "13e03f2df49ef2b5",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98754941728 08/04/2026 Compliance Testing Manager - US Card Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/compliance-testing-manager-us-card/1732/98754941728",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "82049ac687bb4766",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97545095872 08/04/2026 Senior Associate, Product Manager-Small Business Bank New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/senior-associate-product-manager-small-business-bank/1732/97545095872",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "10806f38135a7ca1",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98106883328 08/04/2026 Senior Program Manager McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-program-manager/1732/98106883328",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "4ed8f92bbe16fce8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97924212592 08/04/2026 Senior Manager, Data Scientist - Card DFS Integration McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-data-scientist-card-dfs-integration/1732/97924212592",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "f2f285763984f0dc",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98753713904 08/04/2026 Part Time Branch Ambassador - Springfield Avenue Newark, NJ",
+            "url": "https://www.capitalonecareers.com/job/newark/part-time-branch-ambassador-springfield-avenue/1732/98753713904",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "af3af8a4aea26e6d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98753713888 08/04/2026 Senior Associate, Product Manager - Commercial Card (Business Cards & Payments) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-product-manager-commercial-card-business-cards-and-payments/1732/98753713888",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "e49c6f42367d8c3b",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98753713872 08/04/2026 Senior Lead Software Engineer, Back End (Golang, Java, AWS) Chicago, IL",
+            "url": "https://www.capitalonecareers.com/job/chicago/senior-lead-software-engineer-back-end-golang-java-aws/1732/98753713872",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "9cfd6e660762e829",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98753713856 08/04/2026 Senior Manager, Product Management - Governance, Risk, and Compliance McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-product-management-governance-risk-and-compliance/1732/98753713856",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "915967ddd9449026",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98246876656 07/24/2026 Senior Manager, Product Management - Governance, Risk, and Compliance McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-product-management-governance-risk-and-compliance/1732/98246876656",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "f8937f9db8373ea0",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98753713824 08/04/2026 Essential Onsite - Production Operator Coordinator Salt Lake City, UT",
+            "url": "https://www.capitalonecareers.com/job/salt-lake-city/essential-onsite-production-operator-coordinator/1732/98753713824",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "6d208a5856af636e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98707315408 08/03/2026 Risk Manager McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/risk-manager/1732/98707315408",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          },
+          {
+            "id": "4b9b473c0f3ea9a8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98753713792 08/04/2026 Senior Lead Software Engineer, Back End (Java, Scala, AWS) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-lead-software-engineer-back-end-java-scala-aws/1732/98753713792",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:06:56.148Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-08-04T21:06:56.148Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-04T21:07:05.184Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-04T21:07:05.553Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-04T21:07:20.148Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:07:20.448Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-04T21:07:54.760Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-08-04T21:07:55.039Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 102,
+        "checkedAt": "2026-08-04T21:07:55.483Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [
+          {
+            "id": "5da5e033baa91844",
+            "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+            "siteName": "1Password",
+            "title": "Senior Security Engineer, Vulnerability Management",
+            "url": "https://jobs.ashbyhq.com/1password/b50830bf-d475-4cd9-b89c-b2176a4d1465",
+            "department": "Technology",
+            "team": "Security",
+            "location": "Remote (United States | Canada)",
+            "firstSeenAt": "2026-08-04T21:07:55.739Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 5,
+        "totalFound": 64,
+        "checkedAt": "2026-08-04T21:07:55.739Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 2,
+        "totalFound": 5,
+        "checkedAt": "2026-08-04T21:07:56.030Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:08:09.335Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:08:43.306Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:09:16.522Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 29,
+        "checkedAt": "2026-08-04T21:09:51.644Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 220,
+        "checkedAt": "2026-08-04T21:10:06.212Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:06.306Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:06.590Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:06.849Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:07.658Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:08.256Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:38.955Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:39.547Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:10:40.031Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:11:14.418Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-04T21:11:48.101Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-04T21:11:48.263Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:11:48.342Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:11:50.705Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:12:04.554Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:12:40.630Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:12:40.940Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 31,
+        "checkedAt": "2026-08-04T21:13:14.769Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:13:14.970Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "b8e16fbfe990fb23",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Data Engineer",
+            "url": "https://careers.mckesson.com/en/job/columbus/data-engineer/733/97925823744",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:13:15.343Z",
+            "isNew": true
+          },
+          {
+            "id": "28901433d4994910",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Night Shift Operations Supervisor",
+            "url": "https://careers.mckesson.com/en/job/oklahoma-city/night-shift-operations-supervisor/733/98760373904",
+            "firstSeenAt": "2026-08-04T21:13:15.343Z",
+            "isNew": true
+          },
+          {
+            "id": "e12a3e37505c1670",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Digital Marketing Specialist",
+            "url": "https://careers.mckesson.com/en/job/fort-worth/digital-marketing-specialist/733/98760373088",
+            "firstSeenAt": "2026-08-04T21:13:15.343Z",
+            "isNew": true
+          },
+          {
+            "id": "649165d3f23eb092",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Patient Care Coordinator, Floater - INVIVA (12 Month Contract)",
+            "url": "https://careers.mckesson.com/en/job/mississauga/patient-care-coordinator-floater-inviva-12-month-contract/733/98760371088",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-04T21:13:15.343Z",
+            "isNew": true
+          },
+          {
+            "id": "26e6dd4b179987af",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Product Manager",
+            "url": "https://careers.mckesson.com/en/job/overland-park/product-manager/733/98187446768",
+            "firstSeenAt": "2026-08-04T21:13:15.343Z",
+            "isNew": true
+          },
+          {
+            "id": "5156fc8ed1e54d95",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Software Developer",
+            "url": "https://careers.mckesson.com/en/job/richmond/software-developer/733/97197705120",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T21:13:15.343Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 6,
+        "totalFound": 20,
+        "checkedAt": "2026-08-04T21:13:15.343Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T21:13:15.880Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-04T21:13:49.809Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-04T21:13:49.992Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-04T21:14:04.915Z"
+      }
+    ]
+  },
+  {
+    "id": "f6c8612d-384b-4584-add7-11612b526d55",
+    "startedAt": "2026-08-04T17:04:12.776Z",
+    "completedAt": "2026-08-04T17:13:44.504Z",
+    "sitesChecked": 44,
+    "totalSites": 44,
+    "newJobsFound": 36,
+    "jobsArchived": 29,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-08-04T17:04:12.776Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 64,
+        "checkedAt": "2026-08-04T17:04:30.687Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-04T17:04:36.334Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:05:01.630Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:05:33.731Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:06:10.897Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "1732c6bba3c54359",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96563211872 07/23/2026 Senior Associate, Finance Risk Management, Corporate Development, Finance Program & Delivery, Special Projects McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-finance-risk-management-corporate-development-finance-program-and-delivery-special/1732/96563211872",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "d1191b504389b1ae",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95582373760 08/04/2026 Business Manager - Marketing & Messaging, Capital One Business Travel New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/business-manager-marketing-and-messaging-capital-one-business-travel/1732/95582373760",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "0a3202fb40e9bb10",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95144884032 05/15/2026 Manager, Data Scientist - US Card (Resiliency Intelligence) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/manager-data-scientist-us-card-resiliency-intelligence/1732/95144884032",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "d7adf07f9b81347e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98743760320 08/04/2026 International Payroll, Principal HR Coordinator Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/international-payroll-principal-hr-coordinator/1732/98743760320",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "dad6190e656579a9",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95424862496 08/04/2026 Director, Regional Sales Manager St Louis, MO",
+            "url": "https://www.capitalonecareers.com/job/st-louis/director-regional-sales-manager/1732/95424862496",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "851bc62ad2e48187",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95247961152 08/04/2026 Distinguished AI Engineer Bengaluru, Karnataka",
+            "url": "https://www.capitalonecareers.com/job/bengaluru/distinguished-ai-engineer/1732/95247961152",
+            "firstSeenAt": "2026-07-29T16:06:35.683Z",
+            "isNew": true,
+            "descriptionText": "R242789 Posted 07/10/2026 Distinguished AI Engineer Bengaluru, India Pin job Apply Category Engineering Experience Director Primary Address Bengaluru, India Overview Voyager (94001), India, Bangalore, KarnātakaDistinguished AI EngineerAtCapital One India, we are creating responsible and reliable AI systems, changing banking for good. For years, Capital One has been an industry leader in using machine learning to create real-time, personalized customer experiences. Our investments in technology infrastructure and world-class talent — along with our deep experience in machine learning — position us to be at the forefront of enterprises leveraging AI. From informing customers about unusual charges to answering their questions in real time, our applications of AI & ML are bringing humanity and simplicity to banking. We are committed to continuing to build world-class applied science and engineering teams to deliver our industry leading capabilities with breakthrough product experiences and scalable, high-performance AI infrastructure. At Capital One, you will help bring the transformative power of emerging AI capabilities to reimagine how we serve our customers and businesses who have come to love the products and services we build.Team Description:The Intelligent Foundations and Experiences (IFX) team is at the center of bringing our vision for AI at Capital One to life. We work hand-in-hand with our partners across the company to advance the state of the art in science and AI engineering, and we build and deploy proprietary solutions that are central to our business and deliver value to millions of customers. Our AI models and platforms empower teams across Capital One to enhance their products with the transformative power of AI, in responsible and scalable ways for the highest leverage impact.In this role, you will: Partner with a cross-functional team of engineers, research scientists, technical program managers, and product managers to deliver AI-powered products that change how our associates work and how our customers interact with Capital One.Design, develop, test, deploy, and support AI software components including foundation model training, large language model inference, similarity search, guardrails, model evaluation, experimentation, governance, and observability, etc.Leverage a broad stack of Open Source and SaaS AI technologies such as AWS Ultraclusters, Huggingface, VectorDBs, Nemo Guardrails, PyTorch, and more.Invent and introduce state-of-the-art LLM optimization techniques to improve the performance — scalability, cost, latency, throughput — of large scale production AI systems.Contribute to the technical vision and the long term roadmap of foundational AI systems at Capital One.The Ideal Candidate:You love to build systems, take pride in the quality of your work, and also share our passion to do the right thing. You want to work on problems that will help change banking for good. Passion for staying abreast of the latest research, and an ability to intuitively understand scientific publications and judiciously apply novel techniques in production.You adapt quickly and thrive on bringing clarity to big, undefined problems. You love asking questions and digging deep to uncover the root of problems and can articulate your findings concisely with clarity. You have the courage to share new ideas even when they are unproven.You are deeply Technical. You possess a strong foundation in engineering and mathematics, and your expertise in hardware, software, and AI enable you to see and exploit optimization opportunities that others miss. You are a resilient trail blazer who can forge new paths to achieve business goals when the route is unknown.Basic Qualifications● Bachelor's Degree in Computer Science● At least 15 years of experience in software engineering or solution architecture● At least 10 years of experience designing and building data intensive solutions using distributed computing● At least 8 years of experience programming with Python, Go, or Java● At least 6 years of on-the-job experience with an industry recognized ML framework such as scikit-learn, PyTorch, Dask, Spark, or TensorFlowPreferred Qualifications● Master’s Degree or PhD in Computer Science, Electrical Engineering, Mathematics● 5+ years of experience building, scaling, and optimizing ML systems● 5+ years of experience with data gathering and preparation for ML models● 10+ years of experience developing performant, resilient and maintainable code● Experience developing and deploying ML solutions in a public cloud such as AWS, Azure or Google Cloud Platform● 5+ years of experience with distributed file systems or multi-node database paradigms● Contributed to open source ML software● Authored/co-authored a paper on a ML technique, model or proof of concept● 5+ years of experience building production-ready data pipelines that feed ML models● Experience in designing, implementing, and scaling complex data pipelines for ML models and evaluating their performance● 5+ years of experience in ML Ops either using open source tools like ML Flow or commercial tools● 2+ Experience in developing applications using Generative AI i.e open source or commercial LLMsAt this time, Capital One will not sponsor a new applicant for employment authorization for this position.No agencies please. Capital One is an",
+            "descriptionFetchedAt": "2026-07-29T17:08:08.100Z",
+            "matchScore": 54,
+            "matchSkillScore": 56,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 15+ years. No matching role in your profile — add experience for a position like \"95247961152 07/10/2026 Distinguished AI Engineer Bengaluru, Karnataka\".",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "AWS",
+              "Azure",
+              "node",
+              "Node.js"
+            ],
+            "missingSkills": [
+              "Apache Spark",
+              "GCP",
+              "Go",
+              "Java",
+              "Machine Learning",
+              "Python",
+              "Spark"
+            ],
+            "scoredAt": "2026-07-29T17:08:08.100Z",
+            "location": "India",
+            "locationInTarget": false,
+            "locationNote": "Outside target area (India)"
+          },
+          {
+            "id": "ead70d8bcf5328cb",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98743760256 08/04/2026 Executive Assistant- Financial Services (Human Resources) Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/executive-assistant-financial-services-human-resources/1732/98743760256",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "131bb02b8e98920d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98222385408 07/24/2026 Director, Product Management - Capital One Business Travel New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/director-product-management-capital-one-business-travel/1732/98222385408",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "f9b84a2e3c222214",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98743760208 08/04/2026 Manager, Data Analysis City of Muntinglupa, Calabarzon",
+            "url": "https://www.capitalonecareers.com/job/city-of-muntinglupa/manager-data-analysis/1732/98743760208",
+            "location": "Muntinglupa, Calabarzon",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "561d4910ff26df5f",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98743760096 08/04/2026 Director, Regional Relationship Manager McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/director-regional-relationship-manager/1732/98743760096",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "cfa83a95271ca956",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98743759632 08/04/2026 Director, Metrics Strategy and Reporting McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/director-metrics-strategy-and-reporting/1732/98743759632",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "7286f791df4421e5",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98719924448 08/03/2026 Senior Manager, Product Manager, Multi-User Experiences New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/senior-manager-product-manager-multi-user-experiences/1732/98719924448",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "09210aff3cb86c80",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "94497012912 04/28/2026 Lead Software Engineer, Full Stack McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack/1732/94497012912",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "06175b07f0f267c3",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "92896719904 08/03/2026 Senior Manager, Software Engineering - Full Stack (People Manager) Mexico City, Mexico City",
+            "url": "https://www.capitalonecareers.com/job/mexico-city/senior-manager-software-engineering-full-stack-people-manager/1732/92896719904",
+            "location": "Mexico",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          },
+          {
+            "id": "3aa970ec99ef3b0a",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98719924880 08/03/2026 Senior Lead Software Engineer, Full Stack (AI Platform & Knowledge Library) (Enterprise Platforms Technology) New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/senior-lead-software-engineer-full-stack-ai-platform-and-knowledge-library-enterprise-platforms-tec/1732/98719924880",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:06:27.531Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-08-04T17:06:27.531Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-04T17:06:36.573Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [
+          {
+            "id": "411d10f8e31b247a",
+            "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+            "siteName": "NBME",
+            "title": "Senior Psychometrician",
+            "url": "https://nbme.applicantpro.com/jobs/4165894",
+            "firstSeenAt": "2026-08-04T17:06:36.900Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-04T17:06:36.900Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 9,
+        "checkedAt": "2026-08-04T17:06:51.726Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:06:52.084Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-04T17:07:26.376Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-08-04T17:07:26.646Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [
+          {
+            "id": "5eabb0bb8a7bafda",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Senior Financial Analyst, Strategic Finance - FP&A",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/28178348-f8b4-4a59-8c1e-448bfb743fa8",
+            "department": "FINANCE & ACCOUNTING",
+            "team": "Finance",
+            "location": "US Remote",
+            "firstSeenAt": "2026-08-04T17:07:27.083Z",
+            "isNew": true
+          },
+          {
+            "id": "b810df944954761a",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Manager, Strategic Finance - Planning Systems",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/3d939a66-5f86-4315-a7f3-23d18f9421e9",
+            "department": "FINANCE & ACCOUNTING",
+            "team": "Finance",
+            "location": "US Remote",
+            "firstSeenAt": "2026-08-04T17:07:27.083Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 103,
+        "checkedAt": "2026-08-04T17:07:27.083Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 68,
+        "checkedAt": "2026-08-04T17:07:27.338Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-04T17:07:27.603Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:07:41.585Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:08:15.440Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:08:48.365Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [
+          {
+            "id": "4c673aac72e5d668",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Enterprise Account Executive - Central",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/7595470",
+            "location": "U.S. Remote",
+            "firstSeenAt": "2026-08-04T17:09:23.281Z",
+            "isNew": true
+          },
+          {
+            "id": "382d61ed7648dcdd",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Senior Software Engineer, Recommendations & AI Workflows (Backend)",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/8102863",
+            "location": "Argentina Remote",
+            "firstSeenAt": "2026-08-04T17:09:23.281Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 29,
+        "checkedAt": "2026-08-04T17:09:23.281Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [
+          {
+            "id": "0f8bd0c674d1bca9",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Logistics Specialist",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5202646007",
+            "location": "Bangalore, India",
+            "firstSeenAt": "2026-08-04T17:09:38.043Z",
+            "isNew": true
+          },
+          {
+            "id": "c6899c4854376869",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Partner Success Manager",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5202643007",
+            "location": "Bangalore, India",
+            "firstSeenAt": "2026-08-04T17:09:38.043Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 220,
+        "checkedAt": "2026-08-04T17:09:38.043Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:09:38.287Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:09:38.657Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:09:39.010Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:09:40.313Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:09:41.015Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:10:08.104Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:10:08.684Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:10:09.200Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:10:43.425Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [
+          {
+            "id": "29c4e8b84fee1952",
+            "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+            "siteName": "Concert Health",
+            "title": "MA Licensed Bilingual Spanish/English Clinician - LCSW or LICSW - Behavioral Health ",
+            "url": "https://job-boards.greenhouse.io/concerthealth/jobs/4354474009",
+            "location": "USA - Remote",
+            "firstSeenAt": "2026-08-04T17:10:56.080Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-04T17:10:56.080Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-04T17:10:56.333Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:10:56.480Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:11:00.783Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:11:15.187Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:11:54.630Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:11:54.996Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [],
+        "archivedJobsCount": 2,
+        "totalFound": 31,
+        "checkedAt": "2026-08-04T17:12:29.073Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:12:29.437Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "9cd7e6f486facff0",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Field Reimbursement Manager",
+            "url": "https://careers.mckesson.com/en/job/kentucky/field-reimbursement-manager/733/98530521424",
+            "firstSeenAt": "2026-07-31T16:01:04.390Z",
+            "isNew": true,
+            "descriptionText": "Field Reimbursement Manager Remote - Kentucky Job ID JR0151331 Category Field Reimbursement Post Date Jul. 30, 2026 Apply Save Job McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care.What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you.The Field Reimbursement Manager (FRM) is responsible for managing an assigned territory focused on supporting Reimbursement and Patient services by providing assistance with patient reimbursement challenges for a specific drug (including Benefit Investigation, Prior Authorization, Claims Assistance, and Appeals) and educating the office on Payer landscape and services available through both remote interaction and on-site training. This position is client-facing and customer-facing and requires the ability to build relationships with physician offices as well as manufacturer representatives to effectively deliver services based on customer specific preferences. The Field Reimbursement Manager works independently in a fast paced, highly visible environment as well as collaboratively with the internal program hub support services to ensure all customer needs are met. FRM will frequently interact via telephone with providers and internal staff to arrange site visits, Manufacturer trainings, and educational training venues. Must have a solid working knowledge of Medicare and Commercial insurance plans and benefit structures in order to relay detailed benefit information and maximize the customer experience. Position will require travel, project management and/or account coordination based on client expectation.Key Responsibilities:Provide on-site and on-demand education (including Lunch and Learns or Dinner presentations) for the office staff in regard to Reimbursement challenges and support services that are available. Office interaction will include education and reimbursement support. On-site/virtual interactions will average 15 per week. These activities are recorded in FRM CRM daily with reporting to manager weekly.Educate on Benefit Investigation, Prior Authorization Process, Support Center Services, Medicare and Commercial coverage and patient communication streams. Monthly activity reporting captures educational topics at FRM level reportable to client based on client expectation. This trended data is also reported quarterly to client.Reimbursement Support on Case management, billing and coding updates, appropriate claims submission, Specialty Pharmacy, Medical Benefit Interpretation, understanding medical necessity, claims and appeal assistance, information related to co-pay assistance and patient assistance programs. FRM will collaborate with case manager on average of 4/month and ad hoc as needed for escalations. These interactions are tracked in FRM CRM and hub system.Responsible for setting up appointments and completing outbound calls to targeted offices. Assist in completing backlog casework. Additional day-to-day in-office work. Interface with physicians and manufacturer representatives to obtain and provide patient and provider specific information. All FRM interactions/activities are tracked in FRM CRM which are reportable to management and client.Monitor program performance for physicians and manufacturer representatives in accordance with expectations. Territory performance will be monitored via FRM CRM dashboard daily. Trending results will be identified through quarterly reporting. Additionally, clients have the option to survey customers on program performance.Research and compile provider / manufacturer representative specific information for reimbursement database. (Includes account profiles) FRM will create a facility database on each new provider in FRM CRM. All interactions/activities are built utilizing this database. Minimum Job Qualifications – 4-year degree in related field or equivalent experience4+ years of healthcare related reimbursement experienceBusiness Experience – Strong medical reimbursement experience with Buy & Bill and/or Specialty Pharmacy.Experience supporting oncology products preferredExperience in the healthcare industry including, but not limited to insurance verification, prior authorizations, and/or claim adjudication, physician’s office or clinics.Must have Medicare and commercial insurance coverage experience.Must be able to deliver and document benefit investigation outcomes and relay status reports on a regular basis.Proven presentation skills and experienceProven ability to effectively handle multiple priorities and excellent organizational skillsStrong Computer literacy to include PowerPoint and Web Meeting experience Specialized Knowledge/Skills – Previous field experience, a plusPrevious experience with specialty pharmacy a plusAccount management experience, a plusExcellent Interpersonal skills.Excellent written and oral communication skillsProblem solving and decision-making skillsTravel Requirements – Looking for candidates in the following: Cincinnati, OH, Louisville, KY, Saint Louis MO, Indianapolis, IN, Springfield, MO.Must reside in territory. Must be able to travel 80% (4 days a week) via automobile or plane. Must have a valid driver's license with a clean driving record/ MVRPhysical Requirements (Lifting, standing, etc.) – Possible long periods of sitting and/or keyboard work. General office demands.We are proud to offer a competitive compensation package at McKesson as part of our Total Rewards. This is determined by several factors, including performance, experience and skills, equity, regular job market evaluations, and geographical markets. The pay range shown below is aligned with McKesson's pay philosophy, and pay will always be compliant with any applicable regulations. In addition to base pay, other compensation, such as an annual bonus or long-term incentive opportunities may be offered. For more information regarding benefits at McKesson, please click here.Our Base Pay Range for this position$76,300 - $127,100McKesson has become aware of online recruiting-related scams in which individuals who are not affiliated with or authorized by McKesson are using McKesson’s (or affiliated entities, like CoverMyMeds or RxCrossroads) name in fraudulent emails, job postings or social media messages. In light of these scams, please bear the following in mind:McKesson Talent Advisors will never solicit money or credit card information in connection with a McKesson job application.McKesson Talent Advisors do not communicate with candidates via online chatrooms or using email accounts such as Gmail or Hotmail. Note that McKesson does rely on a virtual assistant (Gia) for certain recruiting-related communications with candidates.McKesson job postings are posted on our career site: careers.mckesson.com.McKesson is an Equal Opportunity EmployerMcKesson provides equal employment opportunities to applicants and employees,",
+            "descriptionFetchedAt": "2026-07-31T18:19:14.489Z",
+            "matchScore": 85,
+            "matchSkillScore": 100,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 4+ years. No matching role in your profile — add experience for a position like \"Field Reimbursement Manager\".",
+            "roleRelevanceNote": "Could not determine role type — review manually",
+            "locationNote": "Could not determine job location",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI-Assisted Development"
+            ],
+            "missingSkills": [],
+            "scoredAt": "2026-07-31T18:19:14.489Z",
+            "locationTypes": [
+              "Remote",
+              "Onsite"
+            ]
+          },
+          {
+            "id": "5975a3f69f80f29e",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Medical Assistant",
+            "url": "https://careers.mckesson.com/en/job/denver/medical-assistant/733/98751357184",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T17:12:29.779Z",
+            "isNew": true
+          },
+          {
+            "id": "056e208d783948e6",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Lead Integration/EDI Architect",
+            "url": "https://careers.mckesson.com/en/job/irving/lead-integration-edi-architect/733/98751357024",
+            "firstSeenAt": "2026-08-04T17:12:29.779Z",
+            "isNew": true
+          },
+          {
+            "id": "997691dc0d2873c9",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "USON AP Customer Account Analyst",
+            "url": "https://careers.mckesson.com/en/job/the-woodlands/uson-ap-customer-account-analyst/733/98746294192",
+            "firstSeenAt": "2026-08-04T17:12:29.779Z",
+            "isNew": true
+          },
+          {
+            "id": "f93048476a4fff47",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Administrative Assistant III (Day Shift - 7:30 am to Completion)",
+            "url": "https://careers.mckesson.com/en/job/lakeland/administrative-assistant-iii-day-shift-7-30-am-to-completion/733/98688175376",
+            "firstSeenAt": "2026-08-04T17:12:29.779Z",
+            "isNew": true
+          },
+          {
+            "id": "65139bb1d5244ec7",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr Facilites Representative",
+            "url": "https://careers.mckesson.com/en/job/clear-lake/sr-facilites-representative/733/98751356736",
+            "firstSeenAt": "2026-08-04T17:12:29.779Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 6,
+        "totalFound": 20,
+        "checkedAt": "2026-08-04T17:12:29.779Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T17:12:30.281Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-04T17:13:04.230Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-04T17:13:04.395Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [
+          {
+            "id": "fb3fbcd0fec4491e",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Senior AI Infrastructure Architect",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/Senior-AI-Infrastructure-Engineering_JR-0016106?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          },
+          {
+            "id": "136798cb54d37bc8",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "AI Solution Architect (Manager)",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/AI-Solution-Architect--Manager-_JR-0015717?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          },
+          {
+            "id": "e44d9f3bbc58eea6",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Principal AI Governance Architect",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/Principal-AI-Governance-Architect_JR-0016107?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          },
+          {
+            "id": "dbb0e7fd44364127",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "AI/ML Engineer (Senior Associate) - Remote",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/AI-ML-Engineer--Senior-Associate----Remote_JR-0014607?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          },
+          {
+            "id": "b51065adb5205d16",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Forward Deployed Engineer (AI Capability Center) - 5 Openings",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/Build-Engineer--Forward-Deployed-Engineering--AI-Capability-Center-_JR-0015889?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          },
+          {
+            "id": "6edbc6f58d680fde",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Workday SCM Consulting Manager - Procurement",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/Workday-SCM-Consulting-Manager---Procurement_JR-0015861?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          },
+          {
+            "id": "0472f6cd18a4ea8e",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Engagement Manager, Senior (North America), AI Capability Center",
+            "url": "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers/job/Chicago---550-Van-Buren/Engagement-Manager--Senior--North-America---AI-Capability-Center_JR-0015883?q=software+engineer&remoteType=ab8195060ba6100205d1eea7d1df0000",
+            "firstSeenAt": "2026-08-04T17:13:19.527Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-04T17:13:19.527Z"
+      }
+    ]
+  },
+  {
+    "id": "7e2cc315-3f71-4185-a300-4dc9516aaaf8",
+    "startedAt": "2026-08-04T16:52:45.361Z",
+    "completedAt": "2026-08-04T16:54:10.656Z",
+    "sitesChecked": 4,
+    "totalSites": 43,
+    "newJobsFound": 8,
+    "jobsArchived": 8,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "cfc0a12bd22bbbba",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Business Transformation Analyst",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3221",
+            "firstSeenAt": "2026-08-04T16:52:45.361Z",
+            "isNew": true
+          },
+          {
+            "id": "7778fb0451f6a501",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Fullstack Software Engineer",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3222",
+            "firstSeenAt": "2026-08-04T16:52:45.361Z",
+            "isNew": true
+          },
+          {
+            "id": "c92d01e077acee7c",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Sales Associate - PA Metro",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3049",
+            "firstSeenAt": "2026-08-04T16:52:45.361Z",
+            "isNew": true
+          },
+          {
+            "id": "8d1762b5de62d06b",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Consultant - Technical Project Manager/ Business Analyst",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3206",
+            "firstSeenAt": "2026-08-04T16:52:45.361Z",
+            "isNew": true
+          },
+          {
+            "id": "9bb841fcd744d79e",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Integrated Solution Leader - Director/Sr. Director (Indianapolis)",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3217",
+            "location": "United States",
+            "firstSeenAt": "2026-08-04T16:52:45.361Z",
+            "isNew": true
+          },
+          {
+            "id": "6cfa5a72d948709f",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Delivery Senior Consultant",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3220",
+            "firstSeenAt": "2026-08-04T16:52:45.361Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 6,
+        "totalFound": 12,
+        "checkedAt": "2026-08-04T16:52:45.361Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [
+          {
+            "id": "7dbc9dcd26b9bf10",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "Network Design Specialist",
+            "url": "https://careers.telus.com/job/Burnaby-Network-Design-Specialist-BC-V5G-4S4/604897717",
+            "firstSeenAt": "2026-08-04T16:53:04.411Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 65,
+        "checkedAt": "2026-08-04T16:53:04.411Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [
+          {
+            "id": "36158ac3f05598a2",
+            "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+            "siteName": "Telus Health",
+            "title": "Senior Proposal Writer",
+            "url": "https://lifeworks.wd3.myworkdayjobs.com/en-US/External/job/Sydney-New-South-Wales-Australia/Senior-Proposal-Writer_R-22026?q=software+engineer",
+            "firstSeenAt": "2026-07-16T17:55:04.598Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-04T16:53:10.458Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-04T16:53:38.471Z"
+      }
+    ],
+    "cancelled": true
+  },
+  {
     "id": "c3f880c7-26ea-4940-9356-0a2f6d013126",
     "startedAt": "2026-08-03T17:12:41.148Z",
     "completedAt": "2026-08-03T17:21:27.890Z",
