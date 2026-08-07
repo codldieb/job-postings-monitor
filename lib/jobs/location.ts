@@ -84,6 +84,44 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     }
   }
 
+  // Workday-style: "Towson MD USA - 701 E Joppa Rd" / "Suzhou CHN - EPZ1..."
+  const workdayDash = raw.match(/^(.+?)\s+-\s+.+/);
+  if (workdayDash) {
+    const beforeDash = workdayDash[1].trim();
+    const tokens = beforeDash.split(/\s+/).filter(Boolean);
+    for (let i = tokens.length - 1; i >= 0; i--) {
+      const token = tokens[i];
+      const country = normalizeCountryName(token);
+      if (!country) continue;
+
+      // Prefer trailing country codes/names; skip ambiguous USPS codes that are
+      // followed later by a real country token (e.g. "Apodaca NL MEX").
+      const isAmbiguousState =
+        token.length === 2 &&
+        US_STATE_CODES.has(token.toUpperCase()) &&
+        AMBIGUOUS_US_STATE_COUNTRY_CODES.has(token.toUpperCase());
+      if (isAmbiguousState && i < tokens.length - 1) {
+        continue;
+      }
+
+      return {
+        raw,
+        country,
+        continent: countryToContinent(country),
+      };
+    }
+
+    const cityGuess = tokens.slice(0, Math.min(3, tokens.length)).join(" ");
+    const countryFromCity = CITY_TO_COUNTRY[cityGuess.toLowerCase()];
+    if (countryFromCity) {
+      return {
+        raw,
+        country: countryFromCity,
+        continent: countryToContinent(countryFromCity),
+      };
+    }
+  }
+
   const parts = raw.split(",").map((part) => part.trim()).filter(Boolean);
   if (parts.length === 0) return { raw };
 
@@ -236,6 +274,20 @@ function extractLocationFromUrl(url: string): string[] {
     if (CITY_TO_COUNTRY[slug]) {
       return [formatCityLabel(slug)];
     }
+
+    // Workday location slugs often end with a country name:
+    // Towson-MD-United-States, Suzhou-China, Idstein-Deutschland
+    const slugTokens = asWords.split(/\s+/).filter(Boolean);
+    for (let length = Math.min(3, slugTokens.length); length >= 1; length--) {
+      const candidate = slugTokens.slice(-length).join(" ");
+      const country = normalizeCountryName(candidate);
+      if (country) return [country];
+    }
+
+    for (const token of slugTokens) {
+      const countryFromCity = CITY_TO_COUNTRY[token];
+      if (countryFromCity) return [formatCityLabel(token)];
+    }
   } catch {
     // ignore invalid URLs
   }
@@ -285,7 +337,7 @@ const JOB_TITLE_PREFIX =
   /^(?:account|associate|senior|staff|principal|lead|manager|director|engineer|counsel|executive|analyst|general)\b/i;
 
 const GEOGRAPHIC_HINT =
-  /\b(?:remote|hybrid|anywhere|united states|united kingdom|canada|india|mexico|germany|france|australia|new zealand|u\.s\.|u\.k\.)\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:United Kingdom|United States|Canada|India|Mexico|Germany|France|Australia|New Zealand|[A-Z]{2,3})\b/i;
+  /\b(?:remote|hybrid|anywhere|united states|united kingdom|canada|india|mexico|germany|france|australia|new zealand|taiwan|china|poland|argentina|u\.s\.|u\.k\.|usa|deu|twn|chn|ind|pol|mex|arg)\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:United Kingdom|United States|Canada|India|Mexico|Germany|France|Australia|New Zealand|Taiwan|[A-Z]{2,3})\b/i;
 
 function isPlausibleLocationSegment(segment: string): boolean {
   const trimmed = stripHtmlTags(segment).trim();

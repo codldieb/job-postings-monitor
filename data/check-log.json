@@ -1,5 +1,3958 @@
 [
   {
+    "id": "11cf6726-41a1-47ff-93b8-dff18a0b98e4",
+    "startedAt": "2026-08-07T15:34:12.909Z",
+    "completedAt": "2026-08-07T15:40:30.943Z",
+    "sitesChecked": 44,
+    "totalSites": 44,
+    "newJobsFound": 41,
+    "jobsArchived": 47,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "1c262bafee84b569",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based) Data Engineer- Databricks",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3249",
+            "firstSeenAt": "2026-08-07T15:34:12.911Z",
+            "isNew": true
+          },
+          {
+            "id": "fd979588009d555f",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Salesforce Revenue Cloud Solution Architect",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3247",
+            "firstSeenAt": "2026-08-07T15:34:12.911Z",
+            "isNew": true
+          },
+          {
+            "id": "dfdef6c3748cae2f",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based)- M365 Tech Lead, Remote",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3250",
+            "location": "Tech Lead, Remote",
+            "firstSeenAt": "2026-08-07T15:34:12.911Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 3,
+        "totalFound": 12,
+        "checkedAt": "2026-08-07T15:34:12.911Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 32,
+        "checkedAt": "2026-08-07T15:34:33.244Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-07T15:34:39.490Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [
+          {
+            "id": "0f77d5805dca4e67",
+            "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+            "siteName": "Telus Ag & Consumer Goods",
+            "title": "Cattle Research Project Manager",
+            "url": "https://www.telus.com/agcg/en-us/careers/positions/8b42d9cc1e1c-cattle-research-project-manager",
+            "firstSeenAt": "2026-08-07T15:35:07.278Z",
+            "isNew": true
+          },
+          {
+            "id": "e139f757b7969f53",
+            "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+            "siteName": "Telus Ag & Consumer Goods",
+            "title": "Sales & Customer Development Manager - Agribusiness",
+            "url": "https://www.telus.com/agcg/en-us/careers/positions/b59986c45513-sales-customer-development-manager-agribusiness",
+            "firstSeenAt": "2026-08-07T15:35:07.278Z",
+            "isNew": true
+          },
+          {
+            "id": "bd3caef9e18e9a1d",
+            "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+            "siteName": "Telus Ag & Consumer Goods",
+            "title": "Cattle Research Intern (12 months)",
+            "url": "https://www.telus.com/agcg/en-us/careers/positions/3aa2eb210fe3-cattle-research-intern-12-months",
+            "firstSeenAt": "2026-08-07T15:35:07.278Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 3,
+        "totalFound": 3,
+        "checkedAt": "2026-08-07T15:35:07.278Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-07T15:35:39.859Z"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 14,
+        "checkedAt": "2026-08-07T15:36:15.873Z"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "99e4648060a05b44",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96832799344 08/03/2026 Lead Platform Engineer Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/lead-platform-engineer/1732/96832799344",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "3738c40fb8c80e88",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96831227504 06/23/2026 Lead Platform Engineer Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/lead-platform-engineer/1732/96831227504",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "fb821fa35809d409",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96832799408 08/03/2026 Senior Platform Engineer Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/senior-platform-engineer/1732/96832799408",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "8870cb0fb817b16c",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "91940332736 08/07/2026 Data Annotator City of Muntinglupa, Calabarzon",
+            "url": "https://www.capitalonecareers.com/job/city-of-muntinglupa/data-annotator/1732/91940332736",
+            "location": "Muntinglupa, Calabarzon",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "feeba7a4906e3275",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "95091806832 08/07/2026 Senior Risk Specialist | Retail Bank Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/senior-risk-specialist-retail-bank/1732/95091806832",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "2a31841cb59e6ed2",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96474791040 08/07/2026 Full Time Branch Ambassador - Bastrop Bastrop, LA",
+            "url": "https://www.capitalonecareers.com/job/bastrop/full-time-branch-ambassador-bastrop/1732/96474791040",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "568164689f2f5c26",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98870980576 08/07/2026 Administrative Assistant III- Enterprise Product and Experiences McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/administrative-assistant-iii-enterprise-product-and-experiences/1732/98870980576",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "e59bc47e8e1a2ce8",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98870980112 08/07/2026 Sr. HR Coordinator (Benefits) City of Muntinglupa, Calabarzon",
+            "url": "https://www.capitalonecareers.com/job/city-of-muntinglupa/sr-hr-coordinator-benefits/1732/98870980112",
+            "location": "Muntinglupa, Calabarzon",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "9394c13f904b6793",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98862574240 08/06/2026 Principal Associate, Cyber Risk & Analysis McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/principal-associate-cyber-risk-and-analysis/1732/98862574240",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "05404528b173f361",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98862574032 08/06/2026 Senior Lead Software Engineer McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-lead-software-engineer/1732/98862574032",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "54a37653e173e130",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98859227328 08/06/2026 Lead Software Engineer, Full Stack (Java, API, AWS, AI) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-java-api-aws-ai/1732/98859227328",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "75088aabf5f3675c",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98859227280 08/06/2026 Lead Software Engineer (Golang, Python, AWS) Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/lead-software-engineer-golang-python-aws/1732/98859227280",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "19dbdb7a2a31c148",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98859227232 08/06/2026 Risk Manager - Quality Control Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/risk-manager-quality-control/1732/98859227232",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "1cecb1954e094c79",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98859227184 08/06/2026 Senior Lead Software Engineer, Back End McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-lead-software-engineer-back-end/1732/98859227184",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          },
+          {
+            "id": "0b6368f53e7e4045",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98859227152 08/06/2026 Lead Software Engineer, Full Stack ( Cloud Native, Microservices & AWS) ( Enterprise Platforms Technology) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-cloud-native-microservices-and-aws-enterprise-platforms-technology/1732/98859227152",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:36:31.226Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-08-07T15:36:31.226Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-07T15:36:41.814Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-07T15:36:42.172Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "archivedJobsCount": 2,
+        "totalFound": 12,
+        "checkedAt": "2026-08-07T15:36:59.053Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-07T15:36:59.539Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-07T15:37:33.597Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 16,
+        "checkedAt": "2026-08-07T15:37:33.906Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 102,
+        "checkedAt": "2026-08-07T15:37:34.406Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 2,
+        "totalFound": 61,
+        "checkedAt": "2026-08-07T15:37:34.594Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-07T15:37:34.864Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-07T15:37:49.905Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 15,
+        "checkedAt": "2026-08-07T15:38:23.689Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-07T15:38:24.573Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 29,
+        "checkedAt": "2026-08-07T15:38:25.095Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 211,
+        "checkedAt": "2026-08-07T15:38:39.742Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 30,
+        "checkedAt": "2026-08-07T15:38:39.856Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-07T15:38:40.261Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-07T15:38:55.497Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-07T15:38:56.946Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 54,
+        "checkedAt": "2026-08-07T15:38:57.525Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-07T15:38:58.579Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-07T15:38:59.056Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-07T15:38:59.463Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [
+          {
+            "id": "ff5ed65fa72e73b3",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Python Developer - 6428945",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14616929_en&title=Python+Developer+-+6428945",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-07T15:38:59.916Z",
+            "isNew": true
+          },
+          {
+            "id": "02af1d9fd9b86488",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Python Developer - 6428944",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14616936_en&title=Python+Developer+-+6428944",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-07T15:38:59.916Z",
+            "isNew": true
+          },
+          {
+            "id": "3c9edf348501dc2b",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Mobile Automation Engineer - 6416106",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14593856_en&title=Mobile+Automation+Engineer+-+6416106",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-07T15:38:59.916Z",
+            "isNew": true
+          },
+          {
+            "id": "439b51ffb5930780",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Java Fullstack Engineer - 6357277",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14487936_en&title=Java+Fullstack+Engineer+-+6357277",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-07T15:38:59.916Z",
+            "isNew": true
+          },
+          {
+            "id": "7a1e7131edc10e92",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Custom Software Engineer Java Dev - 6125462",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14030050_en&title=Custom+Software+Engineer+Java+Dev+-+6125462",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-07T15:38:59.916Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 5,
+        "totalFound": 12,
+        "checkedAt": "2026-08-07T15:38:59.916Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-07T15:39:00.884Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-07T15:39:01.092Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [
+          {
+            "id": "3852995353f2e737",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Data Analyst (Senior Consultant, Data & Analytics)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100239/Senior-Data-Analyst-Senior-Consultant-Data-Analytics",
+            "firstSeenAt": "2026-08-07T15:39:01.196Z",
+            "isNew": true
+          },
+          {
+            "id": "c5420e6dbc46f89c",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Software Engineer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100237/Senior-Software-Engineer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-07T15:39:01.196Z",
+            "isNew": true
+          },
+          {
+            "id": "2118dae22ccfddec",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Platform Engineer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100236/Senior-Platform-Engineer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-07T15:39:01.196Z",
+            "isNew": true
+          },
+          {
+            "id": "6acda4307456cf98",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Part Time Project Manager - Fearless Institute",
+            "url": "https://jobs.fearless.com/us/en/job/P-100224/Part-Time-Project-Manager-Fearless-Institute",
+            "firstSeenAt": "2026-08-07T15:39:01.196Z",
+            "isNew": true
+          },
+          {
+            "id": "eb058c14a2bcc5d5",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "QA Engineer (1099 Contractor)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100235/QA-Engineer-1099-Contractor",
+            "firstSeenAt": "2026-08-07T15:39:01.196Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 5,
+        "totalFound": 10,
+        "checkedAt": "2026-08-07T15:39:01.196Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [
+          {
+            "id": "370df68d18df94c6",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Manufacturing Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/East-Longmeadow-MA-United-States/Sr-Manufacturing-Engineer_REQ-1000050021",
+            "location": "East Longmeadow, MA, United States",
+            "firstSeenAt": "2026-08-07T15:39:17.690Z",
+            "isNew": true
+          },
+          {
+            "id": "cd261f7dfe430a12",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr Project Engineer --MBD",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-Project-Engineer---MBD_REQ-1000049246",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-07T15:39:17.690Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 40,
+        "checkedAt": "2026-08-07T15:39:17.690Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [
+          {
+            "id": "3ea918612ffac031",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Senior Director, Secure DevOps",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42267",
+            "firstSeenAt": "2026-08-07T15:39:19.285Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 10,
+        "checkedAt": "2026-08-07T15:39:19.285Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-07T15:39:38.266Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-07T15:39:38.507Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 28,
+        "checkedAt": "2026-08-07T15:40:12.357Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-07T15:40:12.525Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "95f13b77d6fce1ad",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Account Operations Manager - Prior Authorization Network",
+            "url": "https://careers.mckesson.com/en/job/columbus/sr-account-operations-manager-prior-authorization-network/733/98859597360",
+            "location": "United States",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          },
+          {
+            "id": "6024be00835907ba",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Manager, Account Operations - Prior Authorization Network",
+            "url": "https://careers.mckesson.com/en/job/columbus/sr-manager-account-operations-prior-authorization-network/733/98859597248",
+            "location": "United States; Sr. Manager, Account Operations - Prior Authorization Network",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          },
+          {
+            "id": "697f6ef20f4f9e86",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Facility Maintenance Service Technician – Distribution Center",
+            "url": "https://careers.mckesson.com/en/job/uxbridge/facility-maintenance-service-technician-distribution-center/733/97109062208",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          },
+          {
+            "id": "efe9b4ee22302917",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Material Handler Specialist- Distribution Center",
+            "url": "https://careers.mckesson.com/en/job/ellabell/material-handler-specialist-distribution-center/733/96868481904",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          },
+          {
+            "id": "ff4960b0c69d55a1",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Manager, Corporate Strategy & Business Development",
+            "url": "https://careers.mckesson.com/en/job/mississauga/manager-corporate-strategy-and-business-development/733/98884915888",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          },
+          {
+            "id": "178644f05cd566d9",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Payroll Specialist",
+            "url": "https://careers.mckesson.com/en/job/irving/payroll-specialist/733/98884915760",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          },
+          {
+            "id": "72699c188b69b1c0",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Facitites Representative",
+            "url": "https://careers.mckesson.com/en/job/orlando/facitites-representative/733/98808906960",
+            "firstSeenAt": "2026-08-07T15:40:12.829Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 7,
+        "totalFound": 20,
+        "checkedAt": "2026-08-07T15:40:12.829Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-07T15:40:14.474Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-07T15:40:14.686Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-08-07T15:40:14.773Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-07T15:40:30.183Z"
+      }
+    ]
+  },
+  {
+    "id": "6e49f967-7fa7-4644-96aa-ef44e3d8b7a0",
+    "startedAt": "2026-08-06T20:40:22.656Z",
+    "completedAt": "2026-08-06T20:46:38.243Z",
+    "sitesChecked": 44,
+    "totalSites": 44,
+    "newJobsFound": 267,
+    "jobsArchived": 34,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "c0440fc4c412d08b",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Data Architect - Canada Region",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=2993",
+            "firstSeenAt": "2026-08-06T20:40:22.656Z",
+            "isNew": true
+          },
+          {
+            "id": "3469d9bc0a11185c",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Product Op Model Transformation Principal",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3210",
+            "firstSeenAt": "2026-08-06T20:40:22.656Z",
+            "isNew": true
+          },
+          {
+            "id": "ef8ad6d0bf8a31dc",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based) - Sr Program Manager (Healthcare Payor)",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3241",
+            "firstSeenAt": "2026-08-06T20:40:22.656Z",
+            "isNew": true
+          },
+          {
+            "id": "b639f285d2d92865",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based) Product Owner",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3245",
+            "firstSeenAt": "2026-08-06T20:40:22.656Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 4,
+        "totalFound": 12,
+        "checkedAt": "2026-08-06T20:40:22.656Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [
+          {
+            "id": "0c6e9c4d806039c3",
+            "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+            "siteName": "Telus",
+            "title": "AI Lead/Developer",
+            "url": "https://careers.telus.com/job/Toronto-AI-LeadDeveloper-ON-M5J-2V5/603692117",
+            "firstSeenAt": "2026-07-07T20:45:13.050Z",
+            "isNew": true,
+            "descriptionText": "Apply now » AI Lead/Developer Location: Toronto, ON, CA, M5J 2V5 Mississauga, ON, CA Edmonton, AB, CA Waterloo, ON, CA Calgary, AB, CA Vancouver, BC, CA Burnaby, BC, CA Req ID: 54290 Jobs by Category: People & Culture, Finance and Corporate Affairs Job Function: Finance Status: Full Time Schedule: Regular Description Turn AI Opportunities Into Reality — Lead full-stack development, mentor the next generation of AI engineers, and transform finance operations. Join our team and what we’ll accomplish together At TELUS, the Finance AI & Automation team drives our transformation into an AI-powered organization. In the AI Lead role, you will identify opportunities and build scalable AI-driven solutions while fostering innovation. You’ll leverage technical expertise in GenAI and cloud architecture to build and maintain scalable, intelligent applications that deliver measurable business value. As a technical leader and mentor, you will be involved in full-stack development and partner with Finance leaders to turn AI opportunities into reality. What you’ll do Architect and develop AI/ML full-stack solutions and proof-of-concepts using GenAI technologies and cloud platforms (GCP/Azure) Design and develop data pipelines, robust APIs that serve as foundations powering AI automations and transformative solutions Facilitate process mapping sessions with finance SMEs to capture decision rules and identify potential solutions Drive successful transitions for AI/ML tools from ideation through pilot to scaled deployment across the enterprise Drive accountability through metrics tracking and transparent stakeholder communication Lead technical design discussions, conduct architecture reviews, and mentor junior developers to foster best practices Qualifications What you bring Proven 6-8 years of experience in software development or data management, with at least 4 years of technical leadership or architecting complex solutions Advanced data handling and ETL skills, including Cloud Platforms (GCP, Azure), SQL, Data Modeling, and Cloud Data stores Full stack development skills: Frontend (React, modern JavaScript/TypeScript) and Backend (Python, RESTful APIs) Strong background in Machine Learning frameworks, GenAI platforms, LLMs, and agentic AI Exceptional communication skills to present technical concepts to finance stakeholders and business leaders in accessible terms Experience facilitating requirement gathering, design sessions, and technical/architectural reviews Degree in Technology, Computer Science, Finance, Business, or a related field Great-to-haves Cloud certifications (GCP Professional or Azure Solutions Architect) Familiarity with TELUS data platforms, tools, and AI governance frameworks Prior AI squad or transformation initiative experience Salary Range: $86,000-$136,000 Performance Bonus or Sales Incentive Plan: 15% Actual total compensation will be determined based on factors such as knowledge, skills, performance and experience. We encourage all qualified candidates to apply, even if the posted salary range doesn't match your expectations. We're open to discussing competitive compensation packages tailored to your experience level and expertise. TELUS offers rewarding benefits, which may vary per job function, such as: Comprehensive total rewards package highlighting competitive salary and bonus structures, minimum 3 weeks of vacation, and flexible benefits plan to meet the needs of you and your family Flexibility to work in-office, virtually or a combination of both Generous company matched pension and share purchase programs Opportunity to give back to communities in which we work, live and serve Career growth and learning & development opportunities to develop your skills And much more … Job Type: This is for a current vacancy A bit about usWe’re a people-focused, customer-first, purpose-driven team who works together every day to innovate and do good. We improve lives through our technology solutions and foster a culture of innovation that empowers team members to solve complex problems and create remarkable human outcomes in a digital world. You’ll find our engaging, high-performance culture personally fulfilling, professionally challenging, and financially rewarding. We’re committed to diversity and equitable access to employment opportunities based on ability. Your unique contributions and talents will be valued and respected here. When you join our team, you’re helping us make the future friendly.",
+            "descriptionFetchedAt": "2026-07-31T18:18:27.729Z",
+            "matchScore": 66,
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "API",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "Azure",
+              "JavaScript",
+              "React",
+              "SQL",
+              "TypeScript"
+            ],
+            "missingSkills": [
+              "GCP",
+              "Machine Learning",
+              "Python",
+              "REST"
+            ],
+            "scoredAt": "2026-07-31T18:18:27.729Z",
+            "matchSkillScore": 73,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 6+ years. No matching role in your profile — add experience for a position like \"AI Lead/Developer\".",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationInTarget": true,
+            "locationNote": "In target area (Canada, United States)",
+            "locationTypes": [
+              "Onsite"
+            ]
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 32,
+        "checkedAt": "2026-08-06T20:40:39.627Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-06T20:40:45.452Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [
+          {
+            "id": "85fa2d93eef5325c",
+            "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+            "siteName": "Telus Ag & Consumer Goods",
+            "title": "Director - Products & Services, Animal Agriculture",
+            "url": "https://www.telus.com/agcg/en-us/careers/positions/3985b38f9678-director-products-services-animal-agriculture",
+            "location": "Services, Animal Agriculture",
+            "firstSeenAt": "2026-08-06T20:41:12.519Z",
+            "isNew": true
+          },
+          {
+            "id": "c16d501ded2e8f21",
+            "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+            "siteName": "Telus Ag & Consumer Goods",
+            "title": "Director - Products & Services, Animal Agriculture",
+            "url": "https://www.telus.com/agcg/en-us/careers/positions/3c1a4f5109d4-director-products-services-animal-agriculture",
+            "location": "Services, Animal Agriculture",
+            "firstSeenAt": "2026-08-06T20:41:12.519Z",
+            "isNew": true
+          },
+          {
+            "id": "3afd4ddf61696072",
+            "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+            "siteName": "Telus Ag & Consumer Goods",
+            "title": "Integration Consultant",
+            "url": "https://www.telus.com/agcg/en-us/careers/positions/137e269d8bf4-integration-consultant",
+            "firstSeenAt": "2026-08-06T20:41:12.519Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-06T20:41:12.519Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [
+          {
+            "id": "9b9902cbe553b404",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Vehicle Test Specialist United States • English • Full time • Req_00189717_US Onsite",
+            "url": "https://jobs.telusdigital.com/jobs/18072841-vehicle-test-specialist",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "7d796ecfe2f7c60b",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Senior (FP&A) Financial Analyst Canada • English • Full time • Req_00189268_CA Remote",
+            "url": "https://jobs.telusdigital.com/jobs/18046250-senior-fp-and-a-financial-analyst",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "c32e0d2019e18701",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Team Leader CX Operations Las Vegas, NV, United States • English • Full time • Req_00189156_US Onsite",
+            "url": "https://jobs.telusdigital.com/jobs/18044610-team-leader-cx-operations",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "e08137b24677dbd5",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Sr. Strategy Manager/Chief of Staff CX PMO Canada • English • Full time • Req_00188387_CA Remote",
+            "url": "https://jobs.telusdigital.com/jobs/18003941-sr-strategy-manager-slash-chief-of-staff-cx-pmo",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "a9661e37d74cd493",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Operations Technical Project Manager - Data Collection United States • English • Full time • Req_00187951_US Combined",
+            "url": "https://jobs.telusdigital.com/jobs/17986995-operations-technical-project-manager-data-collection",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "7f5beffbf602f607",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Partner Relations Specialist Canada • English • Full time • Req_00187178_CA Remote",
+            "url": "https://jobs.telusdigital.com/jobs/17940882-partner-relations-specialist",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "1dfa2d0402ce5231",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Project Coordinator United States • English • Full time • Req_00186056_US Remote",
+            "url": "https://jobs.telusdigital.com/jobs/17913630-project-coordinator",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "2c9ac49fc2f40ad1",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Operations Project Manager United States • English • Full time • Req_00185902_US Combined",
+            "url": "https://jobs.telusdigital.com/jobs/17858731-operations-project-manager",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "eb3b48aac7032003",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Talent Outreach Coordinator (Sourcing Analyst) Woodland, AK, United States • English • Full time • Req_00180586_US Combined",
+            "url": "https://jobs.telusdigital.com/jobs/17508096-talent-outreach-coordinator-sourcing-analyst",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "f35790da62115094",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Senior Payroll Specialist Las Vegas, NV, United States • English • Full time • Req_00179955_US Combined",
+            "url": "https://jobs.telusdigital.com/jobs/17502640-senior-payroll-specialist",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "d1631c18eb7a7d77",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Senior Solutions Architect AI/ML United States • English • Full time • Req_00171287 Onsite",
+            "url": "https://jobs.telusdigital.com/jobs/17290710-senior-solutions-architect-ai-slash-ml",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "3b005470b12f1ee3",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Ecommerce Analyst United States • English • Full time • Req_00125956 Remote",
+            "url": "https://jobs.telusdigital.com/jobs/17290694-ecommerce-analyst",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          },
+          {
+            "id": "fd72b28ad586a371",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Body Metrics Specialist United States • English • Full time • Req_00164295 Onsite",
+            "url": "https://jobs.telusdigital.com/jobs/17274150-body-metrics-specialist",
+            "firstSeenAt": "2026-08-06T20:41:44.636Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-06T20:41:44.636Z"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [
+          {
+            "id": "0224435af4204066",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Collector Insurance Specialist - Remote",
+            "url": "https://phly-jobs.ttcportals.com/jobs/18086916-collector-insurance-specialist-remote",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "547a136bdbc6dca3",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Software Engineer III",
+            "url": "https://phly-jobs.ttcportals.com/jobs/18027346-software-engineer-iii",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "24337426c7ee6f71",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "E&S Filings Specialist - All PHLY Offices",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17985142-e-and-s-filings-specialist-all-phly-offices",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "848a833fcdd19a0c",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931452-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "ef8004b986d7fc1d",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931451-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "7d77e3c67e3cdfaa",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931450-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "6f7b17aeb3a02e6a",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931449-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "7dbdaa3966acccd0",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931448-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "4c176f979a087740",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931447-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "c984c1f55f514591",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931445-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "f88157ab1cbf97ec",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931443-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "efda87c11b87b7bf",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931442-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "49c4ad116b9140e9",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931441-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          },
+          {
+            "id": "d8d990139d2bc46f",
+            "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+            "siteName": "Philadelphia Insurance Companies",
+            "title": "Claims Specialist - Professional Liability",
+            "url": "https://phly-jobs.ttcportals.com/jobs/17931440-claims-specialist-professional-liability",
+            "firstSeenAt": "2026-08-06T20:42:20.600Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 14,
+        "checkedAt": "2026-08-06T20:42:20.600Z"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "5062faabf988ae39",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98848805808 08/06/2026 Business Manager-Global Payment Network McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/business-manager-global-payment-network/1732/98848805808",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "a89bbd422fd77fa7",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98848805792 08/06/2026 Sr. Distinguished Engineer (Resilience Engineering) Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/sr-distinguished-engineer-resilience-engineering/1732/98848805792",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "98521f70bc717c64",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98848805776 08/06/2026 Work from Home - Senior Customer Service Coordinator - Partnership Servicing (Overnight) Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/work-from-home-senior-customer-service-coordinator-partnership-servicing-overnight/1732/98848805776",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "df875f24a22cbb25",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97108464784 06/29/2026 Process Coordinator II - Governance, Valuations & Innovation McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/process-coordinator-ii-governance-valuations-and-innovation/1732/97108464784",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "1ec7889ac821db63",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97533432608 08/06/2026 Senior Associate, Product Management - Card Partnerships Team Chicago, IL",
+            "url": "https://www.capitalonecareers.com/job/chicago/senior-associate-product-management-card-partnerships-team/1732/97533432608",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "ee4b5084a8ac720e",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97097971072 06/29/2026 Lead Software Engineer McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer/1732/97097971072",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "cfef81432e344529",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96932623968 06/25/2026 Principal Associate, Project Management - Business Cards & Payments Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/principal-associate-project-management-business-cards-and-payments/1732/96932623968",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "5ff98ca1ad6e007c",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97615796352 07/10/2026 Lead Software Engineer, Full Stack McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack/1732/97615796352",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "c560e39a9b1bd52d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98847420432 08/06/2026 Senior Manager, GPN Information Security Office Consultant McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-gpn-information-security-office-consultant/1732/98847420432",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "5ace6450fd25a9cb",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98847420416 08/06/2026 Senior Business Manager, In-person Experience Strategy McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-business-manager-in-person-experience-strategy/1732/98847420416",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "29873dc47a958a3b",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98847420400 08/06/2026 Lead Software Engineer, Full Stack (Cloud Operations Resilience Engineering) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-cloud-operations-resilience-engineering/1732/98847420400",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "ca6a35b3235bdb8b",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97783205392 08/03/2026 Manager, Product Manager-Small Business Bank Associate Servicing New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/manager-product-manager-small-business-bank-associate-servicing/1732/97783205392",
+            "firstSeenAt": "2026-07-14T13:42:30.905Z",
+            "isNew": true,
+            "location": "United States",
+            "descriptionText": "At Capital One, we believe great products begin with a deep understanding of our customers. From our earliest days, we pioneered the use of predictive modeling to individually personalize credit card offers, turning the entire industry on its head. In the Small Business Bank, our customers are the lifeblood of the US economy, making up 99% of businesses in the US and accounting for 44% of the country's GDP. We’ve built an organization that is focused on listening to and learning from the millions of business customers we serve every day to make sure our products, services and experiences work as hard as they do.The Manager, Product Manager for the Associate Servicing team plays a critical role in achieving our goals. This is a highly collaborative, strategic role where the individual will work closely with tech, operations, and business partners to provide servicing associates the tools and resources they need to care for our customers. This includes deep investments in AI tools that simplify associate experiences so they can concentrate on the customer they are servicing.Capital One Product FrameworkIn this role, you’ll be expected to demonstrate proficiency in five key areas which we consider to be the foundation for successful Product Management:Human Centered - Obsesses about internal and external customer needs to reimagine and innovate product solutionsBusiness Focused - Delivers game-changing outcomes by focusing on leverage and execution excellenceTechnology Driven - Leverages technology to deliver innovative and resilient solutions that enable both near term and long term valueIntegrated Problem Solving - Identifies and resolves complex problems to deliver outcomes while mitigating product risks Transformational Leadership - Leads cross functional teams to solve customer problems and drive organizational alignmentBasic Qualifications:Currently has, or is in the process of obtaining one of the following with an expectation that the required degree will be obtained on or before the scheduled start date: A Bachelor's or Master’s Degree in a quantitative field (Statistics, Economics, Operations Research, Analytics, Mathematics, Computer Science, Computer Engineering, Software Engineering, Mechanical Engineering, Information Systems or a related quantitative field), Business or MarketingORBachelor's degree in any field and at least 3 years of Product Management experience Preferred Qualifications:Experience translating business strategy and analysis into consumer facing digital productsAt this time, Capital One will not sponsor a new applicant for employment authorization for this positionThe minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.McLean, VA: $164,800 - $188,100 for Manager, Product ManagementNew York, NY: $179,700 - $205,100 for Manager, Product ManagementRichmond, VA: $149,800 - $171,000 for Manager, Product ManagementCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate’s offer letter.This role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.Capital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at theCapital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.This role is expected to accept applications for a minimum of 5 business days.No agencies please. Capital One is an",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-03T15:47:54.706Z",
+            "matchScore": 85,
+            "matchSkillScore": 100,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 3+ years. No matching role in your profile — add experience for a position like \"97783205392 08/03/2026 Manager, Product Manager-Small Business Bank Associate Servicing New York, NY\".",
+            "roleRelevant": false,
+            "roleRelevanceNote": "Title looks like a non-technical role",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence"
+            ],
+            "missingSkills": [],
+            "scoredAt": "2026-08-03T15:47:54.706Z"
+          },
+          {
+            "id": "8d4d43a39214cd1f",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96798247808 08/06/2026 Senior Associate, HR Delivery Mexico City, Mexico City",
+            "url": "https://www.capitalonecareers.com/job/mexico-city/senior-associate-hr-delivery/1732/96798247808",
+            "location": "Mexico; HR Delivery Mexico City, Mexico City",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "86979d6b6b4ff178",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "97847092912 08/06/2026 Senior Business Analyst - Strategy & Transformation (Model Risk) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-business-analyst-strategy-and-transformation-model-risk/1732/97847092912",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          },
+          {
+            "id": "b12a929dec89958f",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98847420336 08/06/2026 Lead Software Engineer, Back End (Enterprise Platforms Technology) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-back-end-enterprise-platforms-technology/1732/98847420336",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:42:35.870Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 15,
+        "totalFound": 30,
+        "checkedAt": "2026-08-06T20:42:35.870Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-06T20:42:46.118Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-06T20:42:46.414Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [
+          {
+            "id": "f2fe99d33fe0bb26",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "People Business Partner Lead",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4703042006",
+            "location": "Nashville, Tennessee, United States",
+            "firstSeenAt": "2026-08-06T20:43:02.990Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 14,
+        "checkedAt": "2026-08-06T20:43:02.990Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T20:43:03.252Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-06T20:43:37.342Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 16,
+        "checkedAt": "2026-08-06T20:43:37.626Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [
+          {
+            "id": "4df0020edeb60f6e",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Compounding Pharmacist (Days)",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/1b0c8c2e-80da-4b3a-9b17-7ea3d8bad7f6",
+            "department": "PHARMACY",
+            "team": "Compounding Pharmacy",
+            "location": "Gilbert, Arizona",
+            "firstSeenAt": "2026-08-06T20:43:38.061Z",
+            "isNew": true
+          },
+          {
+            "id": "a2faa4a765aa8b13",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Inventory Control Specialist ",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/4608c30b-23d5-4a9f-adf4-fdb6acd24f4a",
+            "department": "FULFILLMENT",
+            "team": "FULFILLMENT",
+            "location": "Gilbert, Arizona",
+            "firstSeenAt": "2026-08-06T20:43:38.061Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 102,
+        "checkedAt": "2026-08-06T20:43:38.061Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [
+          {
+            "id": "f8b1f3ea89d4dca8",
+            "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+            "siteName": "1Password",
+            "title": "Senior Workplace Technology Engineer – Toronto",
+            "url": "https://jobs.ashbyhq.com/1password/06d23261-b7d7-4c9b-bfb4-624509560556",
+            "department": "Technology",
+            "team": "IT",
+            "location": "Toronto, ON",
+            "firstSeenAt": "2026-08-06T20:43:38.519Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 63,
+        "checkedAt": "2026-08-06T20:43:38.519Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-06T20:43:38.933Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T20:43:53.898Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [
+          {
+            "id": "bab87e5e44a861e3",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Clinical Account Manager (FL)",
+            "url": "https://cleerly.com/careers-board?gh_jid=6103787004",
+            "location": "Boca Raton, Florida, United States; Delray Beach, Florida, United States; Miami, Florida, United States; West Palm Beach, Florida, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "4b8708c78a6c5ec0",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Executive Assistant",
+            "url": "https://cleerly.com/careers-board?gh_jid=6122427004",
+            "location": "Denver, Colorado, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "a072d73301e98603",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Informatics Analyst",
+            "url": "https://cleerly.com/careers-board?gh_jid=6006140004",
+            "location": "Denver, Colorado, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "7317de35f464dbca",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "IT Engineer III",
+            "url": "https://cleerly.com/careers-board?gh_jid=6114668004",
+            "location": "Denver, Colorado, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "3d7c51d186182ab8",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sales Operations Specialist",
+            "url": "https://cleerly.com/careers-board?gh_jid=6132242004",
+            "location": "Virtual US",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "7f53e972ef2a0456",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Software Engineer III",
+            "url": "https://cleerly.com/careers-board?gh_jid=6118783004",
+            "location": "Denver, Colorado, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "67429fab08a645b2",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Software Engineer III",
+            "url": "https://cleerly.com/careers-board?gh_jid=5840683004",
+            "location": "Virtual US",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "e851bdafabc1f7b7",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. DevOps Engineering Manager",
+            "url": "https://cleerly.com/careers-board?gh_jid=6030790004",
+            "location": "Denver, Colorado, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "2c0c3f935c6e3643",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. Engineering Manager (Clinical Labs - Clinical Insights)",
+            "url": "https://cleerly.com/careers-board?gh_jid=5973651004",
+            "location": "Denver, Colorado, United States; New York, New York, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "22a12ffc828d8166",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. ML Scientist",
+            "url": "https://cleerly.com/careers-board?gh_jid=5618612004",
+            "location": "Boston, Massachusetts, United States; Denver, Colorado, United States; New York, New York, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "67432beea5b0e6e7",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. Product Manager",
+            "url": "https://cleerly.com/careers-board?gh_jid=5973826004",
+            "location": "Virtual US",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "b25af6decf162fa3",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. Product Manager",
+            "url": "https://cleerly.com/careers-board?gh_jid=5973681004",
+            "location": "Virtual US",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "43e08eead8a7ee26",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. Scientist, Computational Imaging",
+            "url": "https://cleerly.com/careers-board?gh_jid=5968075004",
+            "location": "New York, New York, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "524ac01d168ef7ea",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. Software Engineer - ML Systems",
+            "url": "https://cleerly.com/careers-board?gh_jid=5967613004",
+            "location": "Denver, Colorado, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "94a955a034342599",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Sr. Software Engineer (Operational Systems Team)",
+            "url": "https://cleerly.com/careers-board?gh_jid=6000207004",
+            "location": "Virtual US",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          },
+          {
+            "id": "8f6ba84f20754d51",
+            "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+            "siteName": "Cleerly",
+            "title": "Staff Full-Stack Software Engineer — Clinical Reporting (React/TypeScript)",
+            "url": "https://cleerly.com/careers-board?gh_jid=5819258004",
+            "location": "Denver, Colorado, United States; New York, New York, United States",
+            "firstSeenAt": "2026-08-06T20:44:27.616Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 16,
+        "checkedAt": "2026-08-06T20:44:27.616Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [
+          {
+            "id": "a9ecddd4d0694af3",
+            "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+            "siteName": "HappyReturns",
+            "title": "Software Engineering Manager",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=bf55e92f-ce60-4ee6-beee-7d65eb04d2dd&ccId=19000101_000001&jobId=637745&lang=en_US",
+            "firstSeenAt": "2026-08-06T20:44:28.552Z",
+            "isNew": true
+          },
+          {
+            "id": "7666cb678507baf8",
+            "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+            "siteName": "HappyReturns",
+            "title": "Senior Manager, China eCommerce Partnerships",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=bf55e92f-ce60-4ee6-beee-7d65eb04d2dd&ccId=19000101_000001&jobId=636513&lang=en_US",
+            "firstSeenAt": "2026-08-06T20:44:28.552Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-06T20:44:28.552Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 29,
+        "checkedAt": "2026-08-06T20:44:29.059Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [
+          {
+            "id": "ec6169e8e27d47e9",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Senior Solutions Engineer, Aerospace & Defense ",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5205716007",
+            "location": "Austin, TX",
+            "firstSeenAt": "2026-08-06T20:44:43.650Z",
+            "isNew": true
+          },
+          {
+            "id": "da0ead030daf21a8",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Senior Solutions Engineer, Aerospace & Defense ",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5205714007",
+            "location": "San Diego, CA",
+            "firstSeenAt": "2026-08-06T20:44:43.650Z",
+            "isNew": true
+          },
+          {
+            "id": "c40458950fdaa0ce",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Senior Solutions Engineer, Aerospace & Defense ",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5205698007",
+            "location": "Los Angeles, CA",
+            "firstSeenAt": "2026-08-06T20:44:43.650Z",
+            "isNew": true
+          },
+          {
+            "id": "69e1517913da3ca9",
+            "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+            "siteName": "Xometry",
+            "title": "Senior Solutions Engineer, Aerospace & Defense ",
+            "url": "https://job-boards.greenhouse.io/xometry/jobs/5205722007",
+            "location": "Dallas, TX",
+            "firstSeenAt": "2026-08-06T20:44:43.650Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 211,
+        "checkedAt": "2026-08-06T20:44:43.650Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [
+          {
+            "id": "c9da3491a5f7b8ac",
+            "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+            "siteName": "PurpleWave Auctions",
+            "title": "Territory Sales Manager Ft. Meyers Florida",
+            "url": "https://secure10.saashr.com/ta/6178486.careers?CareersSearch=1&lang=en-US#705335060",
+            "department": "Sales, Account Management, Supply Chain",
+            "location": "Cape Coral, FL, USA, Cape Coral Florida Region",
+            "firstSeenAt": "2026-08-06T20:44:43.855Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 35,
+        "checkedAt": "2026-08-06T20:44:43.855Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T20:44:44.441Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [
+          {
+            "id": "6352018e145b0043",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Manager Software Engineering",
+            "url": "https://jobs.lever.co/pointclickcare/94f564ec-5a39-4ecb-9caa-49e893b922ca",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote - US",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "d2b5d8fbb2ef0850",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Principal AI Platform Engineer (US)",
+            "url": "https://jobs.lever.co/pointclickcare/abbbf467-1bdb-4dec-ab33-5dc328ea1ca6",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote, USA",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "c1b42c9c512d4c37",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Principal Data Engineer (streaming and real-time data systems)",
+            "url": "https://jobs.lever.co/pointclickcare/ac96224a-c756-457e-8ff3-49c5d92be1ec",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote, USA",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "103fb48431b89e82",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Principal Java Data Engineer",
+            "url": "https://jobs.lever.co/pointclickcare/27ea212e-092c-4567-bb56-fc17a71fcc4c",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote, USA",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "a722a439c9efb04e",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Senior Applied Research Data Engineer (Canada)",
+            "url": "https://jobs.lever.co/pointclickcare/aaf25d98-16b0-4f01-9386-5ffaf059af93",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote- Canada",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "3017cb01f98d51f5",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Senior Applied Research Data Engineer (US)",
+            "url": "https://jobs.lever.co/pointclickcare/b924d7a9-41d0-44bd-b7fc-da5841a5ed68",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote - US",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "97578294da2093fd",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Senior Applied Researcher AI/ML ( CAD)",
+            "url": "https://jobs.lever.co/pointclickcare/f898bbb1-6d98-4708-9762-414799038ea4",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote- Canada",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "7bd2d5315b5ac3a5",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Senior Applied Researcher AI/ML (US)",
+            "url": "https://jobs.lever.co/pointclickcare/2e2fd17b-7360-449b-9fd4-de722f49a51f",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote - US",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "9932f55bb8a9f982",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Senior Software Engineer- AI Platform(US)",
+            "url": "https://jobs.lever.co/pointclickcare/7eb244c9-11ef-4e34-97c3-7941fa228185",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote - US",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          },
+          {
+            "id": "e7f34e4d89f3362c",
+            "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+            "siteName": "PointClickCare (Engineering)",
+            "title": "Senior Software Engineer- Big Data & Java",
+            "url": "https://jobs.lever.co/pointclickcare/bd934958-3123-4d6d-babc-b73f5b210055",
+            "department": "PointClickCare",
+            "team": "Engineering",
+            "location": "Remote, USA",
+            "firstSeenAt": "2026-08-06T20:44:59.106Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-06T20:44:59.106Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [
+          {
+            "id": "e0db736c933f7152",
+            "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+            "siteName": "PointClickCare (Tech)",
+            "title": "Ai Solution Engineer - (Technology Support)",
+            "url": "https://jobs.lever.co/pointclickcare/56e13d29-7f5e-4c80-b9cf-8f12a17db1a0",
+            "department": "PointClickCare",
+            "team": "Tech & Support Services",
+            "location": "Mississauga",
+            "firstSeenAt": "2026-08-06T20:45:00.722Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-06T20:45:00.722Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [
+          {
+            "id": "5fdce1c9573079ea",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "AI Product Specialist",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=c91574d6-e99c-47b8-a136-fe941a09af53",
+            "department": "AI & Operational Analytics",
+            "location": "MI-Birmingham Office; IL-Chicago Office; NY-New York; FL-Florida Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "d0fb1774ac8a26ed",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Business Development Representative",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=0e00b4bf-9d13-4a8e-a9b7-5bef3c9976d2",
+            "department": "Sales",
+            "location": "GA-Alpharetta Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "9c2d36e171038a4e",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Customer Support Engineer - Finance Software Applications",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=626b518e-fb37-445b-a13c-f0e7cc07aa1e",
+            "department": "Customer Support & Remote Consulting  (CSRC)",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "ded3f6f27d196580",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Software Engineer I",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=b5e8ca0c-5ac4-42fa-adb7-0307c5b071fa",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "872450e203d74e6a",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=f029856f-a659-4b3e-accf-3ad99f2333e1",
+            "department": "Sales",
+            "location": "United Kingdom",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "227ee65cae2d481d",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "SysOps Engineer - Weekend Shift",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=394b675c-4f26-4156-916b-ccd097653035",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "b7a41075c0f48e95",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Customer Success Manager  (Central Region)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=b7747a16-148c-4d10-9273-02b2aafc1b53",
+            "department": "Customer Success",
+            "location": "Illinois; Wisconsin; Minnesota",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "8afea6024a80f708",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Manager, Compensation",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=d0c0e3cd-8349-41a6-827c-f1be7e1138fc",
+            "department": "Human Resources",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "7dbdc7dce2c30106",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Product Strategy Director",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=631ae25a-6c6d-4dcc-a2bc-d7d3e1c404bc",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "d0bdc96985f01ffa",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Customer Success Manager _ Italy",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=d1bcb43a-dfc5-4d24-bb8d-0b9f40160eb8",
+            "department": "Customer Success",
+            "location": "Italy",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "4118ac0d364032ad",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior AI Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=4ebe42c5-d7a7-475c-a081-56123c7a74ae",
+            "department": "AI & Operational Analytics",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "91ee1e7170ea60ac",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior SysOps Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=d255e7b2-da48-4bc2-bed9-9571fb54d0e7",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "80ba47dca4927ecd",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=44d318df-c30b-4f58-b7db-2451b80fddf7",
+            "department": "Sales",
+            "location": "NL-Benelux Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "11884dd710fc7a83",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Application Security Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=595394d8-ddb4-4ea4-9cf4-55babc8a619d",
+            "department": "Information Security & Compliance",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "f68e70f35ec9744c",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Customer Success Manager  (Georgia)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=0565d347-0927-4084-9861-620ee7ac55a3",
+            "department": "Customer Success",
+            "location": "Georgia",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "527b9f139165da8a",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Compliance Analyst",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=29ce338f-6be7-4cbd-bd2b-b2057ecd43c1",
+            "department": "Information Security & Compliance",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "0558de193b3f2031",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant (POC Architecture Team - AI Focus)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=2b851f47-8e88-460b-86ce-e0b679b20909",
+            "department": "Sales",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "4479ddc2b493d7b5",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=9c4552fa-9a86-4a39-a558-2e00485162df",
+            "department": "Sales",
+            "location": "UAE-United Arab Emirates",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "25c01a73f677194a",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Software Engineer I",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=c20f3596-3957-44cf-85a5-a5adb2ad154b",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "b4111672bc0cac7e",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Manager, Customer Success (Central Region)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=72149ad0-7d71-41c7-8cf8-7ae55e33a310",
+            "department": "Customer Success",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "699f5dc988da43aa",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Manager, Quality Engineering",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=af9636af-c59f-4d4d-8b0f-565f358dbc37",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "f9ec2835f21e9004",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior User Experience Researcher II",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=1915f2e3-b41d-4881-8131-8ab1df3b88ad",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "5ed53f8888efbb78",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Cloud DevOps Network Engineer (FedRAMP, Azure, Advanced Networking)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=b4d2cec9-dfb0-456a-939d-df89ea2adfc0",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "0b2b4bbf65a67bd8",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Software Engineer I",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=c6e9feac-ee6e-4623-a2b5-fdcae63344d5",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "25074fae3b6121a1",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Product Manager",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=8f76f13a-5131-4506-88d7-566a6dc55c4a",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "d49014f1956a9508",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Manager, Alliance Operations",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=3547920c-bd1e-44e5-b152-a1de3b9004a1",
+            "department": "Sales",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "7ba7bb684a2ed3c4",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "VP, Pricing & Packaging",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=c9fa50f8-d5e8-434b-8283-5193cbc8baad",
+            "department": "Operations",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "1bd0f3b10a676706",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=18dd962d-7cf7-43c2-b794-f4b0d65a7c7f",
+            "department": "Sales",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "8c5a85acc1db3080",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Account Executive",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=b2da092e-90ee-46fc-a1cc-3f21bea3a666",
+            "department": "Sales",
+            "location": "United Kingdom",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "c9101d17bcec818d",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Account Director",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=4826998f-44b0-4fe7-9d29-a95ce0b69090",
+            "department": "Sales",
+            "location": "United Kingdom",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "36fb7eb3deee1a71",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=e96140f3-8f86-45c7-a84c-cfce2ebcd7bb",
+            "department": "Sales",
+            "location": "France-Paris Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "d30693fb26d00793",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Accountant II",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=f48e8e40-ab71-4f29-8625-22cb5374a163",
+            "department": "Accounting and Finance",
+            "location": "MI-Birmingham Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "200fde94606970a2",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Vice President, Public Sector GTM & Operations",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=e12a044d-185c-4a6d-83ca-fbccb105e116",
+            "department": "Sales",
+            "location": "MI-Birmingham Office; Washington - D.C.; GA-Alpharetta Office; United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "e06daf3b97e94423",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior AI Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=7e0b28c4-beac-425a-b981-f1d9ae5d88cd",
+            "department": "AI & Operational Analytics",
+            "location": "MI-Birmingham Office; FL-Florida Office; IL-Chicago Office; NY-New York",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "ed77883965354ab4",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Lead AI Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=a9f9bd4a-b1f8-42cc-bf78-9c0c4f8efc2e",
+            "department": "AI & Operational Analytics",
+            "location": "MI-Birmingham Office; IL-Chicago Office; FL-Florida Office; NY-New York",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "01122f079718ef3d",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "SysOps Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=210e64ef-5d75-48c8-be97-d48529be6124",
+            "department": "Cloud Global",
+            "location": "United Kingdom",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "9e98dbd3bbdf5070",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "AI Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=ba9b94b5-5119-490d-ab9d-a633e7542bf5",
+            "department": "AI & Operational Analytics",
+            "location": "MI-Birmingham Office; IL-Chicago Office; FL-Florida Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "85c8dae917f5d05f",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Associate AI Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=3fb03313-eb9a-4385-a8f5-b44e7334287a",
+            "department": "AI & Operational Analytics",
+            "location": "FL-Florida Office; MI-Birmingham Office; IL-Chicago Office; NY-New York",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "5b1f171c6ea0ad52",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Technical Solution Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=d5c62dc2-3d74-420e-8af3-58c10e721064",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "0a35662ac14061b9",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Global Systems Integrators Alliances Director - Italy & Iberia",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=68cd942a-c5f2-4d68-85f0-761f2e2ce246",
+            "department": "Sales",
+            "location": "Italy",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "1f64f56f35243d22",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Account Executive",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=ae3ef6f5-9a4d-468e-8d5a-39200a617d0b",
+            "department": "Sales",
+            "location": "France-Paris Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "0c10e0fcd0cc0bd1",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Director, Sales (State & Local)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=f3a9f82c-fc16-4ff8-a3aa-9c7684d46a29",
+            "department": "Sales",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "c9ed27a1c691a680",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Site Reliability Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=2929ecb9-fb3e-4b33-90e4-e3934a7d3eba",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "ae9ba250a0a49c6b",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "OneStream Partner Enablement - (Principal Delivery Manager) , Singapore",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=660be38b-e37d-4b9b-84ae-8d39edd307f9",
+            "department": "Customer Support & Remote Consulting  (CSRC)",
+            "location": "Singapore",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "11904fd3944e4f48",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior SysOps Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=f4eea018-4fea-4ae6-9970-cd6f42efd238",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "575b701e7deaa366",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Solution Consultant (POC Architecture Team)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=069e60ce-f5d6-41b3-aea4-62b89f30b1ba",
+            "department": "Sales",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "126e69624745b2b3",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Account Director",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=342d9d50-a675-4cde-8170-4889415b7784",
+            "department": "Sales",
+            "location": "Germany",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "1d5f9b8c0c2c5480",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Account Director",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=c4cb3770-5130-4f85-a99e-e11952c3a622",
+            "department": "Sales",
+            "location": "Austria",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "e9da8ae88abdeecb",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Cloud DevOps Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=fdf8e9e2-5385-4847-8eab-2c7be0b61403",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "33c4294e961c785f",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Remote Consultant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=ba40a88f-012e-44fd-a74b-c9d3e483741d",
+            "department": "Customer Support & Remote Consulting  (CSRC)",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "ad7a9b7af12ee5a1",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Software Engineer I",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=05d83b39-1d20-4098-bc4a-8998b95008e4",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "6f20bf9c6c0bef15",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "OneStream Demo Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=b035f802-efda-4ccb-965c-b72db5a45aa1",
+            "department": "AI & Operational Analytics",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "cb353b2904a6b834",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Product Manager I",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=635ad134-9b42-4d22-ba75-14da1188dff0",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "444ad4c4f31b7e3e",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Business Development Representative (French, German, English, Swedish, and Italian)",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=e5b7a60f-8502-41c4-810c-08912424f59d",
+            "department": "Sales",
+            "location": "NL-Benelux Office",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          },
+          {
+            "id": "9c9ce3a483e8089f",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Director, Cloud Engineering & Operations, FinOps",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=f3c59a25-b347-4822-9679-d3b1703455a4",
+            "department": "Cloud Global",
+            "location": "United States",
+            "firstSeenAt": "2026-08-06T20:45:01.310Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 55,
+        "checkedAt": "2026-08-06T20:45:01.310Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [
+          {
+            "id": "1accfa4a4c12db7b",
+            "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+            "siteName": "Included Health (ENG)",
+            "title": "Lead Solutions Engineer",
+            "url": "https://jobs.lever.co/includedhealth/298c3b77-29a8-4340-9dc1-3c5e214a0065",
+            "department": "Engineering",
+            "team": "Software Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:01.999Z",
+            "isNew": true
+          },
+          {
+            "id": "9511df7d808d2756",
+            "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+            "siteName": "Included Health (ENG)",
+            "title": "Senior Lead Solutions Engineer",
+            "url": "https://jobs.lever.co/includedhealth/300d6414-2856-492d-ad89-8baf9c8735df",
+            "department": "Engineering",
+            "team": "Software Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:01.999Z",
+            "isNew": true
+          },
+          {
+            "id": "81f47908b416da93",
+            "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+            "siteName": "Included Health (ENG)",
+            "title": "Senior Software Engineer, Backend",
+            "url": "https://jobs.lever.co/includedhealth/6834927b-8527-4c2c-bc15-855a56f68765",
+            "department": "Engineering",
+            "team": "Software Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:01.999Z",
+            "isNew": true
+          },
+          {
+            "id": "0c46f0b29c2d4c0e",
+            "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+            "siteName": "Included Health (ENG)",
+            "title": "Senior Software Engineer, Fullstack",
+            "url": "https://jobs.lever.co/includedhealth/c00ec43f-c773-4a99-80b7-ed26d485cd39",
+            "department": "Engineering",
+            "team": "Software Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:01.999Z",
+            "isNew": true
+          },
+          {
+            "id": "8074af806be0cdcd",
+            "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+            "siteName": "Included Health (ENG)",
+            "title": "Solutions Engineer",
+            "url": "https://jobs.lever.co/includedhealth/9614ad28-0a65-4e27-abb2-1fafbdab06f9",
+            "department": "Engineering",
+            "team": "Software Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:01.999Z",
+            "isNew": true
+          },
+          {
+            "id": "3b0a72247cd1c1de",
+            "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+            "siteName": "Included Health (ENG)",
+            "title": "Staff Software Engineer, Product",
+            "url": "https://jobs.lever.co/includedhealth/bf199a54-16ed-4f52-b30f-7f9616b91d11",
+            "department": "Engineering",
+            "team": "Software Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:01.999Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-06T20:45:01.999Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [
+          {
+            "id": "f5a6619cae7f72da",
+            "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+            "siteName": "Included Health (Tech)",
+            "title": "Staff AI Solutions Engineer",
+            "url": "https://jobs.lever.co/includedhealth/e2a1f001-c4d3-4f5c-9fef-8e791332d36f",
+            "department": "Technology Services",
+            "team": "Technology Services",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:06.513Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-06T20:45:06.513Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [
+          {
+            "id": "85d5930fcf1d8bf6",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Enterprise Account Executive (EMEA)",
+            "url": "https://jobs.lever.co/immuta/b5ad60cc-493f-441c-b420-4127fc432e95",
+            "department": "Sales",
+            "team": "Sales",
+            "location": "London",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "68bac36eb8aa14a8",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Enterprise Account Executive (US, West)",
+            "url": "https://jobs.lever.co/immuta/1a07de0f-5ff5-41c2-ab86-66046ce37402",
+            "department": "Sales",
+            "team": "Sales",
+            "location": "California",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "6eb8dee73b5669ba",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Field CTO (APJ)",
+            "url": "https://jobs.lever.co/immuta/3643d294-8830-430e-99de-1846cc208604",
+            "department": "Customer Success",
+            "team": "Customer Engagement",
+            "location": "Australia",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "3af5de49732f1d0f",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Field CTO (US)",
+            "url": "https://jobs.lever.co/immuta/b87a70f1-33d3-4700-9373-39037d9d22fc",
+            "department": "Customer Success",
+            "team": "Customer Engagement",
+            "location": "Remote USA",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "af6a3f8ec73ec7a2",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "GTM Platform Engineer",
+            "url": "https://jobs.lever.co/immuta/086532e4-0c4c-4993-8295-b7e4ebe8bdb4",
+            "department": "Growth",
+            "team": "Growth",
+            "location": "Austin, TX or Columbus, OH",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "b4d83c3f77c3b25e",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Regional Director, Sales (West & Central US)",
+            "url": "https://jobs.lever.co/immuta/79f4b603-34d8-4813-befd-4f5fb47fad92",
+            "department": "Sales",
+            "team": "Sales",
+            "location": "San Francisco Bay Area",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "ff4ebe8e712c18ce",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Resident Solution Architect (U.S. Public Sector)",
+            "url": "https://jobs.lever.co/immuta/54c7b077-e027-41a1-9697-ff52195d13b8",
+            "department": "Customer Success",
+            "team": "Customer Success",
+            "location": "Tampa, Florida",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "dafd1506cd68eda7",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Resident Solution Architect (US)",
+            "url": "https://jobs.lever.co/immuta/7ad94e7a-cd88-4935-94e9-a28a70f07680",
+            "department": "Customer Success",
+            "team": "Customer Success",
+            "location": "Columbus, OH",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "f847cdd7ff40ca52",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Sr. Software Engineer (Agentic Access)",
+            "url": "https://jobs.lever.co/immuta/47767e99-640f-4662-be9b-79e70ae7a146",
+            "department": "Product Engineering",
+            "team": "Product Engineering",
+            "location": "Columbus, OH",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          },
+          {
+            "id": "985312e13c07983c",
+            "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+            "siteName": "Immuta",
+            "title": "Support Engineer (APJ)",
+            "url": "https://jobs.lever.co/immuta/d56a5011-8fbd-4b13-96a7-17b59ce134b1",
+            "department": "Customer Success",
+            "team": "Customer Engagement",
+            "location": "Australia",
+            "firstSeenAt": "2026-08-06T20:45:10.448Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-06T20:45:10.448Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [
+          {
+            "id": "6d8846ff27edb907",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Epic Wisdom Lead - 6364302",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14499563_en&title=Epic+Wisdom+Lead+-+6364302",
+            "department": "Software Engineering",
+            "location": "Albany, NY; Arlington, VA; Atlanta, GA; Austin, TX; Beaverton, OR; Bentonville, AR; Boston, MA; Carmel, IN; Charlotte, NC; Chicago, IL; Cincinnati, OH; Cleveland, OH; Columbus, OH; Culver City, CA; Denver, CO; Des Moines, IA; Detroit, MI; Hartford, CT; Houston, TX; Irvine, CA; Irving, TX; Kirkland, WA; Miami, FL; Milwaukee, WI; Minneapolis, MN; Morristown, NJ; Mountain View, CA; Nashville, TN; New York City, NY; Oklahoma City, OK; Overland Park, KS; Philadelphia, PA; Pittsburgh, PA; Raleigh, NC; Redmond, WA; Sacramento, CA; San Diego, CA; San Francisco, CA; Scottsdale, AZ; Seattle, WA; St. Louis, MO; St. Petersburg, FL; Walnut Creek, CA",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "4b8e9275438cc5d9",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "SAP BTP Advanced Event Mesh Developer 6313002",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14399442_en&title=SAP+BTP+Advanced+Event+Mesh+Developer+6313002",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC; Albany, NY; Arlington, VA; Atlanta, GA; Austin, TX; Beaverton, OR; Bentonville, AR; Boston, MA; Carmel, IN; Chicago, IL; Cincinnati, OH; Cleveland, OH; Columbus, OH; Culver City, CA; Denver, CO; Des Moines, IA; Detroit, MI; Hartford, CT; Houston, TX; Irving, TX; Kirkland, WA; Miami, FL; Milwaukee, WI; Minneapolis, MN; Morristown, NJ; Mountain View, CA; Nashville, TN; New York City, NY; Oklahoma City, OK; Overland Park, KS; Philadelphia, PA; Pittsburgh, PA; Raleigh, NC; Redmond, WA; Sacramento, CA; San Diego, CA; San Francisco, CA; Scottsdale, AZ; Seattle, WA; St. Louis, MO; St. Petersburg, FL; Walnut Creek, CA",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "eda13e2a87d50f89",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "OneStream Senior Developer",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00335835_en&title=OneStream+Senior+Developer",
+            "department": "Software Engineering",
+            "location": "Chicago, IL; Albany, NY; Arlington, VA; Atlanta, GA; Austin, TX; Bentonville, AR; Boston, MA; Charlotte, NC; Cincinnati, OH; Cleveland, OH; Columbus, OH; Culver City, CA; Denver, CO; Detroit, MI; Hartford, CT; Houston, TX; Irving, TX; Miami, FL; Milwaukee, WI; Minneapolis, MN; Morristown, NJ; Mountain View, CA; Nashville, TN; New York City, NY; Oklahoma City, OK; Overland Park, KS; Philadelphia, PA; Pittsburgh, PA; Raleigh, NC; Redmond, WA; Sacramento, CA; San Diego, CA; San Francisco, CA; Scottsdale, AZ; Seattle, WA; St. Louis, MO; St. Petersburg, FL",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "23f8efa3b0d2ee58",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Epic Certified Analyst - EpicCare Cadence & Prelude 6164543",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14112247_en&title=Epic+Certified+Analyst+-+EpicCare+Cadence+%26+Prelude+6164543",
+            "department": "Software Engineering, Technology & Information Architectures",
+            "location": "Chicago, IL; Albany, NY; Arlington, VA; Atlanta, GA; Austin, TX; Beaverton, OR; Bentonville, AR; Boston, MA; Carmel, IN; Charlotte, NC; Cincinnati, OH; Cleveland, OH; Columbus, OH; Culver City, CA; Denver, CO; Des Moines, IA; Detroit, MI; Hartford, CT; Herndon, VA; Houston, TX; Irvine, CA; Irving, TX; Kirkland, WA; Miami, FL; Milwaukee, WI; Minneapolis, MN; Morristown, NJ; Mountain View, CA; Nashville, TN; New York City, NY; Oklahoma City, OK; Overland Park, KS; Philadelphia, PA; Pittsburgh, PA; Raleigh, NC; Redmond, WA; Sacramento, CA; San Diego, CA; San Francisco, CA; Scottsdale, AZ; Seattle, WA; St. Louis, MO; St. Petersburg, FL; Walnut Creek, CA",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "97f2e80f3ee017cb",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "OneStream Integration Lead",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00335839_en&title=OneStream+Integration+Lead",
+            "department": "Software Engineering",
+            "location": "Chicago, IL; Albany, NY; Arlington, VA; Atlanta, GA; Austin, TX; Beaverton, OR; Bentonville, AR; Boston, MA; Carmel, IN; Charlotte, NC; Cincinnati, OH; Cleveland, OH; Columbus, OH; Culver City, CA; Denver, CO; Des Moines, IA; Detroit, MI; Hartford, CT; Houston, TX; Irving, TX; Kirkland, WA; Miami, FL; Milwaukee, WI; Minneapolis, MN; Morristown, NJ; Mountain View, CA; Nashville, TN; New York City, NY; Oklahoma City, OK; Overland Park, KS; Philadelphia, PA; Pittsburgh, PA; Raleigh, NC; Redmond, WA; Sacramento, CA; San Diego, CA; San Francisco, CA; Scottsdale, AZ; Seattle, WA; St. Louis, MO; St. Petersburg, FL; Walnut Creek, CA",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "1654fd53ed517ae5",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Epic Resolute Application Developer (Charge Router and Coding Skills) - 6260321",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14303045_en&title=Epic+Resolute+Application+Developer+%28Charge+Router+and+Coding+Skills%29+-+6260321",
+            "department": "Software Engineering",
+            "location": "San Francisco, CA; Albany, NY; Arlington, VA; Atlanta, GA; Austin, TX; Beaverton, OR; Bentonville, AR; Boston, MA; Carmel, IN; Charlotte, NC; Chicago, IL; Cincinnati, OH; Cleveland, OH; Columbus, OH; Culver City, CA; Denver, CO; Des Moines, IA; Detroit, MI; Hartford, CT; Houston, TX; Irving, TX; Kirkland, WA; Miami, FL; Milwaukee, WI; Minneapolis, MN; Morristown, NJ; Mountain View, CA; Nashville, TN; New York City, NY; Oklahoma City, OK; Overland Park, KS; Philadelphia, PA; Pittsburgh, PA; Raleigh, NC; Redmond, WA; Sacramento, CA; San Diego, CA; Scottsdale, AZ; Seattle, WA; St. Louis, MO; St. Petersburg, FL; Walnut Creek, CA",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "07d9f2433f583850",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Payments Quality Engineer - 6434801",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14627028_en&title=Payments+Quality+Engineer+-+6434801",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC; Atlanta, GA; Irving, TX",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "4e4f4d1e494723e2",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Payments RS Mid Java Dev 6417413",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14596735_en&title=Payments+RS+Mid+Java+Dev+6417413",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC; Atlanta, GA; Irving, TX; Scottsdale, AZ",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "a4cbed17f2fce6a3",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Quality Engineering Lead Test Lead 6158332",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14100152_en&title=Quality+Engineering+Lead+Test+Lead+6158332",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "9b80263b136ab3f9",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Application Lead Workday Extend - 6407310",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14576521_en&title=Application+Lead+Workday+Extend+-+6407310",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC; Irving, TX; Morristown, NJ",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "f1cdc6609d82c650",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Python/Apache Spark + Airflow Engineer - 6376092",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14517890_en&title=Python%2FApache+Spark+%2B+Airflow+Engineer+-+6376092",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          },
+          {
+            "id": "f5b304c734485c2e",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Test Automation Lead 6215723",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14216197_en&title=Test+Automation+Lead+6215723",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-08-06T20:45:10.847Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-06T20:45:11.272Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-06T20:45:11.388Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [
+          {
+            "id": "ae3158ca3d347440",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Lead Full Stack Engineer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100217/Lead-Full-Stack-Engineer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "63284d6211fd176f",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Salesforce / Accounting Systems Architect, (Senior Consultant, Business & Product Delivery)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100199/Salesforce-Accounting-Systems-Architect-Senior-Consultant-Business-Product-Delivery",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "dad72e6fce4d7f60",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Salesforce Engineer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100205/Senior-Salesforce-Engineer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "6eadd676263ac757",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Salesforce Engineer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100203/Senior-Salesforce-Engineer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "03e3c821b3c2c683",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Product Designer, (Senior Consultant, Experience & Design)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100223/Senior-Product-Designer-Senior-Consultant-Experience-Design",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "7ee32aa6c09d8557",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Drupal Developer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100219/Senior-Drupal-Developer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "d40a1208dda606a7",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Drupal Frontend Engineer, (Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100221/Drupal-Frontend-Engineer-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "ca960b68f44733d2",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Drupal Backend Engineer, (Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100220/Drupal-Backend-Engineer-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "7bb575c8f7087ce9",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "UX Designer, Part Time (Consultant, Experience & Design)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100222/UX-Designer-Part-Time-Consultant-Experience-Design",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          },
+          {
+            "id": "8bcbe2ad7ecc13d0",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Senior Drupal Developer, (Senior Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100208/Senior-Drupal-Developer-Senior-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-06T20:45:11.768Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-06T20:45:11.768Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [
+          {
+            "id": "8377e4f8e96a09d0",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Electro-Mechanical Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Electro-Mechanical-Engineer_REQ-1000049987",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "5b56f357fd637893",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Senior Engineering Technician",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Senior-Engineering-Technician_REQ-1000051041",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "2bce2ff98a9beb7a",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr Manager – Customer Identity & Platform Engineering",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Sr-Manager---Customer-Identity---Platform-Engineering_REQ-1000050564",
+            "location": "2 Locations",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "c174db16dce7a1ed",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Graduate Program Engineering (CAE) - SLP",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Rheingau-Taunus-Kreis-Idstein-Deutschland/Graduate-Program-Engineering--CAE----SLP_REQ-1000049737",
+            "location": "Rheingau-Taunus-Kreis, Idstein, Deutschland",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "11850bcbd623dd8f",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Product Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Shizheng-Rd-Taichung-Taiwan/Product-Engineer_REQ-1000050963",
+            "location": "Shizheng Rd, Taichung, Taiwan",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "85d7a261d3b0fc37",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Electrical Engineer III (Electrical Systems)",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Electrical-Engineer-III--Electrical-Systems-_REQ-1000047128",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "cf10137ad1caaade",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Senior Designer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Senior-Designer_REQ-1000050777",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "9f316f474d8958a5",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Machine Shop Technician",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Taichung-Taiwan/Senior-Machine-Shop-Technician_REQ-1000048960",
+            "location": "Taichung, Taiwan",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "30ea21bc1b2e5c46",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "IT Procurement Lead Business System Analyst",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/IT-Procurement-Lead-Business-System-Analyst_REQ-1000050358",
+            "location": "2 Locations",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "d3bc4d139bbea52b",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Project Engineer, Firmware",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Project-Engineer--Firmware_REQ-1000050683-1",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "68bb9bcba1ff00e7",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Senior Engineering Manager, Embedded Software",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Senior-Engineering-Manager--Embedded-Software_REQ-1000050778",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "f59a126e773965b5",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr 2 Engineer - MBD",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-2-Engineer---MBD_REQ-1000050898",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "34711623d952aeba",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Engineer - System Modeling - CAE",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-Engineer---System-Modeling---CAE_REQ-1000050894",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "a4622c38ff40744b",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Engineer- CAE Opt",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-Engineer--CAE-Opt_REQ-1000050893",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "c4c3bc1a475a771d",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Industrial Designer – 3D Surfacing",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Shizheng-Rd-Taichung-Taiwan/Industrial-Designer---3D-Surfacing_REQ-1000049773",
+            "location": "Shizheng Rd, Taichung, Taiwan",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "8f67e7176f0612e7",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Lead Engineer, Embedded Software",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Lead-Engineer--Embedded-Software_REQ-1000047694",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "1b2178c8aa6adcd8",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Solutions Architect, Business Transformation",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Solutions-Architect--Business-Transformation_REQ-1000049356",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "79d88d1deb0afaba",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Electrical Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Bellandur-Bengaluru-East-Bangalore-Urban-District-Karnataka-India/Electrical-Engineer_REQ-1000049027",
+            "location": "Bellandur, Bengaluru East, Bangalore Urban District, Karnataka, India",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "4c057b003e29f66e",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Senior Engineer - CAE",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Bellandur-Bengaluru-East-Bangalore-Urban-District-Karnataka-India/Senior-Engineer---CAE_REQ-1000050792",
+            "location": "Bellandur, Bengaluru East, Bangalore Urban District, Karnataka, India",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "e1d94f4ad5450003",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Principal Engineer – Hardware BMS",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Lead-Engineer--Electrical---Hardware-BMS_REQ-1000048144",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "a1124acb8c1467e2",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Network Project Analyst",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Warsaw-Poland/Sr-Business-Analyst_REQ-1000046174",
+            "location": "Warsaw, Poland",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "a673f17cb1f5fc02",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Project Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Highland-Heights-OH-United-States/Project-Engineer_REQ-1000050930",
+            "location": "Highland Heights, OH, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "2fc83370082654a2",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Senior Project Engineer,  CAD",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Valley-City-OH-United-States/Senior-Project-Engineer---CAD_REQ-1000048841",
+            "location": "Valley City, OH, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "c54b38eb26783cf5",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Manufacturing Engineer Manager",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Elyria-OH-United-States/Manufacturing-Engineer-Manager_REQ-1000050526",
+            "location": "Elyria, OH, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "dd343757f0816204",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "CNC Operator & Shop Technician",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Valley-City-OH-United-States/CNC-Operator---Shop-Technician_REQ-1000048955",
+            "location": "Valley City, OH, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "6e45450c2e8266d7",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Project Engineer- Electrical Systems Reliability",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Sr-Project-Engineer--Electrical-Systems-Reliability_REQ-1000050486",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "71af6b5f4ce5e89b",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Test Design Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Ciudad-Apodaca-Nuevo-Len-Mexico/Test-Design-Engineer_REQ-1000050092",
+            "location": "Ciudad Apodaca, Nuevo León, Mexico",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "5e5f0c629c2275e8",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Project Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Mission-TX-United-States/Project-Engineer_REQ-1000049984",
+            "location": "Mission, TX, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "7917f9a6f2b3b0a3",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Senior Manager, Site & OT Support",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Senior-Manager--Site---OT-Support_REQ-1000049535",
+            "location": "3 Locations",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "b115a31539537990",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Entwicklungsingenieur (m/w/d) Warmumformung & Aerospace",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Gieen-Giessen-Deutschland/Development-Engineer-Blind-Fastening-Aerospace--m-f-d-_REQ-1000046066",
+            "location": "Gießen, Giessen, Deutschland",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "c20e5d662622fff3",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Ingeniero de Ventas Técnicas – Industria B2B",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/El-Talar-Buenos-Aires-Province-Argentina/Sales-Engineer_REQ-1000048466",
+            "location": "El Talar, Buenos Aires Province, Argentina",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "6df273463634a7ee",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Lead / Principal - Mechanism & Multi-Body Dynamics Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Lead---Principal---Mechanism---Multi-Body-Dynamics-Engineer_REQ-1000050039",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "e8e01f206da7f579",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Principal – Principal Systems MBD Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Principal---Principal-Systems-MBD-Engineer_REQ-1000050116",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "66fae1037bef4b4a",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Manufacturing Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Farmers-Branch-TX-United-States/Manufacturing-Engineer_REQ-1000049105-1",
+            "location": "Farmers Branch, TX, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "a9599d159a789a3a",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Mechanical Engineer",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Elyria-OH-United-States/Mechanical-Engineer_REQ-1000048944",
+            "location": "Elyria, OH, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "d65e8ab27256158f",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "FMEA Ingenieur (m/w/d)",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Gieen-Giessen-Deutschland/FMEA-Ingenieur--m-w-d-_REQ-1000048917",
+            "location": "Gießen, Giessen, Deutschland",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "de64408a2781d3fe",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Project Engineer, Mechanical",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Project-Engineer--Mechanical_REQ-1000049909",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "428470da74bb7345",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Engineer-Pack ME",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-Engineer-Pack-ME_REQ-1000049013",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "4f4f1eaf99bc8129",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Engineer-Pack ME",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-Engineer-Pack-ME_REQ-1000049014-1",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          },
+          {
+            "id": "1b78371cb8aa3028",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Sr. Engineer-BMS EE",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Suzhou-China/Sr-Engineer-BMS-EE_REQ-1000049012",
+            "location": "Suzhou, China",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 40,
+        "checkedAt": "2026-08-06T20:45:29.087Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [
+          {
+            "id": "9eb6dccd67aaa320",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Sr Manager - Softwr Engnr",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=40823",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "bbda29eaa13fc7b7",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Software Development Manager",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=40862",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "5de76ac512380996",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Lead Developer - Dgtl Sftwr",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=41330",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "6d722275f43fa139",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "IT Lead Analyst - Software QA",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42425",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "8c0e5b0613b08197",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Cyber Vulnerability Research Engineer",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42014",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "6c1c443192ce2bcc",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "DevSecOps Pipeline Engineer",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42389",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "ef0b3ce68e01b643",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Cloud Platform Engineer",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42384",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "ee58908f96583020",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Senior Firewall Engineer (Palo Alto SME)",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=41886",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "aa90c50c7a4ed8cd",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "M365 Platform Engineer",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42424",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          },
+          {
+            "id": "9d672a39f1750c01",
+            "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+            "siteName": "Maximus",
+            "title": "Senior Front End Developer",
+            "url": "https://maximus.avature.net/careers/Job-Description?folderId=42291",
+            "firstSeenAt": "2026-08-06T20:45:30.491Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-06T20:45:30.491Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [
+          {
+            "id": "07e0599ae6ca5cfa",
+            "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+            "siteName": "PageVault",
+            "title": "Product Engineer, Stencil Team",
+            "url": "https://apply.workable.com/j/ABAC9D0E57",
+            "department": "Product Engineering",
+            "location": "Remote",
+            "firstSeenAt": "2026-08-06T20:45:46.669Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-06T20:45:46.669Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-06T20:45:46.914Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 28,
+        "checkedAt": "2026-08-06T20:46:20.630Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [
+          {
+            "id": "2763e9dedb59b4d2",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Principal Engineer",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9207032101450",
+            "location": " Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          },
+          {
+            "id": "db68466e35ec95a0",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Sr. Product Designer",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9207030501178",
+            "location": " Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          },
+          {
+            "id": "4008b523afd7062b",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Customer Marketing Manager",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9206982988514",
+            "location": " Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          },
+          {
+            "id": "48d62e8354011a7e",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Software Engineer III",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9206931235155",
+            "location": " Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          },
+          {
+            "id": "9bbc1bf240b2abbb",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Commercial Sales Manager",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9206885518853",
+            "location": " Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          },
+          {
+            "id": "f7e527955a0f6e20",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Senior Product Manager",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9206885534371",
+            "location": " Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          },
+          {
+            "id": "35ec4fb4c92f60cf",
+            "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+            "siteName": "Suralink",
+            "title": "Sr. Software Engineer ",
+            "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=69abe2ed-59b3-4ab3-bd4a-b2c8fc054e18&ccId=19000101_000001&lang=en_US&jobId=9205939049548",
+            "location": "Remote, Remote - SLC Area Preferred, UT, US",
+            "firstSeenAt": "2026-08-06T20:46:20.805Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-06T20:46:20.805Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "2ca39ec5899201a3",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Category Manager, Technology Services",
+            "url": "https://careers.mckesson.com/en/job/irving/sr-category-manager-technology-services/733/98854378448",
+            "location": "Sr. Category Manager, Technology Services",
+            "firstSeenAt": "2026-08-06T20:46:21.122Z",
+            "isNew": true
+          },
+          {
+            "id": "594b33168fb1c64b",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Software Engineer",
+            "url": "https://careers.mckesson.com/en/job/irving/software-engineer/733/98854378144",
+            "firstSeenAt": "2026-08-06T20:46:21.122Z",
+            "isNew": true
+          },
+          {
+            "id": "6ed440f2d882fa55",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Senior Data Specialist",
+            "url": "https://careers.mckesson.com/en/job/mississauga/senior-data-specialist/733/98849316784",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-06T20:46:21.122Z",
+            "isNew": true
+          },
+          {
+            "id": "25139d1ebd3ef197",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Director, HR Business Partner",
+            "url": "https://careers.mckesson.com/en/job/irving/director-hr-business-partner/733/97790213360",
+            "location": "Director, HR Business Partner",
+            "firstSeenAt": "2026-08-06T20:46:21.122Z",
+            "isNew": true
+          },
+          {
+            "id": "d21c82ccebb63784",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Manager, Business Intelligence",
+            "url": "https://careers.mckesson.com/en/job/irving/sr-manager-business-intelligence/733/98845113376",
+            "location": "Sr. Manager, Business Intelligence",
+            "firstSeenAt": "2026-08-06T20:46:21.122Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 5,
+        "totalFound": 20,
+        "checkedAt": "2026-08-06T20:46:21.122Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [
+          {
+            "id": "0534c8e97b455ff8",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Technical Program Manager",
+            "url": "https://www.shopify.com/careers?ashby_jid=3f5d85c0-816a-4173-96e7-4ee200b3b20e",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "55cffa8aa1bb184d",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Software Engineer - Internal Tools",
+            "url": "https://www.shopify.com/careers?ashby_jid=819eb2d1-1bf6-4f0d-91dd-419aea8bd9d5",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "d8f3f8387baeb189",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Software Engineer - Data in Search",
+            "url": "https://www.shopify.com/careers?ashby_jid=06913799-8916-4504-afc4-4a5659ef11c2",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "f7020ee296e6b3f3",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Security Engineer",
+            "url": "https://www.shopify.com/careers?ashby_jid=d3d306a8-edf9-40b8-af0e-132cb600507d",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "93ed40f53fe6c2b1",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Product Data Scientists - Multiple Roles",
+            "url": "https://www.shopify.com/careers?ashby_jid=362ecbdc-924e-4b3b-92b1-d57c8eed4263",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "3892b30ee493b7d8",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff ML Platform Engineer - Recommendations",
+            "url": "https://www.shopify.com/careers?ashby_jid=c895d682-aaf8-4313-94b4-bab51c3b2e5d",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "bcb808bf113bb6ae",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Engineer - Real-Time Merchant Analytics",
+            "url": "https://www.shopify.com/careers?ashby_jid=1a55ffbe-70ae-4c65-a43b-0c78df56f9e3",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "7cfded1aee8aa5c5",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Data Engineers",
+            "url": "https://www.shopify.com/careers?ashby_jid=86f7a932-ce76-44ac-bc4d-a72180373a88",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "5659e2a688ed1348",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Staff Applied Machine Learning Engineer, SimGym",
+            "url": "https://www.shopify.com/careers?ashby_jid=e948ca39-e4ce-4643-a187-c0964f3a8def",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "cf6fa581cf29ab3c",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Software Engineering Internships Winter 2027",
+            "url": "https://www.shopify.com/careers?ashby_jid=b6d312a8-cdd2-4f21-a2f5-313182d6989d",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "e40b0cd3a6886869",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Senior Security Compliance Engineer",
+            "url": "https://www.shopify.com/careers?ashby_jid=386f306c-05fb-4232-85c1-a4bbf5a20997",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "d6291f7df1214cac",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Engineering Manager- Ruby and Rails Infrastructure",
+            "url": "https://www.shopify.com/careers?ashby_jid=0536bba4-c326-4416-935e-9401c9ea4482",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          },
+          {
+            "id": "733470779ffbca6e",
+            "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+            "siteName": "Shopify",
+            "title": "Applied Machine Learning Engineering Managers",
+            "url": "https://www.shopify.com/careers?ashby_jid=62d779d3-51c8-4b0a-ab2e-1a440276bb37",
+            "firstSeenAt": "2026-08-06T20:46:22.012Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 13,
+        "checkedAt": "2026-08-06T20:46:22.012Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-06T20:46:22.293Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 17,
+        "checkedAt": "2026-08-06T20:46:22.395Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [
+          {
+            "id": "873857424a9fc433",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "HRS Project Manager",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/HRS-Project-Manager_JR-0015992-2",
+            "location": "Chicago - 550 Van Buren",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "83a0238bcc35606e",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Senior AI Infrastructure Architect",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Senior-AI-Infrastructure-Engineering_JR-0016106",
+            "location": "Chicago - 550 Van Buren",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "5083ccf760048bf6",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "AI Solution Architect (Manager)",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/AI-Solution-Architect--Manager-_JR-0015717",
+            "location": "Chicago - 550 Van Buren",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "4192b1e57419ebc5",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "AI Solution Architect-Research Office Managed Services",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/AI-Solution-Architect-Research-Office-Managed-Services_JR-0015945-2",
+            "location": "Chicago - 550 Van Buren",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "aa52e10ec8410bfa",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Principal AI Governance Architect",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Principal-AI-Governance-Architect_JR-0016107",
+            "location": "Chicago - 550 Van Buren",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "171c6a05b9e961f9",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "AI/ML Engineer (Senior Associate) - Remote",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/AI-ML-Engineer--Senior-Associate----Remote_JR-0014607",
+            "location": "Chicago - 550 Van Buren",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "cca43d5f484fd0f9",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Forward Deployed Engineer (AI Capability Center) - 5 Openings",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Build-Engineer--Forward-Deployed-Engineering--AI-Capability-Center-_JR-0015889",
+            "location": "2 Locations",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "890e74f03261b23e",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Workday SCM Consulting Manager - Procurement",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Workday-SCM-Consulting-Manager---Procurement_JR-0015861",
+            "location": "3 Locations",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          },
+          {
+            "id": "b9c1835e664ae5a3",
+            "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+            "siteName": "Huron",
+            "title": "Engagement Manager, Senior (North America), AI Capability Center",
+            "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Engagement-Manager--Senior--North-America---AI-Capability-Center_JR-0015883",
+            "location": "2 Locations",
+            "firstSeenAt": "2026-08-06T20:46:37.392Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 7,
+        "totalFound": 9,
+        "checkedAt": "2026-08-06T20:46:37.392Z"
+      }
+    ]
+  },
+  {
     "id": "3b6618d1-4c57-4caa-8fce-49822202ee83",
     "startedAt": "2026-08-06T14:57:41.512Z",
     "completedAt": "2026-08-06T15:07:46.484Z",

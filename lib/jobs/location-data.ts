@@ -66,6 +66,10 @@ export const COUNTRY_ALIASES: Record<string, string> = {
   ar: "Argentina",
   arg: "Argentina",
   argentina: "Argentina",
+  tw: "Taiwan",
+  twn: "Taiwan",
+  taiwan: "Taiwan",
+  deutschland: "Germany",
   "u.k.": "United Kingdom",
   "u.k": "United Kingdom",
 };
@@ -350,6 +354,18 @@ export const CITY_TO_COUNTRY: Record<string, string> = {
   rome: "Italy",
   "são paulo": "Brazil",
   "sao paulo": "Brazil",
+  towson: "United States",
+  idstein: "Germany",
+  giessen: "Germany",
+  gießen: "Germany",
+  taichung: "Taiwan",
+  suzhou: "China",
+  warsaw: "Poland",
+  apodaca: "Mexico",
+  "highland heights": "United States",
+  "valley city": "United States",
+  elyria: "United States",
+  "farmers branch": "United States",
 };
 
 export const CONTINENT_COUNTRIES: Record<string, string[]> = {
@@ -364,7 +380,7 @@ export const CONTINENT_COUNTRIES: Record<string, string[]> = {
     "Italy",
     "Poland",
   ],
-  Asia: ["India", "China", "Japan", "Singapore", "Philippines"],
+  Asia: ["India", "China", "Japan", "Singapore", "Philippines", "Taiwan"],
   Oceania: ["Australia", "New Zealand"],
   "South America": ["Brazil", "Argentina"],
 };
