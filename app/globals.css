@@ -3,55 +3,197 @@
 @tailwind utilities;
 
 :root {
-  --background: #f5f5f4;
-  --foreground: #1c1917;
-  --surface: #ffffff;
-  --surface-muted: #fafaf9;
-  --accent: #059669;
-  --accent-dark: #064e3b;
-  --accent-soft: #d1fae5;
-  --border: #e7e5e4;
+  --canvas: #010102;
+  --surface-1: #0f1011;
+  --surface-2: #141516;
+  --surface-3: #18191a;
+  --surface-4: #191a1b;
+  --hairline: #23252a;
+  --hairline-strong: #34343a;
+  --hairline-tertiary: #3e3e44;
+  --ink: #f7f8f8;
+  --ink-muted: #d0d6e0;
+  --ink-subtle: #8a8f98;
+  --ink-tertiary: #62666d;
+  --primary: #5e6ad2;
+  --primary-hover: #828fff;
+  --primary-focus: #5e69d1;
+  --on-primary: #ffffff;
+  --semantic-success: #27a644;
+  --font-display: var(--font-inter), "SF Pro Display", -apple-system, system-ui,
+    "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-mono-jb), ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 body {
-  color: var(--foreground);
-  background-color: var(--background);
-  background-image:
-    linear-gradient(rgba(28, 25, 23, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(28, 25, 23, 0.025) 1px, transparent 1px);
-  background-size: 28px 28px;
+  color: var(--ink);
+  background-color: var(--canvas);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
 @layer components {
   .app-shell-header {
-    @apply -mx-4 border-b border-emerald-950/20 bg-gradient-to-br from-emerald-950 via-emerald-900 to-green-900 text-white shadow-[0_18px_50px_-30px_rgba(6,78,59,0.8)];
+    @apply sticky top-0 z-20 border-b border-hairline bg-canvas;
   }
 
   .app-panel {
-    @apply rounded-2xl border border-stone-200/90 bg-white shadow-[0_20px_45px_-35px_rgba(28,25,23,0.35)] ring-1 ring-stone-900/5;
+    @apply rounded-lg border border-hairline bg-surface-1;
   }
 
-  .app-panel-accent {
-    @apply app-panel border-l-4 border-l-emerald-600;
+  .app-panel-header {
+    @apply border-b border-hairline bg-surface-1 px-4 py-4 sm:px-6;
+  }
+
+  .eyebrow {
+    @apply text-[13px] font-medium uppercase tracking-[0.4px] text-ink-subtle;
+  }
+
+  .display-title {
+    @apply text-[28px] font-semibold leading-[1.2] tracking-[-0.6px] text-ink;
+  }
+
+  .section-title {
+    @apply text-lg font-medium leading-[1.25] tracking-[-0.4px] text-ink;
+  }
+
+  .body-text {
+    @apply text-sm leading-[1.5] text-ink-muted;
+  }
+
+  .caption-text {
+    @apply text-xs leading-[1.4] text-ink-subtle;
+  }
+
+  .nav-tab {
+    @apply shrink-0 rounded-md px-3 py-1.5 text-sm font-medium transition-colors;
+  }
+
+  .nav-tab-active {
+    @apply bg-surface-2 text-ink;
+  }
+
+  .nav-tab-idle {
+    @apply text-ink-subtle hover:bg-surface-1 hover:text-ink;
   }
 
   .nav-pill {
-    @apply rounded-full px-3.5 py-2 text-sm font-medium transition-all;
+    @apply shrink-0 rounded-md px-3 py-1.5 text-sm font-medium transition-colors;
   }
 
   .nav-pill-active {
-    @apply bg-white text-emerald-950 shadow-md;
+    @apply bg-surface-2 text-ink;
   }
 
   .nav-pill-idle {
-    @apply text-emerald-50/85 hover:bg-white/10 hover:text-white;
+    @apply text-ink-subtle hover:bg-surface-1 hover:text-ink;
   }
 
   .btn-primary {
-    @apply rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-emerald-950/20 transition hover:bg-emerald-400 disabled:opacity-60;
+    @apply rounded-md bg-primary px-[14px] py-2 text-sm font-medium text-on-primary transition-colors hover:bg-primary-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50;
   }
 
   .btn-secondary {
-    @apply rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-700 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-900;
+    @apply rounded-md border border-hairline bg-surface-1 px-[14px] py-2 text-sm font-medium text-ink transition-colors hover:border-hairline-strong hover:bg-surface-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-tertiary {
+    @apply rounded-md px-[14px] py-2 text-sm font-medium text-ink-subtle transition-colors hover:bg-surface-1 hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-danger {
+    @apply rounded-md border border-hairline-strong bg-surface-2 px-[14px] py-2 text-sm font-medium text-ink-muted transition-colors hover:border-hairline-tertiary hover:bg-surface-3 hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary;
+  }
+
+  .input-field {
+    @apply w-full rounded-md border border-hairline bg-surface-1 px-3 py-2 text-sm text-ink placeholder:text-ink-tertiary focus:border-hairline-strong focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .textarea-field {
+    @apply w-full rounded-md border border-hairline bg-surface-1 px-3 py-2 font-mono text-sm text-ink placeholder:text-ink-tertiary focus:border-hairline-strong focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .select-field {
+    @apply rounded-md border border-hairline bg-surface-1 px-2 py-1 text-sm text-ink focus:border-hairline-strong focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .checkbox-field {
+    @apply rounded border-hairline bg-surface-1 text-primary focus:ring-primary;
+  }
+
+  .list-panel {
+    @apply divide-y divide-hairline rounded-lg border border-hairline bg-surface-1;
+  }
+
+  .tab-bar {
+    @apply flex gap-1 overflow-x-auto rounded-md border border-hairline bg-surface-1 p-1;
+  }
+
+  .tab-item {
+    @apply shrink-0 rounded-md px-3 py-1.5 text-sm font-medium transition-colors;
+  }
+
+  .tab-item-active {
+    @apply bg-surface-2 text-ink;
+  }
+
+  .tab-item-idle {
+    @apply text-ink-subtle hover:text-ink;
+  }
+
+  .status-badge {
+    @apply inline-flex rounded-full bg-surface-2 px-2 py-0.5 text-xs font-medium text-ink-muted;
+  }
+
+  .status-badge-accent {
+    @apply inline-flex rounded-full px-2 py-0.5 text-xs font-medium text-primary-hover;
+    background-color: color-mix(in srgb, var(--primary) 15%, transparent);
+  }
+
+  .status-badge-success {
+    @apply inline-flex rounded-full px-2 py-0.5 text-xs font-medium text-semantic-success;
+    background-color: color-mix(in srgb, var(--semantic-success) 15%, transparent);
+  }
+
+  .alert-banner {
+    @apply rounded-lg border border-hairline bg-surface-1 px-4 py-3 text-sm text-ink-muted;
+  }
+
+  .alert-banner-accent {
+    @apply rounded-lg px-4 py-3 text-sm text-ink-muted;
+    border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
+    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+  }
+
+  .link-accent {
+    @apply text-primary-hover hover:text-primary hover:underline;
+  }
+
+  .progress-track {
+    @apply h-1.5 overflow-hidden rounded-full bg-surface-3;
+  }
+
+  .progress-fill {
+    @apply h-full rounded-full bg-primary transition-all duration-500 ease-out;
+  }
+
+  .control-panel {
+    @apply rounded-lg border border-hairline bg-surface-1 p-3;
+  }
+
+  .upload-zone {
+    @apply rounded-lg border border-dashed border-hairline p-4;
+    background-color: color-mix(in srgb, var(--surface-2) 50%, transparent);
+  }
+
+  .field-label {
+    @apply mb-1 block text-sm font-medium text-ink-muted;
+  }
+
+  .field-hint {
+    @apply text-xs text-ink-subtle;
+  }
+
+  .match-detail-box {
+    @apply rounded-md border border-hairline bg-surface-2 px-3 py-2 text-ink-muted;
   }
 }

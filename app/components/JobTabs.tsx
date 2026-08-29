@@ -18,12 +18,6 @@ interface JobTabsProps {
   defaultTab?: JobTab;
 }
 
-function tabClass(isActive: boolean) {
-  return isActive
-    ? "border-b-2 border-emerald-600 text-emerald-800"
-    : "border-b-2 border-transparent text-stone-500 hover:text-stone-800";
-}
-
 export default function JobTabs({
   jobs,
   archivedJobs,
@@ -40,25 +34,25 @@ export default function JobTabs({
 
   return (
     <div>
-      <div className="flex gap-6 overflow-x-auto border-b border-stone-200">
+      <div className="tab-bar w-fit max-w-full">
         <button
           type="button"
           onClick={() => setTab("active")}
-          className={`shrink-0 pb-3 text-sm font-medium transition-colors ${tabClass(tab === "active")}`}
+          className={`tab-item ${tab === "active" ? "tab-item-active" : "tab-item-idle"}`}
         >
           Active ({jobs.length})
         </button>
         <button
           type="button"
           onClick={() => setTab("new")}
-          className={`shrink-0 pb-3 text-sm font-medium transition-colors ${tabClass(tab === "new")}`}
+          className={`tab-item ${tab === "new" ? "tab-item-active" : "tab-item-idle"}`}
         >
           New ({newJobs.length})
         </button>
         <button
           type="button"
           onClick={() => setTab("archived")}
-          className={`shrink-0 pb-3 text-sm font-medium transition-colors ${tabClass(tab === "archived")}`}
+          className={`tab-item ${tab === "archived" ? "tab-item-active" : "tab-item-idle"}`}
         >
           Archived ({archivedJobs.length})
         </button>
@@ -89,7 +83,7 @@ export default function JobTabs({
                 showMinScoreFilter={false}
               />
             ) : (
-              <p className="text-sm text-slate-500">
+              <p className="body-text text-ink-subtle">
                 No new postings since your last review.
               </p>
             )}
@@ -98,7 +92,7 @@ export default function JobTabs({
 
         {tab === "archived" && (
           <div className="space-y-3">
-            <p className="text-sm text-slate-500">
+            <p className="body-text text-ink-subtle">
               Postings that are no longer listed on their career page. These are
               kept for reference.
             </p>

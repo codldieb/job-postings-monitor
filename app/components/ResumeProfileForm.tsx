@@ -360,17 +360,17 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
         : 100;
 
   if (loading) {
-    return <p className="text-sm text-slate-500">Loading resume profile...</p>;
+    return <p className="body-text text-ink-subtle">Loading resume profile...</p>;
   }
 
   return (
     <div className="space-y-4">
-      <div className="rounded-xl border border-dashed border-emerald-200 bg-emerald-50/40 p-4">
+      <div className="upload-zone">
         <details open={!resumeFileName}>
-          <summary className="cursor-pointer text-sm font-medium text-slate-900">
+          <summary className="cursor-pointer text-sm font-medium text-ink">
             Upload resume (PDF)
           </summary>
-          <p className="mt-2 text-sm text-slate-600">
+          <p className="body-text mt-2">
             Skills and position history are extracted from your PDF and merged
             into the sections below. Review the results, edit as needed, then
             click &quot;Rescore all jobs&quot; when you&apos;re ready to update
@@ -383,15 +383,15 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
               accept="application/pdf,.pdf"
               onChange={handleUpload}
               disabled={uploading}
-              className="block text-sm text-stone-600 file:mr-3 file:rounded-full file:border-0 file:bg-emerald-600 file:px-3 file:py-2 file:text-sm file:font-semibold file:text-white hover:file:bg-emerald-500"
+              className="block text-sm text-ink-subtle file:mr-3 file:rounded-md file:border-0 file:bg-primary file:px-3 file:py-2 file:text-sm file:font-medium file:text-on-primary hover:file:bg-primary-hover"
             />
             {uploading && (
-              <span className="text-sm text-slate-500">Processing PDF...</span>
+              <span className="caption-text">Processing PDF...</span>
             )}
           </div>
         </details>
         {resumeFileName && (
-          <p className="mt-2 text-xs text-slate-500">
+          <p className="caption-text mt-2">
             Last upload: {resumeFileName}
             {resumeUploadedAt
               ? ` · ${new Date(resumeUploadedAt).toLocaleString()}`
@@ -402,8 +402,8 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
 
       <div className="space-y-3">
         <div>
-          <p className="text-sm font-medium text-slate-900">Position experience</p>
-          <p className="mt-1 text-xs text-slate-500">
+          <p className="text-sm font-medium text-ink">Position experience</p>
+          <p className="field-hint mt-1">
             Add each role type and how many years you&apos;ve spent in it. Jobs
             are matched against the most relevant position (e.g. Software
             Engineer vs QA Analyst).
@@ -420,7 +420,7 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
                   updatePositionRow(row.id, "position", event.target.value)
                 }
                 placeholder="Software Engineer"
-                className="min-w-0 flex-1 rounded-xl border border-stone-300 bg-stone-50/50 px-3 py-2 text-sm text-stone-900 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+                className="input-field min-w-0 flex-1"
               />
               <div className="flex items-center gap-2">
                 <input
@@ -433,12 +433,12 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
                     updatePositionRow(row.id, "years", event.target.value)
                   }
                   placeholder="Years"
-                  className="w-24 rounded-xl border border-stone-300 bg-stone-50/50 px-3 py-2 text-sm text-stone-900 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+                  className="input-field w-24"
                 />
                 <button
                   type="button"
                   onClick={() => removePositionRow(row.id)}
-                  className="rounded-full border border-stone-300 px-3 py-2 text-xs font-medium text-stone-600 hover:border-red-200 hover:bg-red-50 hover:text-red-700"
+                  className="btn-secondary text-xs"
                 >
                   Remove
                 </button>
@@ -450,7 +450,7 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
         <button
           type="button"
           onClick={addPositionRow}
-          className="rounded-full border border-dashed border-emerald-300 px-3 py-1.5 text-xs font-medium text-emerald-800 hover:bg-emerald-50"
+          className="btn-secondary border-dashed text-xs"
         >
           Add position
         </button>
@@ -458,8 +458,8 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
 
       <div className="space-y-2">
         <div>
-          <p className="text-sm font-medium text-slate-900">Target locations</p>
-          <p className="mt-1 text-xs text-slate-500">
+          <p className="text-sm font-medium text-ink">Target locations</p>
+          <p className="field-hint mt-1">
             Flag jobs outside your preferred countries or continents. Use one
             entry per line. Aliases like US, USA, and United States work. Leave
             both empty to skip location filtering.
@@ -467,23 +467,23 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           <div className="space-y-1">
-            <p className="text-xs font-medium text-slate-700">Countries</p>
+            <p className="field-hint font-medium text-ink-muted">Countries</p>
             <textarea
               value={targetCountriesText}
               onChange={(event) => setTargetCountriesText(event.target.value)}
               rows={3}
               placeholder={"United States\nCanada"}
-              className="w-full rounded-xl border border-stone-300 bg-stone-50/50 px-3 py-2 font-mono text-sm text-stone-900 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+              className="textarea-field"
             />
           </div>
           <div className="space-y-1">
-            <p className="text-xs font-medium text-slate-700">Continents</p>
+            <p className="field-hint font-medium text-ink-muted">Continents</p>
             <textarea
               value={targetContinentsText}
               onChange={(event) => setTargetContinentsText(event.target.value)}
               rows={3}
               placeholder={"North America"}
-              className="w-full rounded-xl border border-stone-300 bg-stone-50/50 px-3 py-2 font-mono text-sm text-stone-900 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+              className="textarea-field"
             />
           </div>
         </div>
@@ -491,8 +491,8 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
 
       <div className="space-y-2">
         <div>
-          <p className="text-sm font-medium text-slate-900">Target departments</p>
-          <p className="mt-1 text-xs text-slate-500">
+          <p className="text-sm font-medium text-ink">Target departments</p>
+          <p className="field-hint mt-1">
             One department or area per line. Jobs outside these areas (plus
             obvious non-technical titles) are marked off-target. Leave empty to
             use defaults like Engineering, IT, and Technology.
@@ -503,11 +503,11 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
           onChange={(event) => setTargetDepartmentsText(event.target.value)}
           rows={4}
           placeholder={DEFAULT_TARGET_DEPARTMENTS.join("\n")}
-          className="w-full rounded-xl border border-stone-300 bg-stone-50/50 px-3 py-2 font-mono text-sm text-stone-900 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+          className="textarea-field"
         />
       </div>
 
-      <p className="text-sm text-slate-600">
+      <p className="body-text">
         One skill per line. Edit before saving or rescoring.
       </p>
 
@@ -516,16 +516,16 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
         onChange={(event) => setSkillsText(event.target.value)}
         rows={10}
         placeholder={"Python\nReact\nAWS\n..."}
-        className="w-full rounded-xl border border-stone-300 bg-stone-50/50 px-3 py-2 font-mono text-sm text-stone-900 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+        className="textarea-field"
       />
 
       {(rescoring || scoreProgress) && (
-        <div className="rounded-xl border border-emerald-200 bg-emerald-50/40 p-4">
+        <div className="control-panel">
           <div className="mb-2 flex items-center justify-between gap-3 text-sm">
-            <p className="font-medium text-slate-900">
+            <p className="font-medium text-ink">
               {scoreProgress?.isRunning ? "Scoring jobs..." : "Scoring complete"}
             </p>
-            <p className="shrink-0 text-slate-500">
+            <p className="shrink-0 text-ink-subtle">
               {scoreProgress && scoreProgress.total > 0
                 ? `${scoreProgress.completed} / ${scoreProgress.total}`
                 : rescoring
@@ -534,14 +534,14 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
             </p>
           </div>
 
-          <div className="h-2.5 overflow-hidden rounded-full bg-emerald-100">
+          <div className="progress-track">
             <div
-              className={`h-full rounded-full bg-gradient-to-r from-lime-400 via-emerald-500 to-green-600 transition-all duration-500 ease-out ${scoreProgress?.isRunning && scoreProgress.total === 0 ? "animate-pulse" : ""}`}
+              className={`progress-fill ${scoreProgress?.isRunning && scoreProgress.total === 0 ? "animate-pulse" : ""}`}
               style={{ width: `${scorePercent}%` }}
             />
           </div>
 
-          <p className="mt-2 truncate text-xs text-slate-500">
+          <p className="caption-text mt-2 truncate">
             {scoreProgress?.isRunning && scoreProgress.currentJobTitle
               ? `Scoring ${scoreProgress.currentJobTitle}...`
               : scoreProgress?.isRunning
@@ -554,7 +554,7 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
       )}
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-sm text-slate-500">
+        <p className="caption-text">
           {skillCount} skill(s) · {positionCount} position(s)
         </p>
         <div className="flex flex-wrap gap-2">
@@ -562,7 +562,7 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
             type="button"
             onClick={handleSave}
             disabled={saving || skillCount === 0}
-            className="rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-500 disabled:opacity-60"
+            className="btn-primary"
           >
             {saving ? "Saving..." : "Save profile"}
           </button>
@@ -570,14 +570,14 @@ export default function ResumeProfileForm({ onUpdated }: ResumeProfileFormProps)
             type="button"
             onClick={handleRescoreAll}
             disabled={rescoring || skillCount === 0}
-            className="rounded-full border border-stone-300 px-4 py-2 text-sm font-medium text-stone-700 hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-900 disabled:opacity-60"
+            className="btn-secondary"
           >
             {rescoring ? "Scoring..." : "Rescore all jobs"}
           </button>
         </div>
       </div>
 
-      {message && <p className="break-words text-sm text-slate-600">{message}</p>}
+      {message && <p className="body-text break-words">{message}</p>}
     </div>
   );
 }

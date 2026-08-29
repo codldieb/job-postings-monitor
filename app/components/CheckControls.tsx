@@ -250,13 +250,13 @@ export default function CheckControls({
         : 100;
 
   return (
-    <div className="rounded-2xl border border-white/10 bg-black/15 p-3 backdrop-blur-sm">
+    <div className="control-panel">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="min-w-0 flex-1">
           {isRunning || progress ? (
             <>
               <div className="mb-2 flex items-center justify-between gap-3 text-sm">
-                <p className="font-medium text-white">
+                <p className="font-medium text-ink">
                   {progress?.stopped
                     ? "Check stopped"
                     : isRunning && progress?.phase === "scoring"
@@ -265,7 +265,7 @@ export default function CheckControls({
                         ? "Checking sites..."
                         : "Check complete"}
                 </p>
-                <p className="shrink-0 text-emerald-100/80">
+                <p className="shrink-0 text-ink-subtle">
                   {progress && progress.total > 0
                     ? `${progress.completed} / ${progress.total}`
                     : isRunning
@@ -274,14 +274,14 @@ export default function CheckControls({
                 </p>
               </div>
 
-              <div className="h-2.5 overflow-hidden rounded-full bg-emerald-950/40">
+              <div className="progress-track">
                 <div
-                  className={`h-full rounded-full bg-gradient-to-r from-lime-300 via-emerald-400 to-green-500 transition-all duration-500 ease-out ${isRunning && progress?.total === 0 ? "animate-pulse" : ""}`}
+                  className={`progress-fill ${isRunning && progress?.total === 0 ? "animate-pulse" : ""}`}
                   style={{ width: `${percent}%` }}
                 />
               </div>
 
-              <p className="mt-2 truncate text-xs text-emerald-100/75">
+              <p className="caption-text mt-2 truncate">
                 {isRunning && progress?.phase === "scoring" && progress.currentJobTitle
                   ? `Scoring ${progress.currentJobTitle}...`
                   : isRunning && progress?.phase === "scoring"
@@ -300,7 +300,7 @@ export default function CheckControls({
               </p>
             </>
           ) : (
-            <p className="text-sm text-emerald-100/85">
+            <p className="body-text">
               Run a manual check of all monitored career pages.
             </p>
           )}
@@ -308,18 +308,14 @@ export default function CheckControls({
 
         <div className="flex shrink-0 gap-2 self-end sm:self-center">
           {isRunning ? (
-            <button
-              type="button"
-              onClick={handleStop}
-              className="rounded-full border border-red-400/60 bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-red-950/30 transition hover:bg-red-500"
-            >
+            <button type="button" onClick={handleStop} className="btn-danger">
               Stop check
             </button>
           ) : (
             <button
               type="button"
               onClick={handleCheck}
-              className="btn-primary disabled:shadow-none"
+              className="btn-primary"
             >
               Run check
             </button>

@@ -24,42 +24,42 @@ function formatDate(value: string) {
 }
 
 function scoreBadgeClass(score: number) {
-  if (score >= 80) return "bg-emerald-100 text-emerald-800";
-  if (score >= 60) return "bg-amber-100 text-amber-800";
-  return "bg-slate-100 text-slate-700";
+  if (score >= 80) return "status-badge-success";
+  if (score >= 60) return "status-badge-accent";
+  return "status-badge";
 }
 
 function locationTypeBadgeClass(type: LocationType) {
   switch (type) {
     case "Remote":
-      return "bg-sky-100 text-sky-800";
+      return "status-badge-accent";
     case "Hybrid":
-      return "bg-violet-100 text-violet-800";
+      return "status-badge";
     case "Onsite":
-      return "bg-stone-200 text-stone-800";
+      return "status-badge";
   }
 }
 
 function JobMatchDetails({ job }: { job: JobPosting }) {
   if (job.scoreError && job.matchScore === undefined) {
     return (
-      <p className="mt-2 text-xs text-red-600">{job.scoreError}</p>
+      <p className="caption-text mt-2 text-ink-muted">{job.scoreError}</p>
     );
   }
 
   if (job.matchScore === undefined) {
     return (
-      <p className="mt-2 text-xs text-slate-500">
+      <p className="caption-text mt-2">
         {job.scoredAt ? "No score available" : "Not scored yet"}
       </p>
     );
   }
 
   return (
-    <div className="mt-2 space-y-2 text-xs">
+    <div className="caption-text mt-2 space-y-2">
       {(job.matchSkillScore !== undefined ||
         job.matchExperienceScore !== undefined) && (
-        <div className="rounded-lg bg-stone-100 px-3 py-2 text-slate-600">
+        <div className="match-detail-box">
           {job.matchSkillScore !== undefined && (
             <p>Skills: {job.matchSkillScore}/100</p>
           )}
@@ -69,16 +69,16 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
         </div>
       )}
       {job.experienceNote && (
-        <p className="text-slate-600">{job.experienceNote}</p>
+        <p className="text-ink-muted">{job.experienceNote}</p>
       )}
       {job.roleRelevanceNote && (
         <p
           className={
             job.roleRelevant === false
-              ? "text-amber-700"
+              ? "text-ink-subtle"
               : job.roleRelevant === true
-                ? "text-emerald-700"
-                : "text-slate-600"
+                ? "text-semantic-success"
+                : "text-ink-muted"
           }
         >
           Role: {job.roleRelevanceNote}
@@ -88,43 +88,47 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
         <p
           className={
             job.locationInTarget === false
-              ? "text-amber-700"
+              ? "text-ink-subtle"
               : job.locationInTarget === true
-                ? "text-emerald-700"
-                : "text-slate-600"
+                ? "text-semantic-success"
+                : "text-ink-muted"
           }
         >
           Location: {job.locationNote}
         </p>
       )}
       {(job.locationTypes?.length ?? 0) > 0 && (
-        <p className="text-slate-600">
+        <p className="text-ink-muted">
           Work style: {job.locationTypes?.join(", ")}
         </p>
       )}
       {(job.department || job.team || job.location) && (
-        <p className="text-slate-500">
+        <p className="text-ink-subtle">
           {[job.department, job.team, job.location].filter(Boolean).join(" · ")}
         </p>
       )}
       {(job.matchedSkills?.length ?? 0) > 0 && (
         <div>
-          <p className="font-medium text-emerald-700">Matched skills</p>
-          <p className="mt-0.5 break-words text-slate-600">
+          <p className="font-medium text-semantic-success">Matched skills</p>
+          <p className="mt-0.5 break-words text-ink-muted">
             {job.matchedSkills?.join(", ")}
           </p>
         </div>
       )}
       {(job.missingSkills?.length ?? 0) > 0 && (
         <div>
-          <p className="font-medium text-amber-700">Mentioned but not on your resume</p>
-          <p className="mt-0.5 break-words text-slate-600">
+          <p className="font-medium text-ink-subtle">
+            Mentioned but not on your resume
+          </p>
+          <p className="mt-0.5 break-words text-ink-muted">
             {job.missingSkills?.join(", ")}
           </p>
         </div>
       )}
       {job.matchedSkills?.length === 0 && job.missingSkills?.length === 0 && (
-        <p className="text-slate-500">No recognizable skills found in description.</p>
+        <p className="text-ink-subtle">
+          No recognizable skills found in description.
+        </p>
       )}
     </div>
   );
@@ -197,7 +201,7 @@ export default function JobList({
 
   if (jobs.length === 0) {
     return (
-      <p className="text-sm text-slate-500">
+      <p className="body-text text-ink-subtle">
         No job postings discovered yet. Run a check after adding sites.
       </p>
     );
@@ -206,7 +210,7 @@ export default function JobList({
   return (
     <div className="space-y-3">
       {!hasResumeProfile && (
-        <p className="rounded-lg bg-amber-50 px-4 py-3 text-sm text-amber-800">
+        <p className="alert-banner-accent">
           Add your skills in the Resume profile section to enable match scores.
         </p>
       )}
@@ -214,12 +218,12 @@ export default function JobList({
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-wrap items-center gap-4">
           {showMinScoreFilter && (
-            <label className="flex items-center gap-2 text-sm text-slate-600">
+            <label className="flex items-center gap-2 text-sm text-ink-muted">
               Min score
               <select
                 value={minScore}
                 onChange={(event) => setMinScore(Number(event.target.value))}
-                className="rounded-lg border border-slate-300 px-2 py-1 text-sm"
+                className="select-field"
               >
                 <option value={0}>Any</option>
                 <option value={50}>50+</option>
@@ -230,40 +234,40 @@ export default function JobList({
             </label>
           )}
           {showRoleFilter && hasResumeProfile && (
-            <label className="flex items-center gap-2 text-sm text-slate-600">
+            <label className="flex items-center gap-2 text-sm text-ink-muted">
               <input
                 type="checkbox"
                 checked={hideOffTargetRoles}
                 onChange={(event) => setHideOffTargetRoles(event.target.checked)}
-                className="rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
+                className="checkbox-field"
               />
               Hide off-target roles
             </label>
           )}
           {showLocationFilter && hasResumeProfile && (
-            <label className="flex items-center gap-2 text-sm text-slate-600">
+            <label className="flex items-center gap-2 text-sm text-ink-muted">
               <input
                 type="checkbox"
                 checked={hideOutsideLocations}
                 onChange={(event) =>
                   setHideOutsideLocations(event.target.checked)
                 }
-                className="rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
+                className="checkbox-field"
               />
               Hide outside target locations
             </label>
           )}
           {showLocationTypeFilter && (
-            <fieldset className="flex flex-wrap items-center gap-3 text-sm text-slate-600">
+            <fieldset className="flex flex-wrap items-center gap-3 text-sm text-ink-muted">
               <legend className="sr-only">Work location type</legend>
-              <span className="text-slate-500">Work style</span>
+              <span className="text-ink-subtle">Work style</span>
               {ALL_LOCATION_TYPES.map((type) => (
                 <label key={type} className="flex items-center gap-1.5">
                   <input
                     type="checkbox"
                     checked={locationTypeFilter.has(type)}
                     onChange={() => toggleLocationType(type)}
-                    className="rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
+                    className="checkbox-field"
                   />
                   {type}
                 </label>
@@ -271,36 +275,33 @@ export default function JobList({
             </fieldset>
           )}
           {!showMinScoreFilter && (
-            <p className="text-sm text-slate-500">
+            <p className="body-text text-ink-subtle">
               Newly discovered postings since your last review.
             </p>
           )}
         </div>
-        <p className="text-sm text-slate-500">
+        <p className="caption-text">
           Showing {filteredJobs.length} of {jobs.length}
         </p>
       </div>
 
       {newCount > 0 && (
-        <div className="flex items-center justify-between rounded-lg bg-emerald-50 px-4 py-3">
-          <p className="text-sm font-medium text-emerald-800">
+        <div className="alert-banner-accent flex items-center justify-between">
+          <p className="text-sm font-medium text-ink">
             {newCount} new posting{newCount === 1 ? "" : "s"} since last review
           </p>
-          <button
-            onClick={onMarkSeen}
-            className="rounded-full bg-emerald-600 px-3 py-1.5 text-sm font-semibold text-white hover:bg-emerald-500"
-          >
+          <button onClick={onMarkSeen} className="btn-primary">
             Mark all seen
           </button>
         </div>
       )}
 
       {filteredJobs.length === 0 ? (
-        <p className="text-sm text-slate-500">
+        <p className="body-text text-ink-subtle">
           No jobs match the current filters.
         </p>
       ) : (
-        <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-stone-50/70">
+        <ul className="list-panel">
           {filteredJobs.map((job) => {
             const isExpanded = expandedId === job.id;
             const canExpand =
@@ -315,17 +316,17 @@ export default function JobList({
                       href={job.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-medium text-stone-900 hover:text-emerald-700"
+                      className="font-medium text-ink link-accent no-underline hover:underline"
                     >
                       {job.title}
                     </a>
-                    <p className="mt-1 text-sm text-slate-500">{job.siteName}</p>
+                    <p className="caption-text mt-1">{job.siteName}</p>
                     {(job.department || job.team || job.location) && (
-                      <p className="mt-0.5 text-xs text-slate-500">
+                      <p className="caption-text mt-0.5">
                         {[job.department, job.team, job.location].filter(Boolean).join(" · ")}
                       </p>
                     )}
-                    <p className="mt-1 text-xs text-slate-400">
+                    <p className="caption-text mt-1 text-ink-tertiary">
                       First seen: {formatDate(job.firstSeenAt)}
                     </p>
                     {isExpanded && <JobMatchDetails job={job} />}
@@ -333,7 +334,7 @@ export default function JobList({
                   <div className="flex shrink-0 flex-col items-end gap-2">
                     {job.isNew && (
                       <div className="flex flex-col items-end gap-1">
-                        <span className="rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-800">
+                        <span className="status-badge-success font-semibold">
                           New
                         </span>
                         {onMarkJobSeen && (
@@ -341,7 +342,7 @@ export default function JobList({
                             type="button"
                             onClick={() => handleMarkJobSeen(job.id)}
                             disabled={markingJobId === job.id}
-                            className="text-xs text-emerald-700 hover:underline disabled:opacity-60"
+                            className="btn-tertiary px-0 py-0 text-xs disabled:opacity-60"
                           >
                             {markingJobId === job.id ? "Saving..." : "Mark seen"}
                           </button>
@@ -349,26 +350,26 @@ export default function JobList({
                       </div>
                     )}
                     {job.roleRelevant === false && !hideOffTargetRoles && (
-                      <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-semibold text-amber-800">
+                      <span className="status-badge font-semibold">
                         Off-target
                       </span>
                     )}
                     {job.locationInTarget === false && !hideOutsideLocations && (
-                      <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-semibold text-amber-800">
+                      <span className="status-badge font-semibold">
                         Outside location
                       </span>
                     )}
                     {job.locationTypes?.map((type) => (
                       <span
                         key={type}
-                        className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${locationTypeBadgeClass(type)}`}
+                        className={`font-semibold ${locationTypeBadgeClass(type)}`}
                       >
                         {type}
                       </span>
                     ))}
                     {job.matchScore !== undefined && (
                       <span
-                        className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${scoreBadgeClass(job.matchScore)}`}
+                        className={`font-semibold ${scoreBadgeClass(job.matchScore)}`}
                       >
                         {job.matchScore}/100
                       </span>
@@ -379,7 +380,7 @@ export default function JobList({
                         onClick={() =>
                           setExpandedId(isExpanded ? null : job.id)
                         }
-                        className="text-xs text-emerald-700 hover:underline"
+                        className="btn-tertiary px-0 py-0 text-xs"
                       >
                         {isExpanded ? "Hide match" : "Show match"}
                       </button>
