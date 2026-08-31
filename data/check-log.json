@@ -1,5 +1,1346 @@
 [
   {
+    "id": "f08563e9-e7c2-403f-9ab6-4e54e0a2715c",
+    "startedAt": "2026-08-29T18:37:34.064Z",
+    "completedAt": "2026-08-29T18:45:51.284Z",
+    "sitesChecked": 53,
+    "totalSites": 53,
+    "newJobsFound": 21,
+    "jobsArchived": 21,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-08-29T18:37:34.065Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-29T18:37:48.475Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 15,
+        "checkedAt": "2026-08-29T18:37:55.220Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:38:25.064Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 14,
+        "checkedAt": "2026-08-29T18:38:57.978Z"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 5,
+        "checkedAt": "2026-08-29T18:39:34.212Z"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 30,
+        "checkedAt": "2026-08-29T18:39:49.988Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:39:55.286Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-29T18:39:55.666Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 12,
+        "checkedAt": "2026-08-29T18:40:10.423Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:40:10.678Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:40:45.183Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-29T18:41:00.390Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 108,
+        "checkedAt": "2026-08-29T18:41:00.793Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 62,
+        "checkedAt": "2026-08-29T18:41:01.043Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:41:01.247Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:41:18.475Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 14,
+        "checkedAt": "2026-08-29T18:41:52.412Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-29T18:41:53.316Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [
+          {
+            "id": "d68e80343ff1fac7",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Staff Data Engineer",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/8165290",
+            "location": "U.S. Remote",
+            "firstSeenAt": "2026-08-29T18:41:53.892Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 27,
+        "checkedAt": "2026-08-29T18:41:53.892Z"
+      },
+      {
+        "siteId": "d4496702-4241-4251-89e4-4100d71ae28f",
+        "siteName": "Xometry",
+        "newJobs": [],
+        "archivedJobsCount": 7,
+        "totalFound": 175,
+        "checkedAt": "2026-08-29T18:42:10.444Z"
+      },
+      {
+        "siteId": "6c8b5e9a-3477-4bd0-a8dc-8e3e85aef4fe",
+        "siteName": "PurpleWave Auctions",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 41,
+        "checkedAt": "2026-08-29T18:42:10.993Z"
+      },
+      {
+        "siteId": "f84e24f6-a471-4771-bbfc-f5caac0b122f",
+        "siteName": "Cava",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:42:11.638Z"
+      },
+      {
+        "siteId": "ea657fa3-da0c-4e82-87bf-e47beeb424c3",
+        "siteName": "PointClickCare (Engineering)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-29T18:42:29.673Z"
+      },
+      {
+        "siteId": "f89740c1-20d1-484b-a667-3bbb5b97e377",
+        "siteName": "PointClickCare (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-29T18:42:31.069Z"
+      },
+      {
+        "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+        "siteName": "OneStream",
+        "newJobs": [
+          {
+            "id": "c67a44fd622023c9",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Executive Administrative Assistant",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=05888e64-72c8-4176-908d-e14c85a05790",
+            "department": "Executive Admin",
+            "location": "MI-Birmingham Office",
+            "firstSeenAt": "2026-08-29T18:42:31.555Z",
+            "isNew": true
+          },
+          {
+            "id": "6c8f4240aa3f5d8a",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Associate AI Engineer",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=7b458962-2efc-4e1d-bfa4-3562aedcef94",
+            "department": "AI & Operational Analytics",
+            "location": "FL-Florida Office; MI-Birmingham Office; IL-Chicago Office; NY-New York",
+            "firstSeenAt": "2026-08-29T18:42:31.555Z",
+            "isNew": true
+          },
+          {
+            "id": "f270a50dd131ba73",
+            "siteId": "19572d23-f856-4f06-bbd6-4b288da130ae",
+            "siteName": "OneStream",
+            "title": "Senior Director, Software Engineering",
+            "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=40f3685b-adba-4d89-9ccb-22ffc1b6bb2a",
+            "department": "Development",
+            "location": "United States",
+            "firstSeenAt": "2026-08-27T14:19:10.896Z",
+            "isNew": true,
+            "descriptionText": "on : : : : : #: : : . : : You are using an unsupported browser. To use this site, please use a supported browser. Download Firefox Download Chrome Download Internet Explorer",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-27T14:22:29.675Z",
+            "matchScore": 12,
+            "matchSkillScore": 0,
+            "matchExperienceScore": 40,
+            "experienceNote": "Below experience target (2 years vs Senior) (using 2 years as Software Engineer)",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [],
+            "missingSkills": [],
+            "scoredAt": "2026-08-27T14:22:29.675Z"
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 66,
+        "checkedAt": "2026-08-29T18:42:31.555Z"
+      },
+      {
+        "siteId": "93978289-60af-4aaa-ac9d-414c30ac66e0",
+        "siteName": "Included Health (ENG)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-29T18:42:33.317Z"
+      },
+      {
+        "siteId": "a03a362e-b6cc-434a-9561-c45f8eb3913c",
+        "siteName": "Included Health (Tech)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-29T18:42:33.833Z"
+      },
+      {
+        "siteId": "890bbfb3-bdb6-4a9c-a666-52ed96d70ecd",
+        "siteName": "Immuta",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-29T18:42:34.439Z"
+      },
+      {
+        "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+        "siteName": "Accenture",
+        "newJobs": [
+          {
+            "id": "f1cdc6609d82c650",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Python/Apache Spark + Airflow Engineer - 6376092",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14517890_en&title=Python%2FApache+Spark+%2B+Airflow+Engineer+-+6376092",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true,
+            "descriptionText": "Careers Expand Menu Python/Apache Spark + Airflow Engineer - 6376092 Custom Software Engineering Senior Analyst | Mid-Level | Full time Job No. 14517890 | Charlotte, NC Save this job Unsave this job Share this job Copy link LinkedIn X Facebook Email Apply for this job Job Description Accenture Flex offers you the flexibility of local fixed-duration project-based work powered by Accenture, a leading global professional services company. Accenture is consistently recognized on FORTUNE's 100 Best Companies to Work For and Diversity Inc's Top 50 Companies For Diversity lists.As an Accenture Flex employee, you will apply your skills and experience to help drive business transformation for leading organizations and communities. In addition to delivering innovative solutions for Accenture's clients, you will work with a highly skilled, diverse network of people across Accenture businesses who are using the latest emerging technologies to address today's biggest business challenges.You will receive competitive rewards and access to benefits programs and world-class learning resources. Accenture Flex employees work in their local metro area onsite at the project, significantly reducing and/or eliminating the demands to travel.Key Responsibilities:Act as a software detective, providing a dynamic service by identifying and solving issues within multiple components of critical business systems.You are expected to be a subject matter expert, collaborate and manage the team to perform effectively, take responsibility for team decisions, engage with multiple teams, and contribute to key decisions.Providing solutions to problems for your immediate team and across multiple teams is a vital part of this role.Develop a deep understanding of system components to quickly diagnose and resolve complex issues.Support and guide team members by sharing expertise and fostering collaborative problem-solving.Contribute to the continuous improvement of support processes and tools to enhance system reliability.Engage proactively with stakeholders to communicate status, risks, and solutions effectively.Analyze recurring problems to identify root causes and implement long-term preventive measures.Role requires 60% onsite client work (3 days per week) and client mandated time away 5 days per quarter. Qualification Basic Qualifications: 5+ years of work experience Advanced proficiency in Python (Programming Language) Advanced proficiency in Apache Spark Advanced proficiency in Apache Airflow Associate's degree Preferred Qualifications: Banking experience Client facing Bachelor's degree Compensation at Accenture varies depending on a wide array of factors, which may include but are not limited to the specific office location, role, skill set, and level of experience. As required by local law, Accenture provides a reasonable range of compensation for roles that may be hired as set forth below. We anticipate this job posting will be posted until 08/31/2026. Accenture Flex offers a market competitive suite of benefits including medical, dental, vision, and long-term disability coverage, a 401(k) plan, and paid time off. See more information on our benefits here: Accenture Flex Jobs Role Location California – $44.00 - $54.00/hour Cleveland – $44.00 - $54.00/hour Colorado – $44.00 - $54.00/hour District of Columbia – $44.00 - $54.00/hour Illinois - $44.00 - $54.00/hour Maine - $44.00 - $54.00/hour Maryland – $44.00 - $54.00/hour Massachusetts – $44.00 - $54.00/hour Minnesota - $44.00 - $54.00/hour New Jersey/New York – $44.00 - $54.00/hour Virginia - $44.00 - $54.00/hour Washington – $44.00 - $54.00/hour Locations Charlotte, NC Additional Information Requesting an Accommodation Accenture is committed to providing equal employment opportunities for persons with disabilities or religious observances, including reasonable accommodation when needed. If you are hired by Accenture and require accommodation to perform the essential functions of your role, you will be asked to participate in our reasonable accommodation process. Accommodations made to facilitate the recruiting process are not a guarantee of future or continued accommodations once hired. If you would like to be considered for employment opportunities with Accenture and have accommodation needs such as for a disability or religious observance, please call us toll free at 1 (877) 889-9009 or send us an email or speak with your recruiter. Equal Employment Opportunity Statement We believe that no one should be discriminated against because of their differences. All employment decisions shall be made without regard to age, race, creed, color, religion, sex, national origin, ancestry, disability status, veteran status, sexual orientation, gender identity or expression, genetic information, marital status, citizenship status or any other basis as protected by federal, state, or local law. Our rich diversity makes us more innovative, more competitive, and more creative, which helps us better serve our clients and our communities. For details, view a copy of the Accenture Equal Opportunity Statement Accenture is an EEO and Affirmative Action Employer of Veterans/Individuals with Disabilities. Accenture is committed to providing veteran employment opportunities to our service men and women. Other Employment Statements Applicants for employment in the US must have work authorization that does not now or in the future require sponsorship of a visa for employment authorization in the United States. Candidates who are currently employed by a client of Accenture or an affiliated Accenture business may not be eligible for consideration. Job candidates will not be obligated to disclose sealed or expunged records of conviction or arrest as part of the hiring process. Further, at Accenture a criminal conviction history is not an absolute bar to employment. The Company will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. Additionally, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the Company's legal duty to furnish information. California requires additional notifications for applicants and employees. If you are a California resident, live in or plan to work from Los Angeles County upon being hired for this position, please click here for additional important information. Please read Accenture’s Recruiting and Hiring Statement for more information on how we process your data during the Recruiting and Hiring process. About Accenture We work with one shared purpose: to deliver on the promise of technology and human ingenuity. Every day, more than 775,000 of us help our stakeholders continuously reinvent. Together, we drive positive change and deliver value to our clients, partners, shareholders, communities, and each other. We believe that delivering value requires innovation, and innovation thrives in an inclusive and diverse environment. We actively foster a workplace free from bias, where everyone feels a sense of belonging and is respected and empowered to do their best work. At Accenture, we see well-being holistically, supporting our people’s physical, mental, and financial health. We also provide opportunities to keep skills relevant through certifications, learning, and diverse work experiences. We’re proud to be consistently recognized as one of the World’s Best Workplaces™. Join Accenture to work at the heart of change. Visit us at www.accenture.com. Discover where this job fits at Accenture Software developer jobs: Change the game From designing games to creating game-changing experiences and products, the possibilities of what you can achieve are endless with careers in programming language. Learn more Software engineer jobs: Imagine it, build it, scale it Create software that will power change and empower people. Learn more Technology jobs: Be the catalyst Get hands-on with the technologies that our clients need to reinvent, work in new ways and change the world for the better. Learn more Learn more about the hiring process at Accenture Benefits information Hiring process (Q&A) Interview tips Using AI",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-06T20:57:34.042Z",
+            "matchScore": 54,
+            "matchSkillScore": 56,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 5+ years. No matching role in your profile — add experience for a position like \"Python/Apache Spark + Airflow Engineer - 6376092\".",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence"
+            ],
+            "missingSkills": [
+              "Apache Spark",
+              "C",
+              "Python",
+              "Spark"
+            ],
+            "scoredAt": "2026-08-06T20:57:34.042Z"
+          },
+          {
+            "id": "9b80263b136ab3f9",
+            "siteId": "9facacfe-9d47-4029-9a35-0539405411f4",
+            "siteName": "Accenture",
+            "title": "Application Lead Workday Extend - 6407310",
+            "url": "https://www.accenture.com/us-en/careers/jobdetails?id=14576521_en&title=Application+Lead+Workday+Extend+-+6407310",
+            "department": "Software Engineering",
+            "location": "Charlotte, NC; Irving, TX; Morristown, NJ",
+            "firstSeenAt": "2026-08-06T20:45:10.847Z",
+            "isNew": true,
+            "descriptionText": "Careers Expand Menu Application Lead Workday Extend - 6407310 Software Implementation - Business Team Lead/Consultant | Mid-Level | Full time Job No. 14576521 | Multiple Locations Save this job Unsave this job Share this job Copy link LinkedIn X Facebook Email Apply for this job Job Description Accenture Flex offers you the flexibility of local fixed-duration project-based work powered by Accenture, a leading global professional services company. Accenture is consistently recognized on FORTUNE's 100 Best Companies to Work For and Diversity Inc's Top 50 Companies For Diversity lists.As an Accenture Flex employee, you will apply your skills and experience to help drive business transformation for leading organizations and communities. In addition to delivering innovative solutions for Accenture's clients, you will work with a highly skilled, diverse network of people across Accenture businesses who are using the latest emerging technologies to address today's biggest business challenges.You will receive competitive rewards and access to benefits programs and world-class learning resources. Accenture Flex employees work in their local metro area onsite at the project, significantly reducing and/or eliminating the demands to travel.Key Responsibilities:Leading the effort to design, build, and configure applications, acting as the primary point of contact.Expected to be an SME, collaborate and manage the team to perform.Responsible for team decisions. Engage with multiple teams and contribute on key decisions.Provide solutions to problems for their immediate team and across multiple teams.Collaborate with cross-functional teams to ensure project successProvide technical guidance and mentorship to team membersContribute to the continuous improvement of application development processes * This role is hybrid and requires being onsite with the client at least 3 days a week in your assigned location. Also, 5 days of Time Away are mandated per calendar quarter. Qualification Basic Qualifications: Minimum 6 years of work experience Minimum 2 years of expert level of proficiency in Workday Studio is recommended Minimum 2 years of expert proficiency in Workday Extend Bachelor’s Degree Preferred Qualifications: Master proficiency in Workday Core Integrations Compensation at Accenture varies depending on a wide array of factors, which may include but are not limited to the specific office location, role, skill set, and level of experience. As required by local law, Accenture provides a reasonable range of compensation for roles that may be hired as set forth below. We anticipate this job posting will be posted until 08/17/2026 Accenture Flex offers a market competitive suite of benefits including medical, dental, vision, and long-term disability coverage, a 401(k) plan, and paid time off. See more information on our benefits here: Accenture Flex Jobs Role Location Hourly Salary Range California $61.00 to $71.00 Cleveland $61.00 to $71.00 Colorado $61.00 to $71.00 District of Columbia $61.00 to $71.00 Illinois $61.00 to $71.00 Maine $61.00 to $71.00 Maryland $61.00 to $71.00 Massachusetts $61.00 to $71.00 Minnesota $61.00 to $71.00 New York $61.00 to $71.00 New Jersey $61.00 to $71.00 Virginia $61.00 to $71.00 Washington $61.00 to $71.00 Locations Charlotte, NCIrving, TXMorristown, NJ Additional Information Requesting an Accommodation Accenture is committed to providing equal employment opportunities for persons with disabilities or religious observances, including reasonable accommodation when needed. If you are hired by Accenture and require accommodation to perform the essential functions of your role, you will be asked to participate in our reasonable accommodation process. Accommodations made to facilitate the recruiting process are not a guarantee of future or continued accommodations once hired. If you would like to be considered for employment opportunities with Accenture and have accommodation needs such as for a disability or religious observance, please call us toll free at 1 (877) 889-9009 or send us an email or speak with your recruiter. Equal Employment Opportunity Statement We believe that no one should be discriminated against because of their differences. All employment decisions shall be made without regard to age, race, creed, color, religion, sex, national origin, ancestry, disability status, veteran status, sexual orientation, gender identity or expression, genetic information, marital status, citizenship status or any other basis as protected by federal, state, or local law. Our rich diversity makes us more innovative, more competitive, and more creative, which helps us better serve our clients and our communities. For details, view a copy of the Accenture Equal Opportunity Statement Accenture is an EEO and Affirmative Action Employer of Veterans/Individuals with Disabilities. Accenture is committed to providing veteran employment opportunities to our service men and women. Other Employment Statements Applicants for employment in the US must have work authorization that does not now or in the future require sponsorship of a visa for employment authorization in the United States. Candidates who are currently employed by a client of Accenture or an affiliated Accenture business may not be eligible for consideration. Job candidates will not be obligated to disclose sealed or expunged records of conviction or arrest as part of the hiring process. Further, at Accenture a criminal conviction history is not an absolute bar to employment. The Company will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. Additionally, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the Company's legal duty to furnish information. California requires additional notifications for applicants and employees. If you are a California resident, live in or plan to work from Los Angeles County upon being hired for this position, please click here for additional important information. Please read Accenture’s Recruiting and Hiring Statement for more information on how we process your data during the Recruiting and Hiring process. About Accenture We work with one shared purpose: to deliver on the promise of technology and human ingenuity. Every day, more than 775,000 of us help our stakeholders continuously reinvent. Together, we drive positive change and deliver value to our clients, partners, shareholders, communities, and each other. We believe that delivering value requires innovation, and innovation thrives in an inclusive and diverse environment. We actively foster a workplace free from bias, where everyone feels a sense of belonging and is respected and empowered to do their best work. At Accenture, we see well-being holistically, supporting our people’s physical, mental, and financial health. We also provide opportunities to keep skills relevant through certifications, learning, and diverse work experiences. We’re proud to be consistently recognized as one of the World’s Best Workplaces™. Join Accenture to work at the heart of change. Visit us at www.accenture.com. Discover where this job fits at Accenture Software engineer jobs: Imagine it, build it, scale it Create software that will power change and empower people. Learn more Technology jobs: Be the catalyst Get hands-on with the technologies that our clients need to reinvent, work in new ways and change the world for the better. Learn more Jobs in technology platforms: Create foundations for the future You’ll build the tech that transforms how business works for the better. Learn more Learn more about the hiring process at Accenture Benefits information Hiring process (Q&A) Interview tips Using AI",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-06T20:57:33.910Z",
+            "matchScore": 73,
+            "matchSkillScore": 83,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 6+ years. No matching role in your profile — add experience for a position like \"Application Lead Workday Extend - 6407310\".",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Matches target area (Software Engineering)",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence"
+            ],
+            "missingSkills": [
+              "C"
+            ],
+            "scoredAt": "2026-08-06T20:57:33.910Z"
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 12,
+        "checkedAt": "2026-08-29T18:42:35.053Z"
+      },
+      {
+        "siteId": "6aa0fda9-5680-47b0-8c9a-879ee6eb2483",
+        "siteName": "Concert Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-29T18:42:37.382Z"
+      },
+      {
+        "siteId": "a477002b-fb3e-45a6-8561-a77975e570f6",
+        "siteName": "Cipher Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 3,
+        "checkedAt": "2026-08-29T18:42:37.602Z"
+      },
+      {
+        "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+        "siteName": "Fearless",
+        "newJobs": [
+          {
+            "id": "7e38a1e00d25f4bb",
+            "siteId": "9944b389-e31a-4f4f-ad14-0834234d0b17",
+            "siteName": "Fearless",
+            "title": "Ruby on Rails Engineer (Consultant, Engineering & Technical Services)",
+            "url": "https://jobs.fearless.com/us/en/job/P-100218/Ruby-on-Rails-Engineer-Consultant-Engineering-Technical-Services",
+            "firstSeenAt": "2026-08-29T18:42:37.729Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 10,
+        "checkedAt": "2026-08-29T18:42:37.729Z"
+      },
+      {
+        "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+        "siteName": "Stanley Black & Decker",
+        "newJobs": [
+          {
+            "id": "771a0f705de8baf4",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Systems Engineering Expert Solution Architect",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Systems-Engineering-Expert-Solution-Architect_REQ-1000047849",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-29T18:42:56.824Z",
+            "isNew": true
+          },
+          {
+            "id": "d3bc4d139bbea52b",
+            "siteId": "6ef9a820-67fd-4aba-ab62-c498766146d8",
+            "siteName": "Stanley Black & Decker",
+            "title": "Project Engineer, Firmware",
+            "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Project-Engineer--Firmware_REQ-1000050683-1",
+            "location": "Towson, MD, United States",
+            "firstSeenAt": "2026-08-06T20:45:29.087Z",
+            "isNew": true,
+            "descriptionText": "Project Engineer, Firmware Location Towson, MD Come build something that matters. It takes great people to achieve greatness. People with a sense of purpose and integrity. People with a relentless pursuit of excellence. People who care about making things better For Those Who Make The World™. Sound like you? Join our top-notch team of approximately 43,500 diverse and high-performing professionals globally who are making their mark on some of the world’s most beloved brands, including DEWALT®, BLACK+DECKER®, CRAFTSMAN®, STANLEY®, CUB CADET®, and HUSTLER®. The Job: As a Firmware Project Engineer, you’ll be part of our Electrification and Advanced Technology Group (EAT) team working as an on-site employee. We are a small, hands-on, diverse team of dedicated engineers responsible for advancing electrification through our core business. We work closely with our marketing, engineering and business leaders to identify new needs, to design and prototype tools that meet our customers high expectations, to create robust tests that guarantee the tools we make stand up to the toughest environments. Our engineers own every aspect of the process along the way. You’ll get to: Design and develop advanced motor control algorithms such as Sensorless motor control on various proof-of concept prototypes. Design, simulate, implement, and test new motor control functionality in an embedded system Provide leadership in achieving performance and technology teams objectives related to electronic systems, components and sub-assemblies. Develop solutions for electrification of Power Tools and Outdoor Equipment as a member of Electrification and Advanced Technology team. Document all designs and decisions so that others can understand and expand. Communicate with internal customers and stake holders to understands their needs. Develop and maintain a schedule to track progress in fulfilling an objective within a deadline. Training and mentoring junior team members. Keep up with latest technological advancements in Semiconductor and Motor technologies that are relevant to Stanley Black and Decker. The Person: You love to learn and grow and be acknowledged for your valuable contributions. You’re not intimidated by innovation. Wouldn’t it be great if you could do your job and do a world of good? In fact, you embrace it. You also have: BSEE/MSEE Electrical or Computer Engineering.years’ Experience with C and C++ software development. Knowledge of assembly programming. Experience with using microcontrollers and associated peripherals such as timers, ADC, communication interfaces (UART, SPI, I2C), etc. Experience with closed loop control and feedback systems. Experience with motor drive systems and understanding of common algorithms to control motors including Field Oriented Control. Understanding of common microcontroller peripherals such as: timers, GPIO, watchdog, ADC, UART, DMA. Strong understanding of embedded software concepts, including hard real time processing, process scheduling, cooperative multitasking, interrupt processing, race conditions, RTOS. Experience with both hardware and software development Experience with using electronic equipment such as power supplies, oscilloscopes, Logic Analyzers, digital multimeters etc. Experience with debugging (either with in-circuit debugger or by other means) Display strong ownership of an objective and work diligently to resolve it. The Details: You’ll receive a competitive salary and a great benefits plan, including: Medical, dental, life, vision, disability, 401(k), Employee Stock Purchase Plan, paid time off, and tuition reimbursement in addition to programs & benefits in support of your well-being. Discounts on Stanley Black & Decker tools and other partner programs. And More: We want our company to be a place you’ll want to be – and stay. Being part of our team means you’ll get to: Grow: Be part of our global company with 20+ brands to grow and develop your skills along multiple career paths. Learn: Have access to a wealth of learning resources, including our digital learning portal. Belong: Experience an awesome place to work, where we have mutual respect and a great appreciation for a wide range of perspectives and experiences. Give Back: Help us continue to make positive changes locally and globally through volunteerism, giving back, and sustainable business practices. What’s more, you’ll get that pride that comes from empowering makers, doers, protectors, and everyday heroes all over the world. We’re more than the #1 tools company. More than a driving force in outdoor power equipment. More than a global leader in industrial. We’re visionaries and innovators. As successful as we’ve been in the past, we have so much further to go. That’s where you come in. Join us! #LI-NM1 #LI-Onsite The Salary range for this position is $90,000.00 - $144,900.00 This is the lowest to highest annual full-time salary range we would pay for this role at the time of this posting. The salary offered within the range may vary depending on multiple factors including job level, geographic location, job-related knowledge, skills, qualifications, experience and in compliance with local wage requirements. Please note that salary is only one component of total rewards at Stanley Black & Decker. ​ The salary range listed in this job posting reflects the range for the primary location specified. The salary range may vary for other locations.​ The successful candidate may be eligible for annual merit increases. ​ Medical, dental, life, vision, disability,401(k), Employee Stock Purchase Plan, paid time off, and tuition reimbursement in addition to programs & benefits in support of your well-being. ​ Discounts on Stanley Black & Decker tool sand other partner programs. We Don’t Just Build The World, We Build Innovative Technology Too. Joining the Stanley Black & Decker team means working in an innovative, tech-driven and highly collaborative team environment supported by over 43,500 professionals in 60 countries across the globe. Here, you’ll get the unique chance to impact some of the world’s most iconic brands including STANLEY TOOLS, DEWALT, CRAFTSMAN, MAC TOOLS and Black + Decker. Your ideas and solutions have the potential to reach millions of customers as we work together to write the next chapter in our history. Come build with us and take your career to new heights. Who We Are We’re the World’s largest tool company. We’re industry visionaries. We’re solving problems and advancing the manufacturing trade through innovative technology and our Industry 4.0 Initiative. We are committed to ensuring our state-of-the-art “smart factory” products and services provide greater quality to our customers & greater environmental and social value to our planet. We are unique in that we have a rich and storied history dating back to 1843, but that hasn't stopped us from evolving into a vibrant, diverse, global growth company. What You’ll Also Get Career Opportunity: Career paths aren’t linear here. Being part of our global company with 60+ brands gives you the chance to grow and develop your skills along multiple career paths. Benefits & Perks You’ll get a competitive salary and a comprehensive benefits plan that includes medical, dental, life, vision, wellness program, disability, retirement benefits, Employee Stock Purchase Plan, Paid Time Off, including paid vacation, holidays & personal days, and tuition reimbursement. And, of course, discounts on Stanley Black & Decker tools and products and well as discount programs for many other vendors and partners. Learning & Development: Our lifelong learning philosophy means you’ll have access to a wealth of state-of-the-art learning resources, including our Lean Academy and online university (where you can get certificates and specializations from renowned colleges and universities). Diverse & Inclusive Culture: We pride ourselves on being an awesome place to work. We respect and embrace differences because that’s how the best work gets done. You’ll find we like to have fun here, too. Purpose-Driven Company: You’ll help us continue to make positive changes in the local communities where we work and live as well as in the broader world through volunteerism, giving back and sustainable business practices. EEO Statement: All qualified applicants to Stanley Black & Decker are considered for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, veteran’s status or any other protected characteristic. If you require reasonable accommodation to complete an application or access our website,",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-06T20:57:37.013Z",
+            "matchScore": 53,
+            "matchSkillScore": 33,
+            "matchExperienceScore": 100,
+            "experienceNote": "Meets experience target (2 years vs Junior) (using 2 years as Software Engineer)",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing"
+            ],
+            "missingSkills": [
+              "C",
+              "Go"
+            ],
+            "scoredAt": "2026-08-06T20:57:37.013Z",
+            "locationInTarget": true
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 40,
+        "checkedAt": "2026-08-29T18:42:56.824Z"
+      },
+      {
+        "siteId": "c962255b-7b42-42d2-b3f8-8066b41dc97f",
+        "siteName": "Maximus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-29T18:42:59.277Z"
+      },
+      {
+        "siteId": "0ffe8b95-8a6d-482c-8236-bb9bc77fe286",
+        "siteName": "PageVault",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 1,
+        "checkedAt": "2026-08-29T18:43:18.145Z"
+      },
+      {
+        "siteId": "b51ddf2d-6a83-4626-887a-15a9699a175d",
+        "siteName": "AlignAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:43:18.394Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://wellfound.com/company/getalignai/jobs"
+      },
+      {
+        "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+        "siteName": "Grow Therapy",
+        "newJobs": [
+          {
+            "id": "ee9096c7aca52247",
+            "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+            "siteName": "Grow Therapy",
+            "title": "Recruiting Coordinator",
+            "url": "https://jobs.ashbyhq.com/grow-therapy/91583005-45ec-49cd-84bf-2941b27bc129",
+            "department": "Business",
+            "team": "People",
+            "location": "New York City",
+            "firstSeenAt": "2026-08-29T18:43:52.026Z",
+            "isNew": true
+          },
+          {
+            "id": "81d65d9a5462b981",
+            "siteId": "6d486e85-30d2-47bf-903f-b3484ebae3ee",
+            "siteName": "Grow Therapy",
+            "title": "Staff Product Manager, Growth",
+            "url": "https://jobs.ashbyhq.com/grow-therapy/c7a21320-91c3-4055-966d-b72908bcffba",
+            "department": "Technology",
+            "team": "Product",
+            "location": "San Francisco",
+            "firstSeenAt": "2026-08-29T18:43:52.026Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 36,
+        "checkedAt": "2026-08-29T18:43:52.026Z"
+      },
+      {
+        "siteId": "135c39c1-7fdd-4fbf-a3de-07c90d76c6dd",
+        "siteName": "Suralink",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-29T18:43:52.584Z"
+      },
+      {
+        "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+        "siteName": "CoverMyMeds",
+        "newJobs": [
+          {
+            "id": "9cd7e6f486facff0",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Field Reimbursement Manager",
+            "url": "https://careers.mckesson.com/en/job/kentucky/field-reimbursement-manager/733/98530521424",
+            "firstSeenAt": "2026-07-31T16:01:04.390Z",
+            "isNew": true,
+            "descriptionText": "Field Reimbursement Manager Remote - Kentucky Job ID JR0151331 Category Field Reimbursement Post Date Jul. 30, 2026 Apply Save Job McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care.What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you.The Field Reimbursement Manager (FRM) is responsible for managing an assigned territory focused on supporting Reimbursement and Patient services by providing assistance with patient reimbursement challenges for a specific drug (including Benefit Investigation, Prior Authorization, Claims Assistance, and Appeals) and educating the office on Payer landscape and services available through both remote interaction and on-site training. This position is client-facing and customer-facing and requires the ability to build relationships with physician offices as well as manufacturer representatives to effectively deliver services based on customer specific preferences. The Field Reimbursement Manager works independently in a fast paced, highly visible environment as well as collaboratively with the internal program hub support services to ensure all customer needs are met. FRM will frequently interact via telephone with providers and internal staff to arrange site visits, Manufacturer trainings, and educational training venues. Must have a solid working knowledge of Medicare and Commercial insurance plans and benefit structures in order to relay detailed benefit information and maximize the customer experience. Position will require travel, project management and/or account coordination based on client expectation.Key Responsibilities:Provide on-site and on-demand education (including Lunch and Learns or Dinner presentations) for the office staff in regard to Reimbursement challenges and support services that are available. Office interaction will include education and reimbursement support. On-site/virtual interactions will average 15 per week. These activities are recorded in FRM CRM daily with reporting to manager weekly.Educate on Benefit Investigation, Prior Authorization Process, Support Center Services, Medicare and Commercial coverage and patient communication streams. Monthly activity reporting captures educational topics at FRM level reportable to client based on client expectation. This trended data is also reported quarterly to client.Reimbursement Support on Case management, billing and coding updates, appropriate claims submission, Specialty Pharmacy, Medical Benefit Interpretation, understanding medical necessity, claims and appeal assistance, information related to co-pay assistance and patient assistance programs. FRM will collaborate with case manager on average of 4/month and ad hoc as needed for escalations. These interactions are tracked in FRM CRM and hub system.Responsible for setting up appointments and completing outbound calls to targeted offices. Assist in completing backlog casework. Additional day-to-day in-office work. Interface with physicians and manufacturer representatives to obtain and provide patient and provider specific information. All FRM interactions/activities are tracked in FRM CRM which are reportable to management and client.Monitor program performance for physicians and manufacturer representatives in accordance with expectations. Territory performance will be monitored via FRM CRM dashboard daily. Trending results will be identified through quarterly reporting. Additionally, clients have the option to survey customers on program performance.Research and compile provider / manufacturer representative specific information for reimbursement database. (Includes account profiles) FRM will create a facility database on each new provider in FRM CRM. All interactions/activities are built utilizing this database. Minimum Job Qualifications – 4-year degree in related field or equivalent experience4+ years of healthcare related reimbursement experienceBusiness Experience – Strong medical reimbursement experience with Buy & Bill and/or Specialty Pharmacy.Experience supporting oncology products preferredExperience in the healthcare industry including, but not limited to insurance verification, prior authorizations, and/or claim adjudication, physician’s office or clinics.Must have Medicare and commercial insurance coverage experience.Must be able to deliver and document benefit investigation outcomes and relay status reports on a regular basis.Proven presentation skills and experienceProven ability to effectively handle multiple priorities and excellent organizational skillsStrong Computer literacy to include PowerPoint and Web Meeting experience Specialized Knowledge/Skills – Previous field experience, a plusPrevious experience with specialty pharmacy a plusAccount management experience, a plusExcellent Interpersonal skills.Excellent written and oral communication skillsProblem solving and decision-making skillsTravel Requirements – Looking for candidates in the following: Cincinnati, OH, Louisville, KY, Saint Louis MO, Indianapolis, IN, Springfield, MO.Must reside in territory. Must be able to travel 80% (4 days a week) via automobile or plane. Must have a valid driver's license with a clean driving record/ MVRPhysical Requirements (Lifting, standing, etc.) – Possible long periods of sitting and/or keyboard work. General office demands.We are proud to offer a competitive compensation package at McKesson as part of our Total Rewards. This is determined by several factors, including performance, experience and skills, equity, regular job market evaluations, and geographical markets. The pay range shown below is aligned with McKesson's pay philosophy, and pay will always be compliant with any applicable regulations. In addition to base pay, other compensation, such as an annual bonus or long-term incentive opportunities may be offered. For more information regarding benefits at McKesson, please click here.Our Base Pay Range for this position$76,300 - $127,100McKesson has become aware of online recruiting-related scams in which individuals who are not affiliated with or authorized by McKesson are using McKesson’s (or affiliated entities, like CoverMyMeds or RxCrossroads) name in fraudulent emails, job postings or social media messages. In light of these scams, please bear the following in mind:McKesson Talent Advisors will never solicit money or credit card information in connection with a McKesson job application.McKesson Talent Advisors do not communicate with candidates via online chatrooms or using email accounts such as Gmail or Hotmail. Note that McKesson does rely on a virtual assistant (Gia) for certain recruiting-related communications with candidates.McKesson job postings are posted on our career site: careers.mckesson.com.McKesson is an Equal Opportunity EmployerMcKesson provides equal employment opportunities to applicants and employees,",
+            "descriptionFetchedAt": "2026-08-06T20:57:01.183Z",
+            "matchScore": 85,
+            "matchSkillScore": 100,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 4+ years. No matching role in your profile — add experience for a position like \"Field Reimbursement Manager\".",
+            "roleRelevanceNote": "Could not determine role type — review manually",
+            "locationNote": "Could not determine job location",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI-Assisted Development"
+            ],
+            "missingSkills": [],
+            "scoredAt": "2026-08-06T20:57:01.183Z",
+            "locationTypes": [
+              "Remote",
+              "Onsite"
+            ]
+          },
+          {
+            "id": "3b6ae31bd01e42c2",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Account Executive - East Region",
+            "url": "https://careers.mckesson.com/en/job/maryland/account-executive-east-region/733/99691513904",
+            "firstSeenAt": "2026-08-29T18:43:52.870Z",
+            "isNew": true
+          },
+          {
+            "id": "0f9d22f5fe7b11ed",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Administrative Assistant II",
+            "url": "https://careers.mckesson.com/en/job/kent/administrative-assistant-ii/733/99867632800",
+            "firstSeenAt": "2026-08-29T18:43:52.870Z",
+            "isNew": true
+          },
+          {
+            "id": "b21c9f18037b5a30",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr Systems Administrator - Radiation/Imaging",
+            "url": "https://careers.mckesson.com/en/job/mississauga/sr-systems-administrator-radiation-imaging/733/99867626576",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-29T18:43:52.870Z",
+            "isNew": true
+          },
+          {
+            "id": "a90b86b830d2c7cd",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "Sr. Manager IT Delivery, Supply Chain Technology (SAP & Warehouse Systems)",
+            "url": "https://careers.mckesson.com/en/job/mississauga/sr-manager-it-delivery-supply-chain-technology-sap-and-warehouse-systems/733/97745469504",
+            "location": "Canada",
+            "firstSeenAt": "2026-08-29T18:43:52.870Z",
+            "isNew": true
+          },
+          {
+            "id": "0100f5500ad51840",
+            "siteId": "98dbfef5-486a-4c38-813c-61f9c7b8cad4",
+            "siteName": "CoverMyMeds",
+            "title": "SCO Communications Specialist",
+            "url": "https://careers.mckesson.com/en/job/fort-worth/sco-communications-specialist/733/99856480816",
+            "firstSeenAt": "2026-08-29T18:43:52.870Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 6,
+        "totalFound": 20,
+        "checkedAt": "2026-08-29T18:43:52.870Z"
+      },
+      {
+        "siteId": "20bde4d0-e679-4bdf-b5c0-56cc06217747",
+        "siteName": "Shopify",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-29T18:43:54.257Z"
+      },
+      {
+        "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+        "siteName": "Clarium",
+        "newJobs": [
+          {
+            "id": "b4d0f146554ec2a8",
+            "siteId": "1976c96a-4f18-4247-b184-cb49db323ee5",
+            "siteName": "Clarium",
+            "title": "Data Analyst",
+            "url": "https://jobs.ashbyhq.com/clarium/c55300dd-706e-40e5-a0f6-d5f76927226c",
+            "department": "Engineering",
+            "team": "Engineering",
+            "location": "Remote/US",
+            "firstSeenAt": "2026-08-29T18:43:54.473Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 7,
+        "checkedAt": "2026-08-29T18:43:54.473Z"
+      },
+      {
+        "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+        "siteName": "Yahoo!",
+        "newJobs": [
+          {
+            "id": "911f2989e7b8e810",
+            "siteId": "b3dfd23d-9580-432a-81fa-de4b8057d9fe",
+            "siteName": "Yahoo!",
+            "title": "Principal Applied Research Scientist – Generative AI and NLP",
+            "url": "https://ouryahoo.wd5.myworkdayjobs.com/careers/job/United-States-of-America/Principal-Applied-Research-Scientist---Generative-AI-and-NLP_JR0027182",
+            "firstSeenAt": "2026-07-30T17:35:24.681Z",
+            "isNew": true,
+            "scoredAt": "2026-08-06T20:56:53.854Z",
+            "descriptionText": "Yahoo Mail is the ultimate consumer inbox with hundreds of millions of users. It’s the best way to access your email and stay organized from a computer, phone or tablet. With its beautiful design and lightning fast speed, Yahoo Mail makes reading, organizing, and sending emails easier than ever. A Little About Us The Mail Intelligence team is the brain behind the inbox. We are responsible for building the next generation of platforms and services that enable Yahoo to deliver deeply personalized, intelligent, and context-aware experiences to hundreds of millions of users globally. We process billions of messages and manage data on a petabyte scale. Using cutting-edge AI algorithms and foundation models, we extract knowledge and interconnect information from diverse sources to simplify our users' lives. Building this knowledge provides many challenges in the areas of natural language processing, machine learning techniques, and petabyte-scale data processing. You will build tools and workflows to make it easier to manage and act on this vast information, applying your insights to build innovative consumer applications for Yahoo Mail. A Lot About You You are a seasoned Applied ML Researcher who thrives at the intersection of theoretical innovation and production-grade execution. You don't just follow the latest LLM trends; you understand the mechanics of transformer architectures and how to optimize them for massive scale. You have expertise working across multiple ML and NLP spaces—including summarization, information extraction, classification, and ranking—at a very large scale. You have hands-on experience with knowledge distillation and believe that a model is only as good as its evaluation framework and low-latency production performance. You combine strong research fundamentals with pragmatic production instincts, comfortably navigating ambiguity to drive high-impact initiatives independently while mentoring and elevating engineering peers. Responsibilities Lead R&D: Drive the research strategy and development of deep learning and generative AI models specifically tailored for large-scale email and communication data. Model Innovation & Optimization: Define and advance approaches for fine-tuning and adapting open-source foundation models using parameter-efficient techniques (LoRA, adapters) and quantization-aware training. Efficiency at Scale: Design and implement knowledge distillation to transfer complex capabilities into smaller, high-performance models operating under strict latency budgets. Modern Evaluation Strategy: Establish and standardize robust evaluation frameworks, including LLM-as-a-judge methodologies, synthetic evaluation datasets, and human-in-the-loop validation. Product Integration: Build repeatable, scalable training and evaluation workflows for high-throughput production environments. AI-Augmented Development Workflow: Integrate AI pair-programming tools (e.g., Copilot, Cursor) and automated LLM workflows to accelerate experimental iteration, code generation, and research prototyping. Strategic Future-Proofing: Set technical direction for agent-based systems, tool-use paradigms, and long-term generative AI roadmaps. Technical Mentorship & Governance: Raise the bar for technical excellence by guiding researchers, shaping org-wide AI technical strategy, and establishing best practices for model validation. Qualifications PhD (preferred) or Master’s degree in Computer Science, Machine Learning, NLP, or a related field. 9+ years of hands-on experience in applied machine learning and deep learning, with significant hands-on work in NLP and generative models at scale. Demonstrated experience fine-tuning LLMs using LoRA or other parameter-efficient methods. Experience with knowledge distillation, model compression, and/or training smaller models from larger teacher models. Hands-on experience using LLMs for pseudo-labeling and synthetic data generation to create high-quality training datasets. Experience building and evaluating LLM-based agents, including tool use, multi-agent orchestration, and reasoning workflows. Deep understanding of transformer architectures (encoder-only, decoder-only, encoder-decoder) and modern generative transformer techniques. Experience designing evaluation frameworks for generative systems, including prompt-based evaluation, LLM-as-a-judge approaches, and automated output validation. Hands-on experience incorporating AI pair-programming tools (e.g., GitHub Copilot, Cursor) or LLM workbench environments into daily developer and research workflows. Proficiency in Python and deep learning frameworks such as PyTorch or TensorFlow, along with Hugging Face tooling. Experience building scalable data pipelines and training workflows for large datasets. Strong experimental rigor and ability to translate research ideas into production-ready systems. Excellent communication skills and ability to operate effectively in cross-functional, fast-moving environments. Preferred Qualifications Experience with large-scale distributed training and inference. Experience building, deploying, and optimizing models for on-device or resource-constrained environments (quantization, pruning, distillation). Experience with agent frameworks, tool use, or multi-step reasoning systems. Familiarity with prompt engineering, preference optimization (RLHF/DPO), or model alignment techniques. Publications, patents, or open-source contributions in NLP or generative AI. Experience working with cloud platforms (GCP, AWS) and large-scale experimentation infrastructure. The material job duties and responsibilities of this role include those listed above as well as adhering to Yahoo policies; exercising sound judgment; working effectively, safely and inclusively with others; exhibiting trustworthiness and meeting expectations; and safeguarding business operations and brand integrity. At Yahoo, we offer flexible hybrid work options that our employees love! While most roles don’t require regular office attendance, you may occasionally be asked to attend in-person events or team sessions. You’ll always get notice to make arrangements. Your recruiter will let you know if a specific job requires regular attendance at a Yahoo office or facility. If you have any questions about how this applies to the role, just ask the recruiter! Yahoo is proud to be an equal opportunity workplace.",
+            "descriptionFetchedAt": "2026-08-06T20:56:53.854Z",
+            "matchScore": 65,
+            "matchSkillScore": 71,
+            "matchExperienceScore": 50,
+            "experienceNote": "Posting looks for 9+ years. No matching role in your profile — add experience for a position like \"Principal Applied Research Scientist – Generative AI and NLP\".",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "AWS",
+              "Cursor",
+              "Git",
+              "GitHub",
+              "GitLab"
+            ],
+            "missingSkills": [
+              "GCP",
+              "Machine Learning",
+              "Python",
+              "R"
+            ],
+            "locationTypes": [
+              "Onsite"
+            ],
+            "locationInTarget": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 16,
+        "checkedAt": "2026-08-29T18:43:54.738Z"
+      },
+      {
+        "siteId": "9fd7f19f-b5e6-4c19-9bf0-8a35ade136b3",
+        "siteName": "Huron",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 10,
+        "checkedAt": "2026-08-29T18:44:09.967Z"
+      },
+      {
+        "siteId": "2f83aed9-f575-453f-b5ca-66ae643102a9",
+        "siteName": "GoodRx",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 5,
+        "checkedAt": "2026-08-29T18:44:10.649Z"
+      },
+      {
+        "siteId": "2e6fe0f4-140a-41de-852c-f20aeb4fb0ef",
+        "siteName": "ShopMonkey",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-29T18:44:11.036Z"
+      },
+      {
+        "siteId": "c8263906-dd06-4586-a2d5-64fe373103e5",
+        "siteName": "Paradigm Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-29T18:44:26.114Z"
+      },
+      {
+        "siteId": "0e81a94e-17c9-4333-ad67-7e9bb690dce1",
+        "siteName": "Akumin",
+        "newJobs": [
+          {
+            "id": "9d22da0ce665cf36",
+            "siteId": "0e81a94e-17c9-4333-ad67-7e9bb690dce1",
+            "siteName": "Akumin",
+            "title": "Salesforce  Administrator",
+            "url": "https://akumincorp.wd5.myworkdayjobs.com/akumincareers/job/Florida-Remote-Worker/Salesforce--Administrator_2026-7949",
+            "location": "10 Locations",
+            "firstSeenAt": "2026-08-29T18:44:27.194Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-29T18:44:27.194Z"
+      },
+      {
+        "siteId": "d2c011bf-5515-4957-8ac7-6fbd37d3b316",
+        "siteName": "Centivo",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-29T18:44:27.661Z"
+      },
+      {
+        "siteId": "461c86fd-d93a-471f-8eee-df8364548302",
+        "siteName": "SalesAI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:44:27.993Z"
+      },
+      {
+        "siteId": "910325ad-5985-4c36-be13-9e92cd3172cd",
+        "siteName": "BCBSNC",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:45:01.142Z"
+      },
+      {
+        "siteId": "3c7873c7-413e-4f39-918a-f012ef940425",
+        "siteName": "MediQuant",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:45:15.935Z"
+      },
+      {
+        "siteId": "28ca01df-6978-4adb-8b0d-f05503a2a0b1",
+        "siteName": "One Digital",
+        "newJobs": [
+          {
+            "id": "f213b8702fd8a40f",
+            "siteId": "28ca01df-6978-4adb-8b0d-f05503a2a0b1",
+            "siteName": "One Digital",
+            "title": "Senior Director of Product Management",
+            "url": "https://onedigital.wd504.myworkdayjobs.com/OneDigital/job/Reno-NV/Senior-Director-of-Product-Management_R9379",
+            "location": "2 Locations",
+            "firstSeenAt": "2026-08-29T18:45:50.535Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:45:50.535Z"
+      }
+    ]
+  },
+  {
+    "id": "d850336b-9dcd-4836-8f85-c1a835524556",
+    "startedAt": "2026-08-29T18:28:48.177Z",
+    "completedAt": "2026-08-29T18:37:41.182Z",
+    "sitesChecked": 20,
+    "totalSites": 53,
+    "newJobsFound": 26,
+    "jobsArchived": 26,
+    "results": [
+      {
+        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+        "siteName": "Slalom Consulting",
+        "newJobs": [
+          {
+            "id": "dc42d20a68067a95",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Slalom Flex (Project Based) - Solution Owner",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3434",
+            "firstSeenAt": "2026-08-29T18:28:48.177Z",
+            "isNew": true
+          },
+          {
+            "id": "f10c4d3fcd0ec0d4",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Global Industry Leader - Life Sciences & Pharma",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3427",
+            "firstSeenAt": "2026-08-29T18:28:48.177Z",
+            "isNew": true
+          },
+          {
+            "id": "e950686b402db34a",
+            "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
+            "siteName": "Slalom Consulting",
+            "title": "Enterprise - Salesforce Agentforce Developer",
+            "url": "https://jobs.slalom.com/en_US/careersmarketplace/JobDetail?jobId=3410",
+            "firstSeenAt": "2026-08-29T18:28:48.177Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 3,
+        "totalFound": 12,
+        "checkedAt": "2026-08-29T18:28:48.177Z"
+      },
+      {
+        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
+        "siteName": "Telus",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 9,
+        "checkedAt": "2026-08-29T18:29:14.252Z"
+      },
+      {
+        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
+        "siteName": "Telus Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 15,
+        "checkedAt": "2026-08-29T18:29:20.829Z"
+      },
+      {
+        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
+        "siteName": "Telus Ag & Consumer Goods",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:29:51.153Z"
+      },
+      {
+        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+        "siteName": "Telus Digital",
+        "newJobs": [
+          {
+            "id": "494ab23441076e23",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Operations Team Leader Las Vegas, NV, United States • English • Full time • Req_00191176_US Combined",
+            "url": "https://jobs.telusdigital.com/jobs/18159340-operations-team-leader",
+            "firstSeenAt": "2026-08-26T14:37:48.326Z",
+            "isNew": true,
+            "scoredAt": "2026-08-26T14:44:24.232Z",
+            "scoreError": "HTTP 403 fetching https://jobs.telusdigital.com/jobs/18159340-operations-team-leader"
+          },
+          {
+            "id": "0b2073b1267ec218",
+            "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
+            "siteName": "Telus Digital",
+            "title": "Scheduler Analyst Las Vegas, NV, United States • English • Full time • Req_00190574_US Onsite",
+            "url": "https://jobs.telusdigital.com/jobs/18145679-scheduler-analyst",
+            "firstSeenAt": "2026-08-21T14:21:08.317Z",
+            "isNew": true,
+            "scoredAt": "2026-08-21T14:27:31.549Z",
+            "scoreError": "HTTP 403 fetching https://jobs.telusdigital.com/jobs/18145679-scheduler-analyst"
+          }
+        ],
+        "archivedJobsCount": 2,
+        "totalFound": 14,
+        "checkedAt": "2026-08-29T18:30:24.315Z"
+      },
+      {
+        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
+        "siteName": "Philadelphia Insurance Companies",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 5,
+        "checkedAt": "2026-08-29T18:31:02.234Z"
+      },
+      {
+        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+        "siteName": "Capital One",
+        "newJobs": [
+          {
+            "id": "77d5d52878540a9d",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99448989808 08/19/2026 Lead Software Engineer McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer/1732/99448989808",
+            "location": "United States",
+            "firstSeenAt": "2026-08-19T23:11:02.452Z",
+            "isNew": true,
+            "descriptionText": "At Capital One, you'll be part of a big group of makers, breakers, doers and disruptors, who love to solve real problems and meet real customer needs. We are seeking Back End Software Engineers who are passionate about marrying data with emerging technologies. As a Capital One Software Engineer, you’ll have the opportunity to be on the forefront of driving a major transformation within Capital One.What You’ll Do: Lead a portfolio of diverse technology projects and a team of developers with deep experience in distributed microservices, and full stack systems to create solutions that help meet regulatory needs for the companyShare your passion for staying on top of tech trends, experimenting with and learning new technologies, participating in internal & external technology communities, mentoring other members of the engineering community, and from time to time, be asked to code or evaluate codeCollaborate with digital product managers, and deliver robust cloud-based solutions that drive powerful experiences to help millions of Americans achieve financial empowermentUtilize programming languages like Java, Python, SQL, Node, Go, and Scala, Open Source RDBMS and NoSQL databases, Container Orchestration services including Docker and Kubernetes, and a variety of AWS tools and services Basic Qualifications: Bachelor’s DegreeAt least 4 years of professional software engineering experience (Internship experience does not apply)At least 1 year experience with cloud computing (AWS, Microsoft Azure, Google Cloud)Preferred Qualifications:Master's Degree7+ years of experience in at least one of the following: Java, Scala, Python, Go, or Node.js2+ years of experience with AWS, GCP, Azure, or another cloud service4+ years of experience in open source frameworks1+ years of people management experience2+ years of experience in Agile practicesExperience leveraging interactive AI tooling to accelerate productivity, utilizing capabilities beyond basic code completionAt this time, Capital One will not sponsor a new applicant for employment authorization, or offer any immigration related support for this position (e.g. H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-3, and O-1, or any other forms of work authorization that require immigration support from an employer).The minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.McLean, VA: $197,300 - $225,100 for Lead Software EngineerCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate’s offer letter.This role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.Capital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at theCapital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.This role is expected to accept applications for a minimum of 5 business days.No agencies please. Capital One is an",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-19T23:15:04.830Z",
+            "matchScore": 58,
+            "matchSkillScore": 65,
+            "matchExperienceScore": 40,
+            "experienceNote": "Below experience target (2 years vs 7+ years) (using 2 years as Software Engineer)",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing",
+              "Agile",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "AWS",
+              "Azure",
+              "Docker",
+              "node",
+              "Node.js",
+              "Scrum",
+              "SQL"
+            ],
+            "missingSkills": [
+              "GCP",
+              "Go",
+              "Java",
+              "Kubernetes",
+              "NoSQL",
+              "Python",
+              "Scala"
+            ],
+            "scoredAt": "2026-08-19T23:15:04.830Z"
+          },
+          {
+            "id": "a0684f58f417b7a9",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99281946656 08/15/2026 Lead Software Engineer New York, NY",
+            "url": "https://www.capitalonecareers.com/job/new-york/lead-software-engineer/1732/99281946656",
+            "location": "United States",
+            "firstSeenAt": "2026-08-26T14:38:38.391Z",
+            "isNew": true,
+            "descriptionText": "At Capital One, you'll be part of a big group of makers, breakers, doers and disruptors, who solve real problems and meet real customer needs. We are seeking Full Stack Software Engineers who are passionate about marrying data with emerging technologies. As a Capital One Lead Software Engineer, you’ll have the opportunity to be on the forefront of driving a major transformation within Capital One. What You’ll Do: Lead a portfolio of diverse technology projects and a team of developers with deep experience in distributed microservices, and full stack systems to create solutions that help meet regulatory needs for the companyShare your passion for staying on top of tech trends, experimenting with and learning new technologies, participating in internal & external technology communities, mentoring other members of the engineering communityCollaborate with digital product managers, and deliver robust cloud-based solutions that drive powerful experiences to help millions of Americans achieve financial empowermentUtilize programming languages like JavaScript, Java, HTML/CSS, TypeScript, SQL, Python, and Go, Open Source RDBMS and NoSQL databases, Container Orchestration services including Docker and Kubernetes, and a variety of AWS tools and services Basic Qualifications: Bachelor’s DegreeAt least 4 years of experience in software engineering (Internship experience does not apply)At least 1 year experience with cloud computing (AWS, Microsoft Azure, Google Cloud)Preferred Qualifications:Master's Degree7+ years of experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, or Go3+ years of experience with AWS, GCP, Microsoft Azure, or another cloud service4+ years of experience in open source frameworks1+ years of people management experience2+ years of experience in Agile practicesExperience leveraging interactive AI tooling to accelerate productivity, utilizing capabilities beyond basic code completionAt this time, Capital One will not sponsor a new applicant for employment authorization, or offer any immigration related support for this position (i.e. H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-2, E-3, L-1 and O-1, or any EADs or other forms of work authorization that require immigration support from an employer).The minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.New York, NY: $215,200 - $245,600 for Lead Software EngineerCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate’s offer letter.This role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.Capital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at theCapital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.This role is expected to accept applications for a minimum of 5 business days.No agencies please. Capital One is an",
+            "locationTypes": [
+              "Onsite"
+            ],
+            "descriptionFetchedAt": "2026-08-26T14:44:24.854Z",
+            "matchScore": 62,
+            "matchSkillScore": 71,
+            "matchExperienceScore": 40,
+            "experienceNote": "Below experience target (2 years vs 7+ years) (using 2 years as Software Engineer)",
+            "roleRelevant": true,
+            "roleRelevanceNote": "Title matches a technical/engineering role",
+            "locationInTarget": true,
+            "locationNote": "In target area (United States)",
+            "matchedSkills": [
+              "Accessibility testing",
+              "Agile",
+              "AI",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "AWS",
+              "Azure",
+              "CSS",
+              "Docker",
+              "HTML",
+              "JavaScript",
+              "Scrum",
+              "SQL",
+              "TypeScript"
+            ],
+            "missingSkills": [
+              "GCP",
+              "Go",
+              "Java",
+              "Kubernetes",
+              "NoSQL",
+              "Python"
+            ],
+            "scoredAt": "2026-08-26T14:44:24.854Z"
+          },
+          {
+            "id": "530f2524b7104b71",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465456 08/28/2026 Part Time Branch Ambassador - East Plano Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/part-time-branch-ambassador-east-plano/1732/99867465456",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "b3f77fe2b18d1296",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465424 08/28/2026 Customer Engagement Consultant (Sales), Business Cards & Payments (Hybrid), Plano, Texas Plano, TX",
+            "url": "https://www.capitalonecareers.com/job/plano/customer-engagement-consultant-sales-business-cards-and-payments-hybrid-plano-texas/1732/99867465424",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "e46a5e5031c6fd73",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465376 08/28/2026 Manager, Product Management - IVR Customer Experience McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/manager-product-management-ivr-customer-experience/1732/99867465376",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "5b102cfb3c3bc101",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "98634904496 08/01/2026 Data Analysis Manager - Analytics & Transformation McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/data-analysis-manager-analytics-and-transformation/1732/98634904496",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "4d62a9dcb3cb561a",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465296 08/28/2026 Senior Manager, Product Management - Workforce Management Tools McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-manager-product-management-workforce-management-tools/1732/99867465296",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "a33205409a4f9168",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465264 08/28/2026 Lead Software Engineer, Backend (IC) San Jose, CA",
+            "url": "https://www.capitalonecareers.com/job/san-jose/lead-software-engineer-backend-ic/1732/99867465264",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "d24ebd90e930dd6c",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465232 08/28/2026 Part Time Branch Ambassador - Forest & Josey Dallas, TX",
+            "url": "https://www.capitalonecareers.com/job/dallas/part-time-branch-ambassador-forest-and-josey/1732/99867465232",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "efcd9c8a740dc1be",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465184 08/28/2026 Staff AI Engineer - Enterprise Analysis Platform (Remote Eligible) San Francisco, CA",
+            "url": "https://www.capitalonecareers.com/job/san-francisco/staff-ai-engineer-enterprise-analysis-platform-remote-eligible/1732/99867465184",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "588efd7f6a330d00",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465152 08/28/2026 Manager, Data Analysis- Commercial Underwriting and Portfolio Management org Richmond, VA",
+            "url": "https://www.capitalonecareers.com/job/richmond/manager-data-analysis-commercial-underwriting-and-portfolio-management-org/1732/99867465152",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "1706338c2bdf20c3",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465120 08/28/2026 Lead Software Engineer, Full Stack (Cyber) McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/lead-software-engineer-full-stack-cyber/1732/99867465120",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "4f67c2e7799b2778",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867465072 08/28/2026 Senior Associate, Product Management - CreditWise McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-associate-product-management-creditwise/1732/99867465072",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "a991ad90a9ab3e82",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99043663184 08/28/2026 Senior Data Analyst - Card McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/senior-data-analyst-card/1732/99043663184",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "9f89d418fe304889",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "96965509120 06/26/2026 Data Analysis Manager - Business Card and Payments McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/data-analysis-manager-business-card-and-payments/1732/96965509120",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "de9c45627b2406cf",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867464928 08/28/2026 Part Time Branch Ambassador - South Garland Garland, Dallas, TX",
+            "url": "https://www.capitalonecareers.com/job/garland/part-time-branch-ambassador-south-garland/1732/99867464928",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          },
+          {
+            "id": "3b76c0a69aa722df",
+            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
+            "siteName": "Capital One",
+            "title": "99867464880 08/28/2026 Sr. Manager, Data Analysis McLean, VA",
+            "url": "https://www.capitalonecareers.com/job/mclean/sr-manager-data-analysis/1732/99867464880",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:18.090Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 17,
+        "totalFound": 30,
+        "checkedAt": "2026-08-29T18:31:18.090Z"
+      },
+      {
+        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
+        "siteName": "Internet Testing Systems (ITS)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:31:32.220Z"
+      },
+      {
+        "siteId": "fe9393ff-754f-4c2f-b3d4-dc320dff577e",
+        "siteName": "NBME",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 6,
+        "checkedAt": "2026-08-29T18:31:32.657Z"
+      },
+      {
+        "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+        "siteName": "TailorCare",
+        "newJobs": [
+          {
+            "id": "b54dbe5f882d96f8",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Care Advocate (Shift: 8:00 - 5:00 pm EST)",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4709153006",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:47.617Z",
+            "isNew": true
+          },
+          {
+            "id": "965a2245892bc334",
+            "siteId": "3690e2fb-479a-4e7d-8a6d-d113fe9d7614",
+            "siteName": "TailorCare",
+            "title": "Certified Health Coach (Shift: 9:00 - 6:00pm EST)",
+            "url": "https://job-boards.greenhouse.io/tailorcare2023/jobs/4709291006",
+            "location": "United States",
+            "firstSeenAt": "2026-08-29T18:31:47.617Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 12,
+        "checkedAt": "2026-08-29T18:31:47.617Z"
+      },
+      {
+        "siteId": "b94d1ef0-8f42-4d9b-9bf0-19b99f36c47b",
+        "siteName": "Percipio Health",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:31:48.579Z"
+      },
+      {
+        "siteId": "34167c29-c1d1-4a05-b808-37601d9a65e8",
+        "siteName": "Hometown Ticketing",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:32:23.357Z"
+      },
+      {
+        "siteId": "a284d073-e3ee-4628-96a7-0c4941eeb90f",
+        "siteName": "Rad AI",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 18,
+        "checkedAt": "2026-08-29T18:32:38.500Z"
+      },
+      {
+        "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+        "siteName": "Hims & Hers",
+        "newJobs": [
+          {
+            "id": "df2aff451d34e990",
+            "siteId": "524d3fcf-6a26-427d-b7b9-e6b83f3655a3",
+            "siteName": "Hims & Hers",
+            "title": "Financial Analyst, FP&A",
+            "url": "https://jobs.ashbyhq.com/hims-and-hers/6eff27fe-a41b-4643-8b2f-3f153ff8508e",
+            "firstSeenAt": "2026-07-16T17:56:39.433Z",
+            "isNew": true,
+            "descriptionText": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by putting the customer first and delivering access to care that is affordable, accessible, and personal, from diagnosis to treatment to delivery. No two people are the same, so we provide access to personalized care designed for results. By normalizing health & wellness challenges and innovating on their solutions, we’re making better health outcomes easier to achieve. Hims & Hers is a public company, traded on the NYSE under the ticker symbol “HIMS.” To learn more about the brand and offerings, you can visit hims.com/about http://hims.com/about and hims.com/how-it-works http://hims.com/how-it-works . For information on the company’s outstanding benefits, culture, and its talent-first flexible/remote work approach, see below and visit www.hims.com/careers-professionals http://www.hims.com/careers-professionals. ABOUT THE ROLE: Hims & Hers is looking to hire a Financial Analyst to join our Strategic Finance organization. This role will report to a leader on the FP&A team. As a Financial Analyst, you will support consolidated planning and reporting deliverables, help build and maintain the company's core financial models, contribute to executive- and Board-facing materials, and partner across FP&A pillars to support the forecast cycle. You will work under regular guidance from experienced team members, with your work reviewed periodically as you develop your expertise and take on increasing ownership over time. YOU WILL: - Help build and maintain components of the consolidated financial model across the annual operating plan, long-range plan, and monthly forecast cycles - Support the mechanics of the forecast cycle, including data intake, model updates, and variance analysis, that feed the consolidated outputs reviewed by senior leadership - Contribute to executive-facing financial deliverables, including the Weekly Business Review, monthly OpEx review, and quarterly Board and Audit Committee materials - Prepare clear variance analyses that help explain the \"why\" behind actuals vs. plan and forecast at both the consolidated and segment level - Partner with category, marketing, and ops finance counterparts to gather, pressure test, and consolidate inputs into a coherent corporate view - Build models from scratch that solve a problem or answer a business question - Identify opportunities to improve the planning and reporting infrastructure — leveraging AI, automation, and systems to reduce manual effort and elevate analytical quality - Perform ad-hoc projects, financial analyses, and presentations for finance leadership YOU HAVE: - B.S. in Finance or Accounting, or equivalent experience - 2+ years of experience in analytical financial roles such as strategic finance, FP&A, investment banking, and/or consulting - Strong financial modeling skills, comfortable building multi-scenario P&Ls and supporting models from scratch - Ability to manipulate large datasets - Strong written and verbal communication skills, with the ability to translate analyses into clear, structured narratives - Highly organized and detail-oriented, able to multitask NICE TO HAVE: - Experience in investment banking or at a high growth company preferred - Exposure to a public company's external reporting cycle (Board, Audit Committee, earnings/guidance) - Experience with online subscription businesses, acquisition marketing metrics, and lifetime value concepts - Familiarity with leveraging AI and automation to improve finance workflows OUR BENEFITS (THERE ARE MORE BUT HERE ARE SOME HIGHLIGHTS): - Competitive salary & equity compensation for full-time roles - Unlimited PTO, company holidays, and quarterly mental health days - Comprehensive health benefits including medical, dental & vision, and parental leave - Employee Stock Purchase Program (ESPP) - 401k benefits with employer matching contribution - Offsite team retreats We are committed to building a workforce that reflects diverse perspectives and prioritizes ethics, wellness, and a strong sense of belonging. If you're excited about this role, we encourage you to apply—even if you're not sure if your background or experience is a perfect match. Hims considers all qualified applicants for employment, including applicants with arrest or conviction records, in accordance with the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance, the California Fair Chance Act, and any similar state or local fair chance laws. It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. Hims & Hers is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If you need assistance or an accommodation due to a disability,",
+            "descriptionFetchedAt": "2026-08-06T20:56:12.993Z",
+            "matchScore": 100,
+            "matchedSkills": [
+              "Accessibility testing",
+              "AI",
+              "AI-Assisted Development",
+              "App Insights",
+              "Application Insights",
+              "artificial intelligence",
+              "Visual Studio"
+            ],
+            "missingSkills": [],
+            "scoredAt": "2026-08-06T20:56:12.993Z",
+            "matchSkillScore": 100,
+            "matchExperienceScore": 100,
+            "experienceNote": "Meets experience target (12 years vs 2+ years) (using 12 years as Quality Analyst / Quality Engineer)",
+            "roleRelevant": false,
+            "roleRelevanceNote": "Title looks like a non-technical role",
+            "locationNote": "Could not determine job location",
+            "locationTypes": [
+              "Remote"
+            ],
+            "department": "FINANCE & ACCOUNTING",
+            "team": "Finance",
+            "location": "US Remote"
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 108,
+        "checkedAt": "2026-08-29T18:32:38.986Z"
+      },
+      {
+        "siteId": "a22a90ea-d8cf-4b5b-80d2-dd28c8259597",
+        "siteName": "1Password",
+        "newJobs": [],
+        "archivedJobsCount": 1,
+        "totalFound": 62,
+        "checkedAt": "2026-08-29T18:32:40.571Z"
+      },
+      {
+        "siteId": "157f0d43-6965-414c-91b5-08366596cb8a",
+        "siteName": "Commerce (BigCommerce)",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 2,
+        "checkedAt": "2026-08-29T18:32:41.229Z"
+      },
+      {
+        "siteId": "d31d77c4-f74b-4c09-a11f-038f36882df7",
+        "siteName": "HCA Healthcare",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 0,
+        "checkedAt": "2026-08-29T18:32:58.632Z",
+        "error": "Blocked by bot protection (Cloudflare) fetching https://careers.hcahealthcare.com/search/full-time-days-no-weekends-information-technology/jobs"
+      },
+      {
+        "siteId": "ca880707-40bd-4707-9339-a2d0222fe1bc",
+        "siteName": "Cleerly",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 14,
+        "checkedAt": "2026-08-29T18:33:32.915Z"
+      },
+      {
+        "siteId": "3dabc27c-9878-4162-a665-99fb9872213f",
+        "siteName": "HappyReturns",
+        "newJobs": [],
+        "archivedJobsCount": 0,
+        "totalFound": 8,
+        "checkedAt": "2026-08-29T18:33:33.668Z"
+      },
+      {
+        "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+        "siteName": "Webflow",
+        "newJobs": [
+          {
+            "id": "d68e80343ff1fac7",
+            "siteId": "bc3d8e46-c85a-4c9a-aee7-16fe928db010",
+            "siteName": "Webflow",
+            "title": "Staff Data Engineer",
+            "url": "https://job-boards.greenhouse.io/webflow/jobs/8165290",
+            "location": "U.S. Remote",
+            "firstSeenAt": "2026-08-29T18:33:34.722Z",
+            "isNew": true
+          }
+        ],
+        "archivedJobsCount": 1,
+        "totalFound": 27,
+        "checkedAt": "2026-08-29T18:33:34.722Z"
+      }
+    ],
+    "cancelled": true
+  },
+  {
     "id": "7b446ae4-eb41-495f-b3eb-91a48bba6ded",
     "startedAt": "2026-08-28T14:13:15.791Z",
     "completedAt": "2026-08-28T14:21:12.317Z",
@@ -36887,1405 +38228,6 @@
         "newJobs": [],
         "totalFound": 131,
         "checkedAt": "2026-07-10T17:54:03.708Z"
-      }
-    ]
-  },
-  {
-    "id": "9ae53664-238c-42d6-a50b-0bf51dee40d8",
-    "startedAt": "2026-07-09T18:57:55.590Z",
-    "completedAt": "2026-07-09T18:57:59.052Z",
-    "sitesChecked": 8,
-    "newJobsFound": 1,
-    "results": [
-      {
-        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
-        "siteName": "Slalom Consulting",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:57:55.590Z"
-      },
-      {
-        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
-        "siteName": "Telus",
-        "newJobs": [],
-        "totalFound": 26,
-        "checkedAt": "2026-07-09T18:57:56.279Z"
-      },
-      {
-        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
-        "siteName": "Telus Health",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:57:56.726Z"
-      },
-      {
-        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
-        "siteName": "Telus Ag & Consumer Goods",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:57:57.416Z",
-        "error": "HTTP 403 fetching https://www.telus.com/agcg/en-us/careers/positions"
-      },
-      {
-        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
-        "siteName": "Telus Digital",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:57:57.485Z",
-        "error": "HTTP 403 fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
-      },
-      {
-        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
-        "siteName": "Philadelphia Insurance Companies",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:57:57.721Z",
-        "error": "HTTP 403 fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
-      },
-      {
-        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
-        "siteName": "Capital One",
-        "newJobs": [],
-        "totalFound": 26,
-        "checkedAt": "2026-07-09T18:57:57.829Z"
-      },
-      {
-        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-        "siteName": "Internet Testing Systems (ITS)",
-        "newJobs": [
-          {
-            "id": "68e3ee33c67d04f2",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Mike Lauer",
-            "url": "https://www.linkedin.com/in/mike-lauer-0116651?trk=org-employees",
-            "firstSeenAt": "2026-07-09T18:57:58.099Z",
-            "isNew": true
-          }
-        ],
-        "totalFound": 131,
-        "checkedAt": "2026-07-09T18:57:58.099Z"
-      }
-    ]
-  },
-  {
-    "id": "de3c3e94-cbb2-4fbf-929b-03e8aafb6f59",
-    "startedAt": "2026-07-09T18:56:47.601Z",
-    "completedAt": "2026-07-09T18:56:53.123Z",
-    "sitesChecked": 8,
-    "newJobsFound": 139,
-    "results": [
-      {
-        "siteId": "26084419-d52e-497f-8358-8517a81e2f5a",
-        "siteName": "Slalom Consulting",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:56:47.601Z"
-      },
-      {
-        "siteId": "15bab25c-da4b-4848-8660-0e4cc079efef",
-        "siteName": "Telus",
-        "newJobs": [],
-        "totalFound": 26,
-        "checkedAt": "2026-07-09T18:56:49.369Z"
-      },
-      {
-        "siteId": "8d93385c-f9a1-483c-8954-a238bdd49ede",
-        "siteName": "Telus Health",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:56:50.097Z"
-      },
-      {
-        "siteId": "474974ca-5935-416c-a087-4e59e80c18cf",
-        "siteName": "Telus Ag & Consumer Goods",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:56:50.933Z",
-        "error": "HTTP 403 fetching https://www.telus.com/agcg/en-us/careers/positions"
-      },
-      {
-        "siteId": "155803ae-afef-40d2-98ce-fa8d1aef8193",
-        "siteName": "Telus Digital",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:56:51.104Z",
-        "error": "HTTP 403 fetching https://jobs.telusdigital.com/search/cfm3/english/jobs/in/country/canada-united-states"
-      },
-      {
-        "siteId": "f86e4ed2-d598-40ea-bee4-9b9c854df7b8",
-        "siteName": "Philadelphia Insurance Companies",
-        "newJobs": [],
-        "totalFound": 0,
-        "checkedAt": "2026-07-09T18:56:51.327Z",
-        "error": "HTTP 403 fetching https://phly-jobs.ttcportals.com/jobs/search?utf8=%E2%9C%93&q=&cf%5BBUSINESS_UNIT%5D=&ns_business_unit=&location=&location_country=&location_state=&radius=&ns_lcache=&ns_location=&radius=&ns_lcache=&ns_dist=40.2336&commit=Search"
-      },
-      {
-        "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
-        "siteName": "Capital One",
-        "newJobs": [
-          {
-            "id": "cb4ad09c8d2c445b",
-            "siteId": "151b4457-5108-4b10-a829-2d23df8cf294",
-            "siteName": "Capital One",
-            "title": "97467710448 07/07/2026 Lead Software Engineer Richmond, VA",
-            "url": "https://www.capitalonecareers.com/job/richmond/lead-software-engineer/1732/97467710448",
-            "firstSeenAt": "2026-07-09T18:56:51.455Z",
-            "isNew": true
-          }
-        ],
-        "totalFound": 26,
-        "checkedAt": "2026-07-09T18:56:51.455Z"
-      },
-      {
-        "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-        "siteName": "Internet Testing Systems (ITS)",
-        "newJobs": [
-          {
-            "id": "081957ed3cd1d4a6",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "User Agreement",
-            "url": "https://www.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "b34a3c03d72ea89e",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Privacy Policy",
-            "url": "https://www.linkedin.com/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "52d2a276125aae8e",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Cookie Policy",
-            "url": "https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d4732a62d61a1c04",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Top Content",
-            "url": "https://www.linkedin.com/top-content?trk=organization_guest_guest_nav_menu_topContent",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "2c634c709bb4255a",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Join now",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=organization_guest_nav-header-join",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "0cf308d8b20a5763",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Discover all 192 employees",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D%255B888804%255D&trk=org-employees_cta_face-pile-cta",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "54f5117c54eee81b",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Continuous Certification Solution, Online Course Platforms",
-            "url": "https://www.linkedin.com/products/internettestingsystems-the-its-continuous-certification-solution",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "dd3920b315c881e4",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Online Course Platforms",
-            "url": "https://www.linkedin.com/products/categories/online-course-platforms?trk=organization_guest_product_card_category_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "cff1d72cf1b410ec",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Observational Assessment , Online Proctoring Software",
-            "url": "https://www.linkedin.com/products/internettestingsystems-the-its-observational-assessment-solution",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "bffd6b44c97b3016",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Online Proctoring Software",
-            "url": "https://www.linkedin.com/products/categories/online-proctoring-software?trk=organization_guest_product_card_category_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "14caff041acb27bd",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "ProctorNow™, Online Proctoring Software",
-            "url": "https://www.linkedin.com/products/internettestingsystems-proctornow%E2%84%A2",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "dcd0a78edd261fa8",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "SparkAI™, Course Authoring Software",
-            "url": "https://www.linkedin.com/products/internettestingsystems-sparkai%E2%84%A2",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d375446f47349f0d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Course Authoring Software",
-            "url": "https://www.linkedin.com/products/categories/course-authoring-software?trk=organization_guest_product_card_category_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "55138922edb00d8f",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Forgot password?",
-            "url": "https://www.linkedin.com/uas/request-password-reset?trk=employees-blurred-section_sign-in-modal_forgot_password",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "3900162ee3e6120d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "User Agreement",
-            "url": "https://www.linkedin.com/legal/user-agreement?trk=employees-blurred-section_sign-in-modal_auth-button_user-agreement",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "75dd170f2d65b9e0",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Privacy Policy",
-            "url": "https://www.linkedin.com/legal/privacy-policy?trk=employees-blurred-section_sign-in-modal_auth-button_privacy-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "51aaf844f476694a",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Cookie Policy",
-            "url": "https://www.linkedin.com/legal/cookie-policy?trk=employees-blurred-section_sign-in-modal_auth-button_cookie-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "cc19abbbb84b3161",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Join now",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=employees-blurred-section_sign-in-modal_join-link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "97e91091db5399bf",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "User Agreement",
-            "url": "https://www.linkedin.com/legal/user-agreement?trk=employees-blurred-section_auth-button_user-agreement",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "48ad74d02adf9528",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Privacy Policy",
-            "url": "https://www.linkedin.com/legal/privacy-policy?trk=employees-blurred-section_auth-button_privacy-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "3f2c789a8804836b",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Cookie Policy",
-            "url": "https://www.linkedin.com/legal/cookie-policy?trk=employees-blurred-section_auth-button_cookie-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d5339d30815a15f0",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "See all employees",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D%255B888804%255D&trk=public_biz_employees-join",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5eac3dc32a46e065",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_testing-doesnt-happen-in-one-place-anymore-activity-7480242241588989952-xF2c",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_testing-doesnt-happen-in-one-place-anymore-activity-7480242241588989952-xF2c",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "1472b6497431f61f",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Like",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=organization_guest_main-feed-card_like-cta",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "04ad262184e01c03",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Comment",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=organization_guest_main-feed-card_comment-cta",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "3cd875b90aa53121",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Share",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=organization_guest_main-feed-card_share-cta",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "1113611df858894b",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_confidence-matters-when-candidates-understand-activity-7478069161425039361-EMhT",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_confidence-matters-when-candidates-understand-activity-7478069161425039361-EMhT",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "58a6e28a40b0a808",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_the-assessment-industry-is-constantly-evolving-activity-7477349761193275392-i85m",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_the-assessment-industry-is-constantly-evolving-activity-7477349761193275392-i85m",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "06df87572597ecd6",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_technology-changes-quickly-certification-activity-7475894300451508226-Yf65",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_technology-changes-quickly-certification-activity-7475894300451508226-Yf65",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "fb1daac38c42b6bc",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_a-practice-test-should-do-more-than-assess-activity-7475172814199767040-QpQf",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_a-practice-test-should-do-more-than-assess-activity-7475172814199767040-QpQf",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "01a4bac075aa7f0f",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/activity-7473464147758886912-plvQ",
-            "url": "https://www.linkedin.com/posts/activity-7473464147758886912-plvQ",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "68d09a0b9b09c6c2",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_what-should-the-maintenance-experience-look-activity-7473373335645569024-o7tU",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_what-should-the-maintenance-experience-look-activity-7473373335645569024-o7tU",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "c418cd17bdf589d4",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_were-looking-forward-to-participating-in-activity-7473345466034974720-PJtd",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_were-looking-forward-to-participating-in-activity-7473345466034974720-PJtd",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "c7a8b2cfaa3b5252",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/internettestingsystems_how-are-assessment-organizations-actually-activity-7473001355742371840-zEOD",
-            "url": "https://www.linkedin.com/posts/internettestingsystems_how-are-assessment-organizations-actually-activity-7473001355742371840-zEOD",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5444cf2ed83768f5",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Association of Test Publishers (ATP)",
-            "url": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e486d2be98caa651",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Pat Ward",
-            "url": "https://www.linkedin.com/in/pat-ward-37277215a?trk=organization_guest_main-feed-card-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "2bb7093e16fe0804",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card_reshare_feed-actor-image",
-            "url": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card_reshare_feed-actor-image",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9ba889bcbcf90977",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Association of Test Publishers (ATP)",
-            "url": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card_reshare_feed-actor-name",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "7788c86e96e16d99",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Pat Ward",
-            "url": "https://www.linkedin.com/in/pat-ward-37277215a?trk=organization_guest_main-feed-card_reshare-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "82fc65d07bd7b974",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "John Weiner",
-            "url": "https://www.linkedin.com/in/john-weiner-6608924?trk=organization_guest_main-feed-card_reshare-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "bb87e78ae4543804",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "#ATPGlobal",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fatpglobal&trk=organization_guest_main-feed-card_reshare-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "3b3433c5e960d717",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "#AIinAssessment",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Faiinassessment&trk=organization_guest_main-feed-card_reshare-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "00b7327a70f71469",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/posts/activity-7472673389837447168-V2pn",
-            "url": "https://www.linkedin.com/posts/activity-7472673389837447168-V2pn",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "ca088ef250cf4970",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card_feed-actor-image",
-            "url": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card_feed-actor-image",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "10053738ed4b0eaf",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Association of Test Publishers (ATP)",
-            "url": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=organization_guest_main-feed-card_feed-actor-name",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "24a1453ce5bb7a80",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "John Weiner",
-            "url": "https://www.linkedin.com/in/john-weiner-6608924?trk=organization_guest_main-feed-card-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e6af65e9c12aeee0",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "#ATPGlobal",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fatpglobal&trk=organization_guest_main-feed-card-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e3047357d99d668e",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "#AIinAssessment",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Faiinassessment&trk=organization_guest_main-feed-card-text",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "aae24d0eb6328790",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Join now",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=public_biz_promo-join",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "b318bbb38fa0d1a5",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Alpine Testing Solutions, Inc. Professional Services Orem, UT",
-            "url": "https://www.linkedin.com/company/alpine-testing-solutions-inc-?trk=similar-pages",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "19a5592909912264",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "PSI Services LLC IT Services and IT Consulting Olathe, Kansas",
-            "url": "https://www.linkedin.com/company/psi-services-llc?trk=similar-pages",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "df77e3c934bd9538",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Meazure Learning E-Learning Providers McLean, Virginia",
-            "url": "https://www.linkedin.com/company/meazure-learning?trk=similar-pages",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "22c4e1e0e66cb256",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Association of Test Publishers (ATP) Non-profit Organizations Washington, DC",
-            "url": "https://www.linkedin.com/company/association-of-test-publishers-atp?trk=similar-pages",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "06949d394ddddc1a",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Technical Account Manager jobs 26,183 open jobs",
-            "url": "https://www.linkedin.com/jobs/technical-account-manager-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "6e4e449beb6d0003",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Director of Learning jobs 14,544 open jobs",
-            "url": "https://www.linkedin.com/jobs/director-of-learning-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "54e821b99fde5752",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Learning And Development Specialist jobs 7,465 open jobs",
-            "url": "https://www.linkedin.com/jobs/learning-and-development-specialist-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "1ddd497d5c02990f",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Director jobs 1,220,357 open jobs",
-            "url": "https://www.linkedin.com/jobs/director-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "bba426a59155f0e1",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Customer Success Manager jobs 112,728 open jobs",
-            "url": "https://www.linkedin.com/jobs/customer-success-manager-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "12725c6f9725041c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Analyst jobs 694,057 open jobs",
-            "url": "https://www.linkedin.com/jobs/analyst-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "50b4bc6719749b20",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Human Resources Assistant jobs 46,535 open jobs",
-            "url": "https://www.linkedin.com/jobs/human-resources-assistant-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "afc9df69fbfd53ef",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Human Resources Generalist jobs 20,704 open jobs",
-            "url": "https://www.linkedin.com/jobs/human-resources-generalist-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5ae9a459b525672e",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Human Resources Business Partner jobs 19,788 open jobs",
-            "url": "https://www.linkedin.com/jobs/human-resources-business-partner-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "30d659e54dc5c525",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Recruiter jobs 243,016 open jobs",
-            "url": "https://www.linkedin.com/jobs/recruiter-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "82ad0737a33a884c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Human Resources Specialist jobs 34,340 open jobs",
-            "url": "https://www.linkedin.com/jobs/human-resources-specialist-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "efc36f4405377215",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Specialist jobs 768,666 open jobs",
-            "url": "https://www.linkedin.com/jobs/specialist-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "0a7f1d77d4391b4d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Sales Director jobs 83,949 open jobs",
-            "url": "https://www.linkedin.com/jobs/sales-director-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "95304029f979b596",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Marketing Coordinator jobs 36,340 open jobs",
-            "url": "https://www.linkedin.com/jobs/marketing-coordinator-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "a8c81df7eb68b0fc",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Account Executive jobs 71,457 open jobs",
-            "url": "https://www.linkedin.com/jobs/account-executive-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "325c35b3ded9c751",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Product Manager jobs 199,941 open jobs",
-            "url": "https://www.linkedin.com/jobs/product-manager-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "04f177e015344941",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Program Manager jobs 243,900 open jobs",
-            "url": "https://www.linkedin.com/jobs/program-manager-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "c09e72373d319528",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Senior Product Manager jobs 50,771 open jobs",
-            "url": "https://www.linkedin.com/jobs/senior-product-manager-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "16a109ab98e7805c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Vice President of Software Engineering jobs 2,017 open jobs",
-            "url": "https://www.linkedin.com/jobs/vice-president-of-software-engineering-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "a7e890001baea876",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Manager jobs 1,880,925 open jobs",
-            "url": "https://www.linkedin.com/jobs/manager-jobs?trk=organization_guest-browse_jobs",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "366f03b7d3c7862e",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Medical Specialist jobs",
-            "url": "https://www.linkedin.com/jobs/medical-specialist-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "f91adefa14cd9836",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Information Technology Support Specialist jobs",
-            "url": "https://www.linkedin.com/jobs/information-technology-support-specialist-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "11563e4cc703488d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Specialist jobs",
-            "url": "https://www.linkedin.com/jobs/specialist-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9f58e9add2d7a979",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Salesperson jobs",
-            "url": "https://www.linkedin.com/jobs/salesperson-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e4b924755997ee6e",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Sales Director jobs",
-            "url": "https://www.linkedin.com/jobs/sales-director-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "2d60e1e7d738f774",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Associate jobs",
-            "url": "https://www.linkedin.com/jobs/associate-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "4a3beebf0d9b960d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Engineer jobs",
-            "url": "https://www.linkedin.com/jobs/engineer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "b43f0d9b7c0c9c95",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Director jobs",
-            "url": "https://www.linkedin.com/jobs/director-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d13832af750d9eb1",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Dispatcher jobs",
-            "url": "https://www.linkedin.com/jobs/dispatcher-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9828773f5006af0c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Executive jobs",
-            "url": "https://www.linkedin.com/jobs/executive-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "fd947b717250c6fa",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Data Analyst jobs",
-            "url": "https://www.linkedin.com/jobs/data-analyst-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "82c9474fffdccb39",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Intern jobs",
-            "url": "https://www.linkedin.com/jobs/intern-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "29741067231d6691",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Analyst jobs",
-            "url": "https://www.linkedin.com/jobs/analyst-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "f63b0335029a5008",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Product Coordinator jobs",
-            "url": "https://www.linkedin.com/jobs/product-coordinator-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "1089d75ea4885cba",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Senior Test Manager jobs",
-            "url": "https://www.linkedin.com/jobs/senior-test-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9ddc3896ddafc785",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Developer jobs",
-            "url": "https://www.linkedin.com/jobs/developer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "28623b7e592b893c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Technical Editor jobs",
-            "url": "https://www.linkedin.com/jobs/technical-editor-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e37692489e39230a",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Senior Editor jobs",
-            "url": "https://www.linkedin.com/jobs/senior-editor-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "214e2f29c7e1e698",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Editor jobs",
-            "url": "https://www.linkedin.com/jobs/editor-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "3ccde1f6ff4d9034",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Technical Producer jobs",
-            "url": "https://www.linkedin.com/jobs/technical-producer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "cddd67a2d4a5f26c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Javascript Developer jobs",
-            "url": "https://www.linkedin.com/jobs/javascript-developer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "191fbfc10c87314d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Human Resources Specialist jobs",
-            "url": "https://www.linkedin.com/jobs/human-resources-specialist-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d8d376b3f376f6e3",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Account Project Manager jobs",
-            "url": "https://www.linkedin.com/jobs/account-project-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e0583f516565c857",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Director of Product Management jobs",
-            "url": "https://www.linkedin.com/jobs/director-of-product-management-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e26ed0ed710f3be9",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Technical Account Manager jobs",
-            "url": "https://www.linkedin.com/jobs/technical-account-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "453eca9a3a8f38a1",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Certification Manager jobs",
-            "url": "https://www.linkedin.com/jobs/certification-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "190c2a572596b879",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Financial Director jobs",
-            "url": "https://www.linkedin.com/jobs/financial-director-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "bfe647cb784ae746",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Accounting Manager jobs",
-            "url": "https://www.linkedin.com/jobs/accounting-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "870a9a4d58766c21",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Principal Product Manager jobs",
-            "url": "https://www.linkedin.com/jobs/principal-product-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "0720f18bbdad8919",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Accountant jobs",
-            "url": "https://www.linkedin.com/jobs/accountant-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "94ead83eeafc1695",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Project Manager jobs",
-            "url": "https://www.linkedin.com/jobs/project-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "fa5ff9c338a80df9",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Senior Product Manager jobs",
-            "url": "https://www.linkedin.com/jobs/senior-product-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "8d654d241593984c",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Manager jobs",
-            "url": "https://www.linkedin.com/jobs/manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "0b018f3cea9dadfa",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "System Administrator jobs",
-            "url": "https://www.linkedin.com/jobs/system-administrator-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "2eeae560542b7f88",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Product Manager jobs",
-            "url": "https://www.linkedin.com/jobs/product-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d67eccde0e3a1043",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Administrator jobs",
-            "url": "https://www.linkedin.com/jobs/administrator-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "1fad2c155d7696e4",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Director Product Strategy jobs",
-            "url": "https://www.linkedin.com/jobs/director-product-strategy-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "b6963fa2082b121f",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Account Director jobs",
-            "url": "https://www.linkedin.com/jobs/account-director-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "6aefadef6f03ca19",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Partnerships Manager jobs",
-            "url": "https://www.linkedin.com/jobs/partnerships-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "bdac40b8823ae7ae",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Data Manager jobs",
-            "url": "https://www.linkedin.com/jobs/data-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9c390ecc10e0e2b2",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Salesforce Consultant jobs",
-            "url": "https://www.linkedin.com/jobs/salesforce-consultant-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "dfe54124751fabff",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Site Reliability Engineer jobs",
-            "url": "https://www.linkedin.com/jobs/site-reliability-engineer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5ccd3770a26651f8",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Business Development Representative jobs",
-            "url": "https://www.linkedin.com/jobs/business-development-representative-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5e75a2baddb44722",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Embedded System Engineer jobs",
-            "url": "https://www.linkedin.com/jobs/embedded-system-engineer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "09058b2dc806c4fd",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Geographic Information Systems Analyst jobs",
-            "url": "https://www.linkedin.com/jobs/geographic-information-systems-analyst-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "18182fe8d9e8b450",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Process Engineer jobs",
-            "url": "https://www.linkedin.com/jobs/process-engineer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "19dbff406be5eabb",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Android Developer jobs",
-            "url": "https://www.linkedin.com/jobs/android-developer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "63dc6afaf39a7cb2",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Service Engineer jobs",
-            "url": "https://www.linkedin.com/jobs/service-engineer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "0072b644a9e36969",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Manufacturing Engineer jobs",
-            "url": "https://www.linkedin.com/jobs/manufacturing-engineer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9008838f16ed437d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Tester jobs",
-            "url": "https://www.linkedin.com/jobs/tester-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "7e9f758fd93ba2c6",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Head of Data Management jobs",
-            "url": "https://www.linkedin.com/jobs/head-of-data-management-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "157a28f862daecdd",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Process Manager jobs",
-            "url": "https://www.linkedin.com/jobs/process-manager-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "e2f4b3662766d8a9",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Executive Director jobs",
-            "url": "https://www.linkedin.com/jobs/executive-director-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "86e1d207977b6845",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Fraud Investigator jobs",
-            "url": "https://www.linkedin.com/jobs/fraud-investigator-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "9954444062a4ea87",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Chief Executive Officer jobs",
-            "url": "https://www.linkedin.com/jobs/chief-executive-officer-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5743ef1b07ef6386",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Investigator jobs",
-            "url": "https://www.linkedin.com/jobs/investigator-jobs?trk=organization_guest_linkster_link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "d4a20f141d07ac71",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "User Agreement",
-            "url": "https://www.linkedin.com/legal/user-agreement?trk=d_org_guest_company_overview_footer-user-agreement",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "3a779662b58b14ca",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Privacy Policy",
-            "url": "https://www.linkedin.com/legal/privacy-policy?trk=d_org_guest_company_overview_footer-privacy-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "bf8e3b1f3b84d669",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Your California Privacy Choices",
-            "url": "https://www.linkedin.com/legal/california-privacy-disclosure?trk=d_org_guest_company_overview_footer-california-privacy-rights-act",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "16e8d22f46e765c1",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Cookie Policy",
-            "url": "https://www.linkedin.com/legal/cookie-policy?trk=d_org_guest_company_overview_footer-cookie-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "c2ce2db5c819b3dd",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Copyright Policy",
-            "url": "https://www.linkedin.com/legal/copyright-policy?trk=d_org_guest_company_overview_footer-copyright-policy",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "faa571cf7857c1b7",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Guest Controls",
-            "url": "https://www.linkedin.com/psettings/guest-controls?trk=d_org_guest_company_overview_footer-guest-controls",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "5af6637ab2cd57c0",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Community Guidelines",
-            "url": "https://www.linkedin.com/legal/professional-community-policies?trk=d_org_guest_company_overview_footer-community-guide",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "6d9da1900355f422",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Forgot password?",
-            "url": "https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          },
-          {
-            "id": "241cd888e3023a6d",
-            "siteId": "93b0d251-7176-4368-8a9a-606cd4e5675c",
-            "siteName": "Internet Testing Systems (ITS)",
-            "title": "Join now",
-            "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Finternettestingsystems&trk=organization_guest_contextual-sign-in-modal_join-link",
-            "firstSeenAt": "2026-07-09T18:56:52.043Z",
-            "isNew": true
-          }
-        ],
-        "totalFound": 138,
-        "checkedAt": "2026-07-09T18:56:52.043Z"
       }
     ]
   }
