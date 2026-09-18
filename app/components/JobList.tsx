@@ -23,6 +23,10 @@ function formatDate(value: string) {
   return new Date(value).toLocaleString();
 }
 
+function formatDay(value: string) {
+  return new Date(value).toLocaleDateString();
+}
+
 function scoreBadgeClass(score: number) {
   if (score >= 80) return "status-badge-success";
   if (score >= 60) return "status-badge-accent";
@@ -328,6 +332,7 @@ export default function JobList({
                     )}
                     <p className="caption-text mt-1 text-ink-tertiary">
                       First seen: {formatDate(job.firstSeenAt)}
+                      {job.postedAt && ` · Posted: ${formatDay(job.postedAt)}`}
                     </p>
                     {isExpanded && <JobMatchDetails job={job} />}
                   </div>

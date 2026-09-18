@@ -135,5 +135,16 @@
   "zephyr for jira": [
     "zephyrforjira",
     "zfj"
+  ],
+  "angular": [
+    "angularjs"
+  ],
+  "jest": [
+    "javascript testing",
+    "unit testing"
+  ],
+  "rest": [
+    "rest apis",
+    "restful"
   ]
 }

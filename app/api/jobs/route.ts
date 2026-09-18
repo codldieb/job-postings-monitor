@@ -1,5 +1,10 @@
 import { NextResponse } from "next/server";
 import { getJobs } from "@/lib/db";
+import type { JobPosting } from "@/lib/types";
+
+function recency(job: JobPosting) {
+  return new Date(job.postedAt ?? job.firstSeenAt).getTime();
+}
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -12,9 +17,7 @@ export async function GET(request: Request) {
     const aScore = a.matchScore ?? -1;
     const bScore = b.matchScore ?? -1;
     if (bScore !== aScore) return bScore - aScore;
-    return (
-      new Date(b.firstSeenAt).getTime() - new Date(a.firstSeenAt).getTime()
-    );
+    return recency(b) - recency(a);
   });
 
   return NextResponse.json({

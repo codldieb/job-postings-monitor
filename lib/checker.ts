@@ -4,12 +4,21 @@ import {
   getArchivedJobs,
   getJobs,
   getSites,
+  mergeJobs,
   restoreArchivedJob,
   updateSiteLastChecked,
-  upsertJobs,
 } from "./db";
+import {
+  looksLikeRepost,
+  postedAtIso,
+  isPostedSinceLastCheck,
+  shouldMarkRestoredAsNew,
+} from "./jobs/posted";
 import { createJobId, scrapeJobPostings } from "./scraper";
 import type { CheckLogEntry, CheckProgressEvent, CheckResult, JobPosting } from "./types";
+
+const INCOMPLETE_SCRAPE_ARCHIVE_RATIO = 0.4;
+const INCOMPLETE_SCRAPE_MIN_EXISTING = 8;
 
 export async function runDailyCheck(
   onProgress?: (event: CheckProgressEvent) => void,
@@ -18,8 +27,10 @@ export async function runDailyCheck(
   const sites = await getSites();
   const existingJobs = await getJobs();
   const archivedJobs = await getArchivedJobs();
-  const existingIds = new Set(existingJobs.map((job) => job.id));
-  const archivedIds = new Set(archivedJobs.map((job) => job.id));
+  const existingById = new Map(existingJobs.map((job) => [job.id, job]));
+  const existingIds = new Set(existingById.keys());
+  const archivedById = new Map(archivedJobs.map((job) => [job.id, job]));
+  const archivedIds = new Set(archivedById.keys());
   const startedAt = new Date().toISOString();
   const results: CheckResult[] = [];
   let totalNewJobs = 0;
@@ -48,29 +59,80 @@ export async function runDailyCheck(
     try {
       const scraped = await scrapeJobPostings(site.url);
       const newJobs: JobPosting[] = [];
+      const jobsToMerge: JobPosting[] = [];
+      const now = new Date(checkedAt);
 
       for (const item of scraped) {
         const id = createJobId(site.id, item.url);
+        const postedAt = postedAtIso(item.postedOn, now);
+        const listingUpdates = {
+          title: item.title,
+          url: item.url,
+          siteName: site.name,
+          ...(item.department ? { department: item.department } : {}),
+          ...(item.team ? { team: item.team } : {}),
+          ...(item.location ? { location: item.location } : {}),
+          ...(postedAt ? { postedAt } : {}),
+        };
 
-        if (existingIds.has(id)) continue;
+        const existingJob = existingById.get(id);
+        if (existingJob) {
+          const updated: JobPosting = {
+            ...existingJob,
+            ...listingUpdates,
+            postedAt: postedAt ?? existingJob.postedAt,
+          };
 
-        if (archivedIds.has(id)) {
-          const restored = await restoreArchivedJob(id, {
-            title: item.title,
-            url: item.url,
-            siteName: site.name,
-            department: item.department,
-            team: item.team,
-            location: item.location,
-          });
-          if (restored) {
-            newJobs.push(restored);
-            existingIds.add(id);
-            archivedIds.delete(id);
+          if (
+            existingJob.postedAt &&
+            looksLikeRepost(item.postedOn, existingJob.postedAt, now)
+          ) {
+            updated.isNew = true;
+            newJobs.push(updated);
+          }
+
+          if (
+            updated.isNew !== existingJob.isNew ||
+            updated.postedAt !== existingJob.postedAt ||
+            updated.title !== existingJob.title ||
+            updated.location !== existingJob.location ||
+            updated.department !== existingJob.department ||
+            updated.team !== existingJob.team ||
+            updated.url !== existingJob.url
+          ) {
+            jobsToMerge.push(updated);
+            existingById.set(id, updated);
           }
           continue;
         }
 
+        if (archivedIds.has(id)) {
+          const archivedJob = archivedById.get(id);
+          const isNew = shouldMarkRestoredAsNew(
+            item.postedOn,
+            archivedJob?.postedAt,
+            site.lastCheckedAt,
+            now
+          );
+          const restored = await restoreArchivedJob(id, {
+            ...listingUpdates,
+            isNew,
+          });
+          if (restored) {
+            existingIds.add(id);
+            existingById.set(id, restored);
+            archivedIds.delete(id);
+            archivedById.delete(id);
+            if (restored.isNew) newJobs.push(restored);
+          }
+          continue;
+        }
+
+        const isNew = isPostedSinceLastCheck(
+          item.postedOn,
+          site.lastCheckedAt,
+          now
+        );
         const job: JobPosting = {
           id,
           siteId: site.id,
@@ -81,23 +143,36 @@ export async function runDailyCheck(
           team: item.team,
           location: item.location,
           firstSeenAt: checkedAt,
-          isNew: true,
+          postedAt,
+          isNew,
         };
-        newJobs.push(job);
+        jobsToMerge.push(job);
+        if (isNew) newJobs.push(job);
         existingIds.add(id);
+        existingById.set(id, job);
       }
 
-      if (newJobs.length > 0) {
-        await upsertJobs(newJobs);
-        totalNewJobs += newJobs.length;
-      }
+      await mergeJobs(jobsToMerge);
+      totalNewJobs += newJobs.length;
 
       const scrapedIds = new Set(
         scraped.map((item) => createJobId(site.id, item.url))
       );
-      const siteHadJobs = existingJobs.some((job) => job.siteId === site.id);
+      const existingSiteJobs = existingJobs.filter(
+        (job) => job.siteId === site.id
+      );
+      const staleCount = existingSiteJobs.filter(
+        (job) => !scrapedIds.has(job.id)
+      ).length;
+      const likelyIncompleteScrape =
+        existingSiteJobs.length >= INCOMPLETE_SCRAPE_MIN_EXISTING &&
+        staleCount / existingSiteJobs.length > INCOMPLETE_SCRAPE_ARCHIVE_RATIO;
+      const siteHadJobs = existingSiteJobs.length > 0;
       let archivedJobsCount = 0;
-      if (scraped.length > 0 || !siteHadJobs) {
+      if (
+        !likelyIncompleteScrape &&
+        (scraped.length > 0 || !siteHadJobs)
+      ) {
         archivedJobsCount = await archiveStaleJobsForSite(
           site.id,
           scrapedIds,

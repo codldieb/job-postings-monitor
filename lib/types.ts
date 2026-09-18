@@ -16,6 +16,8 @@ export interface JobPosting {
   url: string;
   firstSeenAt: string;
   isNew: boolean;
+  /** Best-effort listing date from the source board, when available. */
+  postedAt?: string;
   department?: string;
   team?: string;
   location?: string;

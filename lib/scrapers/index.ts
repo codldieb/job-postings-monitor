@@ -6,21 +6,27 @@ import {
   getGreenhouseBoardToken,
   getLeverCompany,
   getWorkableAccount,
+  isHealthTechNerdsUrl,
   isLinkedInJobsListing,
+  isPaylocityJobsUrl,
   isUltiproJobsUrl,
   isWorkdayJobsUrl,
   parseSiteUrl,
   shouldTryBrowserFallback,
 } from "./detect";
 import { scrapeEmbeddedAts } from "./embed";
+import { scrapeEpicGames, isEpicGamesCareersUrl } from "./epicgames";
 import { scrapeGreenhouse } from "./greenhouse";
 import { scrapeHarri, isHarriJobsUrl } from "./harri";
+import { scrapeHealthTechNerds } from "./healthtechnerds";
 import { scrapeLever } from "./lever";
+import { scrapePaylocity, parsePaylocityBoard } from "./paylocity";
 import { scrapeSaashr, parseSaashrBoard } from "./saashr";
 import { scrapeShopify, isShopifyCareersUrl } from "./shopify";
 import { scrapeUltipro } from "./ultipro";
 import { scrapeWorkable } from "./workable";
 import { scrapeWorkday } from "./workday";
+import { scrapeYahoo, isYahooCareersUrl } from "./yahoo";
 import { scrapeWithBrowser } from "./browser";
 import { scrapeStaticHtml } from "./static";
 import type { ScrapedJob } from "./types";
@@ -74,6 +80,24 @@ export async function scrapeJobPostings(siteUrl: string): Promise<ScrapedJob[]> 
     }
   }
 
+  if (isYahooCareersUrl(url)) {
+    try {
+      const jobs = await scrapeYahoo(siteUrl);
+      if (jobs.length > 0) return jobs;
+    } catch {
+      // Fall through to other scrapers.
+    }
+  }
+
+  if (isEpicGamesCareersUrl(url)) {
+    try {
+      const jobs = await scrapeEpicGames(siteUrl);
+      if (jobs.length > 0) return jobs;
+    } catch {
+      // Fall through to other scrapers.
+    }
+  }
+
   if (isWorkdayJobsUrl(url)) {
     try {
       const jobs = await scrapeWorkday(siteUrl);
@@ -112,6 +136,24 @@ export async function scrapeJobPostings(siteUrl: string): Promise<ScrapedJob[]> 
   if (parseAdpCareerCenter(url)) {
     try {
       const jobs = await scrapeAdpCareerCenter(siteUrl);
+      if (jobs.length > 0) return jobs;
+    } catch {
+      // Fall through to other scrapers.
+    }
+  }
+
+  if (isPaylocityJobsUrl(url) && parsePaylocityBoard(url)) {
+    try {
+      const jobs = await scrapePaylocity(siteUrl);
+      if (jobs.length > 0) return jobs;
+    } catch {
+      // Fall through to other scrapers.
+    }
+  }
+
+  if (isHealthTechNerdsUrl(url)) {
+    try {
+      const jobs = await scrapeHealthTechNerds(siteUrl);
       if (jobs.length > 0) return jobs;
     } catch {
       // Fall through to other scrapers.

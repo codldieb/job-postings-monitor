@@ -182,6 +182,7 @@ const TRUSTED_ATS_HREF_SELECTOR = [
   "a[href*='workable.com']",
   "a[href*='ultipro.com']",
   "a[href*='workforcenow.adp.com']",
+  "a[href*='paylocity.com']",
   "a[href*='gh_jid=']",
 ].join(", ");
 
@@ -242,7 +243,8 @@ function isTrustedAtsHost(hostname: string): boolean {
     host === "jobs.workable.com" ||
     host === "recruiting.ultipro.com" ||
     host.endsWith(".ultipro.com") ||
-    host === "workforcenow.adp.com"
+    host === "workforcenow.adp.com" ||
+    host === "recruiting.paylocity.com"
   );
 }
 
@@ -345,6 +347,12 @@ function isAdpJobUrl(jobUrl: URL): boolean {
   return !!jobId && /^\d+$/.test(jobId);
 }
 
+function isPaylocityJobUrl(jobUrl: URL): boolean {
+  const host = normalizeHostname(jobUrl.hostname);
+  if (host !== "recruiting.paylocity.com") return false;
+  return /\/jobs\/details\/\d+/i.test(jobUrl.pathname);
+}
+
 function isGreenhouseHostedJobUrl(jobUrl: URL): boolean {
   const ghJid = jobUrl.searchParams.get("gh_jid");
   return !!ghJid && /^\d+$/.test(ghJid);
@@ -385,6 +393,9 @@ function isTrustedAtsJobUrl(jobUrl: URL): boolean {
   }
   if (host === "workforcenow.adp.com") {
     return isAdpJobUrl(jobUrl);
+  }
+  if (host === "recruiting.paylocity.com") {
+    return isPaylocityJobUrl(jobUrl);
   }
 
   return false;
@@ -450,6 +461,7 @@ function isIndividualJobUrl(jobUrl: URL, listingUrl: URL): boolean {
   if (isGreenhouseHostedJobUrl(jobUrl)) return true;
   if (isAshbyHostedJobUrl(jobUrl)) return true;
   if (isAdpJobUrl(jobUrl)) return true;
+  if (isPaylocityJobUrl(jobUrl)) return true;
 
   if (isTrustedAtsHost(jobUrl.hostname) && isTrustedAtsJobUrl(jobUrl)) {
     return true;

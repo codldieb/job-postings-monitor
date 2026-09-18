@@ -1,5 +1,8 @@
 import * as cheerio from "cheerio";
 import { cleanJobDescription } from "@/lib/jobs/clean-description";
+import { parseEpicGamesJobUrl } from "@/lib/scrapers/epicgames";
+import { lookupHealthTechNerdsJob } from "@/lib/scrapers/healthtechnerds";
+import { parsePaylocityJobUrl } from "@/lib/scrapers/paylocity";
 import { fetchJson, USER_AGENT, FETCH_TIMEOUT_MS } from "@/lib/scrapers/utils";
 
 export interface JobDetails {
@@ -9,11 +12,17 @@ export interface JobDetails {
   location?: string;
 }
 
+interface GreenhouseMetadata {
+  name?: string;
+  value?: string | string[] | null;
+}
+
 interface GreenhouseJobDetail {
   content?: string;
   departments?: { name: string }[];
-  offices?: { name: string }[];
+  offices?: { name?: string; location?: string }[];
   location?: { name: string };
+  metadata?: GreenhouseMetadata[];
 }
 
 interface AshbyJob {
@@ -114,7 +123,7 @@ interface MckessonPostalAddress {
 
 interface MckessonJobPosting {
   description?: string;
-  jobLocation?: { address?: MckessonPostalAddress }[];
+  jobLocation?: { address?: MckessonPostalAddress } | { address?: MckessonPostalAddress }[];
 }
 
 function isMckessonJobUrl(jobUrl: string): boolean {
@@ -130,9 +139,14 @@ function isMckessonJobUrl(jobUrl: string): boolean {
 function formatMckessonLocation(
   jobLocation: MckessonJobPosting["jobLocation"]
 ): string | undefined {
+  const places = jobLocation
+    ? Array.isArray(jobLocation)
+      ? jobLocation
+      : [jobLocation]
+    : [];
   const parts: string[] = [];
 
-  for (const place of jobLocation ?? []) {
+  for (const place of places) {
     const address = place.address;
     if (!address) continue;
 
@@ -200,6 +214,25 @@ async function fetchMckessonDetails(jobUrl: string): Promise<JobDetails | null> 
     department: extractMckessonDepartment(html),
     location: formatMckessonLocation(posting.jobLocation),
   };
+}
+
+async function fetchPaylocityDetails(jobUrl: string): Promise<JobDetails | null> {
+  if (!parsePaylocityJobUrl(jobUrl)) return null;
+
+  const html = await fetchHtml(jobUrl);
+  const posting = extractJsonLdJobPosting(html);
+  if (!posting?.description?.trim()) return null;
+
+  return {
+    descriptionText: htmlToText(posting.description),
+    location: formatMckessonLocation(posting.jobLocation),
+  };
+}
+
+async function fetchHealthTechNerdsDetails(
+  jobUrl: string
+): Promise<JobDetails | null> {
+  return lookupHealthTechNerdsJob(jobUrl);
 }
 
 function isAvatureJobUrl(jobUrl: string): boolean {
@@ -365,9 +398,37 @@ async function fetchHtml(url: string): Promise<string> {
   return response.text();
 }
 
+function greenhouseMetadataValue(
+  metadata: GreenhouseMetadata[] | undefined,
+  name: string
+): string | undefined {
+  const entry = metadata?.find(
+    (item) => item.name?.trim().toLowerCase() === name.toLowerCase()
+  );
+  const value = entry?.value;
+  if (Array.isArray(value)) {
+    const joined = value.map((item) => item.trim()).filter(Boolean).join(", ");
+    return joined || undefined;
+  }
+  return value?.trim() || undefined;
+}
+
+function normalizeGreenhouseLocationPart(value: string): string {
+  return value
+    .split(",")
+    .map((part) => part.trim())
+    .filter((part) => part && part.toUpperCase() !== "BLANK")
+    .join(", ");
+}
+
 function parseGreenhouseJobUrl(
   jobUrl: string
 ): { boardToken: string; jobId: string } | null {
+  const epic = parseEpicGamesJobUrl(jobUrl);
+  if (epic) {
+    return { boardToken: "epicgames", jobId: epic.jobId };
+  }
+
   try {
     const url = new URL(jobUrl);
     const host = url.hostname.replace(/^www\./, "");
@@ -390,6 +451,12 @@ function parseGreenhouseJobUrl(
 }
 
 function formatGreenhouseDepartment(data: GreenhouseJobDetail): string | undefined {
+  const careersPageDepartment = greenhouseMetadataValue(
+    data.metadata,
+    "Careers Page Department"
+  );
+  if (careersPageDepartment) return careersPageDepartment;
+
   const names = (data.departments ?? [])
     .map((department) => department.name?.trim())
     .filter(Boolean);
@@ -400,8 +467,21 @@ function formatGreenhouseDepartment(data: GreenhouseJobDetail): string | undefin
 function formatGreenhouseLocation(data: GreenhouseJobDetail): string | undefined {
   const parts = [
     data.location?.name?.trim(),
-    ...(data.offices ?? []).map((office) => office.name?.trim()).filter(Boolean),
-  ].filter(Boolean);
+    ...(data.offices ?? []).map(
+      (office) => office.location?.trim() || office.name?.trim()
+    ),
+  ]
+    .filter(Boolean)
+    .map((part) => normalizeGreenhouseLocationPart(part as string))
+    .filter(Boolean);
+
+  const remoteEligible = greenhouseMetadataValue(
+    data.metadata,
+    "Careers Page Remote Eligible"
+  );
+  if (remoteEligible && /^yes$/i.test(remoteEligible)) {
+    parts.push("Remote");
+  }
 
   return parts.length > 0 ? [...new Set(parts)].join("; ") : undefined;
 }
@@ -517,6 +597,14 @@ export async function fetchJobDetails(jobUrl: string): Promise<JobDetails> {
 
   const mckesson = await fetchMckessonDetails(jobUrl).catch(() => null);
   if (mckesson) return mckesson;
+
+  const paylocity = await fetchPaylocityDetails(jobUrl).catch(() => null);
+  if (paylocity) return paylocity;
+
+  const healthTechNerds = await fetchHealthTechNerdsDetails(jobUrl).catch(
+    () => null
+  );
+  if (healthTechNerds) return healthTechNerds;
 
   const avature = await fetchAvatureDetails(jobUrl).catch(() => null);
   if (avature) return avature;

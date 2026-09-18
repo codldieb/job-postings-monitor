@@ -49,6 +49,16 @@ export function isUltiproJobsUrl(url: URL): boolean {
   return host === "recruiting.ultipro.com" || host.endsWith(".ultipro.com");
 }
 
+export function isPaylocityJobsUrl(url: URL): boolean {
+  const host = url.hostname.replace(/^www\./, "");
+  return host === "recruiting.paylocity.com";
+}
+
+export function isHealthTechNerdsUrl(url: URL): boolean {
+  const host = url.hostname.replace(/^www\./, "");
+  return host === "jobs.healthtechnerds.com";
+}
+
 export function isLinkedInJobsListing(url: URL): boolean {
   const host = url.hostname.replace(/^www\./, "");
   return host === "linkedin.com" && url.pathname.includes("/jobs");
@@ -63,6 +73,8 @@ export function shouldTryBrowserFallback(url: URL): boolean {
   if (host === "jobs.slalom.com") return true;
   if (host.endsWith(".avature.net")) return true;
   if (host === "workforcenow.adp.com") return true;
+  if (host === "recruiting.paylocity.com") return true;
+  if (host === "jobs.healthtechnerds.com") return true;
   if (host.endsWith(".saashr.com") || host.includes("saashr.com")) return true;
   if (host === "harri.com" || host.endsWith(".harri.com")) return true;
   if (host.endsWith(".phenompeople.com") || host.includes("phenom")) return true;

@@ -137,7 +137,7 @@ async function archiveJobs(
 
   for (const job of jobs) {
     if (archivedIds.has(job.id)) continue;
-    archived.push({ ...job, archivedAt, isNew: false });
+    archived.push({ ...job, archivedAt });
     archivedIds.add(job.id);
   }
 
@@ -166,9 +166,18 @@ export async function archiveStaleJobsForSite(
 
 export async function restoreArchivedJob(
   id: string,
-  updates: Pick<
-    JobPosting,
-    "title" | "url" | "siteName" | "department" | "team" | "location"
+  updates: Partial<
+    Pick<
+      JobPosting,
+      | "title"
+      | "url"
+      | "siteName"
+      | "department"
+      | "team"
+      | "location"
+      | "isNew"
+      | "postedAt"
+    >
   >
 ): Promise<JobPosting | null> {
   const archived = await getArchivedJobs();
@@ -179,7 +188,6 @@ export async function restoreArchivedJob(
   const restored: JobPosting = {
     ...job,
     ...updates,
-    isNew: true,
   };
 
   archived.splice(index, 1);
@@ -207,6 +215,27 @@ export async function upsertJobs(newJobs: JobPosting[]): Promise<number> {
 
   await saveJobs(existing);
   return addedCount;
+}
+
+export async function mergeJobs(jobs: JobPosting[]): Promise<void> {
+  if (jobs.length === 0) return;
+
+  const existing = await getJobs();
+  const updates = new Map(jobs.map((job) => [job.id, job]));
+  const seen = new Set<string>();
+  const next: JobPosting[] = [];
+
+  for (const job of existing) {
+    const update = updates.get(job.id);
+    next.push(update ? { ...job, ...update } : job);
+    seen.add(job.id);
+  }
+
+  for (const job of jobs) {
+    if (!seen.has(job.id)) next.push(job);
+  }
+
+  await saveJobs(next);
 }
 
 export async function markAllJobsSeen(): Promise<void> {

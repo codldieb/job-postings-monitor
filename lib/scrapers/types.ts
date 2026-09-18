@@ -4,6 +4,7 @@ export interface ScrapedJob {
   department?: string;
   team?: string;
   location?: string;
+  postedOn?: string;
 }
 
 export type ScrapeMethod =
