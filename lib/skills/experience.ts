@@ -155,11 +155,71 @@ function normalizePositionTokens(text: string): string[] {
     .filter((token) => token.length > 1 && !POSITION_STOP_WORDS.has(token));
 }
 
+const QA_POSITION_TOKENS = new Set([
+  "qa",
+  "qae",
+  "qc",
+  "sdet",
+  "test",
+  "tester",
+  "testing",
+  "quality",
+  "assurance",
+]);
+
+const SWE_POSITION_TOKENS = new Set([
+  "software",
+  "developer",
+  "programmer",
+  "swe",
+  "development",
+]);
+
+export type PositionFamily = "qa" | "swe" | "other";
+
+function hasTokenFrom(tokens: string[], family: Set<string>): boolean {
+  return tokens.some((token) => family.has(token));
+}
+
+export function classifyPositionFamily(tokens: string[]): PositionFamily {
+  // "Quality Engineer" / "QA Analyst" stay in the QA family even though they
+  // contain "engineer". QA years must not count as software-engineering years.
+  if (hasTokenFrom(tokens, QA_POSITION_TOKENS)) return "qa";
+  if (
+    hasTokenFrom(tokens, SWE_POSITION_TOKENS) ||
+    tokens.includes("engineer")
+  ) {
+    return "swe";
+  }
+  return "other";
+}
+
+export function jobTitleFamily(title: string): PositionFamily {
+  return classifyPositionFamily(normalizePositionTokens(title));
+}
+
+function positionFamilyScore(jobTokens: string[], userTokens: string[]): number {
+  const jobFamily = classifyPositionFamily(jobTokens);
+  const userFamily = classifyPositionFamily(userTokens);
+  if (jobFamily === "other" || userFamily === "other") return 0;
+  if (jobFamily !== userFamily) return 0;
+  return 0.55;
+}
+
 function positionMatchScore(jobTitle: string, userPosition: string): number {
   const jobTokens = normalizePositionTokens(jobTitle);
   const userTokens = normalizePositionTokens(userPosition);
 
   if (jobTokens.length === 0 || userTokens.length === 0) return 0;
+
+  const jobFamily = classifyPositionFamily(jobTokens);
+  const userFamily = classifyPositionFamily(userTokens);
+  if (
+    (jobFamily === "swe" && userFamily === "qa") ||
+    (jobFamily === "qa" && userFamily === "swe")
+  ) {
+    return 0;
+  }
 
   let overlap = 0;
   for (const token of userTokens) {
@@ -167,7 +227,8 @@ function positionMatchScore(jobTitle: string, userPosition: string): number {
   }
 
   const union = new Set([...jobTokens, ...userTokens]).size;
-  return union > 0 ? overlap / union : 0;
+  const jaccard = union > 0 ? overlap / union : 0;
+  return Math.max(jaccard, positionFamilyScore(jobTokens, userTokens));
 }
 
 const MIN_POSITION_MATCH_SCORE = 0.2;
@@ -301,4 +362,55 @@ export function combineMatchScores(
   return Math.round(
     skillScore * SKILL_MATCH_WEIGHT + experienceScore * EXPERIENCE_MATCH_WEIGHT
   );
+}
+
+const QA_YEARS_USED_PATTERN =
+  /using\s+(\d+(?:\.\d+)?)\s+years?\s+as\s+[^.)]*\b(?:quality|qa|sdet)\b/i;
+
+export function correctedExperienceForDisplay(job: {
+  title?: string;
+  matchExperienceScore?: number;
+  experienceNote?: string;
+}): { experienceScore?: number; experienceNote?: string } {
+  const experienceScore = job.matchExperienceScore;
+  const experienceNote = job.experienceNote;
+
+  if (experienceScore === undefined) {
+    return { experienceScore, experienceNote };
+  }
+
+  if (
+    jobTitleFamily(job.title ?? "") !== "swe" ||
+    !experienceNote ||
+    !QA_YEARS_USED_PATTERN.test(experienceNote)
+  ) {
+    return { experienceScore, experienceNote };
+  }
+
+  const sweYearsMatch = experienceNote.match(
+    /(\d+(?:\.\d+)?)\s+years?\s+(?:of\s+)?Software Engineer/i
+  );
+  const requiredMatch = experienceNote.match(/vs\s+(\d+)\+?\s*years/i);
+  const minYears = requiredMatch
+    ? Number.parseInt(requiredMatch[1], 10)
+    : undefined;
+
+  if (sweYearsMatch && minYears) {
+    const years = Number.parseFloat(sweYearsMatch[1]);
+    const result = scoreYearsAgainstRequirement(years, {
+      detected: true,
+      minYears,
+      levelLabel: `${minYears}+ years`,
+    });
+    return {
+      experienceScore: result.score,
+      experienceNote: `${result.note} (using ${years} years as Software Engineer)`,
+    };
+  }
+
+  return {
+    experienceScore: 40,
+    experienceNote:
+      "QA experience is not counted toward software engineering roles. This posting is scored against your Software Engineer years.",
+  };
 }

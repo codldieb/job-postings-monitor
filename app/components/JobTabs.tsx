@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import ArchivedJobList from "./ArchivedJobList";
 import JobList from "./JobList";
+import RescoreJobsControl from "./RescoreJobsControl";
 import type { ArchivedJobPosting, JobPosting } from "@/lib/types";
 
 type JobTab = "active" | "new" | "archived";
@@ -15,6 +16,8 @@ interface JobTabsProps {
   hasLocationPreferences?: boolean;
   onMarkSeen: () => void;
   onMarkJobSeen?: (jobId: string) => void | Promise<void>;
+  onJobsChanged?: () => void;
+  onMessage?: (message: string | null) => void;
   defaultTab?: JobTab;
 }
 
@@ -26,6 +29,8 @@ export default function JobTabs({
   hasLocationPreferences = false,
   onMarkSeen,
   onMarkJobSeen,
+  onJobsChanged,
+  onMessage,
   defaultTab = "active",
 }: JobTabsProps) {
   const [tab, setTab] = useState<JobTab>(defaultTab);
@@ -73,15 +78,23 @@ export default function JobTabs({
         {tab === "new" && (
           <div className="space-y-3">
             {newJobs.length > 0 ? (
-              <JobList
-                jobs={newJobs}
-                newCount={newJobs.length}
-                hasResumeProfile={hasResumeProfile}
-                showLocationFilter={hasLocationPreferences}
-                onMarkSeen={onMarkSeen}
-                onMarkJobSeen={onMarkJobSeen}
-                showMinScoreFilter={false}
-              />
+              <>
+                <RescoreJobsControl
+                  jobIds={newJobs.map((job) => job.id)}
+                  disabled={!hasResumeProfile}
+                  onComplete={onJobsChanged}
+                  onMessage={onMessage}
+                />
+                <JobList
+                  jobs={newJobs}
+                  newCount={newJobs.length}
+                  hasResumeProfile={hasResumeProfile}
+                  showLocationFilter={hasLocationPreferences}
+                  onMarkSeen={onMarkSeen}
+                  onMarkJobSeen={onMarkJobSeen}
+                  showMinScoreFilter={false}
+                />
+              </>
             ) : (
               <p className="body-text text-ink-subtle">
                 No new postings since your last review.

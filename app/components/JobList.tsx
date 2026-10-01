@@ -3,8 +3,15 @@
 import { useMemo, useState } from "react";
 import {
   ALL_LOCATION_TYPES,
+  jobLocationTypes,
   matchesLocationTypeFilter,
 } from "@/lib/jobs/location-type";
+import { missingRequiredLanguages } from "@/lib/jobs/language-requirements";
+import {
+  displayRoleRelevance,
+  isOffTargetRole as roleLooksOffTarget,
+} from "@/lib/jobs/role-relevance";
+import { displayJobScores } from "@/lib/skills/matcher";
 import type { JobPosting, LocationType } from "@/lib/types";
 
 interface JobListProps {
@@ -44,7 +51,31 @@ function locationTypeBadgeClass(type: LocationType) {
   }
 }
 
+function isOffTargetRole(job: JobPosting): boolean {
+  return roleLooksOffTarget(job.title, job.roleRelevant);
+}
+
+function displayMissingSkills(job: JobPosting): string[] {
+  const languageGaps = missingRequiredLanguages(
+    `${job.title}\n${job.descriptionText ?? ""}`,
+    job.matchedSkills ?? []
+  );
+  return [
+    ...new Map(
+      [...(job.missingSkills ?? []), ...languageGaps].map((skill) => [
+        skill.toLowerCase(),
+        skill,
+      ])
+    ).values(),
+  ];
+}
+
 function JobMatchDetails({ job }: { job: JobPosting }) {
+  const locationTypes = jobLocationTypes(job);
+  const scores = displayJobScores(job);
+  const missingSkills = displayMissingSkills(job);
+  const roleRelevance = displayRoleRelevance(job);
+
   if (job.scoreError && job.matchScore === undefined) {
     return (
       <p className="caption-text mt-2 text-ink-muted">{job.scoreError}</p>
@@ -64,28 +95,34 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
       {(job.matchSkillScore !== undefined ||
         job.matchExperienceScore !== undefined) && (
         <div className="match-detail-box">
-          {job.matchSkillScore !== undefined && (
-            <p>Skills: {job.matchSkillScore}/100</p>
+          {scores.skillScore !== undefined && (
+            <p>Skills: {scores.skillScore}/100</p>
           )}
-          {job.matchExperienceScore !== undefined && (
-            <p>Experience: {job.matchExperienceScore}/100</p>
+          {scores.experienceScore !== undefined && (
+            <p>Experience: {scores.experienceScore}/100</p>
+          )}
+          {job.matchSource === "ollama" && (
+            <p className="text-ink-subtle">Scored with local Ollama</p>
           )}
         </div>
       )}
-      {job.experienceNote && (
-        <p className="text-ink-muted">{job.experienceNote}</p>
+      {job.matchSummary && (
+        <p className="text-ink-muted">{job.matchSummary}</p>
       )}
-      {job.roleRelevanceNote && (
+      {scores.experienceNote && (
+        <p className="text-ink-muted">{scores.experienceNote}</p>
+      )}
+      {roleRelevance.note && (
         <p
           className={
-            job.roleRelevant === false
+            roleRelevance.relevant === false
               ? "text-ink-subtle"
-              : job.roleRelevant === true
+              : roleRelevance.relevant === true
                 ? "text-semantic-success"
                 : "text-ink-muted"
           }
         >
-          Role: {job.roleRelevanceNote}
+          Role: {roleRelevance.note}
         </p>
       )}
       {job.locationNote && (
@@ -101,9 +138,9 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
           Location: {job.locationNote}
         </p>
       )}
-      {(job.locationTypes?.length ?? 0) > 0 && (
+      {locationTypes.length > 0 && (
         <p className="text-ink-muted">
-          Work style: {job.locationTypes?.join(", ")}
+          Work style: {locationTypes.join(", ")}
         </p>
       )}
       {(job.department || job.team || job.location) && (
@@ -119,17 +156,17 @@ function JobMatchDetails({ job }: { job: JobPosting }) {
           </p>
         </div>
       )}
-      {(job.missingSkills?.length ?? 0) > 0 && (
+      {missingSkills.length > 0 && (
         <div>
           <p className="font-medium text-ink-subtle">
             Mentioned but not on your resume
           </p>
           <p className="mt-0.5 break-words text-ink-muted">
-            {job.missingSkills?.join(", ")}
+            {missingSkills.join(", ")}
           </p>
         </div>
       )}
-      {job.matchedSkills?.length === 0 && job.missingSkills?.length === 0 && (
+      {job.matchedSkills?.length === 0 && missingSkills.length === 0 && (
         <p className="text-ink-subtle">
           No recognizable skills found in description.
         </p>
@@ -183,8 +220,10 @@ export default function JobList({
 
   const filteredJobs = useMemo(() => {
     return jobs.filter((job) => {
-      if (minScore > 0 && (job.matchScore ?? 0) < minScore) return false;
-      if (hideOffTargetRoles && job.roleRelevant === false) return false;
+      if (minScore > 0 && (displayJobScores(job).matchScore ?? 0) < minScore) {
+        return false;
+      }
+      if (hideOffTargetRoles && isOffTargetRole(job)) return false;
       if (showLocationFilter && hideOutsideLocations && job.locationInTarget === false) {
         return false;
       }
@@ -308,6 +347,7 @@ export default function JobList({
         <ul className="list-panel">
           {filteredJobs.map((job) => {
             const isExpanded = expandedId === job.id;
+            const scores = displayJobScores(job);
             const canExpand =
               hasResumeProfile &&
               (job.matchScore !== undefined || Boolean(job.scoreError));
@@ -354,7 +394,7 @@ export default function JobList({
                         )}
                       </div>
                     )}
-                    {job.roleRelevant === false && !hideOffTargetRoles && (
+                    {isOffTargetRole(job) && !hideOffTargetRoles && (
                       <span className="status-badge font-semibold">
                         Off-target
                       </span>
@@ -364,7 +404,7 @@ export default function JobList({
                         Outside location
                       </span>
                     )}
-                    {job.locationTypes?.map((type) => (
+                    {jobLocationTypes(job).map((type) => (
                       <span
                         key={type}
                         className={`font-semibold ${locationTypeBadgeClass(type)}`}
@@ -372,11 +412,11 @@ export default function JobList({
                         {type}
                       </span>
                     ))}
-                    {job.matchScore !== undefined && (
+                    {scores.matchScore !== undefined && (
                       <span
-                        className={`font-semibold ${scoreBadgeClass(job.matchScore)}`}
+                        className={`font-semibold ${scoreBadgeClass(scores.matchScore)}`}
                       >
-                        {job.matchScore}/100
+                        {scores.matchScore}/100
                       </span>
                     )}
                     {canExpand && (

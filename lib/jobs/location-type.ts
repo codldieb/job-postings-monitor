@@ -1,4 +1,10 @@
 import type { JobPosting, LocationType } from "@/lib/types";
+import { extractLocationsFromJob } from "./location";
+import {
+  CITY_TO_COUNTRY,
+  US_STATE_NAMES,
+  normalizeCountryName,
+} from "./location-data";
 
 const REMOTE_PATTERN =
   /\b(?:remote(?:-first|-only|-friendly)?|fully remote|100% remote|work from home|wfh|anywhere in(?: the)?|#remote|#li-remote)\b/i;
@@ -18,6 +24,31 @@ function segmentLooksRemoteOnly(segment: string): boolean {
   return /^[A-Za-z .'-]+\s+remote$/i.test(trimmed) && !/,/.test(trimmed);
 }
 
+function looksLikePlaceName(value: string): boolean {
+  const cleaned = value.replace(/\./g, "").trim();
+  if (cleaned.length < 2) return false;
+  const lower = cleaned.toLowerCase();
+  return (
+    Boolean(normalizeCountryName(cleaned)) ||
+    Boolean(CITY_TO_COUNTRY[lower]) ||
+    US_STATE_NAMES.has(lower)
+  );
+}
+
+function segmentHasKnownCountry(segment: string): boolean {
+  const trimmed = segment.trim();
+  if (!trimmed) return false;
+  // Multi-word countries like "United States" must be checked whole; splitting
+  // on spaces turns them into tokens that are not country names.
+  if (looksLikePlaceName(trimmed)) return true;
+
+  return trimmed.split(/[\s,;()/|-]+/).some((token) => {
+    const cleaned = token.replace(/\./g, "").trim();
+    if (cleaned.length < 3) return false;
+    return looksLikePlaceName(cleaned);
+  });
+}
+
 function segmentLooksPhysical(segment: string): boolean {
   const trimmed = segment.trim();
   if (!trimmed || segmentLooksRemoteOnly(trimmed)) return false;
@@ -28,9 +59,7 @@ function segmentLooksPhysical(segment: string): boolean {
   return (
     /,\s*(?:[A-Z]{2}|[A-Za-z .'-]{2,})\b/.test(trimmed) ||
     US_STATE_CODE.test(trimmed) ||
-    /\b(?:United States|United Kingdom|Canada|India|Mexico|Germany|France|Australia)\b/i.test(
-      trimmed
-    )
+    segmentHasKnownCountry(trimmed)
   );
 }
 
@@ -38,12 +67,12 @@ function hasPhysicalLocation(location: string | undefined): boolean {
   if (!location?.trim()) return false;
 
   return location
-    .split(";")
+    .split(/[;|]/)
     .some((segment) => segmentLooksPhysical(segment.trim()));
 }
 
 export function inferLocationTypes(
-  job: Pick<JobPosting, "location" | "title" | "descriptionText">
+  job: Pick<JobPosting, "location" | "title" | "descriptionText" | "url">
 ): LocationType[] {
   const location = job.location ?? "";
   const title = job.title ?? "";
@@ -69,6 +98,11 @@ export function inferLocationTypes(
     types.add("Onsite");
   }
 
+  const parsed = extractLocationsFromJob(job);
+  if (parsed.some((entry) => entry.country && !entry.isRemote)) {
+    types.add("Onsite");
+  }
+
   if (types.has("Hybrid") && !types.has("Onsite")) {
     types.add("Onsite");
   }
@@ -82,6 +116,15 @@ export function formatLocationTypes(types: LocationType[]): string {
 
 export const ALL_LOCATION_TYPES: LocationType[] = ["Remote", "Hybrid", "Onsite"];
 
+export function jobLocationTypes(job: JobPosting): LocationType[] {
+  const stored = job.locationTypes ?? [];
+  if (stored.includes("Onsite")) {
+    return stored;
+  }
+
+  return [...new Set([...stored, ...inferLocationTypes(job)])];
+}
+
 export function matchesLocationTypeFilter(
   job: JobPosting,
   selected: Set<LocationType>
@@ -90,7 +133,7 @@ export function matchesLocationTypeFilter(
     return true;
   }
 
-  const types = job.locationTypes ?? [];
+  const types = jobLocationTypes(job);
   if (types.length === 0) return false;
 
   return types.some((type) => selected.has(type));

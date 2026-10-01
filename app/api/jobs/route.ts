@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getJobs } from "@/lib/db";
+import { displayJobScores } from "@/lib/skills/matcher";
 import type { JobPosting } from "@/lib/types";
 
 function recency(job: JobPosting) {
@@ -14,8 +15,8 @@ export async function GET(request: Request) {
   const filtered = newOnly ? jobs.filter((job) => job.isNew) : jobs;
 
   const sorted = filtered.sort((a, b) => {
-    const aScore = a.matchScore ?? -1;
-    const bScore = b.matchScore ?? -1;
+    const aScore = displayJobScores(a).matchScore ?? -1;
+    const bScore = displayJobScores(b).matchScore ?? -1;
     if (bScore !== aScore) return bScore - aScore;
     return recency(b) - recency(a);
   });

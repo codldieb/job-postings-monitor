@@ -91,7 +91,9 @@
     "Quality Assurance",
     "QA"
   ],
-  "targetCountries": [],
+  "targetCountries": [
+    "United States"
+  ],
   "targetContinents": [
     "North America"
   ],

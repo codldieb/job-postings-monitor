@@ -34,6 +34,10 @@ export interface JobPosting {
   locationNote?: string;
   matchedSkills?: string[];
   missingSkills?: string[];
+  /** Who produced the skill/experience/role score. */
+  matchSource?: "rules" | "ollama";
+  /** Short LLM explanation of the match, when scored with Ollama. */
+  matchSummary?: string;
   scoredAt?: string;
   scoreError?: string;
 }

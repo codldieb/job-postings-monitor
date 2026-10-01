@@ -182,6 +182,8 @@ export default function Dashboard() {
               hasLocationPreferences={hasLocationPreferences}
               onMarkSeen={handleMarkSeen}
               onMarkJobSeen={handleMarkJobSeen}
+              onJobsChanged={refresh}
+              onMessage={setCheckMessage}
               defaultTab={newCount > 0 ? "new" : "active"}
             />
           </section>

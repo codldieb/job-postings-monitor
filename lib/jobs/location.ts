@@ -54,9 +54,7 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     };
   }
 
-  const parenCountry = raw.match(
-    /\((United States(?: of America)?|U\.S\.|Canada|Mexico|United Kingdom|U\.K\.|India|Germany|France|Argentina|Australia|New Zealand|Ireland|Brazil|Singapore|Japan|China|Philippines|Poland|Costa Rica|Netherlands|Spain|Italy)\)/i
-  );
+  const parenCountry = raw.match(/\(([A-Za-z][A-Za-z .'-]{1,40})\)/);
   if (parenCountry) {
     const country =
       normalizeCountryName(parenCountry[1].replace(/\./g, "")) ??
@@ -153,6 +151,40 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     }
   }
 
+  const stateLower = cleanedLast.toLowerCase();
+  if (US_STATE_NAMES.has(stateLower)) {
+    return {
+      raw,
+      country: "United States",
+      continent: countryToContinent("United States"),
+    };
+  }
+
+  const countryFromLastCity = CITY_TO_COUNTRY[stateLower];
+  if (countryFromLastCity) {
+    return {
+      raw,
+      country: countryFromLastCity,
+      continent: countryToContinent(countryFromLastCity),
+    };
+  }
+
+  if (CA_PROVINCE_NAMES.has(stateLower)) {
+    return {
+      raw,
+      country: "Canada",
+      continent: countryToContinent("Canada"),
+    };
+  }
+
+  if (INDIAN_STATE_NAMES.has(stateLower)) {
+    return {
+      raw,
+      country: "India",
+      continent: countryToContinent("India"),
+    };
+  }
+
   const countryFromLast = normalizeCountryName(cleanedLast);
   const isUsStateCode =
     lastUpper.length === 2 && US_STATE_CODES.has(lastUpper);
@@ -212,31 +244,6 @@ function parseLocationSegment(segment: string): ParsedLocation | null {
     };
   }
 
-  const stateLower = cleanedLast.toLowerCase();
-  if (US_STATE_NAMES.has(stateLower)) {
-    return {
-      raw,
-      country: "United States",
-      continent: countryToContinent("United States"),
-    };
-  }
-
-  if (CA_PROVINCE_NAMES.has(stateLower)) {
-    return {
-      raw,
-      country: "Canada",
-      continent: countryToContinent("Canada"),
-    };
-  }
-
-  if (INDIAN_STATE_NAMES.has(stateLower)) {
-    return {
-      raw,
-      country: "India",
-      continent: countryToContinent("India"),
-    };
-  }
-
   if (
     normalizeCountryName(secondLast) &&
     CA_PROVINCE_CODES.has(lastUpper)
@@ -281,6 +288,11 @@ function extractLocationFromUrl(url: string): string[] {
     for (let length = Math.min(3, slugTokens.length); length >= 1; length--) {
       const candidate = slugTokens.slice(-length).join(" ");
       const country = normalizeCountryName(candidate);
+      if (country) return [country];
+    }
+
+    for (const token of slugTokens) {
+      const country = normalizeCountryName(token);
       if (country) return [country];
     }
 
@@ -336,8 +348,13 @@ function stripHtmlTags(value: string): string {
 const JOB_TITLE_PREFIX =
   /^(?:account|associate|senior|staff|principal|lead|manager|director|engineer|counsel|executive|analyst|general)\b/i;
 
-const GEOGRAPHIC_HINT =
-  /\b(?:remote|hybrid|anywhere|united states|united kingdom|canada|india|mexico|germany|france|australia|new zealand|taiwan|china|poland|argentina|u\.s\.|u\.k\.|usa|deu|twn|chn|ind|pol|mex|arg)\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:United Kingdom|United States|Canada|India|Mexico|Germany|France|Australia|New Zealand|Taiwan|[A-Z]{2,3})\b/i;
+const LOCATION_COUNTRY_TAIL =
+  "(?:Virginia|California|Texas|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Massachusetts|Delaware|Maryland|Missouri|Kansas|Tennessee|Minnesota|Oregon|Utah|Georgia|India|Mexico|Canada|Germany|Australia|Karnataka|Maharashtra|New Zealand|[A-Z]{2,3})\\b";
+
+const GEOGRAPHIC_HINT = new RegExp(
+  String.raw`\b(?:remote|hybrid|anywhere|united states|united kingdom|u\.s\.|u\.k\.|usa)\b|\b[A-Z]{3}\b|\([A-Za-z .'-]{2,40}\)|,\s*(?:[A-Za-z .'-]{2,}|[A-Z]{2,3})\b`,
+  "i"
+);
 
 function isPlausibleLocationSegment(segment: string): boolean {
   const trimmed = stripHtmlTags(segment).trim();
@@ -385,7 +402,9 @@ function splitMultiLocations(block: string): string[] {
 
   const segments = trimmed
     .split(
-      /\s(?=[A-Z\u00C0-\u024F][A-Za-z\u00C0-\u024F.'-]+(?:,\s*(?:[A-Z]{2,3}|AB|BC|ON|QC|MB|SK|NS|NB|NL|PE|YT|NT|NU|Virginia|California|Texas|India|Mexico|Germany|Georgia|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Massachusetts|Delaware|Maryland|Missouri|Kansas|Tennessee|Minnesota|Oregon|Utah|Australia|New Zealand)))/
+      new RegExp(
+        String.raw`\s(?=[A-Z\u00C0-\u024F][A-Za-z\u00C0-\u024F.'-]+(?:,\s*(?:AB|BC|ON|QC|MB|SK|NS|NB|NL|PE|YT|NT|NU|${LOCATION_COUNTRY_TAIL})))`
+      )
     )
     .map((segment) => segment.trim())
     .filter((segment) => segment.length > 2 && isPlausibleLocationSegment(segment));
@@ -428,7 +447,10 @@ function extractLocationStrings(text: string): string[] {
   }
 
   const pipeLocations = text.match(
-    /\b(?:Primary Address|Pin job Apply)\b[\s\S]{0,160}?\b([A-Z][A-Za-z .,'-]+,\s*(?:Virginia|California|Texas|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Georgia|[A-Z]{2}|India|Mexico|Karnataka|Maharashtra))(?:\s*\|\s*([A-Z][A-Za-z .,'-]+,\s*(?:Virginia|California|Texas|Illinois|Ohio|Florida|Colorado|Washington|Arizona|Pennsylvania|Georgia|[A-Z]{2}|India|Mexico|Karnataka|Maharashtra)))*/i
+    new RegExp(
+      String.raw`\b(?:Primary Address|Pin job Apply)\b[\s\S]{0,160}?\b([A-Z][A-Za-z .,'-]+,\s*${LOCATION_COUNTRY_TAIL})(?:\s*\|\s*([A-Z][A-Za-z .,'-]+,\s*${LOCATION_COUNTRY_TAIL}))*`,
+      "i"
+    )
   );
   if (pipeLocations) {
     results.push(
@@ -442,9 +464,12 @@ function extractLocationStrings(text: string): string[] {
   return [...new Set(results.map((value) => value.trim()).filter(Boolean))];
 }
 
-export function extractLocationsFromJob(job: JobPosting): ParsedLocation[] {
+export function extractLocationsFromJob(
+  job: Pick<JobPosting, "location" | "title" | "descriptionText" | "url">
+): ParsedLocation[] {
   const parsed: ParsedLocation[] = [];
   const seen = new Set<string>();
+  const primaryCountries = new Set<string>();
 
   const sanitizedLocation = sanitizeLocationString(job.location);
   if (sanitizedLocation) {
@@ -461,8 +486,20 @@ export function extractLocationsFromJob(job: JobPosting): ParsedLocation[] {
     addParsedLocation(parsed, seen, segment);
   }
 
+  for (const entry of parsed) {
+    if (entry.country) primaryCountries.add(entry.country);
+  }
+
   if (job.descriptionText?.trim()) {
     for (const segment of extractLocationStrings(job.descriptionText)) {
+      const result = parseLocationSegment(segment);
+      if (
+        result?.country &&
+        primaryCountries.size > 0 &&
+        !primaryCountries.has(result.country)
+      ) {
+        continue;
+      }
       addParsedLocation(parsed, seen, segment);
     }
   }
@@ -490,8 +527,10 @@ function matchesTarget(
 ): boolean {
   if (!location.country) return false;
 
-  if (targetCountries.has(location.country)) {
-    return true;
+  // Country allowlists win: "North America" should not keep a Mexico City
+  // posting in-target when the user also selected United States.
+  if (targetCountries.size > 0) {
+    return targetCountries.has(location.country);
   }
 
   if (location.continent && targetContinents.has(location.continent)) {

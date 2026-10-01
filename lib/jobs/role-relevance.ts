@@ -47,7 +47,9 @@ const INCLUDE_TITLE_PATTERNS = [
   /\b(?:engineer|developer|programmer|architect|scientist)\b/i,
   /\b(?:full[\s-]?stack|front[\s-]?end|back[\s-]?end)\b/i,
   /\b(?:data engineer|data scientist|ml engineer|machine learning engineer|ai\/ml)\b/i,
-  /\b(?:qa engineer|test engineer|sdet)\b/i,
+  /\b(?:qa|qae|sdet)\b/i,
+  /\bquality\s+(?:assurance|analyst|engineer|lead|manager)\b/i,
+  /\b(?:test|testing)\s+(?:engineer|lead|manager|analyst)\b/i,
   /\b(?:technical product manager|technical program manager|tpm)\b/i,
   /\b(?:engineering manager|director of engineering)\b/i,
 ];
@@ -111,6 +113,40 @@ function titleMatchesExclude(title: string): boolean {
 
 function titleMatchesInclude(title: string): boolean {
   return INCLUDE_TITLE_PATTERNS.some((pattern) => pattern.test(title));
+}
+
+export function titleIsExcludedRole(title: string): boolean {
+  return titleMatchesExclude(title) && !titleMatchesInclude(title);
+}
+
+export function titleIsIncludedRole(title: string): boolean {
+  return titleMatchesInclude(title);
+}
+
+export function isOffTargetRole(
+  title: string,
+  roleRelevant?: boolean
+): boolean {
+  if (titleIsIncludedRole(title)) return false;
+  return roleRelevant === false || titleIsExcludedRole(title);
+}
+
+export function displayRoleRelevance(job: {
+  title: string;
+  roleRelevant?: boolean;
+  roleRelevanceNote?: string;
+}): RoleRelevanceResult {
+  if (titleIsIncludedRole(job.title) && job.roleRelevant === false) {
+    return {
+      relevant: true,
+      note: "Title matches a technical/engineering role",
+    };
+  }
+
+  return {
+    relevant: job.roleRelevant,
+    note: job.roleRelevanceNote ?? "",
+  };
 }
 
 function trimFieldValue(value: string): string {

@@ -1,6 +1,9 @@
 import type { PositionExperience } from "@/lib/types";
+import { missingRequiredLanguages } from "@/lib/jobs/language-requirements";
+import { isOffTargetRole } from "@/lib/jobs/role-relevance";
 import {
   combineMatchScores,
+  correctedExperienceForDisplay,
   parseJobExperienceRequirement,
   scoreExperienceMatch,
 } from "./experience";
@@ -163,7 +166,10 @@ export function scoreJobMatch(
 
   const uniqueMissing = [
     ...new Map(
-      missingSkills.map((skill) => [normalizeSkillName(skill), skill])
+      [
+        ...missingSkills,
+        ...missingRequiredLanguages(`${jobTitle}\n${descriptionText}`, trimmedSkills),
+      ].map((skill) => [normalizeSkillName(skill), skill])
     ).values(),
   ].sort((a, b) => a.localeCompare(b));
 
@@ -189,6 +195,11 @@ export function scoreJobMatch(
   }
 
   skillScore = Math.min(100, Math.max(0, skillScore));
+  skillScore = reconcileSkillScore(
+    skillScore,
+    matchedSkills,
+    uniqueMissing
+  );
 
   const requirement = parseJobExperienceRequirement(jobTitle, descriptionText);
   const experienceResult = scoreExperienceMatch(
@@ -209,5 +220,124 @@ export function scoreJobMatch(
     experienceNote: experienceResult.note,
     matchedSkills: matchedSkills.sort((a, b) => a.localeCompare(b)),
     missingSkills: uniqueMissing,
+  };
+}
+
+export const OFF_TARGET_SCORE_CAP = 35;
+
+/** A 100 skill score is only valid when the posting lists no missing skills. */
+export function reconcileSkillScore(
+  skillScore: number,
+  matchedSkills: string[],
+  missingSkills: string[]
+): number {
+  const matchedCount = matchedSkills.length;
+  const missingCount = missingSkills.length;
+  const bounded = Math.min(100, Math.max(0, Math.round(skillScore)));
+
+  if (matchedCount === 0) return 0;
+  if (missingCount === 0) return bounded;
+
+  const derived = Math.round(
+    (matchedCount / (matchedCount + missingCount)) * 100
+  );
+  return Math.min(bounded, derived);
+}
+
+export function applyMissingSkillPenalty(
+  match: MatchResult,
+  experienceDetected: boolean
+): MatchResult {
+  const skillScore = reconcileSkillScore(
+    match.skillScore,
+    match.matchedSkills,
+    match.missingSkills
+  );
+  if (skillScore === match.skillScore) return match;
+
+  return {
+    ...match,
+    skillScore,
+    score: combineMatchScores(skillScore, match.experienceScore, {
+      detected: experienceDetected,
+    }),
+  };
+}
+
+export function displayJobScores(job: {
+  title?: string;
+  descriptionText?: string;
+  roleRelevant?: boolean;
+  matchScore?: number;
+  matchSkillScore?: number;
+  matchExperienceScore?: number;
+  matchedSkills?: string[];
+  missingSkills?: string[];
+  experienceNote?: string;
+}): {
+  matchScore?: number;
+  skillScore?: number;
+  experienceScore?: number;
+  experienceNote?: string;
+} {
+  const experience = correctedExperienceForDisplay(job);
+  const languageGaps = missingRequiredLanguages(
+    job.title ?? "",
+    job.matchedSkills ?? []
+  );
+  const missingSkills = [
+    ...new Map(
+      [...(job.missingSkills ?? []), ...languageGaps].map((skill) => [
+        normalizeSkillName(skill),
+        skill,
+      ])
+    ).values(),
+  ];
+  const skillScore =
+    job.matchSkillScore === undefined
+      ? undefined
+      : reconcileSkillScore(
+          job.matchSkillScore,
+          job.matchedSkills ?? [],
+          missingSkills
+        );
+
+  const skillChanged = skillScore !== job.matchSkillScore;
+  const experienceChanged =
+    experience.experienceScore !== job.matchExperienceScore;
+  const offTarget = isOffTargetRole(job.title ?? "", job.roleRelevant);
+  const storedOffTarget = job.roleRelevant === false;
+
+  let nextMatch = job.matchScore;
+  let nextSkill = skillScore;
+
+  if (skillChanged || experienceChanged || (storedOffTarget && !offTarget)) {
+    const experienceDetected = /\d+\+?\s*years/i.test(job.experienceNote ?? "");
+    const combinedSkill = skillScore ?? job.matchSkillScore ?? 0;
+    const combinedExperience = experience.experienceScore ?? combinedSkill;
+    nextMatch =
+      job.matchScore === undefined
+        ? undefined
+        : combineMatchScores(combinedSkill, combinedExperience, {
+            detected: experienceDetected,
+          });
+  }
+
+  if (offTarget) {
+    nextSkill =
+      nextSkill === undefined
+        ? undefined
+        : Math.min(nextSkill, OFF_TARGET_SCORE_CAP);
+    nextMatch =
+      nextMatch === undefined
+        ? undefined
+        : Math.min(nextMatch, OFF_TARGET_SCORE_CAP);
+  }
+
+  return {
+    skillScore: nextSkill,
+    experienceScore: experience.experienceScore,
+    experienceNote: experience.experienceNote,
+    matchScore: nextMatch,
   };
 }
