@@ -248,6 +248,22 @@ export async function markJobSeen(jobId: string): Promise<JobPosting | null> {
   return updateJob(jobId, { isNew: false });
 }
 
+export async function markJobsSeen(jobIds: string[]): Promise<number> {
+  const idSet = new Set(jobIds);
+  if (idSet.size === 0) return 0;
+
+  const jobs = await getJobs();
+  let updatedCount = 0;
+  const updated = jobs.map((job) => {
+    if (!idSet.has(job.id) || !job.isNew) return job;
+    updatedCount++;
+    return { ...job, isNew: false };
+  });
+
+  if (updatedCount > 0) await saveJobs(updated);
+  return updatedCount;
+}
+
 export async function appendCheckLog(entry: CheckLogEntry): Promise<void> {
   const log = await getCheckLog();
   log.unshift(entry);

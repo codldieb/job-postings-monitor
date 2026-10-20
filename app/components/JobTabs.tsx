@@ -16,6 +16,7 @@ interface JobTabsProps {
   hasLocationPreferences?: boolean;
   onMarkSeen: () => void;
   onMarkJobSeen?: (jobId: string) => void | Promise<void>;
+  onMarkJobsSeen?: (jobIds: string[]) => void | Promise<void>;
   onJobsChanged?: () => void;
   onMessage?: (message: string | null) => void;
   defaultTab?: JobTab;
@@ -29,6 +30,7 @@ export default function JobTabs({
   hasLocationPreferences = false,
   onMarkSeen,
   onMarkJobSeen,
+  onMarkJobsSeen,
   onJobsChanged,
   onMessage,
   defaultTab = "active",
@@ -72,6 +74,7 @@ export default function JobTabs({
             showLocationFilter={hasLocationPreferences}
             onMarkSeen={onMarkSeen}
             onMarkJobSeen={onMarkJobSeen}
+            onMarkJobsSeen={onMarkJobsSeen}
           />
         )}
 
@@ -92,6 +95,7 @@ export default function JobTabs({
                   showLocationFilter={hasLocationPreferences}
                   onMarkSeen={onMarkSeen}
                   onMarkJobSeen={onMarkJobSeen}
+                  onMarkJobsSeen={onMarkJobsSeen}
                   showMinScoreFilter={false}
                 />
               </>

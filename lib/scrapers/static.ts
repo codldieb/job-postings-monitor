@@ -35,6 +35,7 @@ const EXCLUDED_TITLE_PATTERNS = [
   /^search( jobs?)?$/i,
   /^job search$/i,
   /^apply( now)?$/i,
+  /^view job description$/i,
   /^learn more$/i,
   /^read more$/i,
   /^next(\s*page)?$/i,

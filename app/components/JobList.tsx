@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import FilterMultiSelect from "./FilterMultiSelect";
 import {
   ALL_LOCATION_TYPES,
   jobLocationTypes,
@@ -18,6 +19,7 @@ interface JobListProps {
   jobs: JobPosting[];
   onMarkSeen: () => void;
   onMarkJobSeen?: (jobId: string) => void | Promise<void>;
+  onMarkJobsSeen?: (jobIds: string[]) => void | Promise<void>;
   newCount: number;
   hasResumeProfile: boolean;
   showMinScoreFilter?: boolean;
@@ -40,6 +42,34 @@ function scoreBadgeClass(score: number) {
   return "status-badge";
 }
 
+type IncludeFilter = "matching" | "off-target" | "outside-location";
+
+const INCLUDE_OPTIONS: { value: IncludeFilter; label: string }[] = [
+  { value: "matching", label: "Matching roles" },
+  { value: "off-target", label: "Off-target roles" },
+  { value: "outside-location", label: "Outside target locations" },
+];
+
+function workStyleSummary(selected: Set<LocationType>): string {
+  if (selected.size === 0 || selected.size === ALL_LOCATION_TYPES.length) {
+    return "All";
+  }
+  return ALL_LOCATION_TYPES.filter((type) => selected.has(type)).join(", ");
+}
+
+function includeSummary(
+  selected: Set<IncludeFilter>,
+  options: { value: IncludeFilter; label: string }[]
+): string {
+  if (selected.size === 0) return "None";
+  if (options.every((option) => selected.has(option.value))) return "All";
+  if (selected.size === 1 && selected.has("matching")) return "Matching only";
+  return options
+    .filter((option) => selected.has(option.value))
+    .map((option) => option.label)
+    .join(", ");
+}
+
 function locationTypeBadgeClass(type: LocationType) {
   switch (type) {
     case "Remote":
@@ -53,6 +83,24 @@ function locationTypeBadgeClass(type: LocationType) {
 
 function isOffTargetRole(job: JobPosting): boolean {
   return roleLooksOffTarget(job.title, job.roleRelevant);
+}
+
+function matchesIncludedGroups(
+  job: JobPosting,
+  included: Set<IncludeFilter>,
+  filters: { role: boolean; location: boolean }
+): boolean {
+  const offTarget = isOffTargetRole(job);
+  const outside = job.locationInTarget === false;
+  const matching =
+    (!filters.role || !offTarget) && (!filters.location || !outside);
+
+  if (included.has("matching") && matching) return true;
+  if (filters.role && included.has("off-target") && offTarget) return true;
+  if (filters.location && included.has("outside-location") && outside) {
+    return true;
+  }
+  return false;
 }
 
 function displayMissingSkills(job: JobPosting): string[] {
@@ -179,6 +227,7 @@ export default function JobList({
   jobs,
   onMarkSeen,
   onMarkJobSeen,
+  onMarkJobsSeen,
   newCount,
   hasResumeProfile,
   showMinScoreFilter = true,
@@ -187,28 +236,32 @@ export default function JobList({
   showLocationTypeFilter = true,
 }: JobListProps) {
   const [minScore, setMinScore] = useState(0);
-  const [hideOffTargetRoles, setHideOffTargetRoles] = useState(true);
-  const [hideOutsideLocations, setHideOutsideLocations] = useState(true);
+  const [included, setIncluded] = useState<Set<IncludeFilter>>(
+    () => new Set(["matching"])
+  );
   const [locationTypeFilter, setLocationTypeFilter] = useState<Set<LocationType>>(
     () => new Set(ALL_LOCATION_TYPES)
   );
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [markingJobId, setMarkingJobId] = useState<string | null>(null);
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(() => new Set());
+  const [markingSelected, setMarkingSelected] = useState(false);
 
-  function toggleLocationType(type: LocationType) {
-    setLocationTypeFilter((current) => {
-      const next = new Set(current);
-      if (next.has(type)) {
-        next.delete(type);
-      } else {
-        next.add(type);
+  useEffect(() => {
+    const newIds = new Set(jobs.filter((job) => job.isNew).map((job) => job.id));
+    setSelectedIds((current) => {
+      let changed = false;
+      const next = new Set<string>();
+      for (const id of current) {
+        if (newIds.has(id)) next.add(id);
+        else changed = true;
       }
-      return next;
+      return changed ? next : current;
     });
-  }
+  }, [jobs]);
 
   async function handleMarkJobSeen(jobId: string) {
-    if (!onMarkJobSeen || markingJobId) return;
+    if (!onMarkJobSeen || markingJobId || markingSelected) return;
 
     setMarkingJobId(jobId);
     try {
@@ -218,13 +271,55 @@ export default function JobList({
     }
   }
 
+  function toggleSelected(jobId: string) {
+    setSelectedIds((current) => {
+      const next = new Set(current);
+      if (next.has(jobId)) next.delete(jobId);
+      else next.add(jobId);
+      return next;
+    });
+  }
+
+  function toggleVisibleSelection(visibleIds: string[], checked: boolean) {
+    setSelectedIds((current) => {
+      const next = new Set(current);
+      for (const id of visibleIds) {
+        if (checked) next.add(id);
+        else next.delete(id);
+      }
+      return next;
+    });
+  }
+
+  async function handleMarkSelected() {
+    if (!onMarkJobsSeen || selectedIds.size === 0 || markingSelected) return;
+
+    setMarkingSelected(true);
+    try {
+      await onMarkJobsSeen([...selectedIds]);
+      setSelectedIds(new Set());
+    } finally {
+      setMarkingSelected(false);
+    }
+  }
+
+  const roleFilterEnabled = showRoleFilter && hasResumeProfile;
+  const locationFilterEnabled = showLocationFilter && hasResumeProfile;
+  const includeOptions = INCLUDE_OPTIONS.filter((option) => {
+    if (option.value === "off-target") return roleFilterEnabled;
+    if (option.value === "outside-location") return locationFilterEnabled;
+    return roleFilterEnabled || locationFilterEnabled;
+  });
+
   const filteredJobs = useMemo(() => {
     return jobs.filter((job) => {
       if (minScore > 0 && (displayJobScores(job).matchScore ?? 0) < minScore) {
         return false;
       }
-      if (hideOffTargetRoles && isOffTargetRole(job)) return false;
-      if (showLocationFilter && hideOutsideLocations && job.locationInTarget === false) {
+      if (includeOptions.length > 1 && !matchesIncludedGroups(job, included, {
+        role: roleFilterEnabled,
+        location: locationFilterEnabled,
+      })) {
         return false;
       }
       if (showLocationTypeFilter && !matchesLocationTypeFilter(job, locationTypeFilter)) {
@@ -235,12 +330,20 @@ export default function JobList({
   }, [
     jobs,
     minScore,
-    hideOffTargetRoles,
-    hideOutsideLocations,
-    showLocationFilter,
+    included,
+    includeOptions.length,
+    roleFilterEnabled,
+    locationFilterEnabled,
     showLocationTypeFilter,
     locationTypeFilter,
   ]);
+
+  const visibleNewIds = filteredJobs
+    .filter((job) => job.isNew)
+    .map((job) => job.id);
+  const allVisibleSelected =
+    visibleNewIds.length > 0 &&
+    visibleNewIds.every((id) => selectedIds.has(id));
 
   if (jobs.length === 0) {
     return (
@@ -276,46 +379,26 @@ export default function JobList({
               </select>
             </label>
           )}
-          {showRoleFilter && hasResumeProfile && (
-            <label className="flex items-center gap-2 text-sm text-ink-muted">
-              <input
-                type="checkbox"
-                checked={hideOffTargetRoles}
-                onChange={(event) => setHideOffTargetRoles(event.target.checked)}
-                className="checkbox-field"
-              />
-              Hide off-target roles
-            </label>
-          )}
-          {showLocationFilter && hasResumeProfile && (
-            <label className="flex items-center gap-2 text-sm text-ink-muted">
-              <input
-                type="checkbox"
-                checked={hideOutsideLocations}
-                onChange={(event) =>
-                  setHideOutsideLocations(event.target.checked)
-                }
-                className="checkbox-field"
-              />
-              Hide outside target locations
-            </label>
+          {includeOptions.length > 0 && (
+            <FilterMultiSelect
+              label="Include"
+              options={includeOptions}
+              selected={included}
+              onChange={setIncluded}
+              summary={includeSummary(included, includeOptions)}
+            />
           )}
           {showLocationTypeFilter && (
-            <fieldset className="flex flex-wrap items-center gap-3 text-sm text-ink-muted">
-              <legend className="sr-only">Work location type</legend>
-              <span className="text-ink-subtle">Work style</span>
-              {ALL_LOCATION_TYPES.map((type) => (
-                <label key={type} className="flex items-center gap-1.5">
-                  <input
-                    type="checkbox"
-                    checked={locationTypeFilter.has(type)}
-                    onChange={() => toggleLocationType(type)}
-                    className="checkbox-field"
-                  />
-                  {type}
-                </label>
-              ))}
-            </fieldset>
+            <FilterMultiSelect
+              label="Work style"
+              options={ALL_LOCATION_TYPES.map((type) => ({
+                value: type,
+                label: type,
+              }))}
+              selected={locationTypeFilter}
+              onChange={setLocationTypeFilter}
+              summary={workStyleSummary(locationTypeFilter)}
+            />
           )}
           {!showMinScoreFilter && (
             <p className="body-text text-ink-subtle">
@@ -329,13 +412,46 @@ export default function JobList({
       </div>
 
       {newCount > 0 && (
-        <div className="alert-banner-accent flex items-center justify-between">
+        <div className="alert-banner-accent flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm font-medium text-ink">
             {newCount} new posting{newCount === 1 ? "" : "s"} since last review
           </p>
-          <button onClick={onMarkSeen} className="btn-primary">
-            Mark all seen
-          </button>
+          <div className="flex flex-wrap items-center gap-3">
+            {onMarkJobsSeen && visibleNewIds.length > 0 && (
+              <label className="flex items-center gap-2 text-sm text-ink-muted">
+                <input
+                  type="checkbox"
+                  checked={allVisibleSelected}
+                  onChange={(event) =>
+                    toggleVisibleSelection(visibleNewIds, event.target.checked)
+                  }
+                  disabled={markingSelected}
+                  className="checkbox-field"
+                />
+                Select all shown
+              </label>
+            )}
+            {onMarkJobsSeen && (
+              <button
+                type="button"
+                onClick={handleMarkSelected}
+                disabled={selectedIds.size === 0 || markingSelected}
+                className="btn-secondary"
+              >
+                {markingSelected
+                  ? "Saving..."
+                  : `Mark selected seen${selectedIds.size > 0 ? ` (${selectedIds.size})` : ""}`}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={onMarkSeen}
+              disabled={markingSelected}
+              className="btn-primary"
+            >
+              Mark all seen
+            </button>
+          </div>
         </div>
       )}
 
@@ -354,7 +470,18 @@ export default function JobList({
 
             return (
               <li key={job.id} className="px-4 py-3">
-                <div className="flex items-start justify-between gap-3">
+                <div className="flex items-start gap-3">
+                  {job.isNew && onMarkJobsSeen && (
+                    <input
+                      type="checkbox"
+                      checked={selectedIds.has(job.id)}
+                      onChange={() => toggleSelected(job.id)}
+                      disabled={markingSelected}
+                      aria-label={`Select ${job.title}`}
+                      className="checkbox-field mt-1"
+                    />
+                  )}
+                  <div className="flex min-w-0 flex-1 items-start justify-between gap-3">
                   <div className="min-w-0 flex-1">
                     <a
                       href={job.url}
@@ -386,7 +513,7 @@ export default function JobList({
                           <button
                             type="button"
                             onClick={() => handleMarkJobSeen(job.id)}
-                            disabled={markingJobId === job.id}
+                            disabled={markingJobId === job.id || markingSelected}
                             className="btn-tertiary px-0 py-0 text-xs disabled:opacity-60"
                           >
                             {markingJobId === job.id ? "Saving..." : "Mark seen"}
@@ -394,12 +521,12 @@ export default function JobList({
                         )}
                       </div>
                     )}
-                    {isOffTargetRole(job) && !hideOffTargetRoles && (
+                    {isOffTargetRole(job) && included.has("off-target") && (
                       <span className="status-badge font-semibold">
                         Off-target
                       </span>
                     )}
-                    {job.locationInTarget === false && !hideOutsideLocations && (
+                    {job.locationInTarget === false && included.has("outside-location") && (
                       <span className="status-badge font-semibold">
                         Outside location
                       </span>
@@ -430,6 +557,7 @@ export default function JobList({
                         {isExpanded ? "Hide match" : "Show match"}
                       </button>
                     )}
+                  </div>
                   </div>
                 </div>
               </li>

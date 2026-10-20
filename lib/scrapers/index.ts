@@ -26,6 +26,7 @@ import { scrapeShopify, isShopifyCareersUrl } from "./shopify";
 import { scrapeUltipro } from "./ultipro";
 import { scrapeWorkable } from "./workable";
 import { scrapeWorkday } from "./workday";
+import { scrapeWebflow, isWebflowCareersUrl } from "./webflow";
 import { scrapeYahoo, isYahooCareersUrl } from "./yahoo";
 import { scrapeWithBrowser } from "./browser";
 import { scrapeStaticHtml } from "./static";
@@ -181,6 +182,15 @@ export async function scrapeJobPostings(siteUrl: string): Promise<ScrapedJob[]> 
   if (isHarriJobsUrl(url)) {
     try {
       const jobs = await scrapeHarri(siteUrl);
+      if (jobs.length > 0) return jobs;
+    } catch {
+      // Fall through to other scrapers.
+    }
+  }
+
+  if (isWebflowCareersUrl(url)) {
+    try {
+      const jobs = await scrapeWebflow(siteUrl);
       if (jobs.length > 0) return jobs;
     } catch {
       // Fall through to other scrapers.

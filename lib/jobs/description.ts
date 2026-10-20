@@ -1,9 +1,10 @@
 import * as cheerio from "cheerio";
 import { cleanJobDescription } from "@/lib/jobs/clean-description";
 import { parseEpicGamesJobUrl } from "@/lib/scrapers/epicgames";
+import { isWebflowRoleUrl, webflowRoleId } from "@/lib/scrapers/webflow";
 import { lookupHealthTechNerdsJob } from "@/lib/scrapers/healthtechnerds";
 import { parsePaylocityJobUrl } from "@/lib/scrapers/paylocity";
-import { fetchJson, USER_AGENT, FETCH_TIMEOUT_MS } from "@/lib/scrapers/utils";
+import { fetchJson, fetchText } from "@/lib/scrapers/utils";
 
 export interface JobDetails {
   descriptionText: string;
@@ -383,13 +384,7 @@ export function ensurePlainTextDescription(text: string): string {
 }
 
 async function fetchHtml(url: string): Promise<string> {
-  const response = await fetch(url, {
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept: "text/html,application/xhtml+xml",
-    },
-    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-  });
+  const response = await fetchText(url, "text/html,application/xhtml+xml");
 
   if (!response.ok) {
     throw new Error(`HTTP ${response.status} fetching ${url}`);
@@ -551,6 +546,35 @@ async function fetchAshbyDetails(jobUrl: string): Promise<JobDetails | null> {
   };
 }
 
+async function fetchWebflowPageDetails(
+  jobUrl: string
+): Promise<JobDetails | null> {
+  const html = await fetchHtml(jobUrl);
+  const $ = cheerio.load(html);
+  const section = $("[data-section='jl-description']").first();
+  if (section.length === 0) return null;
+
+  section.find("style, script, noscript").remove();
+  const descriptionText = cleanJobDescription(
+    section.text().replace(/\s+/g, " ").trim()
+  );
+  if (descriptionText.length < 200) return null;
+
+  return { descriptionText };
+}
+
+async function fetchWebflowDetails(jobUrl: string): Promise<JobDetails | null> {
+  if (!isWebflowRoleUrl(jobUrl)) return null;
+
+  const fromPage = await fetchWebflowPageDetails(jobUrl).catch(() => null);
+  if (fromPage) return fromPage;
+
+  const roleId = webflowRoleId(jobUrl);
+  if (!roleId) return null;
+
+  return fetchAshbyDetails(`https://jobs.ashbyhq.com/webflow/${roleId}`);
+}
+
 async function fetchGenericDescription(jobUrl: string): Promise<string> {
   const html = await fetchHtml(jobUrl);
   const $ = cheerio.load(html);
@@ -611,6 +635,9 @@ export async function fetchJobDetails(jobUrl: string): Promise<JobDetails> {
 
   const ashby = await fetchAshbyDetails(jobUrl).catch(() => null);
   if (ashby) return ashby;
+
+  const webflow = await fetchWebflowDetails(jobUrl).catch(() => null);
+  if (webflow) return webflow;
 
   return {
     descriptionText: await fetchGenericDescription(jobUrl),

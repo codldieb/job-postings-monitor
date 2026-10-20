@@ -3,7 +3,7 @@ import { scrapeGreenhouse } from "./greenhouse";
 import { scrapeLever } from "./lever";
 import { scrapeWorkable } from "./workable";
 import type { ScrapedJob } from "./types";
-import { FETCH_TIMEOUT_MS, USER_AGENT } from "./utils";
+import { fetchText } from "./utils";
 
 const EMBEDDED_ASHBY = /jobs\.ashbyhq\.com\/([a-z0-9-]+)/i;
 const EMBEDDED_GREENHOUSE_FOR =
@@ -46,13 +46,7 @@ export function extractEmbeddedBoards(html: string): {
 }
 
 export async function fetchPageHtml(siteUrl: string): Promise<string> {
-  const response = await fetch(siteUrl, {
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept: "text/html,application/xhtml+xml",
-    },
-    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-  });
+  const response = await fetchText(siteUrl, "text/html,application/xhtml+xml");
 
   if (!response.ok) {
     throw new Error(`HTTP ${response.status} fetching ${siteUrl}`);
