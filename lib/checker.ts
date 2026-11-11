@@ -22,9 +22,16 @@ const INCOMPLETE_SCRAPE_MIN_EXISTING = 8;
 
 export async function runDailyCheck(
   onProgress?: (event: CheckProgressEvent) => void,
-  options?: { signal?: AbortSignal }
+  options?: { signal?: AbortSignal; siteIds?: string[] }
 ): Promise<CheckLogEntry> {
-  const sites = await getSites();
+  let sites = await getSites();
+  if (options?.siteIds?.length) {
+    const wanted = new Set(options.siteIds);
+    sites = sites.filter((site) => wanted.has(site.id));
+    if (sites.length === 0) {
+      throw new Error("Site not found");
+    }
+  }
   const existingJobs = await getJobs();
   const archivedJobs = await getArchivedJobs();
   const existingById = new Map(existingJobs.map((job) => [job.id, job]));

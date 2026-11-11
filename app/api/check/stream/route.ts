@@ -60,11 +60,28 @@ async function scoreDiscoveredJobs(
 
 export async function POST(request: Request) {
   const signal = request.signal;
+  let siteId: string | undefined;
+  const rawBody = await request.text();
+
+  if (rawBody.trim()) {
+    let body: { siteId?: unknown };
+    try {
+      body = JSON.parse(rawBody) as { siteId?: unknown };
+    } catch {
+      return Response.json({ error: "Invalid check request" }, { status: 400 });
+    }
+
+    if (typeof body.siteId !== "string" || !body.siteId.trim()) {
+      return Response.json({ error: "siteId is required" }, { status: 400 });
+    }
+
+    siteId = body.siteId.trim();
+  }
 
   const stream = createEventStream(signal, async (send) => {
     const result = await runDailyCheck((event) => {
       send(event);
-    }, { signal });
+    }, { signal, siteIds: siteId ? [siteId] : undefined });
 
     const newJobIds = result.results.flatMap((siteResult) =>
       siteResult.newJobs.map((job) => job.id)

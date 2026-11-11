@@ -27,6 +27,7 @@ import { scrapeUltipro } from "./ultipro";
 import { scrapeWorkable } from "./workable";
 import { scrapeWorkday } from "./workday";
 import { scrapeWebflow, isWebflowCareersUrl } from "./webflow";
+import { isWellfoundCompanyJobsUrl, scrapeWellfound } from "./wellfound";
 import { scrapeYahoo, isYahooCareersUrl } from "./yahoo";
 import { scrapeWithBrowser } from "./browser";
 import { scrapeStaticHtml } from "./static";
@@ -195,6 +196,10 @@ export async function scrapeJobPostings(siteUrl: string): Promise<ScrapedJob[]> 
     } catch {
       // Fall through to other scrapers.
     }
+  }
+
+  if (isWellfoundCompanyJobsUrl(url)) {
+    return await scrapeWellfound(siteUrl);
   }
 
   let staticFailed = false;

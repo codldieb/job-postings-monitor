@@ -29,6 +29,14 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [checkMessage, setCheckMessage] = useState<string | null>(null);
   const [showAddSite, setShowAddSite] = useState(false);
+  const [siteCheckRequest, setSiteCheckRequest] = useState<{
+    siteId: string;
+    token: number;
+  } | null>(null);
+  const [checkRun, setCheckRun] = useState<{
+    running: boolean;
+    siteId: string | null;
+  }>({ running: false, siteId: null });
 
   const refresh = useCallback(async () => {
     const [sitesRes, jobsRes, archivedRes, resumeRes] = await Promise.all([
@@ -59,6 +67,18 @@ export default function Dashboard() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  const handleCheckRunningChange = useCallback(
+    (running: boolean, siteId: string | null) => {
+      setCheckRun({ running, siteId });
+    },
+    []
+  );
+
+  function handleCheckSite(siteId: string) {
+    if (checkRun.running) return;
+    setSiteCheckRequest({ siteId, token: Date.now() });
+  }
 
   async function handleRemove(id: string) {
     await fetch(`/api/sites/${id}`, { method: "DELETE" });
@@ -167,7 +187,12 @@ export default function Dashboard() {
         </nav>
 
         <div className="mt-4 space-y-3">
-          <CheckControls onComplete={refresh} onMessage={setCheckMessage} />
+          <CheckControls
+            onComplete={refresh}
+            onMessage={setCheckMessage}
+            siteCheckRequest={siteCheckRequest}
+            onRunningChange={handleCheckRunningChange}
+          />
 
           {checkMessage && (
             <div className="alert-banner-accent flex items-start justify-between gap-3">
@@ -238,6 +263,9 @@ export default function Dashboard() {
                 sites={sites}
                 checkStatus={checkStatus}
                 onRemove={handleRemove}
+                onCheck={handleCheckSite}
+                checkRunning={checkRun.running}
+                checkingSiteId={checkRun.siteId}
               />
             </div>
           </section>

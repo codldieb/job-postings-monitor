@@ -1,3 +1,4 @@
+import { existsSync, readdirSync } from "fs";
 import type { Page } from "playwright";
 import type { ScrapedJob } from "./types";
 import {
@@ -107,7 +108,24 @@ async function loadPlaywright() {
   }
 }
 
-export async function scrapeWithBrowser(siteUrl: string): Promise<ScrapedJob[]> {
+// A sandboxed shell can point Playwright at a temp cache that was never
+// populated. Chromium is installed in the normal user cache instead.
+function useInstalledPlaywrightBrowsers() {
+  const browsersPath = process.env.PLAYWRIGHT_BROWSERS_PATH;
+  if (!browsersPath || browsersPath === "0") return;
+  const hasBrowser =
+    existsSync(browsersPath) &&
+    readdirSync(browsersPath).some((name) => name.startsWith("chromium"));
+  if (!hasBrowser) {
+    delete process.env.PLAYWRIGHT_BROWSERS_PATH;
+  }
+}
+
+async function withRenderedPage<T>(
+  siteUrl: string,
+  read: (page: Page) => Promise<T>
+): Promise<T> {
+  useInstalledPlaywrightBrowsers();
   const { chromium } = await loadPlaywright();
   const browser = await chromium.launch({
     headless: true,
@@ -138,7 +156,18 @@ export async function scrapeWithBrowser(siteUrl: string): Promise<ScrapedJob[]> 
     );
 
     await page.waitForTimeout(RENDER_WAIT_MS);
+    return await read(page);
+  } finally {
+    await browser.close();
+  }
+}
 
+export function renderPageHtml(siteUrl: string): Promise<string> {
+  return withRenderedPage(siteUrl, (page) => page.content());
+}
+
+export async function scrapeWithBrowser(siteUrl: string): Promise<ScrapedJob[]> {
+  return withRenderedPage(siteUrl, async (page) => {
     const html = await page.content();
     const pageUrl = page.url();
 
@@ -158,7 +187,5 @@ export async function scrapeWithBrowser(siteUrl: string): Promise<ScrapedJob[]> 
     if (scraped.length > 0) return scraped;
 
     return [];
-  } finally {
-    await browser.close();
-  }
+  });
 }

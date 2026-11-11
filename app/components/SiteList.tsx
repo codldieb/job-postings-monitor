@@ -6,6 +6,9 @@ interface SiteListProps {
   sites: MonitoredSite[];
   checkStatus: Record<string, SiteCheckStatus>;
   onRemove: (id: string) => void;
+  onCheck: (id: string) => void;
+  checkRunning?: boolean;
+  checkingSiteId?: string | null;
 }
 
 function formatDate(value: string | null) {
@@ -55,7 +58,14 @@ function CheckStatus({ status }: { status?: SiteCheckStatus }) {
   );
 }
 
-export default function SiteList({ sites, checkStatus, onRemove }: SiteListProps) {
+export default function SiteList({
+  sites,
+  checkStatus,
+  onRemove,
+  onCheck,
+  checkRunning = false,
+  checkingSiteId = null,
+}: SiteListProps) {
   if (sites.length === 0) {
     return (
       <p className="body-text text-ink-subtle">
@@ -86,12 +96,24 @@ export default function SiteList({ sites, checkStatus, onRemove }: SiteListProps
             </p>
             <CheckStatus status={checkStatus[site.id]} />
           </div>
-          <button
-            onClick={() => onRemove(site.id)}
-            className="btn-secondary shrink-0 self-start sm:self-center"
-          >
-            Remove
-          </button>
+          <div className="flex shrink-0 gap-2 self-start sm:self-center">
+            <button
+              type="button"
+              onClick={() => onCheck(site.id)}
+              disabled={checkRunning}
+              className="btn-primary"
+            >
+              {checkingSiteId === site.id ? "Checking..." : "Check"}
+            </button>
+            <button
+              type="button"
+              onClick={() => onRemove(site.id)}
+              disabled={checkingSiteId === site.id}
+              className="btn-secondary"
+            >
+              Remove
+            </button>
+          </div>
         </li>
       ))}
     </ul>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CheckLogEntry, CheckProgressEvent, ScoreJobsResult } from "@/lib/types";
 
 export interface CheckProgressState {
@@ -17,6 +17,8 @@ interface CheckControlsProps {
   onComplete: () => void;
   onMessage?: (message: string | null) => void;
   onProgress?: (progress: CheckProgressState | null) => void;
+  siteCheckRequest?: { siteId: string; token: number } | null;
+  onRunningChange?: (running: boolean, siteId: string | null) => void;
 }
 
 function parseSseChunk(
@@ -45,6 +47,16 @@ function formatCheckMessage(
         "."
       : "";
 
+  const singleSite =
+    result.results.length === 1 ? result.results[0] : undefined;
+  if (singleSite?.error) {
+    return `Check failed for ${singleSite.siteName}: ${singleSite.error}`;
+  }
+
+  if (singleSite && result.totalSites === 1) {
+    return `Checked ${singleSite.siteName}. Found ${result.newJobsFound} new posting(s).${archivedLabel}${scoredLabel}`;
+  }
+
   if (result.cancelled) {
     return `Stopped after ${result.sitesChecked} of ${result.totalSites ?? result.sitesChecked} site(s). Found ${result.newJobsFound} new posting(s).${archivedLabel}${scoredLabel}`;
   }
@@ -56,11 +68,16 @@ export default function CheckControls({
   onComplete,
   onMessage,
   onProgress,
+  siteCheckRequest,
+  onRunningChange,
 }: CheckControlsProps) {
   const [isRunning, setIsRunning] = useState(false);
+  const [activeSiteId, setActiveSiteId] = useState<string | null>(null);
   const [progress, setProgress] = useState<CheckProgressState | null>(null);
   const abortRef = useRef<AbortController | null>(null);
   const progressRef = useRef<CheckProgressState | null>(null);
+  const lastSiteTokenRef = useRef<number | null>(null);
+  const startCheckRef = useRef<(siteId?: string) => void>(() => undefined);
 
   function updateProgress(next: CheckProgressState | null) {
     progressRef.current = next;
@@ -68,8 +85,13 @@ export default function CheckControls({
     onProgress?.(next);
   }
 
-  async function handleCheck() {
+  async function handleCheck(siteId?: string) {
+    if (abortRef.current) return;
+
+    const targetSiteId = typeof siteId === "string" ? siteId : undefined;
+
     setIsRunning(true);
+    setActiveSiteId(targetSiteId ?? null);
     onMessage?.(null);
     updateProgress({
       total: 0,
@@ -85,6 +107,10 @@ export default function CheckControls({
       const response = await fetch("/api/check/stream", {
         method: "POST",
         signal: abortController.signal,
+        headers: targetSiteId
+          ? { "Content-Type": "application/json" }
+          : undefined,
+        body: targetSiteId ? JSON.stringify({ siteId: targetSiteId }) : undefined,
       });
 
       if (!response.ok) {
@@ -235,8 +261,23 @@ export default function CheckControls({
     } finally {
       abortRef.current = null;
       setIsRunning(false);
+      setActiveSiteId(null);
     }
   }
+
+  startCheckRef.current = handleCheck;
+
+  useEffect(() => {
+    onRunningChange?.(isRunning, activeSiteId);
+  }, [isRunning, activeSiteId, onRunningChange]);
+
+  useEffect(() => {
+    if (!siteCheckRequest || siteCheckRequest.token === lastSiteTokenRef.current) {
+      return;
+    }
+    lastSiteTokenRef.current = siteCheckRequest.token;
+    startCheckRef.current(siteCheckRequest.siteId);
+  }, [siteCheckRequest]);
 
   function handleStop() {
     abortRef.current?.abort();
@@ -262,7 +303,9 @@ export default function CheckControls({
                     : isRunning && progress?.phase === "scoring"
                       ? "Scoring new jobs..."
                       : isRunning
-                        ? "Checking sites..."
+                        ? progress?.total === 1
+                          ? "Checking site..."
+                          : "Checking sites..."
                         : "Check complete"}
                 </p>
                 <p className="shrink-0 text-ink-subtle">
@@ -314,7 +357,7 @@ export default function CheckControls({
           ) : (
             <button
               type="button"
-              onClick={handleCheck}
+              onClick={() => handleCheck()}
               className="btn-primary"
             >
               Run check
